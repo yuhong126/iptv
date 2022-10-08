@@ -91,6 +91,7 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 山西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225839/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
 
+陕西卫视,http://61.164.158.11/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
 陕西卫视,http://61.164.158.13/livepull.sxiptv.cn/live/shanxiweishihd.flv
 陕西卫视,http://121.51.82.99/livepull.sxiptv.cn/live/shanxiweishihd.m3u8
 陕西卫视,http://121.51.120.29/livepull.sxiptv.cn/live/shanxiweishihd.m3u8
@@ -1029,9 +1030,21 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 海口3,http://p2.weizan.cn/11763520/862975416677893268/live.m3u8
 
 重庆地方台,#genre#
+重庆新闻,https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_3.stream/chunklist.m3u8
+重庆新农村,https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_18.stream/chunklist.m3u8
 重庆少儿,https://epg.pm/stream/0d78afef3ab0b8cf6d012c5491f481ed39cb7ef7e8c8416482349c1ccc68b64f.m3u8
 重庆新闻,https://epg.pm/stream/ead2ec02f6bf65fba6a07a16db1fde8df0fdbdce2f3faf789aa1cb125271440b.m3u8
 重庆精彩导视,http://zbxclive.cbg.cn:1935/app_2/ls_105.stream/playlist.m3u8
+
+重庆娱乐,http://43.136.167.5:9981/stream/channelid/2044572280?profile=pass 
+重庆少儿,http://43.136.167.5:9981/stream/channelid/105261393?profile=pass 
+重庆影视,http://43.136.167.5:9981/stream/channelid/1838160556?profile=pass 
+重庆新农村,http://43.136.167.5:9981/stream/channelid/1657631746?profile=pass 
+重庆新闻,http://43.136.167.5:9981/stream/channelid/391091966?profile=pass 
+重庆时尚生活,http://43.136.167.5:9981/stream/channelid/2057575051?profile=pass 
+重庆社会与法,http://43.136.167.5:9981/stream/channelid/2103173129?profile=pass 
+重庆科教,http://43.136.167.5:9981/stream/channelid/759068845?profile=pass 
+
 北碚综合,http://222.178.181.121:12034/beibei01.m3u8
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 大足综合,http://218.201.85.71:3170/m3u8
@@ -1480,3 +1493,8 @@ CBN每日影院,http://beifeng.site:4000/udp/239.3.1.111:8001
 CBN幸福剧场,http://beifeng.site:4000/udp/239.3.1.112:8001
 CBN幸福娱乐,http://beifeng.site:4000/udp/239.3.1.113:8001
 CBN风尚生活,http://beifeng.site:4000/udp/239.3.1.114:8001
+
+CBN幸福剧场,http://43.136.167.5:9981/stream/channelid/1813736840?profile=pass 
+CBN幸福娱乐,http://43.136.167.5:9981/stream/channelid/2059388337?profile=pass 
+CBN每日影院,http://43.136.167.5:9981/stream/channelid/15389604?profile=pass 
+CBN风尚生活,http://43.136.167.5:9981/stream/channelid/255492351?profile=pass 
