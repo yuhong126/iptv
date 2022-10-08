@@ -1293,9 +1293,15 @@ LYTV-1,http://111.20.33.70/PLTV/88888893/224/3221226322/index.m3u8
 
 
 甘肃地方台,#genre#
-甘肃文化影视,https://epg.pm/stream/08bf1ed8f8a91f8f7ff2c8baf3b9590441323c987bb1c17ef3bd489127c10372.m3u8
-甘肃文化影视,https://epg.pm/stream/f5ac66ca0adc814147425866ffbf089da827599259b94fc882cda7d0367c40c5.m3u8
-甘肃文化影视,https://epg.pm/stream/2e682e5b9822286858a7c22fd1db77f26605687114d1078f9d66c8990664f7c3.m3u8
+甘肃经济,http://39.134.32.102:6610/270000001111/1110000326/index.m3u8?IASHttpSessionId=OTT
+甘肃影视,http://39.134.32.102:6610/270000001111/1110000323/index.m3u8?IASHttpSessionId=OTT
+甘肃公共,http://39.134.32.102:6610/270000001111/1110000325/index.m3u8?IASHttpSessionId=OTT
+甘肃少儿,http://39.134.32.102:6610/270000001111/1110000327/index.m3u8?IASHttpSessionId=OTT
+甘肃都市,http://39.134.32.102:6610/270000001111/1110000324/index.m3u8?IASHttpSessionId=OTT
+
+甘肃影视,https://epg.pm/stream/08bf1ed8f8a91f8f7ff2c8baf3b9590441323c987bb1c17ef3bd489127c10372.m3u8
+甘肃影视,https://epg.pm/stream/f5ac66ca0adc814147425866ffbf089da827599259b94fc882cda7d0367c40c5.m3u8
+甘肃影视,https://epg.pm/stream/2e682e5b9822286858a7c22fd1db77f26605687114d1078f9d66c8990664f7c3.m3u8
 甘肃都市,https://epg.pm/stream/352663c313cb2bf733389791c4374046d1c9229ddb8d9d4af7469b89db52d263.m3u8
 甘肃都市,https://epg.pm/stream/f4fc0254cf84c2865faa0a276ee10f7b6c3eaa6afb3e0bc1af3f47be42e88829.m3u8
 甘肃少儿,https://epg.pm/stream/dc7b159fff2a9942126e9a6eb0cf67df74302f90b564ce14f6491e09f5600880.m3u8
@@ -1315,6 +1321,8 @@ LYTV-1,http://111.20.33.70/PLTV/88888893/224/3221226322/index.m3u8
 酒泉综合,http://stream.gsjqtv.com/pd1/sd/live.m3u8
 庆阳公共,http://stream.gsqytv.com.cn/ggpd/sd/live.m3u8
 庆阳综合,http://stream.gsqytv.com.cn/xwzh/sd/live.m3u8
+天水综合,http://stream.tstv.cn/tstv73268A/sd/live.m3u8
+天水公共,http://stream.tstv.cn/tstc938Yn3ggpd/sd/live.m3u8
 天水公共,http://stream.tstv.cn/tstc938Yn3ggpd/playlist.m3u8?_upt=14dc682f1620829149
 天水综合,http://stream.tstv.cn/tstv73268A/playlist.m3u8
 通渭综合,https://play.kankanlive.com/live/1629944062210970.m3u8
