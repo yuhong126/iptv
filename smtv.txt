@@ -110,7 +110,7 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 東森新聞,http://zb-iptv.ml/youtube.php?id=R2iMq5LKXco
 三立海外,http://zb-iptv.ml/youtube.php?id=FoBfXvlOR6I
 東森財經,http://zb-iptv.ml/youtube.php?id=ABn_ccXn_jc
-Bloomberg Global Financial News[640*360],http://zb-iptv.ml/youtube.php?id=dp8PhLsUcFE
+Bloomberg Global Financial News,http://zb-iptv.ml/youtube.php?id=dp8PhLsUcFE
 寰宇新聞,http://zb-iptv.ml/youtube.php?id=B7Zp3d6xXWw
 三立 iNEWS,http://zb-iptv.ml/youtube.php?id=CKjSm5ZeehE
 鏡新聞,http://zb-iptv.ml/youtube.php?id=5n0y6b0Q25o
