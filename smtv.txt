@@ -601,7 +601,14 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 安徽农业科教,http://skycw.vicp.net:4022/udp/238.1.81.57:8224
 安庆公共,https://hwapi.yunshicloud.com/0spq8i/74r1vt.m3u8?tk=3ea2490de3fb10f9937aad28daaed3d5&t=NaN
 安庆公共,https://epg.pm/stream/9b0fdeb7741bcce3ec8be055f88a1e843c88e43e317be77f665c099a586f2c80.m3u8#https://epg.pm/stream/6759fef7c91a628ef4d154a1189b134c2265ca56799b6f05afcded4d17170243.m3u8
+安庆教育,https://hwapi.yunshicloud.com/0spq8i/l566ho.m3u8
 安庆教育,https://epg.pm/stream/90df6ac833ae70bec17e2d292ef9969d5bd97e80fc02d8e2ecf645b78b9f7509.m3u8
+合肥新闻,https://hylive.hfbtv.com/lsdream/pdq062k/2dg0s0l.m3u8
+合肥财经,https://hylive.hfbtv.com/lsdream/FRTSshY/1000/hwgRsSl.m3u8
+合肥教育,https://hylive.hfbtv.com/lsdream/5EfK6HI/53adEsK.m3u8
+合肥故事,https://hylive.hfbtv.com/lsdream/q66ojce/n12i6so.m3u8
+合肥公共,https://hylive.hfbtv.com/lsdream/pytL5lE/z2ejysL.m3u8
+
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8#http://220.180.110.101:8083/videos/live/39/13/o4ncrHkSp7q09/o4ncrHkSp7q09.M3U8
 宿州公共,http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
