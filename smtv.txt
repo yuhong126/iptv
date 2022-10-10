@@ -105,16 +105,16 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 港澳台,#genre#
 凤凰中文,http://39.135.55.105:6610/PLTV/88888888/224/3221227222/index.m3u8?servicetype=1
 凤凰资讯,http://39.135.55.105:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1
-中天新聞,http://zb-iptv.ml/youtube.php?id=_QbRXRnHMVY
-台視新聞,http://zb-iptv.ml/youtube.php?id=xL0ch83RAK8
-中視新聞,http://zb-iptv.ml/youtube.php?id=TCnaIE_SAtM
-東森新聞,http://zb-iptv.ml/youtube.php?id=R2iMq5LKXco
+中天新闻,http://zb-iptv.ml/youtube.php?id=_QbRXRnHMVY
+台視新闻,http://zb-iptv.ml/youtube.php?id=xL0ch83RAK8
+中視新闻,http://zb-iptv.ml/youtube.php?id=TCnaIE_SAtM
+东森新闻,http://zb-iptv.ml/youtube.php?id=R2iMq5LKXco
 三立海外,http://zb-iptv.ml/youtube.php?id=FoBfXvlOR6I
-東森財經,http://zb-iptv.ml/youtube.php?id=ABn_ccXn_jc
+东森财经,http://zb-iptv.ml/youtube.php?id=ABn_ccXn_jc
 Bloomberg Global Financial News,http://zb-iptv.ml/youtube.php?id=dp8PhLsUcFE
-寰宇新聞,http://zb-iptv.ml/youtube.php?id=B7Zp3d6xXWw
+寰宇新闻,http://zb-iptv.ml/youtube.php?id=B7Zp3d6xXWw
 三立 iNEWS,http://zb-iptv.ml/youtube.php?id=CKjSm5ZeehE
-鏡新聞,http://zb-iptv.ml/youtube.php?id=5n0y6b0Q25o
+鏡新闻,http://zb-iptv.ml/youtube.php?id=5n0y6b0Q25o
 凤凰中文,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
@@ -220,6 +220,13 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 清华大学电视台,http://live.cic.tsinghua.edu.cn/hls/tsinghuatv.m3u8
 
 天津地方台,#genre#
+天津新闻,http://live3.wisetv.com.cn/TJIPTV/TJXW/playlist.m3u8?sign=e8e25aeda1cc81ac6a4d00f1bd6b54d3&t=1665382013&GUID=2d5449b58f7f6764e375d6713026992f&bsSession=07a36677a6962d6b4f7a783e8f38dcfc
+天津文艺,http://live3.wisetv.com.cn/TJIPTV/TJWY/playlist.m3u8?sign=d155e7ae8c3fdf55e3eef958db5cfb2e&t=1665382048&GUID=f9e1e1d0aeecab40e4e9a4cb2f9679df&bsSession=e08110756d729747145668fc208f87d2
+天津影视,http://live3.wisetv.com.cn/TJIPTV/TJYS/playlist.m3u8?sign=e39c02cb074298426c4d0f0abc12b443&t=1665382159&GUID=6395e0da5e9efadb677bbf1fa7a782f8&bsSession=7a573b0f59cc0130d50cfcfb30c7f411
+天津都市,http://live3.wisetv.com.cn/TJIPTV/TJDS/playlist.m3u8?sign=7893133ba35cad0aaf4dc7433966f489&t=1665382306&GUID=1e6358d367fbcba9c4ee567a40028f3b&bsSession=62bd6496ac95dfd1f8fc605e065e9f5e
+天津体育,http://live3.wisetv.com.cn/TJIPTV/TJTY/playlist.m3u8?sign=89cc2889b47927bd4e270ceccc8d980f&t=1665382337&GUID=c3602b05f6d1ab3883f8b99140e2745b&bsSession=9e32f4a57f848bf68bfdee76a210e3a4
+天津科教,http://live3.wisetv.com.cn/TJIPTV/TJKJ/playlist.m3u8?sign=2fabdeb2995fe382879af0fa31f8b129&t=1665382363&GUID=3a6ab636647d229065dd922efdeb8e01&bsSession=f2d80cd901d1808a2802d80962f45051
+天津少儿,http://live3.wisetv.com.cn/TJIPTV/TJSE/playlist.m3u8?sign=75b226ed12350a3cd4a46e9cf1b96e0b&t=1665382388&GUID=af907f912181ed2177b55f1fa1eb77cf&bsSession=1e76829aab3b92cc6c51a59fa9aa7a59
 滨海新闻,http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8
 滨海综艺,http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8
 滨海影视,http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8
