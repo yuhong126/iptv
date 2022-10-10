@@ -1407,7 +1407,6 @@ CHC高清电影,http://111.20.33.93/TVOD/88888893/224/3221226463/index.m3u8
 CHC高清电影,http://111.20.33.93/TVOD/88888893/224/3221226463/index.m3u8?$超清1080P
 CHC高清电影,http://111.20.35.103:6610/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com&IASHttpSessionId=
 CHC高清电影,http://111.20.33.93/TVOD/88888893/224/3221226463/index.m3u8
-CHC高清電影,http://171.108.239.13:8181/tsfile/live/1008_1.m3u8
 CHC家庭影院,http://111.20.33.70/PLTV/88888893/224/3221226462/index.m3u8
 CHC动作电影,http://111.20.33.70/PLTV/88888893/224/3221226465/index.m3u8
 影院4k,http://epg.112114.xyz/douyu/9249162
