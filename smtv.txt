@@ -675,6 +675,10 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 厦门二套,http://39.135.55.105:6610/PLTV/88888888/224/3221226777/index.m3u8?servicetype=1#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226777/3.m3u8
 厦门三套,http://39.135.55.105:6610/PLTV/88888888/224/3221226760/index.m3u8?servicetype=1#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226760/3.m3u8
 泉州1新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227165/index.m3u8?servicetype=1  
+泉州1新闻,http://live1.setvn.com:9096/live/qz1_1200.m3u8 
+泉州2都市,http://live1.setvn.com:9096/live/qz2_1200.m3u8 
+泉州3影视,http://live1.setvn.com:9096/live/qz3_1200.m3u8 
+泉州4闽南语,http://live1.setvn.com:9096/live/qz4_1200.m3u8
 建宁综合,https://p2.weizan.cn/2144741973/075444991326676404/live.m3u8
 龙岩综合,http://39.135.55.105:6610/PLTV/88888888/224/3221227200/index.m3u8?servicetype=1
 三明综合,http://stream.smntv.cn/smtv1/sd/live.m3u8#http://39.135.55.105:6610/PLTV/88888888/224/3221227173/index.m3u8?servicetype=1
