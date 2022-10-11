@@ -22,19 +22,6 @@ CCTV4K,http://39.135.55.105:6610/PLTV/88888888/224/3221226998/index.m3u8?service
 CCTV4欧洲,http://beifeng.site:4000/udp/239.3.1.213:4220 
 CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220 
 
-第一剧场,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012514403.m3u8 
-风云剧场,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012513603.m3u8 
-怀旧剧场,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012511203.m3u8 
-世界地理,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012513303.m3u8
-风云音乐,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012514103.m3u8 
-兵器科技,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012513403.m3u8 
-风云足球,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012514203.m3u8 
-高尔夫网球,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012512503.m3u8 
-女性时尚,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012513903.m3u8 
-央视精品,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012513803.m3u8 
-电视指南,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012514003.m3u8 
-卫生健康,http://111.32.169.222/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2012513503.m3u8
-
 风云足球,http://42.176.185.28:9901/tsfile/live/1017_1.m3u8
 风云音乐,http://42.176.185.28:9901/tsfile/live/1024_1.m3u8
 风云剧场,http://42.176.185.28:9901/tsfile/live/1030_1.m3u8
@@ -45,7 +32,7 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 
 中国教育1台,http://39.135.55.105:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221225869/index.m3u8?servicetype=1
 中国教育2台,http://39.135.55.105:6610/PLTV/88888888/224/3221227206/index.m3u8?servicetype=1
-中国教育3台,CETV-3,http://111.20.33.70/PLTV/88888893/224/3221226226/index.m3u8
+中国教育3台,http://111.20.33.70/PLTV/88888893/224/3221226226/index.m3u8
 中国教育3台,http://111.13.42.235/PLTV/88888888/224/3221226577/1.m3u8?blog.ntnas.top
 中国教育4台,http://39.135.55.105:6610/PLTV/88888888/224/3221227050/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1
 
@@ -665,10 +652,6 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 厦门二套,http://39.135.55.105:6610/PLTV/88888888/224/3221226777/index.m3u8?servicetype=1#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226777/3.m3u8
 厦门三套,http://39.135.55.105:6610/PLTV/88888888/224/3221226760/index.m3u8?servicetype=1#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226760/3.m3u8
 泉州1新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227165/index.m3u8?servicetype=1  
-泉州1新闻,http://live1.setvn.com:9096/live/qz1_1200.m3u8
-泉州2都市,http://live1.setvn.com:9096/live/qz2_1200.m3u8
-泉州3影视,http://live1.setvn.com:9096/live/qz3_1200.m3u8
-泉州4闽南语,http://live1.setvn.com:9096/live/qz4_1200.m3u8
 建宁综合,https://p2.weizan.cn/2144741973/075444991326676404/live.m3u8
 龙岩综合,http://39.135.55.105:6610/PLTV/88888888/224/3221227200/index.m3u8?servicetype=1
 三明综合,http://stream.smntv.cn/smtv1/sd/live.m3u8#http://39.135.55.105:6610/PLTV/88888888/224/3221227173/index.m3u8?servicetype=1
@@ -706,10 +689,8 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 南昌电视台-2,http://121.51.249.6/live.nctv.net.cn/live/nctv2.m3u8
 南昌电视台-3,http://121.51.249.6/live.nctv.net.cn/live/nctv3.m3u8
 南昌电视台-4,http://121.51.249.6/live.nctv.net.cn/live/nctv4.m3u8
-安义电视台,http://121.51.249.6/live.nctv.net.cn/live/ay1.m3u8
 进贤电视台,http://121.51.249.6/live.nctv.net.cn/live/jx1.m3u8
 南昌县电视台,http://121.51.249.6/live.nctv.net.cn/live/ncx1.m3u8
-湾里电视台,http://121.51.249.6/live.nctv.net.cn/live/wl1.m3u8
 新建电视台,http://121.51.249.6/live.nctv.net.cn/live/xj1.m3u8
 南昌电视台-1,http://player.521fanli.cn/1691/jx/nanchangm3u8.php?id=1
 南昌电视台-3,http://player.521fanli.cn/1691/jx/nanchangm3u8.php?id=3
