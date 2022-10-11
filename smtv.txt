@@ -901,6 +901,10 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 西平综合,http://tvpull.dxhmt.cn:9081/tv/11721-1.m3u8
 
 湖北地方台,#genre#
+湖北经视,http://219.140.56.34:3333/tsfile/live/1019_1.m3u8
+湖北综合,http://219.140.56.34:3333/tsfile/live/1020_1.m3u8
+湖北公共,http://219.140.56.34:3333/tsfile/live/1034_1.m3u8
+湖北影视,http://219.140.56.34:3333/tsfile/live/1000_1.m3u8
 
 武汉新闻,http://live.hannews.com.cn/video/s10001-wuhannews/index.m3u8
 武汉科教生活,http://222.85.26.239/stream.appwuhan.com/3tzb/sd/live.m3u8
@@ -908,9 +912,6 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 武汉教育,http://222.85.26.239/stream.appwuhan.com/jyzb/sd/live.m3u8
 武汉少儿,http://222.85.26.239/stream.appwuhan.com/7tzb/sd/live.m3u8
 
-湖北经视,http://219.140.56.34:3333/tsfile/live/1019_1.m3u8
-湖北综合,http://219.140.56.34:3333/tsfile/live/1020_1.m3u8
-湖北公共,http://219.140.56.34:3333/tsfile/live/1034_1.m3u8
 武汉新闻,http://live.hannews.com.cn/video/s10001-wuhannews/index.m3u8
 荆州新闻,http://jingzhou-live21.cjyun.org/10085/s10085-jingzhou-tv01.m3u8?auth_key=1672502399-0-0-ab2f43952f7fcf1b2da0c3372ec7e0e5
 荆门教育,http://stream.jmtv.com.cn/ggsh/sd/live.m3u8
