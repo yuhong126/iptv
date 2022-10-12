@@ -423,7 +423,6 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 金山,http://live.mudu.tv/watch/4zbn2f.m3u8
 
 江苏地方台,#genre#
-
 江苏卫视,https://live-hls.jstv.com/livezhuzhan/jsws.m3u8?upt=9525d28f2510710360
 江苏卫视,https://live-hls.jstv.com/livezhuzhan/jsws.flv?upt=a1c4bb8c2510710360
 江苏卫视,http://litchiapp-rtmp.jstv.com/lizhiapp/jsws.flv
@@ -604,6 +603,15 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 
 安徽地方台,#genre#
 安徽卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225844/index.m3u8?servicetype=1
+安徽卫视,http://121.51.249.45/live1.ahtv.cn/ahws/hd/live.m3u8
+安徽经济生活,http://121.51.249.45/live4.ahtv.cn/jjsh1/hd/live.m3u8
+安徽综艺体育,http://121.51.249.45/live4.ahtv.cn/zyty1/hd/live.m3u8
+安徽影视,http://121.51.249.45/live4.ahtv.cn/yspd1/hd/live.m3u8
+安徽公共,http://121.51.249.45/live1.ahtv.cn/ahgg/hd/live.m3u8
+安徽农业科教,http://121.51.249.45/live1.ahtv.cn/kjpd/hd/live.m3u8
+安徽国际,http://121.51.249.45/live5.ahtv.cn/ahgj1/hd/live.m3u8
+安徽移动电视,http://121.51.249.45/live5.ahtv.cn/ydds1/hd/live.m3u8
+睛彩安徽,http://121.51.249.45/live5.ahtv.cn/jcah1/hd/live.m3u8
 安徽经济生活频道,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 安徽影视频道,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
 安徽综艺体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
