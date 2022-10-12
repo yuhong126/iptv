@@ -1125,7 +1125,6 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 宁乡综合,http://b.ds.ch.dingtoo.com:80/AppName/StreamName.m3u8
 
 广东地方台,#genre#
-
 深圳卫视,https://sztv-live.cutv.com/AxeFRth/500/x7hx4Fl.m3u8?
 深圳都市,https://sztv-live.cutv.com/ZwxzUXr/500/k3ujw4z.m3u8?
 深圳电视剧,https://sztv-live.cutv.com/4azbkoY/500/h1rha4b.m3u8?
@@ -1614,6 +1613,9 @@ LYTV-1,http://111.20.33.70/PLTV/88888893/224/3221226322/index.m3u8
 宁夏经济,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=7
 宁夏卫视,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=6
 宁夏公共,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=5
+银川公共,http://www.ycen.com.cn/ycgg/sd/live.m3u8
+银川文体,http://www.ycen.com.cn/ycwt/sd/live.m3u8
+银川生活,http://www.ycen.com.cn/ycxw/sd/live.m3u8
 吴忠综合,http://live.kanwz.net/zhpd/sd/live.m3u8
 吴忠公共,http://live.kanwz.net/ggpd/sd/live.m3u8
 
