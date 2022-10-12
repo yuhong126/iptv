@@ -1067,7 +1067,6 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 洪湖生活,http://honghu-live21.cjyun.org/10087/s10087-0823-HONGHUFM01.m3u8?auth_key=1672502399-0-0-69ddd1da2207155680ab702668a87438
 江夏新闻综合,http://59.175.226.142:280/gb28181/xwzh.m3u8
 江夏经济生活,http://59.175.226.142:280/gb28181/jjsh.m3u8
-
 仙桃生活文体,http://221.233.242.239:280/live/72/playlist.m3u8
 崇阳新闻综合,http://www.cyxw.cn:10500/hls/live.m3u8?zhubd
 建始综合,http://jianshi-live21.cjyun.org/10094/s10094-jstv1.m3u8?auth_key=1672502399-0-0-7cab5b7dbbf6c1ce2c41ea828cc0ea3f
@@ -1075,7 +1074,6 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 黄陂新闻频道,http://live.hptv.com.cn:10080/live/cctv13.m3u8?zhubd
 黄陂生活频道,http://live.hptv.com.cn:10080/live/cctv9.m3u8?zhub
 郧阳新闻综合,http://58.19.198.159:2021/hls1.m3u8?zhubd
-
 武穴综合,http://wuxue-live21.cjyun.org/10107/s10107-wxtv1.m3u8?auth_key=1672502399-0-0-496875cc106b717ff79100d9d50109b9
 罗田综合,http://luotian-live21.cjyun.org/10013/s10013-LTZH.m3u8?auth_key=1672502399-0-0-299e343438656b23a3aa539c70fdca53
 罗田旅游,http://luotian-live21.cjyun.org/10013/s10013-LTLY.m3u8?auth_key=1672502399-0-0-9abbdb17dd5c3e9a9ed01da316bff455
@@ -1471,10 +1469,13 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 昆明经济生活,https://devlivepull.migucloud.com/live/JT9JEQ54_C0_2.flv
 昆明科学教育,https://devlivepull.migucloud.com/live/ZBXWIMTD_C0_2.flv
 昆明影视综艺,https://devlivepull.migucloud.com/live/KYLNJWFD_C0_2.flv
-
 梁河综合,http://live.ynurl.com/video/s10032-lhtv/index.m3u8
 陇川综合,http://live.ynurl.com/video/s10027-LCDST/index.m3u8
+
 西藏地方台,#genre#
+西藏藏语,https://tv.vtibet.cn/live/tvchannel1.m3u8
+西藏影视,https://tv.vtibet.cn/live/tvchannel2.m3u8
+西藏卫视,https://tv.vtibet.cn/live/tvchannel3.m3u8
 拉萨汉语综合,http://file.lasatv.cn/cms/videos/nmip-media/channellive/channel1/playlist.m3u8
 
 陕西地方台,#genre#
