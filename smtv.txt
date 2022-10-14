@@ -72,6 +72,7 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 青海卫视,http://stream.qhbtv.com/qhws/playlist.m3u8
 青海卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1
+内蒙古卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=161
 内蒙古卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225846/index.m3u8?servicetype=1
 西藏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227217/index.m3u8?servicetype=1
 新疆卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
@@ -290,6 +291,16 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 阳泉科教,https://live.yqrtv.com/xwchne/sd/live.m3u8
 
 内蒙古地方台,#genre#
+内蒙古卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=161
+内蒙古经济生活,http://hls.dszbdq.cn/d/nmgtv.php?id=168
+内蒙古少儿,http://hls.dszbdq.cn/d/nmgtv.php?id=165
+内蒙古新闻综合,http://hls.dszbdq.cn/d/nmgtv.php?id=162
+内蒙古农牧频道,http://hls.dszbdq.cn/d/nmgtv.php?id=167
+内蒙古蒙古语卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=164
+内蒙古蒙古语卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=169
+内蒙古蒙古语文化,http://hls.dszbdq.cn/d/nmgtv.php?id=163
+内蒙古文体娱乐,http://hls.dszbdq.cn/d/nmgtv.php?id=166
+
 赤峰综合,http://vfile.cfrtv.cn/2017/1484/6248/0267/148462480267.ssm/148462480267.m3u8
 鄂尔多斯城市生活,http://live.erdszs.org.cn/lsdream/726npBZ/1000/live.m3u8
 鄂尔多斯蒙语综合,http://live.erdszs.org.cn/lsdream/3lZr8dK/1000/live.m3u8
@@ -542,9 +553,12 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 
 安徽地方台,#genre#
 安徽卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225844/index.m3u8?servicetype=1
-安徽经济生活,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
+安徽影视,http://hls.dszbdq.cn/d/ah.php?id=ahys
+安徽经济,http://hls.dszbdq.cn/d/ah.php?id=ahjj
+安徽综艺,http://hls.dszbdq.cn/d/ah.php?id=ahzyty
+安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
-安徽综艺体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
+安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
 安庆公共,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqggpd/1.m3u8
 安庆教育,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqhmx-jy/1.m3u8
 安庆公共,https://hwapi.yunshicloud.com/0spq8i/74r1vt.m3u8?tk=3ea2490de3fb10f9937aad28daaed3d5&t=NaN
