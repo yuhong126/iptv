@@ -22,6 +22,7 @@ CCTV4K,http://39.135.55.105:6610/PLTV/88888888/224/3221226998/index.m3u8?service
 CCTV4欧洲,http://beifeng.site:4000/udp/239.3.1.213:4220 
 CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220 
 
+老故事,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
 风云足球,http://42.176.185.28:9901/tsfile/live/1017_1.m3u8
 风云音乐,http://42.176.185.28:9901/tsfile/live/1024_1.m3u8
 风云剧场,http://42.176.185.28:9901/tsfile/live/1030_1.m3u8
@@ -57,6 +58,7 @@ CCTV4美洲,http://beifeng.site:4000/udp/239.3.1.214:4220
 四川卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227182/index.m3u8?servicetype=1
 贵州卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227201/index.m3u8?servicetype=1
 湖北卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225840/index.m3u8?servicetype=1
+河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
 河南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225842/index.m3u8?servicetype=1
 海峡卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1
 吉林卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1
@@ -854,8 +856,36 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 牡丹区综艺,https://jsylivealone302.iqilu.com/mudan/mudan_tv02.m3u8
 
 河南地方台,#genre#
-河南梨园,http://live.dxhmt.cn:9080/19903718786/3159ec673c114135816d45dd52ad7396.m3u8
-河南文物,http://live.dxhmt.cn:9080/19903718786/503136115d714e6796389709a5c74f77.m3u8
+河南都市,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
+河南民生,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226433/index.m3u8
+河南购物http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226432/index.m3u8
+河南国际,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226434/index.m3u8
+河南法治,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226435/index.m3u8
+河南电视剧,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
+河南公共,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226441/index.m3u8
+河南新闻,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
+河南乡村,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
+河南国学,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226493/index.m3u8
+河南移动戏曲,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8
+河南移动电视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226871/index.m3u8
+晴彩中原,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226442/index.m3u8
+文物宝库,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
+武术世界,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/index.m3u8
+梨园频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/index.m3u8
+
+郑州都市,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226400/index.m3u8
+郑州商都,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226402/index.m3u8
+郑州妇女儿童,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226403/index.m3u8
+郑州新闻,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226404/index.m3u8
+郑州影视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/index.m3u8
+郑州文体,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226407/index.m3u8
+
+南阳公共,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226575/index.m3u8
+南阳科教,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226620/index.m3u8
+南阳新闻,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226671/index.m3u8
+
+梨园频道,http://live.dxhmt.cn:9080/19903718786/3159ec673c114135816d45dd52ad7396.m3u8
+文物宝库,http://live.dxhmt.cn:9080/19903718786/503136115d714e6796389709a5c74f77.m3u8
 河南电视剧,http://hbzx.chinashadt.com:2036/zhibo/stream:hbnm.stream_360p/playlist.m3u8#https://epg.pm/stream/96a609212a2130d09181d34f1d24c3731b773be4b208887617257ac07892c1e0.m3u8
 河南民生,http://123.6.9.146/live/jz-henanminsheng/live.m3u8
 河南都市,https://epg.pm/stream/aa65b7f245481e003a5bcc2ca7ae41e66586f129610239345ea7ead14bca82a1.m3u8#https://epg.pm/stream/e44e250173d70336ba26ce07824346fcd7e872d674dc813193b89df7b1c86440.m3u8#https://epg.pm/stream/2f361af5afe6aa0ee730a359f130f7c8a7aefc8062850052bab3a61595c301fd.m3u8#https://epg.pm/stream/e29efcb02706598c01369552346db425d15a9d4d2a6ddcd8c6000c51af6b1b8b.m3u8
@@ -882,6 +912,8 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 获嘉综合,http://tvpull.dxhmt.cn:9081/tv/10724-1.m3u8
 郏县综合,http://tvpull.dxhmt.cn:9081/tv/10425-1.m3u8
 建安综合,http://tvpull.dxhmt.cn:9081/tv/11003-1.m3u8
+焦作公共,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
+焦作综合,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226382/index.m3u8
 焦作公共,http://zhpull.dxhmt.cn/jiaozuo/29b65b69130c4ef1a3283cc7b913da05/playlist.m3u8
 焦作教育,http://zhpull.dxhmt.cn/jiaozuo/9c10435ad24c409baee219ec289e17d0/playlist.m3u8
 焦作综合,http://zhpull.dxhmt.cn/jiaozuo/b75a92c9503e47cf9e89f7ff247b65f2/playlist.m3u8
@@ -889,6 +921,7 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 浚县一套,http://tvpull.dxhmt.cn:9081/tv/10621-1.m3u8
 兰考新闻,http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8
 林州综合,http://tvpull.dxhmt.cn:9081/tv/10581-1.m3u8
+内黄综合,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226356/index.m3u8
 内黄综合,http://tvpull.dxhmt.cn:9081/tv/10527-1.m3u8
 临颍综合,http://tvpull.dxhmt.cn:9081/tv/11122-1.m3u8
 灵宝新闻综合,http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8
