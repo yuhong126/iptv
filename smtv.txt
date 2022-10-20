@@ -64,6 +64,7 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]:80/wh7f454c46tw4202609999_-8931
 四川卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227182/index.m3u8?servicetype=1
 贵州卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227201/index.m3u8?servicetype=1
 湖北卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225840/index.m3u8?servicetype=1
+河南卫视,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
 河南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225842/index.m3u8?servicetype=1
 海峡卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1
 吉林卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1
@@ -300,28 +301,22 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 
 内蒙古地方台,#genre#
 
-内蒙古经济,http://[2409:8087:1070:301:2028::16]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225879/index.m3u8?fmt=ts2hls
-内蒙古经济,http://[2409:8087:1070:301:2028::1d]:80/wh7f454c46tw4184773705_-1979084447/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225879/10000100000000060000000000307691_0.smil/01.m3u8?fmt=ts2hls
-内蒙古经济,http://[2409:8087:1070:301:2026::1f]:80/wh7f454c46tw4124394990_584235849/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225769/10000100000000060000000000000841_0.smil/01.m3u8?fmt=ts2hls
-内蒙古经济生活 576,http://[2409:8087:1070:301:2026::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8?fmt=ts2hls
-内蒙古蒙语卫视,http://[2409:8087:1030:301:2025::22]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225705/index.m3u8?fmt=ts2hls
-内蒙古蒙语卫视 576,http://[2409:8087:1070:301:2026::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225766/index.m3u8?fmt=ts2hls
-内蒙古蒙语文化,http://[2409:8087:1070:301:2028::16]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225876/index.m3u8?fmt=ts2hls
-内蒙古蒙语文化 576,http://[2409:8087:1070:301:2026::1b]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225767/index.m3u8?fmt=ts2hls
-内蒙古农牧,http://[2409:8087:1070:301:2028::1e]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225878/index.m3u8?fmt=ts2hls
-内蒙古农牧,http://[2409:8087:1070:301:2026::22]:80/wh7f454c46tw4125261883_1795791203/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225772/10000100000000060000000000000844_0.smil/01.m3u8?fmt=ts2hls
-内蒙古农牧,http://[2409:8087:1070:301:2028::18]:80/wh7f454c46tw4184507566_-1978376124/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225878/10000100000000060000000000307692_0.smil/01.m3u8?fmt=ts2hls
-内蒙古农牧 576,http://[2409:8087:1070:301:2026::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225772/index.m3u8?fmt=ts2hls
-内蒙古三佳购物 576,http://[2409:8087:1050:301:2026::18]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225873/index.m3u8?fmt=ts2hls
-内蒙古少儿,http://[2409:8087:1020:301:2026::1f]:80/wh7f454c46tw4124974011_-115417052/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225771/10000100000000060000000000000843_0.smil/01.m3u8?fmt=ts2hls
-内蒙古少儿,http://[2409:8087:1070:301:2028::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225874/index.m3u8?fmt=ts2hls
-内蒙古少儿,http://[2409:8087:1070:301:2028::15]:80/wh7f454c46tw4183359673_-1909268013/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225874/10000100000000060000000000307696_0.smil/01.m3u8?fmt=ts2hls
-内蒙古少儿 576,http://[2409:8087:1020:301:2026::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225771/index.m3u8?fmt=ts2hls
 内蒙古卫视,http://[2409:8087:1070:301:2028::1c]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225676/index.m3u8?fmt=ts2hls
 内蒙古卫视,http://[2409:8087:1020:301:2026::17]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225676/10000100000000060000000000000713_0.smil/01.m3u8?fmt=ts2hls
 内蒙古卫视,http://[2409:8087:1070:301:2026::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225929/index.m3u8?fmt=ts2hls
 内蒙古卫视,http://[2409:8087:1030:301:2025::18]:80/wh7f454c46tw4123234691_-1087736446/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225765/10000100000000060000000000000837_0.smil/01.m3u8?fmt=ts2hls
-内蒙古卫视 576,http://[2409:8087:1070:301:2026::15]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225765/index.m3u8?fmt=ts2hls
+内蒙古经济,http://[2409:8087:1070:301:2028::16]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225879/index.m3u8?fmt=ts2hls
+内蒙古经济,http://[2409:8087:1070:301:2028::1d]:80/wh7f454c46tw4184773705_-1979084447/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225879/10000100000000060000000000307691_0.smil/01.m3u8?fmt=ts2hls
+内蒙古经济,http://[2409:8087:1070:301:2026::1f]:80/wh7f454c46tw4124394990_584235849/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225769/10000100000000060000000000000841_0.smil/01.m3u8?fmt=ts2hls
+内蒙古蒙语卫视,http://[2409:8087:1030:301:2025::22]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225705/index.m3u8?fmt=ts2hls
+内蒙古蒙语文化,http://[2409:8087:1070:301:2028::16]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225876/index.m3u8?fmt=ts2hls
+内蒙古农牧,http://[2409:8087:1070:301:2028::1e]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225878/index.m3u8?fmt=ts2hls
+内蒙古农牧,http://[2409:8087:1070:301:2026::22]:80/wh7f454c46tw4125261883_1795791203/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225772/10000100000000060000000000000844_0.smil/01.m3u8?fmt=ts2hls
+内蒙古农牧,http://[2409:8087:1070:301:2028::18]:80/wh7f454c46tw4184507566_-1978376124/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225878/10000100000000060000000000307692_0.smil/01.m3u8?fmt=ts2hls
+内蒙古少儿,http://[2409:8087:1020:301:2026::1f]:80/wh7f454c46tw4124974011_-115417052/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225771/10000100000000060000000000000843_0.smil/01.m3u8?fmt=ts2hls
+内蒙古少儿,http://[2409:8087:1070:301:2028::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225874/index.m3u8?fmt=ts2hls
+内蒙古少儿,http://[2409:8087:1070:301:2028::15]:80/wh7f454c46tw4183359673_-1909268013/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225874/10000100000000060000000000307696_0.smil/01.m3u8?fmt=ts2hls
+
 内蒙古卫视(蒙语),http://[2409:8087:1020:301:2026::25]:80/wh7f454c46tw4123518834_-1472072044/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225766/10000100000000060000000000000838_0.smil/01.m3u8?fmt=ts2hls
 内蒙古卫视(蒙语),http://[2409:8087:1020:301:2026::21]:80/wh7f454c46tw4050630800_-1848073355/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225705/10000100000000060000000000000743_0.smil/01.m3u8?fmt=ts2hls
 内蒙古文化(蒙语),http://[2409:8087:1070:301:2026::15]:80/wh7f454c46tw4183914254_1795921018/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225876/10000100000000060000000000307694_0.smil/01.m3u8?fmt=ts2hls
@@ -329,11 +324,9 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 内蒙古文体娱乐,http://[2409:8087:1070:301:2026::25]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225877/index.m3u8?fmt=ts2hls
 内蒙古文体娱乐,http://[2409:8087:1020:301:2026::2c]:80/wh7f454c46tw4124678370_1698072735/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225770/10000100000000060000000000000842_0.smil/01.m3u8?fmt=ts2hls
 内蒙古文体娱乐,http://[2409:8087:1050:301:2026::17]:80/wh7f454c46tw4184193910_-1511698512/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225877/10000100000000060000000000307693_0.smil/01.m3u8?fmt=ts2hls
-内蒙古文体娱乐 576,http://[2409:8087:1030:201:2022::2a]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225770/index.m3u8?fmt=ts2hls
 内蒙古新闻,http://[2409:8087:1070:301:2026::1e]:80/wh7f454c46tw4183638595_425248275/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225875/10000100000000060000000000307695_0.smil/01.m3u8?fmt=ts2hls
 内蒙古新闻,http://[2409:8087:1070:301:2028::16]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225875/index.m3u8?fmt=ts2hls
 内蒙古新闻,http://[2409:8087:1070:301:2026::1f]:80/wh7f454c46tw4124104636_-487315788/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225768/10000100000000060000000000000840_0.smil/01.m3u8?fmt=ts2hls
-内蒙古新闻综合 576,http://[2409:8087:1070:301:2026::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8?fmt=ts2hls
 
 内蒙古卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=161
 内蒙古经济生活,http://hls.dszbdq.cn/d/nmgtv.php?id=168
@@ -380,6 +373,37 @@ TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 鄂温克电视台,http://pili-live-hls.nmgapp12019.sobeylive.com/nmgapp12019/live162700604855057.m3u8
 
 辽宁地方台,#genre#
+
+辽宁北方,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226755/index.m3u8
+辽宁北方,http://[2409:8087:1414:22::112d]/wh7f454c46tw3605758820_-2143308693/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226755/index.m3u8
+辽宁北方,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226755/index.m3u8
+辽宁北方,http://[2409:8087:1414:22::112d]/wh7f454c46tw3669132437_-1850260639/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226755/index.m3u8
+辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
+辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3669132437_-1850260639/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
+辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3821303500_-921252786/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
+辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
+辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3605758820_-2143308693/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
+辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
+辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
+辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3605758820_-2143308693/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
+辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3669132437_-1850260639/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
+辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3821303500_-921252786/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
+辽宁教育青少,http://[2409:8087:1414:22::112d]/hwottcdn.ln.chinamobile.com/PLTV/88888888/224/3221226847/index.m3u8?from=21
+辽宁教育青少,http://[2409:8087:1414:22::112d]/hwottcdn.ln.chinamobile.com/PLTV/88888888/224/3221226763/index.m3u8?from=21
+辽宁经济,http://[2409:8087:1414:22::112d]/hwottcdn.ln.chinamobile.com/PLTV/88888888/224/3221226735/index.m3u8?from=21
+辽宁体育,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226764/index.m3u8
+辽宁体育,http://[2409:8087:1414:22::112d]/wh7f454c46tw3821303500_-921252786/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226764/index.m3u8
+辽宁体育,http://[2409:8087:1414:22::112d]/wh7f454c46tw3605758820_-2143308693/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226764/index.m3u8
+辽宁体育,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226764/index.m3u8
+辽宁体育,http://[2409:8087:1414:22::112d]/wh7f454c46tw3669132437_-1850260639/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226764/index.m3u8
+辽宁移动,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226982/index.m3u8
+辽宁移动,http://[2409:8087:1414:22::112d]/wh7f454c46tw3633585374_215135606/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226982/index.m3u8
+辽宁移动,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226982/index.m3u8
+辽宁影视,http://[2409:8087:1414:22::112d]/wh7f454c46tw3605758820_-2143308693/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226738/index.m3u8
+辽宁影视,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226738/index.m3u8
+辽宁影视,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226738/index.m3u8
+辽宁影视,http://[2409:8087:1414:22::112d]/wh7f454c46tw3669132437_-1850260639/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226738/index.m3u8
+辽宁影视剧,http://[2409:8087:1414:22::112d]/hwottcdn.ln.chinamobile.com/PLTV/88888888/224/3221226738/index.m3u8?from=21
 北方导视,http://httplive.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=31608RMZHGPUCXX10&programid=4200000187
 辽宁都市,http://httplive.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=31608RMZHGPUCXX10&programid=4200000610
 辽宁影视剧,http://httplive.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=31608RMZHGPUCXX10&programid=4200000070
