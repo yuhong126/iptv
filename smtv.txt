@@ -664,15 +664,6 @@ TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 庐山电视台,http://live02.jxtvcn.com.cn/live-jxtvcn/ganyun_lushan.m3u8
 
 山东地方台,#genre#
-山东少儿,http://119.164.216.162:9901/tsfile/live/1005_1.m3u8
-山东齐鲁,http://119.164.216.162:9901/tsfile/live/1000_1.m3u8
-山东新闻,http://119.164.216.162:9901/tsfile/live/1004_1.m3u8
-山东体育,http://119.164.216.162:9901/tsfile/live/1003_1.m3u8
-山东文旅,http://119.164.216.162:9901/tsfile/live/1001_1.m3u8
-山东生活,http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
-山东综艺,http://119.164.216.162:9901/tsfile/live/1002_1.m3u8
-山东影视,http://119.164.216.162:9901/tsfile/live/1008_1.m3u8
-山东影视,http://119.164.216.162:9901/tsfile/live/1009_1.m3u8
 山东卫视,https://livealone302.iqilu.com/iqilu/sdtv5555.m3u8
 山东齐鲁,https://livealone302.iqilu.com/iqilu/qlpd5555.m3u8
 山东体育,https://livealone302.iqilu.com/iqilu/typd5555.m3u8
