@@ -70,8 +70,8 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 云南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
 
-山西卫视,http://httpdvb.slave.yqdtv.com:13164/playurl?playtype=live&protocol=http&playtoken=31603YEQXREOPEG10&auth=no&verifycode=14183&accesstoken=G79E6023V21307D1TD05FABJB53102ABM786710FEI3282697DK98BDA6&programid=4200000133
 山西卫视,http://liveflash.sxrtv.com/live/sxwshd.flv?bitrate=512000&channel=Shan1XiTV&start=0&provider=www.tvmining.com
+山西卫视,http://httpdvb.slave.yqdtv.com:13164/playurl?playtype=live&protocol=http&playtoken=31603YEQXREOPEG10&auth=no&verifycode=14183&accesstoken=G79E6023V21307D1TD05FABJB53102ABM786710FEI3282697DK98BDA6&programid=4200000133
 山西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225839/index.m3u8?servicetype=1
 陕西卫视,http://61.164.158.11/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
 陕西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1
@@ -260,15 +260,6 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 内蒙古文体娱乐,http://[2409:8087:1070:301:2026::25]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225877/index.m3u8?fmt=ts2hls
 内蒙古新闻,http://[2409:8087:1070:301:2028::16]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225875/index.m3u8?fmt=ts2hls
 
-内蒙古卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=161
-内蒙古经济,http://hls.dszbdq.cn/d/nmgtv.php?id=168
-内蒙古少儿,http://hls.dszbdq.cn/d/nmgtv.php?id=165
-内蒙古新闻,http://hls.dszbdq.cn/d/nmgtv.php?id=162
-内蒙古蒙语卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=164
-内蒙古蒙语卫视,http://hls.dszbdq.cn/d/nmgtv.php?id=169
-内蒙古蒙语文化,http://hls.dszbdq.cn/d/nmgtv.php?id=163
-内蒙古文体娱乐,http://hls.dszbdq.cn/d/nmgtv.php?id=166
-
 包头经济,http://[2409:8087:1050:301:2026::17]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225864/index.m3u8?fmt=ts2hls
 包头生活,http://[2409:8087:1050:301:2026::11]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225738/index.m3u8?fmt=ts2hls
 包头新闻,http://[2409:8087:1020:301:2026::2d]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225737/index.m3u8?fmt=ts2hls
@@ -295,7 +286,6 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 鄂温克电视台,http://pili-live-hls.nmgapp12019.sobeylive.com/nmgapp12019/live162700604855057.m3u8
 
 辽宁地方台,#genre#
-
 辽宁北方,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226755/index.m3u8
 辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
 辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
@@ -510,6 +500,8 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 安庆教育,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqhmx-jy/1.m3u8
 安庆公共,https://hwapi.yunshicloud.com/0spq8i/74r1vt.m3u8?tk=3ea2490de3fb10f9937aad28daaed3d5&t=NaN
 安庆教育,https://hwapi.yunshicloud.com/0spq8i/l566ho.m3u8
+望江1新闻,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv1.m3u8 
+望江3黄梅戏,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv2.m3u8
 
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8#http://220.180.110.101:8083/videos/live/39/13/o4ncrHkSp7q09/o4ncrHkSp7q09.M3U8
@@ -604,7 +596,6 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 江西少儿,http://[2409:8087:3869:8021:1001::48]:6610/PLTV/88888910/224/3221226194/index.m3u8
 江西新闻,http://[2409:8087:3869:8021:1000::aa]:6610/PLTV/88888910/224/3221225615/index.m3u8
 江西影视,http://[2409:8087:3800:20:1000::802]:8080/hwrr.jx.chinamobile.com/PLTV/88888888/224/3221225579/index.m3u8?fmt=ts2hls
-
 江西都市,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225584/index.m3u8?fmt=ts2hls
 江西经济,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225580/index.m3u8?fmt=ts2hls
 江西影视,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225579/index.m3u8?fmt=ts2hls
