@@ -62,8 +62,8 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 四川卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227182/index.m3u8?servicetype=1
 贵州卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227201/index.m3u8?servicetype=1
 湖北卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225840/index.m3u8?servicetype=1
-河南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225842/index.m3u8?servicetype=1
 河南卫视,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
+河南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225842/index.m3u8?servicetype=1
 海峡卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1
 吉林卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1
 海南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1
