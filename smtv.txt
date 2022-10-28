@@ -88,9 +88,9 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 新疆卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
 康巴卫视,http://112.19.214.90:8883/tsfile/live/1010_1.m3u8
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
+兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 兵团卫视,http://test5.btzx.com.cn/live/btxjbtws.stream/chunklist_w588330955.m3u8
 兵团卫视,http://test5.btzx.com.cn/live/btxjbtws.stream/chunklist_w1782170990.m3u8
-兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 三沙卫视,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 三沙卫视,http://[2409:8087:5e01:34::27]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
@@ -497,10 +497,22 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 诸暨新闻,http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 
 安徽地方台,#genre#
-安徽卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225844/index.m3u8?servicetype=1
+
 安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
+安徽体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
+
+
+安徽经济,http://121.51.249.45/live4.ahtv.cn/jjsh1/hd/live.m3u8
+安徽影视,http://121.51.249.45/live4.ahtv.cn/yspd1/hd/live.m3u8
+安徽科教,http://121.51.249.45/live1.ahtv.cn/kjpd/hd/live.m3u8
+安徽公共,http://121.51.249.45/live1.ahtv.cn/ahgg/hd/live.m3u8
+安徽综艺,http://121.51.249.45/live4.ahtv.cn/zyty1/hd/live.m3u8
+安徽移动电视,http://121.51.249.45/live5.ahtv.cn/ydds1/hd/live.m3u8
+安徽国际,http://121.51.249.45/live5.ahtv.cn/ahgj1/hd/live.m3u8
+晴彩安徽,http://121.51.249.45/live5.ahtv.cn/jcah1/hd/live.m3u8
+
 安庆公共,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqggpd/1.m3u8
 安庆教育,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqhmx-jy/1.m3u8
 安庆公共,https://hwapi.yunshicloud.com/0spq8i/74r1vt.m3u8?tk=3ea2490de3fb10f9937aad28daaed3d5&t=NaN
@@ -1034,6 +1046,11 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 宁乡综合,http://b.ds.ch.dingtoo.com:80/AppName/StreamName.m3u8
 
 广东地方台,#genre#
+
+深圳都市,http://120.236.17.34:808/hls/19/index.m3u8
+深圳公共,http://120.236.17.34:808/hls/23/index.m3u8
+深圳电视剧,http://120.236.17.34:808/hls/22/index.m3u8
+深圳体育,http://120.236.17.34:808/hls/20/index.m3u8
 南国都市,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzngds
 南国都市,http://9.zhxinda.xyz/gz.php?id=shenghuo
 广州新闻,http://9.zhxinda.xyz/gz.php?id=xinwen
