@@ -36,7 +36,6 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 电视指南,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002545/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
 中国教育1台,http://39.135.55.105:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1
-
 中国教育2台,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
 中国教育3台,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 中国教育2台,http://39.135.55.105:6610/PLTV/88888888/224/3221227206/index.m3u8?servicetype=1
