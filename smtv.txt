@@ -39,6 +39,7 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 中国教育2台,http://39.135.55.105:6610/PLTV/88888888/224/3221227206/index.m3u8?servicetype=1
 中国教育3台,http://111.20.33.70/PLTV/88888893/224/3221226226/index.m3u8
 中国教育3台,http://111.13.42.235/PLTV/88888888/224/3221226577/1.m3u8?blog.ntnas.top
+中国教育4台,http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/index.m3u8?IASHttpSessionId=OTT
 中国教育4台,http://39.135.55.105:6610/PLTV/88888888/224/3221227050/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1
 
 卫视,#genre#
@@ -1003,6 +1004,8 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 湖南电影,http://223.151.51.27:85/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南娱乐,http://223.151.51.27:85/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0#http://124.232.231.246:8088/000000001001/201600020004/index.m3u8?
 金鹰卡通,http://39.135.55.105:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1
+先锋乒羽,http://[2409:8087:4402:20:1:1216:401:2e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226331/index.m3u8
+先锋乒羽,http://[2409:8087:4402:20:1:1216:401:39]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226679/index.m3u8
 先锋乒羽,http://39.135.55.105:6610/PLTV/88888888/224/3221226851/index.m3u8?servicetype=1
 
 茶频道,http://[2409:8087:6a01:1020::f]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226240/1/index.m3u8?fmt=ts2hls
