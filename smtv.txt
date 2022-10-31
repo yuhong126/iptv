@@ -152,7 +152,6 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 天津都市4,http://anyun-ship.com:8888/udp/225.1.1.128:5002
 天津科教6,http://anyun-ship.com:8888/udp/225.1.1.129:5002
 天津体育5,http://anyun-ship.com:8888/udp/225.1.1.122:5002
-天津少儿7,http://anyun-ship.com:8888/udp/225.1.1.125:5002
 蓟州电视台,http://anyun-ship.com:8888/udp/225.1.1.82:5002
 滨海新闻,http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8
 滨海综艺,http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8
@@ -1099,6 +1098,10 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 
 
 广西地方台,#genre#
+广西影视,http://mobilelive.gxtv.cn/live/nn_live1003/playlist.m3u8
+广西新闻,http://mobilelive.gxtv.cn/live/nn_live1007/playlist.m3u8
+广西国际,http://mobilelive.gxtv.cn/live/nn_live1009/playlist.m3u8
+
 广西综艺,http://116.9.204.242:9901/tsfile/live/0125_1.m3u8
 广西影视,http://116.9.204.242:9901/tsfile/live/0124_1.m3u8
 广西新闻,http://116.9.204.242:9901/tsfile/live/1001_1.m3u8
@@ -1615,3 +1618,5 @@ IPTV家庭剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001
 IPTV经典剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000012/main.m3u8?IASHttpSessionId=OTT
 IPTV抗战剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000007/main.m3u8?IASHttpSessionId=OTT
 IPTV芒果互娱,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001025000000196970/main.m3u8?IASHttpSessionId=OTT
+
+
