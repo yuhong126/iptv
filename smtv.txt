@@ -1011,13 +1011,6 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 宁乡综合,http://b.ds.ch.dingtoo.com:80/AppName/StreamName.m3u8
 
 广东地方台,#genre#
-深圳都市,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel46/index.m3u8
-深圳体育,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel47/index.m3u8
-深圳娱乐,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel49/index.m3u8
-深圳公共,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel52/index.m3u8
-深圳财经,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel48/index.m3u8
-深圳娱乐,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel37/index.m3u8
-深圳少儿,http://121.51.249.19/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel51/index.m3u8
 广东文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
 广东体育,https://epg.pm/stream/561c81df0f76995348fe0520e4a62e07f595033118c772b19597d81dafeee003.m3u8
 广东珠江,http://v2.91kds.cn/c9/jdtv.m3u8?fmt=hls&id=gdzj&auth=rinimabi
@@ -1675,3 +1668,5 @@ IPTV家庭剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001
 IPTV经典剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000012/main.m3u8?IASHttpSessionId=OTT
 IPTV抗战剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000007/main.m3u8?IASHttpSessionId=OTT
 IPTV芒果互娱,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001025000000196970/main.m3u8?IASHttpSessionId=OTT
+
+
