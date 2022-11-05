@@ -1018,24 +1018,19 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 广东综艺,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs3&auth=rinimabi
 广东影视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs4&auth=rinimabi
 广东少儿,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs5&auth=rinimabi
-
 广东点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
-广东国际,http://lu1.cc/itv/gdtv/gdtv.php?id=gdgj
-广东房产,http://lu1.cc/itv/gdtv/gdtv.php?id=gdfc
-广东少儿,http://lu1.cc/itv/gdtv/gdtv.php?id=gdse
-广东移动,http://lu1.cc/itv/gdtv/gdtv.php?id=gdyd
-
-广州新闻,http://9.zhxinda.xyz/gz.php?id=xinwen
-广州竞赛,http://9.zhxinda.xyz/gz.php?id=jingsai
-广州综合,http://9.zhxinda.xyz/gz.php?id=zhonghe
-广州法治,http://9.zhxinda.xyz/gz.php?id=fazhi
 
 广州综合,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
 广州新闻,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzxw
 广州竞赛,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzjs
 广州法治,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzfz
-南国都市,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzngds
+
+广州新闻,http://9.zhxinda.xyz/gz.php?id=xinwen
+广州竞赛,http://9.zhxinda.xyz/gz.php?id=jingsai
+广州综合,http://9.zhxinda.xyz/gz.php?id=zhonghe
+广州法治,http://9.zhxinda.xyz/gz.php?id=fazhi
 南国都市,http://9.zhxinda.xyz/gz.php?id=shenghuo
+南国都市,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzngds
 
 嘉佳卡通,http://124.223.104.28/iptv/m3u8.php/iTouchTV/1187
 深圳都市,http://120.236.17.36:808/hls/19/index.m3u8
