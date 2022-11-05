@@ -1463,7 +1463,7 @@ CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 优漫卡通,https://live-hls.jstv.com/livezhuzhan/ymkt.m3u8?upt=230be0e52510710360
 哈哈炫动,http://39.135.55.105:6610/PLTV/88888888/224/3221227177/index.m3u8?servicetype=1
 嘉佳卡通,http://124.223.104.28/iptv/m3u8.php/iTouchTV/1187
-金鹰卡通,http://39.134.115.163:8080/PLTV/88888910/224/3221225721/index.m3u8#http://183.207.249.5:80/PLTV/4/224/3221226303/index.m3u8?
+金鹰卡通,http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000039/main.m3u8?IASHttpSessionId=OTT
 CCTV14,http://39.135.55.105:6610/PLTV/88888888/224/3221225819/index.m3u8?servicetype=1
 金鹰卡通,http://111.59.189.40:8445/tsfile/live/1016_1.m3u8
 南京少儿,http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
