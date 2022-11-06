@@ -1465,10 +1465,9 @@ CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 嘉佳卡通,http://124.223.104.28/iptv/m3u8.php/iTouchTV/1187
 金鹰卡通,http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000039/main.m3u8?IASHttpSessionId=OTT
 CCTV14,http://39.135.55.105:6610/PLTV/88888888/224/3221225819/index.m3u8?servicetype=1
-金鹰卡通,http://111.59.189.40:8445/tsfile/live/1016_1.m3u8
 南京少儿,http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-山东少儿,http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
+山东少儿,https://livealone302.iqilu.com/iqilu/sepd5555.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
 黑莓动画,http://39.135.55.105:6610/PLTV/88888888/224/3221225878/index.m3u8?servicetype=1
 动漫秀场,http://39.135.55.105:6610/PLTV/88888888/224/3221227071/index.m3u8?servicetype=1
@@ -1572,3 +1571,5 @@ IPTV家庭剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001
 IPTV经典剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000012/main.m3u8?IASHttpSessionId=OTT
 IPTV抗战剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000007/main.m3u8?IASHttpSessionId=OTT
 IPTV芒果互娱,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001025000000196970/main.m3u8?IASHttpSessionId=OTT
+
+
