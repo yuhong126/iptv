@@ -115,13 +115,12 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 
 北京地方台,#genre#
 北京文艺,http://111.13.42.238/PLTV/88888888/224/3221226440/1.m3u8
-北京科教,http://111.13.42.232/PLTV/88888888/224/3221226559/1.m3u8
-北京财经,http://111.13.42.6/PLTV/88888888/224/3221226560/1.m3u8
-北京影视,http://111.13.42.234/PLTV/88888888/224/3221226486/1.m3u8
+北京纪实,http://111.13.42.239/PLTV/88888888/224/3221226559/1.m3u8
 北京生活,http://111.13.42.235/PLTV/88888888/224/3221226561/1.m3u8
 北京青年,http://111.13.42.235/PLTV/88888888/224/3221226562/1.m3u8
 北京新闻,http://111.13.42.235/PLTV/88888888/224/3221226437/1.m3u8
-北京国际,http://111.13.42.234/PLTV/88888888/224/3221226510/1.m3u8
+北京体育,http://yfsl.vsd.gehua.net.cn/live/BTVjishiHD_6000.m3u8
+KAKU少儿,http://111.13.42.230/PLTV/88888888/224/3221226558/1.m3u8
 
 北京财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 北京青年,http://live.cooltv.top/tv/btime.php?id=btvqn
@@ -130,12 +129,11 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 北京新闻,http://live.cooltv.top/tv/btime.php?id=btvxw
 北京影视,http://live.cooltv.top/tv/btime.php?id=btvys
 
-北京纪实,http://39.135.55.105:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
 北京IPTV4K超清,http://111.13.42.231/PLTV/88888888/224/3221226550/1.m3u8
 北京IPTV萌宠,http://111.13.42.235/PLTV/88888888/224/3221226555/1.m3u8
-北京IPTV淘电影,http://111.13.42.234/PLTV/88888888/224/3221226552/1.m3u8
 北京IPTV淘娱乐,http://111.13.42.230/PLTV/88888888/224/3221226551/1.m3u8
-北京IPTV淘BABY,http://111.13.42.6/PLTV/88888888/224/3221226554/1.m3u8
+
+
 房山电视台,https://live.funhillrm.com/2/playlist.m3u8
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
 
@@ -1472,6 +1470,7 @@ CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 经典影视速看,http://112.74.200.9:88/tv000000/m3u8.php?/migu/627198751
 
 少儿卡通,#genre#
+KAKU少儿,http://111.13.42.230/PLTV/88888888/224/3221226558/1.m3u8
 东南少儿,http://39.135.55.105:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
 优漫卡通,https://live-hls.jstv.com/livezhuzhan/ymkt.m3u8?upt=230be0e52510710360
 哈哈炫动,http://39.135.55.105:6610/PLTV/88888888/224/3221227177/index.m3u8?servicetype=1
@@ -1523,6 +1522,7 @@ CCTV5+HD,http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
 五星体育,http://111.40.196.25/PLTV/88888888/224/3221225503/index.m3u8
 新视觉HD,http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8
 超级体育,http://39.135.138.59:18890/PLTV/88888910/224/3221225622/index.m3u8
+体育4K,http://111.13.42.229/PLTV/88888888/224/3221226399/1.m3u8
 
 CGTN,#genre#
 CGTN,http://39.135.55.105:6610/PLTV/88888888/224/3221225822/index.m3u8?servicetype=1
