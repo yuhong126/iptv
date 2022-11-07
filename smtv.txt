@@ -1063,17 +1063,11 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 乳源,http://mmitv.top/pltv/itouchtv.php?id=rytv
 
 广西地方台,#genre#
-广西综艺,http://110.72.24.94:8088/hls/17/index.m3u8
-广西都市,http://110.72.24.94:8088/hls/18/index.m3u8
-广西影视,http://110.72.24.94:8088/hls/21/index.m3u8
-广西新闻,http://110.72.24.94:8088/hls/19/index.m3u8
-广西影视,http://mobilelive.gxtv.cn/live/nn_live1003/playlist.m3u8
-广西新闻,http://mobilelive.gxtv.cn/live/nn_live1007/playlist.m3u8
-广西国际,http://mobilelive.gxtv.cn/live/nn_live1009/playlist.m3u8
 广西综艺,http://116.9.204.242:9901/tsfile/live/0125_1.m3u8
 广西影视,http://116.9.204.242:9901/tsfile/live/0124_1.m3u8
 广西新闻,http://116.9.204.242:9901/tsfile/live/1001_1.m3u8
 广西都市,http://116.9.204.242:9901/tsfile/live/1002_1.m3u8
+
 南宁新闻,http://116.9.204.242:9901/tsfile/live/1003_1.m3u8
 南宁新闻,http://hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8
 南宁公共,http://hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8
@@ -1590,3 +1584,5 @@ IPTV家庭剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001
 IPTV经典剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000012/main.m3u8?IASHttpSessionId=OTT
 IPTV抗战剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000007/main.m3u8?IASHttpSessionId=OTT
 IPTV芒果互娱,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001025000000196970/main.m3u8?IASHttpSessionId=OTT
+
+
