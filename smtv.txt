@@ -292,8 +292,11 @@ KAKU少儿,http://111.13.42.230/PLTV/88888888/224/3221226558/1.m3u8
 丹东公共,http://59.47.133.234:64231/live
 
 吉林地方台,#genre#
-吉林影视,http://stream1.jlntv.cn/yspd/sd/live.m3u8
-吉林综艺,http://stream1.jlntv.cn/fzpd/sd/live.m3u8
+吉林公共,http://live1.jzjsnm.cn/live1/jishigonggong.m3u8?auth_key=1649041581502-0-0-a458cdea3e44ae2bc4c91f54c644e61d
+吉林生活,http://v2.91kds.cn/b9/jltv.m3u8?id=jlsh&auth=rinimabi
+吉林乡村,http://v2.91kds.cn/b9/jltv.m3u8?id=jlxc&auth=rinimabi
+吉林戏曲,http://v2.91kds.cn/b9/jltv.m3u8?id=jlxq&auth=rinimabi
+
 延边汉语综合,http://live.ybtvyun.com/video/s10006-04819ee234a7/index.m3u8
 延边朝鲜语综合,http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8
 
