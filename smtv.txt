@@ -83,9 +83,9 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 新疆卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
 康巴卫视,http://112.19.214.90:8883/tsfile/live/1010_1.m3u8
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
-兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 兵团卫视,http://test5.btzx.com.cn/live/btxjbtws.stream/chunklist_w588330955.m3u8
 兵团卫视,http://test5.btzx.com.cn/live/btxjbtws.stream/chunklist_w1782170990.m3u8
+兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 三沙卫视,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 三沙卫视,http://[2409:8087:5e01:34::27]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
@@ -505,9 +505,9 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 福建旅游,http://39.135.55.105:6610/PLTV/88888888/224/3221227190/index.m3u8?servicetype=1
 福建经济,http://39.135.55.105:6610/PLTV/88888888/224/3221227184/index.m3u8?servicetype=1
 福建少儿,http://39.135.55.105:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
-福州新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227157/index.m3u8?servicetype=1
 福州新闻,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+福州新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227157/index.m3u8?servicetype=1
 
 厦门卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1
 厦门一套,http://39.135.55.105:6610/PLTV/88888888/224/3221227185/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221226814/index.m3u8?servicetype=1
