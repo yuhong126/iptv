@@ -966,7 +966,7 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 
 广东珠江,http://gxyl-dl001.8866.org:8181/tsfile/live/1000_1.m3u8
 广东体育,http://gxyl-dl001.8866.org:8181/tsfile/live/1001_1.m3u8
-广东科教,http://gxyl-dl001.8866.org:8181/tsfile/live/1003_1.m3u8
+广东经济,http://gxyl-dl001.8866.org:8181/tsfile/live/1003_1.m3u8
 嘉佳卡通,http://gxyl-dl001.8866.org:8181/tsfile/live/1006_1.m3u8
 广东新闻,http://gxyl-dl001.8866.org:8181/tsfile/live/1004_1.m3u8
 广东公共,http://gxyl-dl001.8866.org:8181/tsfile/live/1007_1.m3u8
