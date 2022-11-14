@@ -1,5 +1,18 @@
 央视,#genre#
 纯享4K,http://39.135.55.105:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1
+
+CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227725/index.m3u8
+CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228213/index.m3u8
+CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227467/index.m3u8
+CCTV2,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227543/index.m3u8
+CCTV3,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228188/index.m3u8
+CCTV3,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227546/index.m3u8
+CCTV4,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227549/index.m3u8
+CCTV5,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227686/index.m3u8
+CCTV5+,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227502/index.m3u8
+CCTV6,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227505/index.m3u8
+CCTV8,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227473/index.m3u8
+
 CCTV1,http://39.135.55.105:6610/PLTV/88888888/224/3221225922/index.m3u8?servicetype=1
 CCTV2,http://39.135.55.105:6610/PLTV/88888888/224/3221225800/index.m3u8?servicetype=1
 CCTV3,http://39.135.55.105:6610/PLTV/88888888/224/3221227055/index.m3u8?servicetype=1
@@ -18,6 +31,7 @@ CCTV14,http://39.135.55.105:6610/PLTV/88888888/224/3221225819/index.m3u8?service
 CCTV15,http://39.135.55.105:6610/PLTV/88888888/224/3221225818/index.m3u8?servicetype=1
 CCTV16,http://39.135.55.105:6610/PLTV/88888888/224/3221227125/index.m3u8?servicetype=1
 CCTV17,http://39.135.55.105:6610/PLTV/88888888/224/3221226986/index.m3u8?servicetype=1
+CCTV4K,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
 CCTV4K,http://39.135.55.105:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1
 CCTV4美洲,http://[2409:8087:1050:301:2026::17]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225970/index.m3u8?fmt=ts2hls
 CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225969/index.m3u8?fmt=ts2hls
@@ -41,6 +55,8 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 中国教育4台,http://39.135.55.105:6610/PLTV/88888888/224/3221227050/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1
 
 卫视,#genre#
+安徽卫视,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221227558/index.m3u8
+江苏卫视,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8
 湖南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1
 浙江卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225825/index.m3u8?servicetype=1
 江苏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225847/index.m3u8?servicetype=1
@@ -136,6 +152,14 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 津南,http://play.jinnantv.top/live/JNTV1.m3u8
 
 河北地方台,#genre#
+河北都市频道,http://116.131.173.194:808/hls/59/index.m3u8
+河北经济频道,http://116.131.173.194:808/hls/58/index.m3u8
+河北少儿科教,http://116.131.173.194:808/hls/61/index.m3u8
+河北影视频道,http://116.131.173.194:808/hls/60/index.m3u8
+河北公共频道,http://116.131.173.194:808/hls/62/index.m3u8
+河北农民频道,http://116.131.173.194:808/hls/63/index.m3u8
+晴彩河北,http://116.131.173.194:808/hls/68/index.m3u8
+
 河北经济频道,https://event.pull.hebtv.com/jishi/jingjishenghuo.m3u8
 河北都市频道,https://event.pull.hebtv.com/jishi/dushipindao.m3u8
 河北影视频道,https://event.pull.hebtv.com/jishi/yingshijupindao.m3u8
@@ -477,6 +501,8 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 安庆教育,https://hwapi.yunshicloud.com/0spq8i/l566ho.m3u8
 望江1新闻,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv1.m3u8 
 望江3黄梅戏,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv2.m3u8
+淮北新闻,https://live.hbnews.net/video/xwzh/index.m3u8
+淮北公共,https://live.hbnews.net/video/ggpd/index.m3u8
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8#http://220.180.110.101:8083/videos/live/39/13/o4ncrHkSp7q09/o4ncrHkSp7q09.M3U8
 宿州公共,http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
@@ -1377,6 +1403,8 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 宁夏地方台,#genre#
 宁夏公共,http://livepgc.cmc.ningxiahuangheyun.com/pgc/041867befe3dde090202f620ade5b87c.m3u8?txSecret=39373ebcf0d57da2477968efb258e2b7&txTime=6235C9B6
 宁夏经济,http://livepgc.cmc.ningxiahuangheyun.com/pgc/10717759047cafd37fd87caa5883e9c2.m3u8?txSecret=6a3918f766d0ff625282376ffee72687&txTime=6235C9C1
+宁夏少儿,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=28
+宁夏文旅,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=29
 吴忠综合,http://live.kanwz.net/zhpd/sd/live.m3u8
 吴忠公共,http://live.kanwz.net/ggpd/sd/live.m3u8
 青铜峡公共,http://pili-live-hdl.nxdzsh.com/qtxdst/qtx.m3u8
@@ -1406,7 +1434,7 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 
 电影,#genre#
 CHC动作电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-CHC电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 影院4k,http://epg.112114.xyz/douyu/9249162
 黑莓电影,http://39.135.55.105:6610/PLTV/88888888/224/3221225891/index.m3u8?servicetype=1
