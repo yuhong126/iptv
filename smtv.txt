@@ -120,7 +120,7 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 凤凰中文,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰资讯,http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
-香港卫视文旅,https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
+
 
 北京地方台,#genre#
 北京纪实,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
@@ -140,6 +140,7 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 天津新闻1,http://117.14.55.102:18080/hls/34/index.m3u8
 天津文艺2,http://117.14.55.102:18080/hls/39/index.m3u8
 天津体育5,http://117.14.55.102:18080/hls/46/index.m3u8
+
 天津新闻1,http://anyun-ship.com:8888/udp/225.1.1.130:5002
 天津文艺2,http://anyun-ship.com:8888/udp/225.1.1.131:5002
 天津影视3,http://anyun-ship.com:8888/udp/225.1.1.149:5002
@@ -1532,19 +1533,19 @@ NewTV-2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225881/i
 体育,#genre#
 CCTV5+,http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
 精品体育,http://39.135.138.60:18890/PLTV/88888910/224/3221225709/index.m3u8
-五星体育,http://111.40.196.25/PLTV/88888888/224/3221225503/index.m3u8
+五星体育,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/ssty/4000000/mnf.m3u8
 新视觉,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/xsjhd/4000000/mnf.m3u8
 超级体育,http://39.135.138.59:18890/PLTV/88888910/224/3221225622/index.m3u8
-体育4K,http://111.13.42.229/PLTV/88888888/224/3221226399/1.m3u8
 
 CGTN,#genre#
-CGTN,http://39.135.55.105:6610/PLTV/88888888/224/3221225822/index.m3u8?servicetype=1
-CGTN,http://39.135.55.105:6610/PLTV/88888888/224/3221226980/index.m3u8?servicetype=1
-CGTN俄语,http://39.135.55.105:6610/PLTV/88888888/224/3221227103/index.m3u8?servicetype=1
-CGTN法语,http://39.135.55.105:6610/PLTV/88888888/224/3221227220/index.m3u8?servicetype=1
-CGTN纪录,http://39.135.55.105:6610/PLTV/88888888/224/3221225813/index.m3u8?servicetype=1
-CGTN西语,http://39.135.55.105:6610/PLTV/88888888/224/3221227238/index.m3u8?servicetype=1
-CGTN阿语,http://39.135.55.105:6610/PLTV/88888888/224/3221227224/index.m3u8?servicetype=1
+CGTN,http://[2409:8087:1070:301:2028::12]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225971/index.m3u8?fmt=ts2hls
+CGTN,http://[2409:8087:1020:301:2026::11]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225727/index.m3u8?fmt=ts2hls
+CGTN俄语,http://[2409:8087:1070:301:2028::22]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225976/index.m3u8?fmt=ts2hls
+CGTN法语,http://[2409:8087:1070:301:2028::11]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225974/index.m3u8?fmt=ts2hls
+CGTN纪录,http://[2409:8087:1070:301:2028::22]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225972/index.m3u8?fmt=ts2hls
+CGTN纪录,http://[2409:8087:1020:301:2026::2d]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225728/index.m3u8?fmt=ts2hls
+CGTN西语,http://[2409:8087:1070:301:2028::11]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225973/index.m3u8?fmt=ts2hls
+CGTN阿语,http://[2409:8087:1070:301:2028::22]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225975/index.m3u8?fmt=ts2hls
 
 SiTV,#genre#
 欢笑剧场,http://39.135.55.105:6610/PLTV/88888888/224/3221227145/index.m3u8?servicetype=1
