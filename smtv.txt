@@ -347,9 +347,16 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 
 上海地方台,#genre#
 上海纪实,http://39.135.55.105:6610/PLTV/88888888/224/3221225946/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221227213/index.m3u8?servicetype=1#http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8
+上海新闻综合,http://112.25.48.13/live/program/live/xwzhhd/4000000/mnf.m3u8
 上海都市,http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8
-东方财经,http://39.135.55.105:6610/PLTV/88888888/224/3221227087/index.m3u8?servicetype=1
+上海都市,http://119.167.229.31/liveplay-kk.rtxapp.com/live/program/live/ylpdhd/4000000/mnf.m3u8
+上海ICS,http://119.167.229.31/liveplay-kk.rtxapp.com/live/program/live/wypdhd/4000000/mnf.m3u8
+上海东方影视,http://112.25.48.13/live/program/live/dsjpdhd/4000000/mnf.m3u8
+上海五星体育,http://112.25.48.13/live/program/live/ssty/4000000/mnf.m3u8
+上海第一财经,http://112.25.48.13/live/program/live/dycjhd/4000000/mnf.m3u8
+
 哈哈炫动,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/hhxdhd/4000000/mnf.m3u8
+哈哈炫动,http://112.25.48.13/live/program/live/hhxdhd/4000000/mnf.m3u8
 哈哈炫动,http://111.40.196.44/0000000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000005000031641
 哈哈炫动,http://cache.ott.fifalive.itv.cmvideo.cn:80/5000000005000031641/index.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=no
 哈哈炫动,http://cache.ott.fifalive.itv.cmvideo.cn/index.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=no
@@ -502,6 +509,11 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 安庆教育,https://hwapi.yunshicloud.com/0spq8i/l566ho.m3u8
 望江1新闻,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv1.m3u8 
 望江3黄梅戏,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv2.m3u8
+合肥新闻,http://live.cooltv.top/tv/hfcatv.php?id=185
+合肥生活,http://live.cooltv.top/tv/hfcatv.php?id=188
+合肥财经,http://live.cooltv.top/tv/hfcatv.php?id=190
+合肥教育,http://live.cooltv.top/tv/hfcatv.php?id=189
+合肥休闲,http://live.cooltv.top/tv/hfcatv.php?id=191
 淮北新闻,https://live.hbnews.net/video/xwzh/index.m3u8
 淮北公共,https://live.hbnews.net/video/ggpd/index.m3u8
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8
@@ -1547,7 +1559,8 @@ SiTV,#genre#
 都市剧场,http://39.135.55.105:6610/PLTV/88888888/224/3221227204/index.m3u8?servicetype=1
 游戏风云,http://39.135.55.105:6610/PLTV/88888888/224/3221227075/index.m3u8?servicetype=1
 动漫秀场,http://39.135.55.105:6610/PLTV/88888888/224/3221227071/index.m3u8?servicetype=1
-第一财经,http://39.135.55.105:6610/PLTV/88888888/224/3221226987/index.m3u8?servicetype=1
+东方财经,http://39.135.55.105:6610/PLTV/88888888/224/3221227087/index.m3u8?servicetype=1
+七彩戏剧 540,http://112.25.48.13/live/program/live/qcxj/1300000/mnf.m3u8
 
 埋堆堆,#genre#
 埋堆堆1,http://txtest-xp2p.p2p.huya.com/src/1199561277675-1199561277675-5434860597135015936-2399122678806-10057-A-0-1.xs
