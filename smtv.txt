@@ -1133,6 +1133,16 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 广东体育,http://99.sc1970.xyz:8888/iptv/GDH.php?id=gdsportsHD_7000
 广东综艺4K,http://99.sc1970.xyz:8888/iptv/GDH.php?id=GDZYHD4K_38000
 
+GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
+大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
+广东体育,https://epg.pm/stream/561c81df0f76995348fe0520e4a62e07f595033118c772b19597d81dafeee003.m3u8
+广东经济,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs1&auth=rinimabi
+广东综艺,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs3&auth=rinimabi
+广东影视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs4&auth=rinimabi
+广东少儿,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs5&auth=rinimabi
+广东点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
+
+
 广东珠江,http://fyld.eatuo.com:9901/tsfile/live/1009_1.m3u8
 广东体育,http://fyld.eatuo.com:9901/tsfile/live/1012_1.m3u8
 广东经济,http://fyld.eatuo.com:9901/tsfile/live/1014_1.m3u8
@@ -1149,6 +1159,11 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 岭南戏曲,http://gxyl-dl001.8866.org:8181/tsfile/live/1005_1.m3u8
 大湾区卫视,http://gxyl-dl001.8866.org:8181/tsfile/live/1002_1.m3u8
 
+深圳都市,http://120.236.17.36:808/hls/19/index.m3u8
+深圳体育,http://120.236.17.36:808/hls/21/index.m3u8
+深圳电视剧,http://120.236.17.36:808/hls/20/index.m3u8
+深圳公共,http://120.236.17.36:808/hls/22/index.m3u8
+
 
 深圳都市,http://gxyl-dl001.8866.org:8181/tsfile/live/1112_1.m3u8
 深圳电视剧,http://gxyl-dl001.8866.org:8181/tsfile/live/1113_1.m3u8
@@ -1160,15 +1175,6 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 深圳公共,http://gxyl-dl001.8866.org:8181/tsfile/live/1119_1.m3u8
 肇庆综合,http://gxyl-dl001.8866.org:8181/tsfile/live/1120_1.m3u8
 
-
-GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
-大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
-广东体育,https://epg.pm/stream/561c81df0f76995348fe0520e4a62e07f595033118c772b19597d81dafeee003.m3u8
-广东经济,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs1&auth=rinimabi
-广东综艺,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs3&auth=rinimabi
-广东影视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs4&auth=rinimabi
-广东少儿,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs5&auth=rinimabi
-广东点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
 
 广州综合,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzzh
 广州新闻,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzxw
@@ -1192,10 +1198,6 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 客家生活,http://fyld.eatuo.com:9901/tsfile/live/1003_1.m3u8
 梅州导视,http://fyld.eatuo.com:9901/tsfile/live/1004_1.m3u8
 
-深圳都市,http://120.236.17.36:808/hls/19/index.m3u8
-深圳体育,http://120.236.17.36:808/hls/21/index.m3u8
-深圳电视剧,http://120.236.17.36:808/hls/20/index.m3u8
-深圳公共,http://120.236.17.36:808/hls/22/index.m3u8
 韶关新闻,https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
 韶关绿色生活,https://www.sgmsw.cn/videos/tv/201805/1308/9P424TC5M000AFO13CXK6GN6BOA889D2/hls/live.m3u8
 清远综合,https://zqy-live.nanyuecloud.com/qingyuandianshi1/qingyuandianshistream1.m3u8?auth_key=601634549293-0-0-96c65af4438160da817d5e34b27b9b7a
