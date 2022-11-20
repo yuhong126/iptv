@@ -108,7 +108,6 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
 南方卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
 南方卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227214/index.m3u8?servicetype=1
-黄河卫视,http://liveflash.sxrtv.com/live/huanghe.m3u8
 延边卫视,http://live.ybtvyun.com/video/s10016-6297f9f7a2d5/index.m3u8
 延边卫视,http://39.135.138.58:18890/PLTV/88888888/224/3221226201/index.m3u8
 安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8
@@ -121,10 +120,23 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 凤凰资讯,http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
 
+翡翠台,http://99.sc1970.xyz:8888/iptv/GDH.php?id=1350_4500
+明珠台,http://99.sc1970.xyz:8888/iptv/GDH.php?id=1351_4500
+
+翡翠台,http://113.64.147.79:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.82:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.135:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.146:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.217:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.247:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.133:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.223:808/hls/67/index.m3u8
+翡翠台,http://113.64.147.250:808/hls/67/index.m3u8
+
 
 北京地方台,#genre#
-北京纪实,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
-北京体育,http://yfsl.vsd.gehua.net.cn/live/BTVjishiHD_6000.m3u8
+北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
+北京体育休闲,http://yfsl.vsd.gehua.net.cn/live/BTVjishiHD_6000.m3u8
 北京财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 北京青年,http://live.cooltv.top/tv/btime.php?id=btvqn
 北京生活,http://live.cooltv.top/tv/btime.php?id=btvsh
@@ -135,6 +147,7 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 
 房山电视台,https://live.funhillrm.com/2/playlist.m3u8
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
+清华大学电视台,http://live.cic.tsinghua.edu.cn/hls/tsinghuatv.m3u8
 
 天津地方台,#genre#
 天津新闻1,http://117.14.55.102:18080/hls/34/index.m3u8
@@ -155,27 +168,27 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 津南,http://play.jinnantv.top/live/JNTV1.m3u8
 
 河北地方台,#genre#
-河北都市频道,http://116.131.173.194:808/hls/59/index.m3u8
-河北经济频道,http://116.131.173.194:808/hls/58/index.m3u8
-河北少儿科教,http://116.131.173.194:808/hls/61/index.m3u8
-河北影视频道,http://116.131.173.194:808/hls/60/index.m3u8
-河北公共频道,http://116.131.173.194:808/hls/62/index.m3u8
-河北农民频道,http://116.131.173.194:808/hls/63/index.m3u8
+河北都市,http://116.131.173.194:808/hls/59/index.m3u8
+河北经济,http://116.131.173.194:808/hls/58/index.m3u8
+河北少儿,http://116.131.173.194:808/hls/61/index.m3u8
+河北影视,http://116.131.173.194:808/hls/60/index.m3u8
+河北公共,http://116.131.173.194:808/hls/62/index.m3u8
+河北农民,http://116.131.173.194:808/hls/63/index.m3u8
 晴彩河北,http://116.131.173.194:808/hls/68/index.m3u8
 
-河北经济频道,https://event.pull.hebtv.com/jishi/jingjishenghuo.m3u8
-河北都市频道,https://event.pull.hebtv.com/jishi/dushipindao.m3u8
-河北影视频道,https://event.pull.hebtv.com/jishi/yingshijupindao.m3u8
-河北少儿科教,https://event.pull.hebtv.com/jishi/shaoerkejiao.m3u8
-河北公共频道,https://event.pull.hebtv.com/jishi/gonggongpindao.m3u8
-河北农民频道,https://event.pull.hebtv.com/jishi/nongminpindao.m3u8
-河北影视频道,http://60.10.167.88:808/hls/60/index.m3u8
-河北农民频道,http://60.10.167.88:808/hls/63/index.m3u8
-河北经济频道,http://60.10.167.88:808/hls/58/index.m3u8
-河北都市频道,http://60.10.167.88:808/hls/59/index.m3u8
-河北少儿科教,http://60.10.167.88:808/hls/61/index.m3u8
-河北农民频道,http://60.10.167.88:808/hls/63/index.m3u8
-河北公共频道,http://60.10.167.88:808/hls/62/index.m3u8
+河北经济,https://event.pull.hebtv.com/jishi/jingjishenghuo.m3u8
+河北都市,https://event.pull.hebtv.com/jishi/dushipindao.m3u8
+河北影视,https://event.pull.hebtv.com/jishi/yingshijupindao.m3u8
+河北少儿,https://event.pull.hebtv.com/jishi/shaoerkejiao.m3u8
+河北公共,https://event.pull.hebtv.com/jishi/gonggongpindao.m3u8
+河北农民,https://event.pull.hebtv.com/jishi/nongminpindao.m3u8
+河北影视,http://60.10.167.88:808/hls/60/index.m3u8
+河北农民,http://60.10.167.88:808/hls/63/index.m3u8
+河北经济,http://60.10.167.88:808/hls/58/index.m3u8
+河北都市,http://60.10.167.88:808/hls/59/index.m3u8
+河北少儿,http://60.10.167.88:808/hls/61/index.m3u8
+河北农民,http://60.10.167.88:808/hls/63/index.m3u8
+河北公共,http://60.10.167.88:808/hls/62/index.m3u8
 石家庄新闻,http://pluslive1.sjzntv.cn/xmzh/playlist.m3u8
 石家庄娱乐,http://pluslive1.sjzntv.cn/yule/playlist.m3u8
 石家庄生活,http://pluslive1.sjzntv.cn/shenghuo/playlist.m3u8
@@ -236,11 +249,11 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 
 山西地方台,#genre#
-山西社会,http://liveflash.sxrtv.com/live/sxedu.m3u8
-山西经济,http://liveflash.sxrtv.com/live/sxfinance.m3u8
-山西公共,http://liveflash.sxrtv.com/live/sxpublic.m3u8
-山西影视,http://liveflash.sxrtv.com/live/sxfilm.m3u8
-山西黄河,http://liveflash.sxrtv.com/live/huanghe.m3u8
+山西社会法治,http://liveflash.sxrtv.com/live/sxedu.m3u8
+山西经济科技,http://liveflash.sxrtv.com/live/sxfinance.m3u8
+山西文体生活,http://liveflash.sxrtv.com/live/sxpublic.m3u8
+山西影视频道,http://liveflash.sxrtv.com/live/sxfilm.m3u8
+山西黄河频道,http://liveflash.sxrtv.com/live/huanghe.m3u8
 太原文体,http://live.cooltv.top/tv/cutv.php?id=tywt
 太原新闻,http://live.cooltv.top/tv/cutv.php?id=tyxwzh
 
@@ -500,6 +513,7 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 诸暨新闻,http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 
 安徽地方台,#genre#
+
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
 安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
@@ -556,6 +570,95 @@ CCTV4欧洲,http://[2409:8087:1020:301:2026::2b]/gslbserv.iptv.nm.chinamobile.co
 固镇综合,http://www.guzhenm.com:7001/hls/hd-live.m3u8#http://www.guzhenm.com:7002/hls/hd-live.m3u8
 南陵新闻,http://live2018.wuhunews.cn/video/s10010-nlnews/index.m3u8
 湾沚综合(原芜湖县),http://60.169.39.215:8090/live/ch0.m3u8
+
+合肥新闻,http://ahdx.f3322.net:88/udp/238.1.78.111:6760
+肥东新闻,http://ahdx.f3322.net:88/udp/238.1.78.183:7336
+肥东经济,http://ahdx.f3322.net:88/udp/238.1.78.184:7344
+肥西新闻,http://ahdx.f3322.net:88/udp/238.1.78.185:7352
+长丰电视台,http://ahdx.f3322.net:88/udp/238.1.78.182:7328
+滨州新闻综合,http://ahdx.f3322.net:88/udp/238.1.78.132:6928
+滨州公共,http://ahdx.f3322.net:88/udp/238.1.78.133:6936
+滨州科教,http://ahdx.f3322.net:88/udp/238.1.78.134:6944
+全椒综合,http://ahdx.f3322.net:88/udp/238.1.78.203:7496
+来安新闻,http://ahdx.f3322.net:88/udp/238.1.78.204:7504
+定远新闻,http://ahdx.f3322.net:88/udp/238.1.78.205:7512
+凤凰新闻,http://ahdx.f3322.net:88/udp/238.1.78.207:7528
+明光综合,http://ahdx.f3322.net:88/udp/238.1.78.208:7536
+芹湖新闻,http://ahdx.f3322.net:88/udp/238.1.78.112:6768
+芹湖公共,http://ahdx.f3322.net:88/udp/238.1.78.80:6512
+芹湖生活,http://ahdx.f3322.net:88/udp/238.1.78.152:7088
+芹湖教育,http://ahdx.f3322.net:88/udp/238.1.78.167:7208
+湾仔新闻,http://ahdx.f3322.net:88/udp/238.1.78.187:7368
+繁昌新闻,http://ahdx.f3322.net:88/udp/238.1.78.190:7392
+无为新闻,http://ahdx.f3322.net:88/udp/238.1.78.188:7376
+南陵新闻,http://ahdx.f3322.net:88/udp/238.1.78.189:7384
+马鞍山新闻,http://ahdx.f3322.net:88/udp/238.1.79.15:4232
+马鞍山公共,http://ahdx.f3322.net:88/udp/238.1.78.77:6488
+潜山综合,http://ahdx.f3322.net:88/udp/238.1.78.192:7408
+桐城综合,http://ahdx.f3322.net:88/udp/238.1.78.28:6152
+太湖新闻,http://ahdx.f3322.net:88/udp/238.1.79.12:4208
+黄山新闻,http://ahdx.f3322.net:88/udp/238.1.78.130:6912
+黄山公共,http://ahdx.f3322.net:88/udp/238.1.78.131:6920
+徽州新闻,http://ahdx.f3322.net:88/udp/238.1.78.138:6976
+太平电视台,http://ahdx.f3322.net:88/udp/238.1.78.199:7464
+歙县综合,http://ahdx.f3322.net:88/udp/238.1.78.200:7472
+休宁新闻,http://ahdx.f3322.net:88/udp/238.1.79.20:4272
+祁门综合,http://ahdx.f3322.net:88/udp/238.1.79.14:4224
+杭州新闻,http://ahdx.f3322.net:88/udp/238.1.78.149:7064
+宣城综合,http://ahdx.f3322.net:88/udp/238.1.78.142:7008
+宣城公共,http://ahdx.f3322.net:88/udp/238.1.78.143:7016
+广德新闻,http://ahdx.f3322.net:88/udp/238.1.78.212:7568
+广州生活,http://ahdx.f3322.net:88/udp/238.1.78.213:7576
+郎溪新闻,http://ahdx.f3322.net:88/udp/238.1.78.214:7584
+淮德新闻,http://ahdx.f3322.net:88/udp/238.1.78.215:7592
+宁国新闻,http://ahdx.f3322.net:88/udp/238.1.78.216:7600
+涟溪新闻,http://ahdx.f3322.net:88/udp/238.1.78.218:7616
+池州新闻,http://ahdx.f3322.net:88/udp/238.1.78.147:7048
+池州公共,http://ahdx.f3322.net:88/udp/238.1.78.148:7056
+石台综合,http://ahdx.f3322.net:88/udp/238.1.78.221:7640
+东至综合,http://ahdx.f3322.net:88/udp/238.1.79.13:4216
+铜陵新闻,http://ahdx.f3322.net:88/udp/238.1.78.139:6984
+铜陵公共,http://ahdx.f3322.net:88/udp/238.1.78.140:6992
+铜陵科教,http://ahdx.f3322.net:88/udp/238.1.78.141:7000
+义安新闻,http://ahdx.f3322.net:88/udp/238.1.78.211:7560
+枞阳电视台,http://ahdx.f3322.net:88/udp/238.1.78.210:7552
+六安综合,http://ahdx.f3322.net:88/udp/238.1.78.144:7024
+六安公共,http://ahdx.f3322.net:88/udp/238.1.78.145:7032
+霍山综合,http://ahdx.f3322.net:88/udp/238.1.78.220:7632
+霍邱新闻,http://ahdx.f3322.net:88/udp/238.1.78.119:6824
+金屋综合,http://ahdx.f3322.net:88/udp/238.1.79.21:4280
+淮南新闻,http://ahdx.f3322.net:88/udp/238.1.78.113:6776
+淮南公共,http://ahdx.f3322.net:88/udp/238.1.78.114:6784
+寿县新闻,http://ahdx.f3322.net:88/udp/238.1.78.146:7040
+淮北新闻,http://ahdx.f3322.net:88/udp/238.1.78.135:6952
+淮北公共,http://ahdx.f3322.net:88/udp/238.1.78.136:6960
+淮北教育,http://ahdx.f3322.net:88/udp/238.1.78.137:6968
+敏溪新闻,http://ahdx.f3322.net:88/udp/238.1.78.209:7544
+宿州新闻,http://ahdx.f3322.net:88/udp/238.1.78.121:6840
+宿州公共,http://ahdx.f3322.net:88/udp/238.1.78.122:6848
+宿州科教,http://ahdx.f3322.net:88/udp/238.1.78.123:6856
+萧县新闻,http://ahdx.f3322.net:88/udp/238.1.79.46:4480
+浦县新闻,http://ahdx.f3322.net:88/udp/238.1.78.193:7416
+蚌埠新闻,http://ahdx.f3322.net:88/udp/238.1.78.180:7312
+蚌埠公共,http://ahdx.f3322.net:88/udp/238.1.78.181:7320
+五河新闻,http://ahdx.f3322.net:88/udp/238.1.79.52:4528
+固镇新闻,http://ahdx.f3322.net:88/udp/238.1.79.47:4488
+阜阳新闻,http://ahdx.f3322.net:88/udp/238.1.78.124:6864
+阜阳公共,http://ahdx.f3322.net:88/udp/238.1.78.125:6872
+阴阳教育,http://ahdx.f3322.net:88/udp/238.1.78.126:6880
+阳都市,http://ahdx.f3322.net:88/udp/238.1.78.127:6888
+颍上新闻,http://ahdx.f3322.net:88/udp/238.1.78.194:7424
+界首综合,http://ahdx.f3322.net:88/udp/238.1.78.195:7432
+临泉新闻,http://ahdx.f3322.net:88/udp/238.1.78.29:6160
+阜南新闻,http://ahdx.f3322.net:88/udp/238.1.79.11:4200
+佳州综合,http://ahdx.f3322.net:88/udp/238.1.78.128:6896
+佳州农村,http://ahdx.f3322.net:88/udp/238.1.78.129:6904
+利辛新闻,http://ahdx.f3322.net:88/udp/238.1.78.196:7440
+涡阳新闻,http://ahdx.f3322.net:88/udp/238.1.78.197:7448
+蒙城新闻,http://ahdx.f3322.net:88/udp/238.1.79.19:4264
+
+
+
 
 
 福建地方台,#genre#
@@ -1026,6 +1129,10 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 
 广东地方台,#genre#
 
+广东珠江,http://99.sc1970.xyz:8888/iptv/GDH.php?id=gdzhujiangHD_7500
+广东体育,http://99.sc1970.xyz:8888/iptv/GDH.php?id=gdsportsHD_7000
+广东综艺4K,http://99.sc1970.xyz:8888/iptv/GDH.php?id=GDZYHD4K_38000
+
 广东珠江,http://fyld.eatuo.com:9901/tsfile/live/1009_1.m3u8
 广东体育,http://fyld.eatuo.com:9901/tsfile/live/1012_1.m3u8
 广东经济,http://fyld.eatuo.com:9901/tsfile/live/1014_1.m3u8
@@ -1074,6 +1181,11 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 广州法治,http://9.zhxinda.xyz/gz.php?id=fazhi
 南国都市,http://9.zhxinda.xyz/gz.php?id=shenghuo
 南国都市,http://player.521fanli.cn/1691/gd/gztvm3u8.php?id=gzngds
+
+汕头一套,http://99.sc1970.xyz:8888/iptv/GDH.php?id=shantouyitaogaoqing_4500
+汕头二套,http://99.sc1970.xyz:8888/iptv/GDH.php?id=shantouertaogaoqing_4500
+汕头三套,http://99.sc1970.xyz:8888/iptv/GDH.php?id=2508_1500
+汕头三套,http://99.sc1970.xyz:8888/iptv/GDH.php?id=2508_4500
 
 五华,http://fyld.eatuo.com:9901/tsfile/live/1000_1.m3u8
 梅州-1,http://fyld.eatuo.com:9901/tsfile/live/1002_1.m3u8
@@ -1536,6 +1648,7 @@ CCTV5+,http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
 五星体育,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/ssty/4000000/mnf.m3u8
 新视觉,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/xsjhd/4000000/mnf.m3u8
 超级体育,http://39.135.138.59:18890/PLTV/88888910/224/3221225622/index.m3u8
+劲爆体育,http://99.sc1970.xyz:8888/iptv/GDH.php?id=jinbaotiyuHD_7000
 
 CGTN,#genre#
 CGTN,http://[2409:8087:1070:301:2028::12]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225971/index.m3u8?fmt=ts2hls
@@ -1610,11 +1723,18 @@ SiTV,#genre#
 埋堆堆68,http://txtest-xp2p.p2p.huya.com/src/1199561158071-1199561158071-5434346901866545152-2399122439598-10057-A-0-1.xs
 
 IPTV,#genre#
-IPTV院线,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000009/main.m3u8?IASHttpSessionId=OTT
-IPTV古装剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000010/main.m3u8?IASHttpSessionId=OTT
-IPTV家庭剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000011/main.m3u8?IASHttpSessionId=OTT
+IPTV高清院线,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000009/main.m3u8?IASHttpSessionId=OTT
+IPTV古装剧场,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001002000000000010/main.m3u8?IASHttpSessionId=OTT
+IPTV家庭剧场,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001002000000000011/main.m3u8?IASHttpSessionId=OTT
 IPTV经典剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000012/main.m3u8?IASHttpSessionId=OTT
 IPTV抗战剧场,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000007/main.m3u8?IASHttpSessionId=OTT
 IPTV芒果互娱,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001025000000196970/main.m3u8?IASHttpSessionId=OTT
+IPTV芒果热剧,http://[2409:8087:5011:1020::1a]/180000001001/00000001000000001026000000099232/main.m3u8?IASHttpSessionId=OTT
+IPTV芒果好看,http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001026000000099174/main.m3u8?IASHttpSessionId=OTT
+IPTV芒果热播,http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001008000000292438/main.m3u8?IASHttpSessionId=OTT
 
-
+求索,#genre#
+求索纪录HD,http://99.sc1970.xyz:8888/iptv/GDH.php?id=QSJLHD_7000
+求索科学HD,http://99.sc1970.xyz:8888/iptv/GDH.php?id=qiusuokexueHD_7000
+求索动物HD,http://99.sc1970.xyz:8888/iptv/GDH.php?id=QSDWHD_7000
+求索生活HD,http://99.sc1970.xyz:8888/iptv/GDH.php?id=QSSHHD_7000
