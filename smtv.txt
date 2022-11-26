@@ -86,6 +86,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 海南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1
 云南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
+山西卫视,http://60.220.147.22:808/hls/53/index.m3u8
 山西卫视,http://httpdvb.slave.shuliyun.com:13164/playurl?playtype=live&protocol=hls&accesstoken=G8E222BE4V21307D1TBC062A6JF7E607ABM7B61CDEDID068875K98BDB0&programid=4200000166&playtoken=31607WESMAQDIAT10
 山西卫视,http://springrain.top/shuliyun.php?id=166
 山西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225839/index.m3u8?servicetype=1
