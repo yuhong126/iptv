@@ -912,6 +912,14 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 西平综合,http://tvpull.dxhmt.cn:9081/tv/11721-1.m3u8
 
 湖北地方台,#genre#
+湖北综合,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbzh
+湖北经视,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbjs
+湖北新闻,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbgg
+湖北影视,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbys
+湖北教育,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbjy
+湖北生活,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbsh
+湖北垄上,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbls
+
 武汉教育,http://stream.appwuhan.com/jyzb/sd/live.m3u8
 武汉生活,http://stream.appwuhan.com/3tzb/sd/live.m3u8
 武汉经济,http://stream.appwuhan.com/4tzb/sd/live.m3u8
