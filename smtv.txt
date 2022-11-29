@@ -86,8 +86,8 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 海南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1
 云南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
+山西卫视,http://liveflash.sxrtv.com/live/sxwshd.flv
 山西卫视,http://httpdvb.slave.shuliyun.com:13164/playurl?playtype=live&protocol=hls&accesstoken=G8E222BE4V21307D1TBC062A6JF7E607ABM7B61CDEDID068875K98BDB0&programid=4200000166&playtoken=31607WESMAQDIAT10
-山西卫视,http://springrain.top/shuliyun.php?id=166
 山西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225839/index.m3u8?servicetype=1
 陕西卫视,http://[2409:8087:5011:1020::2f]/180000001002/00000001000000000090000000215607/main.m3u8?IASHttpSessionId=OTT
 陕西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1
@@ -130,6 +130,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 
 北京地方台,#genre#
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
+北京体育休闲,http://m.a1.gs/bj/btime.php?id=bjtyxx
 北京体育休闲,http://yfsl.vsd.gehua.net.cn/live/BTVjishiHD_6000.m3u8
 北京财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 北京青年,http://live.cooltv.top/tv/btime.php?id=btvqn
@@ -912,6 +913,15 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 西平综合,http://tvpull.dxhmt.cn:9081/tv/11721-1.m3u8
 
 湖北地方台,#genre#
+
+湖北经视,http://live.cooltv.top/tv/cjy.php?id=hbjs
+湖北综合,http://live.cooltv.top/tv/cjy.php?id=hbzh
+湖北公共,http://live.cooltv.top/tv/cjy.php?id=hbgg
+湖北影视,http://live.cooltv.top/tv/cjy.php?id=hbys
+湖北教育,http://live.cooltv.top/tv/cjy.php?id=hbjy
+湖北生活,http://live.cooltv.top/tv/cjy.php?id=hbsh
+湖北垄上,http://live.cooltv.top/tv/cjy.php?id=hbls
+
 湖北综合,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbzh
 湖北经视,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbjs
 湖北新闻,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbgg
