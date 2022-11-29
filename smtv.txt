@@ -131,7 +131,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 
 北京地方台,#genre#
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
-北京体育休闲,http://m.a1.gs/bj/btime.php?id=bjtyxx
 北京体育休闲,http://yfsl.vsd.gehua.net.cn/live/BTVjishiHD_6000.m3u8
 北京财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 北京青年,http://live.cooltv.top/tv/btime.php?id=btvqn
@@ -483,12 +482,18 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 诸暨新闻,http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 
 安徽地方台,#genre#
-安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
-安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
-安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
+安徽影视,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahys&auth=rinimabi
+安徽经济,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahjj&auth=rinimabi
+安徽综艺,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahzy&auth=rinimabi
 安徽科教,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahkj&auth=rinimabi
 安徽公共,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahgg&auth=rinimabi
 安徽国际,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahgj&auth=rinimabi
+晴彩安徽,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahjc&auth=rinimabi
+
+
+安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
+安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
+安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 
 安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?
 安庆公共,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?
