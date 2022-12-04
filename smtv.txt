@@ -133,7 +133,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 
 北京地方台,#genre#
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
-北京体育休闲,http://yfsl.vsd.gehua.net.cn/live/BTVjishiHD_6000.m3u8
 北京财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 北京青年,http://live.cooltv.top/tv/btime.php?id=btvqn
 北京生活,http://live.cooltv.top/tv/btime.php?id=btvsh
@@ -155,36 +154,19 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 津南,http://play.jinnantv.top/live/JNTV1.m3u8
 
 河北地方台,#genre#
-河北都市,http://116.131.173.194:808/hls/59/index.m3u8
-河北经济,http://116.131.173.194:808/hls/58/index.m3u8
-河北少儿,http://116.131.173.194:808/hls/61/index.m3u8
-河北影视,http://116.131.173.194:808/hls/60/index.m3u8
-河北公共,http://116.131.173.194:808/hls/62/index.m3u8
-河北农民,http://116.131.173.194:808/hls/63/index.m3u8
-晴彩河北,http://116.131.173.194:808/hls/68/index.m3u8
 河北经济,https://event.pull.hebtv.com/jishi/jingjishenghuo.m3u8
 河北都市,https://event.pull.hebtv.com/jishi/dushipindao.m3u8
 河北影视,https://event.pull.hebtv.com/jishi/yingshijupindao.m3u8
 河北少儿,https://event.pull.hebtv.com/jishi/shaoerkejiao.m3u8
 河北公共,https://event.pull.hebtv.com/jishi/gonggongpindao.m3u8
 河北农民,https://event.pull.hebtv.com/jishi/nongminpindao.m3u8
-河北影视,http://60.10.167.88:808/hls/60/index.m3u8
-河北农民,http://60.10.167.88:808/hls/63/index.m3u8
-河北经济,http://60.10.167.88:808/hls/58/index.m3u8
-河北都市,http://60.10.167.88:808/hls/59/index.m3u8
-河北少儿,http://60.10.167.88:808/hls/61/index.m3u8
-河北农民,http://60.10.167.88:808/hls/63/index.m3u8
-河北公共,http://60.10.167.88:808/hls/62/index.m3u8
 石家庄新闻,http://pluslive1.sjzntv.cn/xmzh/playlist.m3u8
 石家庄娱乐,http://pluslive1.sjzntv.cn/yule/playlist.m3u8
 石家庄生活,http://pluslive1.sjzntv.cn/shenghuo/playlist.m3u8
 石家庄都市,http://pluslive1.sjzntv.cn/dushi/playlist.m3u8
 保定生活,http://live.bdgdw.com/channel3/playlist.m3u8
-石家庄娱乐,http://60.10.167.88:808/hls/65/index.m3u8
 石家庄生活,https://epg.pm/stream/eed023bdef75c845d1fe1a259e43e7e5ef094374eeef46b2f663387e17a55388.m3u8#https://epg.pm/stream/863b91ab530d49a7b3919116bef70ff03aca6224fbe2913ecee72b39e37fbf49.m3u8
-石家庄都市,http://60.10.167.88:808/hls/67/index.m3u8
 石家庄都市,https://epg.pm/stream/2315c82ad1fdc042f9a1b15a07b4bba19a9c573f9246797974c318cab7fb2518.m3u8#https://epg.pm/stream/25527e1dc96b6d4f80807ff704e278914caf04033905eaf469289ab804224098.m3u8
-廊坊公共,http://60.10.167.88:808/hls/68/index.m3u8
 邯郸新闻,https://jwliveqxzb.hebyun.com.cn/hdxwzh/hdxwzh.m3u8#http://haiyan.liveyun.hoge.cn/xwpd/sd/live.m3u8
 邯郸公共,https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8#https://m3u8.channel.dzsm.com/cms/videos/nmip-media/channellive/channel1/playlist.m3u8
 邯郸科教,https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
@@ -622,13 +604,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 庐山电视台,http://live02.jxtvcn.com.cn/live-jxtvcn/ganyun_lushan.m3u8
 
 山东地方台,#genre#
-山东少儿,http://222.132.191.125:9901/tsfile/live/1007_1.m3u8
-山东体育,http://222.132.191.125:9901/tsfile/live/1005_1.m3u8
-山东新闻,http://222.132.191.125:9901/tsfile/live/1006_1.m3u8
-山东文旅,http://222.132.191.125:9901/tsfile/live/1002_1.m3u8
-山东综艺,http://222.132.191.125:9901/tsfile/live/1004_1.m3u8
-山东生活,http://222.132.191.125:9901/tsfile/live/1003_1.m3u8
-
 山东齐鲁,http://v2.91kds.cn/b9/sdtv.m3u8?id=sdql&auth=rinimabi
 山东体育,http://v2.91kds.cn/b9/sdtv.m3u8?id=sdty&auth=rinimabi
 山东生活,http://v2.91kds.cn/b9/sdtv.m3u8?id=sdsh&auth=rinimabi
