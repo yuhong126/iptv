@@ -120,6 +120,8 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 凤凰中文,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰资讯,http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
+翡翠台,http://helix.v6.rocks:7002/live/movie.m3u8 
+
 
 澳视澳门,http://61.244.22.5/ch1/ch1.live/index.m3u8
 澳门macau,http://61.244.22.5/ch2/_definst_/ch2.live/chunklist_w61317106.m3u8
@@ -919,15 +921,6 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 西平综合,http://tvpull.dxhmt.cn:9081/tv/11721-1.m3u8
 
 湖北地方台,#genre#
-
-湖北经视,http://live.cooltv.top/tv/cjy.php?id=hbjs
-湖北综合,http://live.cooltv.top/tv/cjy.php?id=hbzh
-湖北公共,http://live.cooltv.top/tv/cjy.php?id=hbgg
-湖北影视,http://live.cooltv.top/tv/cjy.php?id=hbys
-湖北教育,http://live.cooltv.top/tv/cjy.php?id=hbjy
-湖北生活,http://live.cooltv.top/tv/cjy.php?id=hbsh
-湖北垄上,http://live.cooltv.top/tv/cjy.php?id=hbls
-
 湖北综合,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbzh
 湖北经视,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbjs
 湖北新闻,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbgg
@@ -949,8 +942,8 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 洪湖新闻,http://honghu-live21.cjyun.org/10087/s10087-0823-HONGHUTV01.m3u8?auth_key=1672502399-0-0-b944c13c0dc5551ccf445dedb5d2027b
 洪湖生活,http://honghu-live21.cjyun.org/10087/s10087-0823-HONGHUFM01.m3u8?auth_key=1672502399-0-0-69ddd1da2207155680ab702668a87438
 江夏新闻,http://59.175.226.142:280/gb28181/xwzh.m3u8
-江夏经济生活,http://59.175.226.142:280/gb28181/jjsh.m3u8
-仙桃生活文体,http://221.233.242.239:280/live/72/playlist.m3u8
+江夏经济,http://59.175.226.142:280/gb28181/jjsh.m3u8
+仙桃生活,http://221.233.242.239:280/live/72/playlist.m3u8
 郧阳新闻,http://58.19.198.159:2021/hls1.m3u8?zhubd
 
 湖南地方台,#genre#
