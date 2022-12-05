@@ -100,7 +100,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 西藏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227217/index.m3u8?servicetype=1
 新疆卫视,http://livehyw5.chinamcache.com/hyw/zb01.m3u8?txSecret=58347f72aece2c25c685b8dc4da74652&txTime=95A66658
 新疆卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
-康巴卫视,http://liveauth.sctv.com/hdlive/kangba8f9fb5888dedbe0c6a1b/1.m3u8
 康巴卫视,http://v2.91kds.cn/b9/sctv.m3u8?id=kbws&auth=rinimabi
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
@@ -1077,15 +1076,15 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 武隆综合,https://qxlmlive9.cbg.cn/applive/wltvzh/playlist.m3u8
 
 四川地方台,#genre#
-四川经济,http://liveauth.sctv.com/hdlive/sctv28f9fb5888dedbe0c6a1b/1.m3u8
-四川文化,http://liveauth.sctv.com/hdlive/sctv38f9fb5888dedbe0c6a1b/1.m3u8
-四川新闻,http://liveauth.sctv.com/hdlive/sctv48f9fb5888dedbe0c6a1b/1.m3u8
-四川影视,http://liveauth.sctv.com/hdlive/sctv58f9fb5888dedbe0c6a1b/1.m3u8
-四川购物,http://liveauth.sctv.com/hdlive/sctv68f9fb5888dedbe0c6a1b/1.m3u8
-四川妇女儿童,http://liveauth.sctv.com/hdlive/sctv78f9fb5888dedbe0c6a1b/1.m3u8
-四川乡村,http://liveauth.sctv.com/hdlive/sctv98f9fb5888dedbe0c6a1b/1.m3u8
+四川经济,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv2&auth=rinimabi
+四川文化,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv3&auth=rinimabi
+四川新闻,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv4&auth=rinimabi
+四川影视,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv5&auth=rinimabi
+四川购物,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv6&auth=rinimabi
+四川妇女,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv7&auth=rinimabi
+四川乡村,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv9&auth=rinimabi
 四川科教,http://3017ugjo.live2.danghongyun.com/live/hls/4dc0e927160647a2bd585cb5495810be/3c2126c925204cddb74a3534b97e2765-1.m3u8
-康巴卫视,http://liveauth.sctv.com/hdlive/kangba8f9fb5888dedbe0c6a1b/1.m3u8
+康巴卫视,http://v2.91kds.cn/b9/sctv.m3u8?id=kbws&auth=rinimabi
 
 峨眉电影,http://112.19.214.90:8883/tsfile/live/1004_1.m3u8
 成都1,http://stream.guihet.com/t/cdtv.php?id=1
