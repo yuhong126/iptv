@@ -86,7 +86,10 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 海南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1
 云南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
-山西卫视,http://liveflash.sxrtv.com/live/sxwshd.flv
+山西卫视,http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759
+山西卫视,http://055042edb00196e0e67b01fb7dc4fdff.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=c062cf4d4719f2fad44a894192891042
+山西卫视,http://0b4e127539ff8c3fb7398ab07b004ec1.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d42b970a64d118569044ca5e8a86a375
+山西卫视,http://055042edb00196e0e67b01fb7dc4fdff.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?edge_slice=true&sub_m3u8=true&%24%E9%AB%98%E6%B8%85720P&user_session_id=87ee02ea7982c1343e720cea56a58411
 山西卫视,http://httpdvb.slave.shuliyun.com:13164/playurl?playtype=live&protocol=hls&accesstoken=G8E222BE4V21307D1TBC062A6JF7E607ABM7B61CDEDID068875K98BDB0&programid=4200000166&playtoken=31607WESMAQDIAT10
 山西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225839/index.m3u8?servicetype=1
 陕西卫视,http://[2409:8087:5011:1020::2f]/180000001002/00000001000000000090000000215607/main.m3u8?IASHttpSessionId=OTT
@@ -216,11 +219,11 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 
 山西地方台,#genre#
-山西法治,http://liveflash.sxrtv.com/live/sxedu.m3u8
-山西经济,http://liveflash.sxrtv.com/live/sxfinance.m3u8
-山西生活,http://liveflash.sxrtv.com/live/sxpublic.m3u8
-山西影视,http://liveflash.sxrtv.com/live/sxfilm.m3u8
-山西黄河,http://liveflash.sxrtv.com/live/huanghe.m3u8
+山西经济,http://live.cooltv.top/tv/cutv.php?id=sxjj
+山西影视,http://live.cooltv.top/tv/cutv.php?id=sxys
+山西法治,http://live.cooltv.top/tv/cutv.php?id=sxkj
+山西生活,http://live.cooltv.top/tv/cutv.php?id=sxgg
+
 太原文体,http://live.cooltv.top/tv/cutv.php?id=tywt
 太原新闻,http://live.cooltv.top/tv/cutv.php?id=tyxwzh
 长治公共,http://111.53.105.2:8084/7223161a96984d81b711d762d7e7fdd1/h264_300k_ts/index.m3u8?type=hls_live_redirect
