@@ -469,6 +469,21 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 诸暨新闻,http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 
 安徽地方台,#genre#
+安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
+安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
+安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
+安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
+
+安徽经济,http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
+安徽经济http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959.flv
+安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
+安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959.flv
+
+安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
+安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3.flv
+安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
+安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
+
 安徽影视,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahys&auth=rinimabi
 安徽经济,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahjj&auth=rinimabi
 安徽综艺,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahzy&auth=rinimabi
@@ -476,11 +491,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 安徽公共,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahgg&auth=rinimabi
 安徽国际,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahgj&auth=rinimabi
 晴彩安徽,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahjc&auth=rinimabi
-
-
-安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
-安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
-安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 
 安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?
 安庆公共,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?
@@ -490,6 +500,16 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 安庆教育,https://hwapi.yunshicloud.com/0spq8i/l566ho.m3u8
 望江1新闻,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv1.m3u8 
 望江3黄梅戏,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv2.m3u8
+
+肥西新闻综合,http://stream.ahwanyun.cn/live/7210e3a27cc64ac4a3f7aba2e2b683d5/hls.m3u8
+肥西新闻综合,http://stream.ahwanyun.cn/live/7210e3a27cc64ac4a3f7aba2e2b683d5.flv
+肥西新闻综合,http://112.30.194.221:20080/live/7210e3a27cc64ac4a3f7aba2e2b683d5/hls.m3u8
+肥西新闻综合,http://112.30.194.221:20080/live/7210e3a27cc64ac4a3f7aba2e2b683d5.flv
+
+宿松新闻综合,http://stream.ahwanyun.cn/live/a8fd37c471fa46e18ec17b6ce4730eb7/hls.m3u8
+宿松新闻综合,http://stream.ahwanyun.cn/live/a8fd37c471fa46e18ec17b6ce4730eb7.flv
+宿松新闻综合,http://112.30.194.221:20080/live/a8fd37c471fa46e18ec17b6ce4730eb7/hls.m3u8
+宿松新闻综合,http://112.30.194.221:20080/live/a8fd37c471fa46e18ec17b6ce4730eb7.flv
 
 淮北新闻,https://live.hbnews.net/video/xwzh/index.m3u8
 淮北公共,https://live.hbnews.net/video/ggpd/index.m3u8
@@ -984,6 +1004,7 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 
 广东地方台,#genre#
 GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
+GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 广东经济,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs1&auth=rinimabi
 大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
 广东综艺,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs3&auth=rinimabi
@@ -1003,6 +1024,9 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 广州新闻,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzxw&auth=rinimabi
 广州影视,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzys&auth=rinimabi
 广州法治,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzjj&auth=rinimabi
+
+东莞新闻综合,http://lu1.cc/itv/php/itouch.php?id=dgxwzh
+东莞生活资讯,http://lu1.cc/itv/php/itouch.php?id=dgshzx
 
 梅州-2,http://p2.vzan.com/slowlive/645350022315428297/live.m3u8
 韶关新闻,https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
@@ -1422,10 +1446,10 @@ NewTV-1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225893/i
 NewTV-2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225881/index.m3u8?servicetype=1
 
 体育,#genre#
+CCTV5,http://39.135.138.59:18890/PLTV/88888910/224/3221225622/index.m3u8
 CCTV5+,http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
 精品体育,http://39.135.138.60:18890/PLTV/88888910/224/3221225709/index.m3u8
 五星体育,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/ssty/4000000/mnf.m3u8
-超级体育,http://39.135.138.59:18890/PLTV/88888910/224/3221225622/index.m3u8
 
 SiTV,#genre#
 欢笑剧场,http://39.135.55.105:6610/PLTV/88888888/224/3221227145/index.m3u8?servicetype=1
