@@ -498,8 +498,8 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 安庆公共,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqggpd/1.m3u8
 安庆教育,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqhmx-jy/1.m3u8
 安庆教育,https://hwapi.yunshicloud.com/0spq8i/l566ho.m3u8
-望江1新闻,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv1.m3u8 
-望江3黄梅戏,http://pili-live-hls.wangjiang.hfmt.net/wangjiang/tv2.m3u8
+望江1新闻,http://p6.vzan.com/slowlive/895613931456664742/live.m3u8
+望江3黄梅戏,http://p6.vzan.com/slowlive/277167265385951116/live.m3u8
 
 肥西新闻综合,http://stream.ahwanyun.cn/live/7210e3a27cc64ac4a3f7aba2e2b683d5/hls.m3u8
 肥西新闻综合,http://stream.ahwanyun.cn/live/7210e3a27cc64ac4a3f7aba2e2b683d5.flv
@@ -933,6 +933,11 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 武汉生活,http://222.85.26.239/stream.appwuhan.com/3tzb/sd/live.m3u8
 武汉经济,http://222.85.26.239/stream.appwuhan.com/4tzb/sd/live.m3u8
 武汉教育,http://222.85.26.239/stream.appwuhan.com/jyzb/sd/live.m3u8
+
+十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
+十堰公共,http://p8.vzan.com/slowlive/626006478246051465/live.m3u8
+十堰经济,http://p8.vzan.com/slowlive/701367497774448672/live.m3u8
+
 荆州新闻,http://jingzhou-live21.cjyun.org/10085/s10085-jingzhou-tv01.m3u8?auth_key=1672502399-0-0-ab2f43952f7fcf1b2da0c3372ec7e0e5
 荆门教育,http://stream.jmtv.com.cn/ggsh/sd/live.m3u8
 荆门新闻,http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
@@ -1089,6 +1094,9 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 海南少儿,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000323/index.m3u8?IAS
 海南文旅,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000322/index.m3u8?IAS
 海南新闻,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000015/index.m3u8?IAS
+海口新闻,http://p2.weizan.cn/slowlive/151750414868939908/live.m3u8
+海口生活,http://p2.weizan.cn/slowlive/447191683834588011/live.m3u8
+海口经济,http://p2.weizan.cn/slowlive/323716876278111911/live.m3u8
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
 
 重庆地方台,#genre#
