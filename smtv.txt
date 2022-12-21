@@ -326,19 +326,16 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 
 上海地方台,#genre#
 上海纪实,http://39.135.55.105:6610/PLTV/88888888/224/3221225946/index.m3u8?servicetype=1#http://39.135.55.105:6610/PLTV/88888888/224/3221227213/index.m3u8?servicetype=1#http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8
-上海新闻,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/xwzhhd/4000000/mnf.m3u8
-上海都市,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/ylpdhd/4000000/mnf.m3u8
-上海都市,http://119.167.229.31/liveplay-kk.rtxapp.com/live/program/live/ylpdhd/4000000/mnf.m3u8
-上海ICS,http://119.167.229.31/liveplay-kk.rtxapp.com/live/program/live/wypdhd/4000000/mnf.m3u8
-上海东方影视,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/dsjpdhd/4000000/mnf.m3u8
-上海五星体育,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/ssty/4000000/mnf.m3u8
-上海第一财经,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/dycjhd/4000000/mnf.m3u8
+上海新闻,http://112.25.48.13/live/program/live/xwzhhd/4000000/mnf.m3u8
+上海都市,http://112.25.48.13/live/program/live/ylpdhd/4000000/mnf.m3u8
+上海ICS,http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
+上海东方影视,http://112.25.48.13/live/program/live/dsjpdhd/4000000/mnf.m3u8
+上海五星体育,http://112.25.48.13/live/program/live/ssty/4000000/mnf.m3u8
+上海第一财经,http://112.25.48.13/live/program/live/dycjhd/4000000/mnf.m3u8
 
-哈哈炫动,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/hhxdhd/4000000/mnf.m3u8
 哈哈炫动,http://112.25.48.13/live/program/live/hhxdhd/4000000/mnf.m3u8
 哈哈炫动,http://111.40.196.44/0000000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000005000031641
 哈哈炫动,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=10
-哈哈炫动,http://219.151.136.109/keonline.shanghai.liveplay.qq.com/live/program/live/hhxdhd/4000000/mnf.m3u8
 
 江苏地方台,#genre#
 江苏卫视,https://live-hls.jstv.com/livezhuzhan/jsws.m3u8?upt=9525d28f2510710360
@@ -1419,10 +1416,10 @@ CCTV14,http://39.135.55.105:6610/PLTV/88888888/224/3221225819/index.m3u8?service
 福建少儿,http://39.135.55.105:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
 黑莓动画,http://39.135.55.105:6610/PLTV/88888888/224/3221225878/index.m3u8?servicetype=1
 动漫秀场,http://39.135.55.105:6610/PLTV/88888888/224/3221227071/index.m3u8?servicetype=1
-哈哈炫动,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/hhxdhd/4000000/mnf.m3u8
+
 哈哈炫动,http://111.40.196.44/0000000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000005000031641
 哈哈炫动,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=10
-哈哈炫动,http://219.151.136.109/keonline.shanghai.liveplay.qq.com/live/program/live/hhxdhd/4000000/mnf.m3u8
+
 
 BesTV动画1,http://39.135.55.105:6610/PLTV/88888888/224/3221226736/index.m3u8?servicetype=1
 BesTV动画2,http://39.135.55.105:6610/PLTV/88888888/224/3221226741/index.m3u8?servicetype=1
@@ -1457,7 +1454,7 @@ NewTV-2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225881/i
 CCTV5,http://39.135.138.59:18890/PLTV/88888910/224/3221225622/index.m3u8
 CCTV5+,http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
 精品体育,http://39.135.138.60:18890/PLTV/88888910/224/3221225709/index.m3u8
-五星体育,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/ssty/4000000/mnf.m3u8
+五星体育,http://112.25.48.13/live/program/live/ssty/4000000/mnf.m3u8
 
 SiTV,#genre#
 欢笑剧场,http://39.135.55.105:6610/PLTV/88888888/224/3221227145/index.m3u8?servicetype=1
@@ -1474,9 +1471,9 @@ SiTV,#genre#
 游戏风云,http://39.135.55.105:6610/PLTV/88888888/224/3221227075/index.m3u8?servicetype=1
 动漫秀场,http://39.135.55.105:6610/PLTV/88888888/224/3221227071/index.m3u8?servicetype=1
 东方财经,http://39.135.55.105:6610/PLTV/88888888/224/3221227087/index.m3u8?servicetype=1
-七彩戏剧,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/qcxj/1300000/mnf.m3u8
-新视觉,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/xsjhd/4000000/mnf.m3u8
-魅力足球,http://[2409:8c20:9c71:120::34]/keonline.shanghai.liveplay.qq.com/live/program/live/mlyyhd/4000000/mnf.m3u8
+七彩戏剧,http://112.25.48.13/live/program/live/qcxj/1300000/mnf.m3u8
+新视觉,http://112.25.48.13/live/program/live/xsjhd/4000000/mnf.m3u8
+魅力足球,http://112.25.48.13/live/program/live/mlyyhd/4000000/mnf.m3u8
 乐游,http://[2409:8087:4402:20:1:1216:401:38]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226335/index.m3u8
 乐游,http://[2409:8087:4402:20:1:1216:401:3b]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226536/index.m3u8
 乐游,http://[2409:8087:3408:20:5040::106]:18890/PLTV/88888888/224/3221227083/index.m3u8
