@@ -481,9 +481,14 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
 
+安徽科教,http://121.51.249.45/live1.ahtv.cn/kjpd/hd/live.m3u8
+安徽公共,http://121.51.249.45/live1.ahtv.cn/ahgg/hd/live.m3u8
+安徽国际,http://121.51.249.45/live5.ahtv.cn/ahgj1/hd/live.m3u8
+
 安徽影视,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahys&auth=rinimabi
 安徽经济,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahjj&auth=rinimabi
 安徽综艺,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahzy&auth=rinimabi
+
 安徽科教,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahkj&auth=rinimabi
 安徽公共,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahgg&auth=rinimabi
 安徽国际,http://v2.91kds.cn/b9/ahtv1.m3u8?id=ahgj&auth=rinimabi
@@ -1118,6 +1123,7 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 四川科教,http://3017ugjo.live2.danghongyun.com/live/hls/4dc0e927160647a2bd585cb5495810be/3c2126c925204cddb74a3534b97e2765-1.m3u8
 康巴卫视,http://v2.91kds.cn/b9/sctv.m3u8?id=kbws&auth=rinimabi
 
+峨眉电影,http://r.jdshipin.com/XIjta
 峨眉电影,http://112.19.214.90:8883/tsfile/live/1004_1.m3u8
 成都1,http://stream.guihet.com/t/cdtv.php?id=1
 成都2,http://stream.guihet.com/t/cdtv.php?id=2
@@ -1387,6 +1393,9 @@ CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 喜剧电影,http://epg.112114.xyz/douyu/9292492
 历年贺岁大片,http://txtest-xp2p.p2p.huya.com/src/1524418118-1524418118-6547325962239868928-3048959692-10057-A-0-1.xs
 金庸武侠系列,http://txtest-xp2p.p2p.huya.com/src/1394575551-1394575551-5989656383346180096-2789274558-10057-A-0-1.xs
+m1905,http://111.177.34.98/hlslive2.ks-cdn.m1905.com/live/LIVE8J4LTCXPI7QJ5/index.m3u8
+峨眉电影,http://r.jdshipin.com/XIjta
+超高清电影,http://r.jdshipin.com/5DWJk
 
 明星影视,#genre#
 周星驰-粤语,http://txtest-xp2p.p2p.huya.com/src/1250011-1250011-5368756364640256-2777036638-10057-A-0-1.xs
