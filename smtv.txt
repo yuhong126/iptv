@@ -108,6 +108,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 西藏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227217/index.m3u8?servicetype=1
 新疆卫视,http://livehyw5.chinamcache.com/hyw/zb01.m3u8?txSecret=58347f72aece2c25c685b8dc4da74652&txTime=95A66658
 新疆卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
+康巴卫视,http://lu1.cc/itv/sctv/scxl.php?id=kbws
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 兵团卫视,https://test5.btzx.com.cn/live/bt011ws.stream/playlist.m3u8
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
