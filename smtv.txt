@@ -149,9 +149,18 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
 
 天津地方台,#genre#
-天津新闻1,http://117.14.55.102:18080/hls/34/index.m3u8
-天津文艺2,http://117.14.55.102:18080/hls/39/index.m3u8
-天津体育5,http://117.14.55.102:18080/hls/46/index.m3u8
+天津卫视,http://live-bd.wisetv.com.cn/TJIPTV/TJWS.m3u8?secret=&timestamp=
+天津新闻,http://live-bd.wisetv.com.cn/TJIPTV/TJXW.m3u8?secret=&timestamp=
+天津文艺,http://live-bd.wisetv.com.cn/TJIPTV/TJWY.m3u8?secret=&timestamp=
+天津影视,http://live-bd.wisetv.com.cn/TJIPTV/TJYS.m3u8?secret=&timestamp=
+天津都市,http://live-bd.wisetv.com.cn/TJIPTV/TJDS.m3u8?secret=&timestamp=
+天津体育,http://live-bd.wisetv.com.cn/TJIPTV/TJTY.m3u8?secret=&timestamp=
+天津教育,http://live-bd.wisetv.com.cn/TJIPTV/TJKJ.m3u8?secret=&timestamp=
+天津购物,http://live-bd.wisetv.com.cn/TJIPTV/TJSJ.m3u8?secret=&timestamp=
+
+天津新闻,http://117.14.55.102:18080/hls/34/index.m3u8
+天津文艺,http://117.14.55.102:18080/hls/39/index.m3u8
+天津体育,http://117.14.55.102:18080/hls/46/index.m3u8
 滨海新闻,http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8
 滨海综艺,http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8
 滨海影视,http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8
@@ -276,6 +285,16 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 鄂托克旗电视台,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
 辽宁地方台,#genre#
+辽宁体育,http://[2409:8087:1400:26::1012]/PLTV/88888888/224/3221226508/index.m3u8
+辽宁公共,http://[2409:8087:1400:26::1002]/PLTV/88888888/224/3221226528/index.m3u8
+辽宁北方,http://[2409:8087:1400:26::1002]/PLTV/88888888/224/3221226515/index.m3u8
+辽宁影视剧,http://[2409:8087:1400:26::1012]/PLTV/88888888/224/3221226861/index.m3u8
+辽宁教育,http://[2409:8087:1400:26::1012]/PLTV/88888888/224/3221226863/index.m3u8
+辽宁生活,http://[2409:8087:1400:26::1002]/PLTV/88888888/224/3221226489/index.m3u8
+辽宁移动,http://[2409:8087:1400:26::1012]/PLTV/88888888/224/3221226717/index.m3u8
+辽宁经济,http://[2409:8087:1400:26::1012]/PLTV/88888888/224/3221226504/index.m3u8
+辽宁都市,http://[2409:8087:1400:26::1012]/PLTV/88888888/224/3221226524/index.m3u8
+
 辽宁北方,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226755/index.m3u8
 辽宁都市,http://[2409:8087:1414:22::112d]/wh7f454c46tw3571653152_-2066612672/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226760/index.m3u8
 辽宁公共,http://[2409:8087:1414:22::112d]/wh7f454c46tw3498689980_663871177/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226766/index.m3u8
