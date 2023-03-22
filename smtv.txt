@@ -134,19 +134,14 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 明珠台,http://nas.jdshipin.com:8801/gdmz.php
 
 北京地方台,#genre#
-北京科教,http://downlive.brtvcloud.com/1505kj/kjzhongguodiyi.m3u8
-北京影视,http://downlive.brtvcloud.com/y1503s/yszuishi.m3u8
-北京文艺,http://downlive.brtvcloud.com/15wy04/wyyebuzadi.m3u8
-北京财经,http://downlive.brtvcloud.com/cj1506/cjbeijingdiwu.m3u8
-北京生活,http://downlive.brtvcloud.com/1508sh/shenghuoyituanma.m3u8
-卡酷少儿,http://downlive.brtvcloud.com/kk1502/kkbeijingdier.m3u8
-北京新闻,http://downlive.brtvcloud.com/xw1507/xwzhibojian.m3u8
 北京科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
 北京财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 北京生活,http://live.cooltv.top/tv/btime.php?id=btvsh
 北京文艺,http://live.cooltv.top/tv/btime.php?id=btvwy
 北京新闻,http://live.cooltv.top/tv/btime.php?id=btvxw
+北京影视,http://live.cooltv.top/tv/btime.php?id=btvys
 卡酷少儿,http://[2409:8087:5011:1020::2b]/180000001002/00000001000000000090000000215608/main.m3u8?IASHttpSessionId=OTT
+
 房山电视台,https://live.funhillrm.com/2/playlist.m3u8
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
 
@@ -545,7 +540,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
 
-安庆公共,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqggpd/1.m3u8
+安庆生活,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqggpd/1.m3u8
 安庆教育,http://tvindexlive01.ah.ysten.com:8080/ysten-business/live/SD12-576P-aqhmx-jy/1.m3u8
 望江1新闻,http://p6.vzan.com/slowlive/895613931456664742/live.m3u8
 望江3黄梅戏,http://p6.vzan.com/slowlive/277167265385951116/live.m3u8
