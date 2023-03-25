@@ -877,7 +877,6 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
 GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 广东综艺,http://iptva.cn/api/M3u8/Index?id=994&card=99982475359
-广东新闻,http://iptva.cn/api/M3u8/Index?id=995&card=99982475359
 广东珠江,http://iptva.cn/api/M3u8/Index?id=998&card=99982475359
 广东体育,http://iptva.cn/api/M3u8/Index?id=999&card=99982475359
 
