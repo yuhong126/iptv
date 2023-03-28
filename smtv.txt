@@ -342,6 +342,15 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 伊春综合,http://live.yichuntv.com/e5d7b4b95cf849d79fa3964431dca1f3/h264_800k_ts/index.m3u8?type=flv2hls_m3u8
 
 上海地方台,#genre#
+上海第一财经,https://live.v1.mk/api/bestv.php?id=dycjhd8m/8000000
+上视新闻,https://live.v1.mk/api/bestv.php?id=xwzhhd8m/8000000
+上海都市,https://live.v1.mk/api/bestv.php?id=dshd8m/8000000
+上海纪实,https://live.v1.mk/api/bestv.php?id=jspdhd/4000000
+东方影视,https://live.v1.mk/api/bestv.php?id=dfyshd8m/8000000
+五星体育,https://live.v1.mk/api/bestv.php?id=wxtyhd8m/8000000
+上视外语,https://live.v1.mk/api/bestv.php?id=icshd8m/8000000
+七彩戏剧,https://live.v1.mk/api/bestv.php?id=qcxjhd8m/8000000
+上海教育,https://live.v1.mk/api/bestv.php?id=setvhd/8000000
 哈哈炫动,http://111.40.196.44/0000000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000005000031641
 哈哈炫动,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=10
 
