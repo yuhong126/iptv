@@ -234,6 +234,7 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 山西影视,http://live.cooltv.top/tv/cutv.php?id=sxys
 山西法治,http://live.cooltv.top/tv/cutv.php?id=sxkj
 山西生活,http://live.cooltv.top/tv/cutv.php?id=sxgg
+山西黄河,http://live.cooltv.top/tv/cutv.php?id=sxhh
 
 太原文体,http://live.cooltv.top/tv/cutv.php?id=tywt
 太原新闻,http://live.cooltv.top/tv/cutv.php?id=tyxwzh
