@@ -103,6 +103,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225841/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1
 青海卫视,http://[2409:8087:5011:1020::2f]/180000001002/00000001000000000090000000215609/main.m3u8?IASHttpSessionId=OTT
+内蒙古卫视,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225676/index.m3u8?fmt=ts2hls
 内蒙古卫视,http://v2.91kds.cn/b9/hoge.m3u8?ip=nmtv&id=92&auth=rinimabi
 内蒙古卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225846/index.m3u8?servicetype=1
 西藏卫视,https://tv.vtibet.cn:443/live/EfgSmE4jCTBtvchannel3.m3u8
@@ -268,6 +269,13 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 阳泉科教,https://live.yqrtv.com/xwchne/sd/live.m3u8
 
 内蒙古地方台,#genre#
+内蒙古卫视,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225676/index.m3u8?fmt=ts2hls
+内蒙古农牧,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225878/index.m3u8?fmt=ts2hls
+内蒙古少儿,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225874/index.m3u8?fmt=ts2hls
+内蒙古文体,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225877/index.m3u8?fmt=ts2hls
+内蒙古新闻,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225875/index.m3u8?fmt=ts2hls
+内蒙古经济,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225879/index.m3u8?fmt=ts2hls
+内蒙古文化,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225876/index.m3u8?fmt=ts2hls
 内蒙古卫视,http://v2.91kds.cn/b9/hoge.m3u8?ip=nmtv&id=92&auth=rinimabi
 内蒙古蒙语,http://v2.91kds.cn/b9/hoge.m3u8?ip=nmtv&id=164&auth=rinimabi
 内蒙古新闻,http://v2.91kds.cn/b9/hoge.m3u8?ip=nmtv&id=162&auth=rinimabi
