@@ -1081,11 +1081,20 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 黔西南综合,http://live2.qxndt.com/zhpd/sd/live.m3u8
 
 云南地方台,#genre#
-云南影视,http://hwapi.yunshicloud.com/62hdvf/utrat7.m3u8
+
+云南都市,https://hwapi.yunshicloud.com/62hdvf/rjwt14.m3u8
 云南都市,http://tvlive.ynradio.com/live/yunnandushi/chunks.m3u8
-云南娱乐,http://tvlive.ynradio.com/live/yunnanyule/playlist.m3u8
-云南康旅,http://tvlive.ynradio.com/live/yunnangonggong/playlist.m3u8
-云南少儿,http://tvlive.ynradio.com/live/yunnanshaoer/playlist.m3u8
+
+云南康旅,http://hwapi.yunshicloud.com/62hdvf/227q43.m3u8
+云南康旅,http://tvlive.ynradio.com/live/yunnangonggong/chunks.m3u8
+
+云南娱乐,http://hwapi.yunshicloud.com/62hdvf/iq8639.m3u8
+云南娱乐,http://tvlive.ynradio.com/live/yunnanyule/chunks.m3u8
+
+云南影视,http://hwapi.yunshicloud.com/62hdvf/utrat7.m3u8
+
+云南少儿,http://hwapi.yunshicloud.com/62hdvf/9ojsty.m3u8
+云南少儿,http://tvlive.ynradio.com/live/yunnanshaoer/chunks.m3u8
 云南国际,http://tvlive.ynradio.com/live/yunnanguoji/playlist.m3u8
 
 文山综合台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
