@@ -1004,7 +1004,7 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 四川妇女儿童,http://lu1.cc/itv/sctv/scxl.php?id=scfnet
 四川乡村,http://lu1.cc/itv/sctv/scxl.php?id=scxc
 
-峨眉电影,http://r.jdshipin.com/XIjta
+峨嵋电影,http://r.jdshipin.com/XIjta
 
 成都新闻综合,http://159.75.85.63:5681/sxg.php?id=CDTV-1_4000
 成都经济资讯,http://159.75.85.63:5681/sxg.php?id=CDTV-2_4000
@@ -1243,9 +1243,10 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 黑莓电影,http://39.135.55.105:6610/PLTV/88888888/224/3221225891/index.m3u8?servicetype=1
 喜剧电影,http://epg.112114.xyz/douyu/9292492
-峨眉电影,http://r.jdshipin.com/XIjta
+峨嵋电影,http://r.jdshipin.com/XIjta
+超高清电影,http://159.75.85.63:5681/sxg.php
 超高清电影,http://r.jdshipin.com/5DWJk
-4K超高清电影,http://159.75.85.63:5681/sxg.php
+
 
 少儿卡通,#genre#
 嘉佳卡通,http://v2.91kds.cn/b9/itouchtv.m3u8?id=gdjjkt&auth=rinimabi
