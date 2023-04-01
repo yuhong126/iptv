@@ -616,6 +616,8 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 厦门三套,http://39.135.55.105:6610/PLTV/88888888/224/3221226760/index.m3u8?servicetype=1
 泉州新闻,http://live.qztv.cn/live/news.m3u8
 泉州闽南语,http://live.qztv.cn/live/mny.m3u8
+泉州新闻,http://live.qztv.cn/live/news.flv
+泉州闽南语,http://live.qztv.cn/live/mny.flv
 泉州新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227165/index.m3u8?servicetype=1  
 建宁综合,https://p2.weizan.cn/2144741973/075444991326676404/live.m3u8
 龙岩综合,http://39.135.55.105:6610/PLTV/88888888/224/3221227200/index.m3u8?servicetype=1
