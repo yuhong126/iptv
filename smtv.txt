@@ -116,6 +116,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 三沙卫视,http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
+大湾区卫视,http://live.cooltv.top/tv/good.php?id=1456
 大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
 大湾区卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227214/index.m3u8?servicetype=1
 延边卫视,http://live.ybtvyun.com/video/s10016-6297f9f7a2d5/index.m3u8
@@ -616,8 +617,6 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 厦门三套,http://39.135.55.105:6610/PLTV/88888888/224/3221226760/index.m3u8?servicetype=1
 泉州新闻,http://live.qztv.cn/live/news.m3u8
 泉州闽南语,http://live.qztv.cn/live/mny.m3u8
-泉州新闻,http://live.qztv.cn/live/news.flv
-泉州闽南语,http://live.qztv.cn/live/mny.flv
 泉州新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227165/index.m3u8?servicetype=1  
 建宁综合,https://p2.weizan.cn/2144741973/075444991326676404/live.m3u8
 龙岩综合,http://39.135.55.105:6610/PLTV/88888888/224/3221227200/index.m3u8?servicetype=1
@@ -882,6 +881,17 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
 GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
+广东综艺,http://live.cooltv.top/tv/good.php?id=GDZYHD4K_38000
+广东珠江,http://live.cooltv.top/tv/good.php?id=gdzhujiangHD_7500
+广东体育,http://live.cooltv.top/tv/good.php?id=1413
+广东新闻,http://live.cooltv.top/tv/good.php?id=1454
+广东民生,http://live.cooltv.top/tv/good.php?id=1455
+广东经济,http://live.cooltv.top/tv/good.php?id=GDjingjikejiaoHD_7000
+大湾区卫视,http://live.cooltv.top/tv/good.php?id=1456
+广东影视,http://live.cooltv.top/tv/good.php?id=1458
+嘉佳卡通,http://live.cooltv.top/tv/good.php?id=1459
+广东少儿,http://live.cooltv.top/tv/good.php?id=1457
+岭南戏曲,http://live.cooltv.top/tv/good.php?id=1460
 
 广东经济,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs1&auth=rinimabi
 大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
@@ -896,6 +906,8 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 广东公共,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdgg&auth=rinimabi
 嘉佳卡通,http://v2.91kds.cn/b9/itouchtv.m3u8?id=gdjjkt&auth=rinimabi
 广东点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
+
+
 
 广州综合,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzzh&auth=rinimabi
 广州新闻,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzxw&auth=rinimabi
