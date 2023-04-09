@@ -538,20 +538,17 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 安徽农业科教,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahnykj
 安徽综艺,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahzyty
 安徽国际,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahgj
-安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
+
 安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
-安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
 
-安徽经济,http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
 安徽经济,http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959.flv
-安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
 安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959.flv
 
-安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3.flv
-安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
+
+安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?auth_key=4832358963-0-0-fcaceb92c3f9bb8c98d535768941909e&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
 望江1新闻,http://p6.vzan.com/slowlive/895613931456664742/live.m3u8
 望江3黄梅戏,http://p6.vzan.com/slowlive/277167265385951116/live.m3u8
@@ -881,7 +878,7 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b2730980c8860963374597c20ad3935
 GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
-广东综艺,http://live.cooltv.top/tv/good.php?id=GDZYHD4K_38000
+
 广东珠江,http://live.cooltv.top/tv/good.php?id=gdzhujiangHD_7500
 广东体育,http://live.cooltv.top/tv/good.php?id=1413
 广东新闻,http://live.cooltv.top/tv/good.php?id=1454
