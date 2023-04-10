@@ -450,6 +450,8 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 南京十八,http://live.nbs.cn/channels/njtv/sbpd/m3u8:500k/live.m3u8
 南京新闻,http://live.nbs.cn/channels/njtv/xwzh/m3u8:500k/live.m3u8
 南京信息,http://live.nbs.cn/channels/njtv/xxpd/m3u8:500k/live.m3u8
+
+
 南通生活,http://cm.wshls.homecdn.com/live/7cc7.m3u8
 南通社教,http://cm.wshls.homecdn.com/live/7cc5.m3u8
 南通崇川TV ,http://cm.wshls.homecdn.com/live/7cc1.m3u8
@@ -591,6 +593,9 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 淮南公共,http://stream.0554news.com/hnds2/sd/live.m3u8
 固镇综合,http://www.guzhenm.com:7001/hls/hd-live.m3u8#http://www.guzhenm.com:7002/hls/hd-live.m3u8
 南陵新闻,http://live2018.wuhunews.cn/video/s10010-nlnews/index.m3u8
+宿州新闻,http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+宿州公共,http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
+宿州科教,http://live.ahsz.tv/video/s10001-kxjy/index.m3u8
 
 
 福建地方台,#genre#
@@ -625,7 +630,7 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 莆田新闻,http://39.135.55.7:6610/PLTV/88888888/224/3221227161/index.m3u8?servicetype=1
 仙游,http://39.135.55.105:6610/PLTV/88888888/224/3221227161/index.m3u8?servicetype=1
 平潭综合,http://39.135.55.105:6610/PLTV/88888888/224/3221227218/index.m3u8?servicetype=1
-新罗电视一套,http://stream.lyxltv.com/xltv/sd/live.m3u8
+新罗电视,http://stream.lyxltv.com/xltv/sd/live.m3u8
 武夷山综合,http://fjwysdb.chinashadt.com:2036/live/1.stream/playlist.m3u8
 武夷山文旅,http://fjwysdb.chinashadt.com:2036/live/3.stream/playlist.m3u8
 南平1套,http://39.135.55.105:6610/PLTV/88888888/224/3221227066/index.m3u8?servicetype=1
@@ -965,6 +970,14 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
 重庆地方台,#genre#
 重庆新闻,https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_3.stream/chunklist.m3u8
+重庆新闻高清,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVNewsHD/__op/default/__f/index.m3u8
+重庆科教高清,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVkejiaoHD/__op/default/__f/index.m3u8
+重庆影视高清,http://113.207.84.197:8090/__cl/cg:live/__c/cqyingshiHD/__op/default/__f/index.m3u8
+重庆文体娱乐高清,http://113.207.84.197:8090/__cl/cg:live/__c/cqwtylHD/__op/default/__f/index.m3u8
+重庆少儿高清,http://113.207.84.197:8090/__cl/cg:live/__c/cqseHD/__op/default/__f/index.m3u8
+重庆时尚生活高清,http://113.207.84.197:8090/__cl/cg:live/__c/cqssgwHD/__op/default/__f/index.m3u8
+重庆新农村高清,http://113.207.84.197:8090/__cl/cg:live/__c/cqggncHD/__op/default/__f/index.m3u8
+
 北碚综合,http://222.178.181.121:12034/beibei01.m3u8
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 大足综合,http://218.201.85.71:3170/m3u8
