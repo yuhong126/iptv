@@ -133,6 +133,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
 翡翠台,http://live.cooltv.top/tv/good.php?id=1350_4500
 明珠台,http://live.cooltv.top/tv/good.php?id=1351_4500
+澳门莲花,http://107.151.203.111:2209/135/hk.php?id=amlh
 
 
 
