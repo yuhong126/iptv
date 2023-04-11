@@ -131,12 +131,8 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 凤凰资讯,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221226274/2/index.m3u8
 凤凰中文,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221226248/2/index.m3u8
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
-明珠台,http://r.jdshipin.com/ZQ4kN
-VIUTV,http://r.jdshipin.com/vSJvl
-翡翠台,http://r.jdshipin.com/62WM7
-翡翠台,http://r.jdshipin.com/qClQf
-翡翠台,http://r.jdshipin.com/qrfbg
-翡翠台,http://r.jdshipin.com/qrfbg
+翡翠台,http://live.cooltv.top/tv/good.php?id=1350_4500
+明珠台,http://live.cooltv.top/tv/good.php?id=1351_4500
 
 
 
@@ -909,7 +905,8 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 嘉佳卡通,http://v2.91kds.cn/b9/itouchtv.m3u8?id=gdjjkt&auth=rinimabi
 广东点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
 
-
+广州综合,http://live.cooltv.top/tv/good.php?id=gzhounewsHD
+广州新闻,http://live.cooltv.top/tv/good.php?id=gzhouzongheHD
 
 广州综合,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzzh&auth=rinimabi
 广州新闻,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzxw&auth=rinimabi
@@ -1264,11 +1261,14 @@ CCTV14,http://39.135.55.105:6610/PLTV/88888888/224/3221225819/index.m3u8?service
 哈哈炫动,http://111.40.196.44/0000000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000005000031641
 哈哈炫动,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=bestzb&Contentid=5000000005000031641&livemode=1&stbId=10
 
+BesTV动漫1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226741/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+BesTV动漫2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226743/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+BesTV动漫3,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226736/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+BesTV动漫4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226732/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+BesTV动漫5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227071/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+BesTV动漫6,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225716/2/index.m3u8
 
-BesTV动画1,http://39.135.55.105:6610/PLTV/88888888/224/3221226736/index.m3u8?servicetype=1
-BesTV动画2,http://39.135.55.105:6610/PLTV/88888888/224/3221226741/index.m3u8?servicetype=1
-BesTV动画3,http://39.135.55.105:6610/PLTV/88888888/224/3221226743/index.m3u8?servicetype=1
-BesTV动画4,http://39.135.55.105:6610/PLTV/88888888/224/3221226732/index.m3u8?servicetype=1
+
 
 NewTV,#genre#
 中国功夫,http://39.135.55.105:6610/PLTV/88888888/224/3221225896/index.m3u8?servicetype=1
@@ -1292,8 +1292,18 @@ NewTV,#genre#
 爱情喜剧,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225877/index.m3u8?servicetype=1
 黑莓电影,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225891/index.m3u8?servicetype=1
 超级体育,http://39.135.55.105:6610/PLTV/88888888/224/3221226895/index.m3u8?servicetype=1
-NewTV-1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225893/index.m3u8?servicetype=1
-NewTV-2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225881/index.m3u8?servicetype=1
+超级综艺,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225620/2/index.m3u8
+超级体育,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.m3u8
+超级电影,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225623/2/index.m3u8
+超级电视剧,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225625/2/index.m3u8
+
+电视剧1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226692/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+电视剧2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226712/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+电视剧3,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225881/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+电视剧4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226708/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+电视剧5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226887/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+电视剧6,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226754/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+电视剧7,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225893/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 SiTV,#genre#
 欢笑剧场,http://39.135.55.105:6610/PLTV/88888888/224/3221227145/index.m3u8?servicetype=1
@@ -1315,7 +1325,6 @@ SiTV,#genre#
 乐游,http://[2409:8087:3408:20:5040::106]:18890/PLTV/88888888/224/3221227083/index.m3u8
 乐游,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002157/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
-
 动漫秀场,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001196/1.m3u8
 都市剧场,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001203/1.m3u8
 法治天地,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001195/1.m3u8
@@ -1325,6 +1334,77 @@ SiTV,#genre#
 七彩戏剧,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001308/1.m3u8
 生活时尚,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001199/1.m3u8
 游戏风云,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001052/1.m3u8
+
+电影电视剧,#genre#
+周星驰,http://jiandjh.51vip.biz:35455/huya/11342412
+林正英,http://jiandjh.51vip.biz:35455/huya/11342421
+港台电影,http://jiandjh.51vip.biz:35455/huya/880261
+欧美娱乐,http://jiandjh.51vip.biz:35455/huya/21059574
+沈腾,http://jiandjh.51vip.biz:35455/huya/11601968
+新三国,http://jiandjh.51vip.biz:35455/huya/11352944
+徐克,http://jiandjh.51vip.biz:35455/huya/11352909
+极限挑战],http://jiandjh.51vip.biz:35455/huya/11352914
+庆余年,http://jiandjh.51vip.biz:35455/huya/11352960
+陈翔六点半,http://jiandjh.51vip.biz:35455/huya/11274154
+成龙,http://jiandjh.51vip.biz:35455/huya/11342386
+电影,http://jiandjh.51vip.biz:35455/huya/618917
+路飞,http://jiandjh.51vip.biz:35455/huya/16913382
+刘德华,http://jiandjh.51vip.biz:35455/huya/11342424
+止戈电影,http://jiandjh.51vip.biz:35455/huya/19863777
+李连杰,http://jiandjh.51vip.biz:35455/huya/11342390
+欧美电影,http://jiandjh.51vip.biz:35455/huya/11352880
+科幻电影,http://jiandjh.51vip.biz:35455/huya/11602034
+杰森·斯坦森,http://jiandjh.51vip.biz:35455/huya/21059588
+红海行动,http://jiandjh.51vip.biz:35455/huya/11601986
+生活大爆炸,http://jiandjh.51vip.biz:35455/huya/11342417
+麻雀,http://jiandjh.51vip.biz:35455/huya/11352881
+周润发,http://jiandjh.51vip.biz:35455/huya/11342387
+经典高智商,http://jiandjh.51vip.biz:35455/huya/11352962
+倩女幽魂,http://jiandjh.51vip.biz:35455/huya/11601970
+朱雀青龙,http://jiandjh.51vip.biz:35455/huya/11352905
+小鲤鱼,http://jiandjh.51vip.biz:35455/huya/11601961
+警匪,http://jiandjh.51vip.biz:35455/huya/11352886
+百鸟朝凤,http://jiandjh.51vip.biz:35455/huya/15894162
+黑帮斗争,http://jiandjh.51vip.biz:35455/huya/11342419
+悬疑推理,http://jiandjh.51vip.biz:35455/huya/17445539
+好莱坞,http://jiandjh.51vip.biz:35455/huya/21059587
+医馆笑传,http://jiandjh.51vip.biz:35455/huya/11352891
+经典好片,http://jiandjh.51vip.biz:35455/huya/11342427
+史诗级战争电影,http://jiandjh.51vip.biz:35455/huya/21059556
+中国功夫,http://jiandjh.51vip.biz:35455/huya/11352941
+精彩不断,http://jiandjh.51vip.biz:35455/huya/24396428
+高分电影,http://jiandjh.51vip.biz:35455/huya/16615910
+经典喜剧片,http://jiandjh.51vip.biz:35455/huya/11352894
+徐峥,http://jiandjh.51vip.biz:35455/huya/11602043
+异形世界,http://jiandjh.51vip.biz:35455/huya/21059577
+神话,http://jiandjh.51vip.biz:35455/huya/11352913
+电锯惊魂系列,http://jiandjh.51vip.biz:35455/huya/11352903
+捉妖记,http://jiandjh.51vip.biz:35455/huya/11342414
+欧美电影,http://jiandjh.51vip.biz:35455/huya/21059581
+天雷滚滚,http://jiandjh.51vip.biz:35455/huya/11352945
+喜剧专场,http://jiandjh.51vip.biz:35455/huya/11602044
+金庸的武侠世界,http://jiandjh.51vip.biz:35455/huya/11342435
+杨门女将,http://jiandjh.51vip.biz:35455/huya/11336590
+天龙八部,http://jiandjh.51vip.biz:35455/huya/11602041
+魔法世界,http://jiandjh.51vip.biz:35455/huya/21059580
+文成公主,http://jiandjh.51vip.biz:35455/huya/11352974
+许氏三杰,http://jiandjh.51vip.biz:35455/huya/11602033
+精忠岳飞南征北战,http://jiandjh.51vip.biz:35455/huya/11336578
+张卫健,http://jiandjh.51vip.biz:35455/huya/11342423
+搞笑僵尸片,http://jiandjh.51vip.biz:35455/huya/11352963
+国产青春,http://jiandjh.51vip.biz:35455/huya/11602075
+孙悟空,http://jiandjh.51vip.biz:35455/huya/11342395
+太空混战,http://jiandjh.51vip.biz:35455/huya/21059579
+三国鼎立,http://jiandjh.51vip.biz:35455/huya/11602077
+歪果仁动作,http://jiandjh.51vip.biz:35455/huya/21059552
+冯小刚合集,http://jiandjh.51vip.biz:35455/huya/11352906
+命案十三宗,http://jiandjh.51vip.biz:35455/huya/11601981
+黄渤,http://jiandjh.51vip.biz:35455/huya/11352876
+喜剧合家欢,http://jiandjh.51vip.biz:35455/huya/11352877
+甄嬛传,http://jiandjh.51vip.biz:35455/huya/11601971
+我是大哥大,http://jiandjh.51vip.biz:35455/huya/23652317
+看救援电影,http://jiandjh.51vip.biz:35455/huya/21059586
+金庸电影,http://jiandjh.51vip.biz:35455/huya/11352897
 
 芒果IPTV,#genre#
 IPTV高清院线,http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000009/main.m3u8?IASHttpSessionId=OTT
