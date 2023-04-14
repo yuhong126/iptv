@@ -628,6 +628,7 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 泉州2,http://222.187.232.51:13277/fujian/gd.php?id=37
 泉州3,http://222.187.232.51:13277/fujian/gd.php?id=38
 泉州4,http://222.187.232.51:13277/fujian/gd.php?id=39
+泉州4,http://live.qztv.cn/live/mny.m3u8?auth_key=1681451344-0-0-ec94206f19a47a75ae2d7c79a33c3d4e
 
 泉州1,http://39.135.55.105:6610/PLTV/88888888/224/3221227165/index.m3u8?servicetype=1  
 
