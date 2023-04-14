@@ -105,7 +105,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225841/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-青海卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1
+青海卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225841/index.m3u8?servicetype=1 
 青海卫视,http://[2409:8087:5011:1020::2f]/180000001002/00000001000000000090000000215609/main.m3u8?IASHttpSessionId=OTT
 内蒙古卫视,http://[2409:8087:1006:301:2026::1a]:80/wh7f454c46tw4043708069_-1128600244/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225676/index.m3u8?fmt=ts2hls
 内蒙古卫视,http://v2.91kds.cn/b9/hoge.m3u8?ip=nmtv&id=92&auth=rinimabi
@@ -552,6 +552,9 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 
 安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?auth_key=4832358963-0-0-fcaceb92c3f9bb8c98d535768941909e&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
+
+安庆经济,https://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?auth_key=1681542921-0-0-14a3ef9d9f5d8e7ba5cb6ae48f0e41bc&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
+
 望江1新闻,http://p6.vzan.com/slowlive/895613931456664742/live.m3u8
 望江3黄梅戏,http://p6.vzan.com/slowlive/277167265385951116/live.m3u8
 铜陵新闻,http://p6.vzan.com/slowlive/741039930949520106/live.m3u8
@@ -608,6 +611,7 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 福建经济,http://39.135.55.105:6610/PLTV/88888888/224/3221227184/index.m3u8?servicetype=1
 福建少儿,http://39.135.55.105:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
 福建文体,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227188/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+福建教育,http://39.135.55.105:6610/PLTV/88888888/224/3221226981/index.m3u8?servicetype=1 
 福州新闻,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州新闻,http://39.135.55.105:6610/PLTV/88888888/224/3221227157/index.m3u8?servicetype=1
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
@@ -660,6 +664,8 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 将乐二套,http://218.106.152.196/lsdream/1MKmR5B/2000/live.m3u8
 永安综合,http://218.106.152.196/lsdream/x6FnPrm/2000/live.m3u8
 霞浦公共,http://218.106.152.196/lsdream/f2Hfjtd/5000/live.m3u8
+
+集美综合,https://52008.hlsplay.aodianyun.com/tv_radio_52008/tv_channel_3102.m3u8?auth_key=1681543231-0-0-b2489444a8a0bab8999f150f16c05898&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
 江西地方台,#genre#
 江西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225834/index.m3u8?servicetype=1
