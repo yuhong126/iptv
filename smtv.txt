@@ -158,9 +158,6 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
 
 天津地方台,#genre#
-天津新闻,http://117.14.55.102:18080/hls/34/index.m3u8
-天津文艺,http://117.14.55.102:18080/hls/39/index.m3u8
-天津体育,http://117.14.55.102:18080/hls/46/index.m3u8
 滨海新闻,http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8
 滨海综艺,http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8
 滨海影视,http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8
@@ -552,9 +549,6 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 
 安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?auth_key=4832358963-0-0-fcaceb92c3f9bb8c98d535768941909e&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
-
-安庆经济,https://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?auth_key=1681542921-0-0-14a3ef9d9f5d8e7ba5cb6ae48f0e41bc&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
-
 望江1新闻,http://p6.vzan.com/slowlive/895613931456664742/live.m3u8
 望江3黄梅戏,http://p6.vzan.com/slowlive/277167265385951116/live.m3u8
 铜陵新闻,http://p6.vzan.com/slowlive/741039930949520106/live.m3u8
@@ -664,8 +658,6 @@ BTV新闻,http://iptva.cn/api/M3u8/Index?id=972&card=99982475359
 将乐二套,http://218.106.152.196/lsdream/1MKmR5B/2000/live.m3u8
 永安综合,http://218.106.152.196/lsdream/x6FnPrm/2000/live.m3u8
 霞浦公共,http://218.106.152.196/lsdream/f2Hfjtd/5000/live.m3u8
-
-集美综合,https://52008.hlsplay.aodianyun.com/tv_radio_52008/tv_channel_3102.m3u8?auth_key=1681543231-0-0-b2489444a8a0bab8999f150f16c05898&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
 江西地方台,#genre#
 江西卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225834/index.m3u8?servicetype=1
@@ -839,12 +831,6 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 偃师新闻,http://wshls.live.migucloud.com/live/K7AFC7J6_C0/playlist.m3u8
 
 湖北地方台,#genre#
-湖北经视,http://iptva.cn/api/M3u8/Index?id=1072&card=99982475359
-湖北综合,http://iptva.cn/api/M3u8/Index?id=1073&card=99982475359
-湖北公共,http://iptva.cn/api/M3u8/Index?id=1074&card=99982475359
-湖北生活,http://iptva.cn/api/M3u8/Index?id=1075&card=99982475359
-湖北教育,http://iptva.cn/api/M3u8/Index?id=1076&card=99982475359
-湖北垄上,http://iptva.cn/api/M3u8/Index?id=1077&card=99982475359
 湖北综合,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbzh
 湖北经视,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbjs
 湖北新闻,http://lu1.cc/itv/hubtv/cjyhb.php?id=hbgg
@@ -998,13 +984,7 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
 重庆地方台,#genre#
 重庆新闻,https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_3.stream/chunklist.m3u8
-重庆新闻,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVNewsHD/__op/default/__f/index.m3u8
-重庆科教,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVkejiaoHD/__op/default/__f/index.m3u8
-重庆影视,http://113.207.84.197:8090/__cl/cg:live/__c/cqyingshiHD/__op/default/__f/index.m3u8
-重庆文体娱乐,http://113.207.84.197:8090/__cl/cg:live/__c/cqwtylHD/__op/default/__f/index.m3u8
-重庆少儿,http://113.207.84.197:8090/__cl/cg:live/__c/cqseHD/__op/default/__f/index.m3u8
-重庆时尚生活,http://113.207.84.197:8090/__cl/cg:live/__c/cqssgwHD/__op/default/__f/index.m3u8
-重庆新农村,http://113.207.84.197:8090/__cl/cg:live/__c/cqggncHD/__op/default/__f/index.m3u8
+
 
 北碚综合,http://222.178.181.121:12034/beibei01.m3u8
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
@@ -1126,12 +1106,6 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 
 
 陕西地方台,#genre#
-陕西电影,http://61.164.158.161:80/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226332/index.m3u8
-陕西新闻,http://61.164.158.161:80/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225500/index.m3u8
-陕西体育,http://61.164.158.161:80/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226093/index.m3u8
-陕西影视,http://61.164.158.161:80/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226329/index.m3u8
-陕西都市,http://61.164.158.161:80/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225830/index.m3u8
-
 陕西公共,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226361/index.m3u8
 陕西都市,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226358/index.m3u8
 陕西生活,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226359/index.m3u8
@@ -1280,8 +1254,6 @@ BesTV动漫3,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226
 BesTV动漫4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226732/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 BesTV动漫5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227071/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 BesTV动漫6,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225716/2/index.m3u8
-
-
 
 NewTV,#genre#
 中国功夫,http://39.135.55.105:6610/PLTV/88888888/224/3221225896/index.m3u8?servicetype=1
