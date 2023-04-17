@@ -120,7 +120,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 三沙卫视,http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
-大湾区卫视,http://live.cooltv.top/tv/good.php?id=1456
 大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
 大湾区卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227214/index.m3u8?servicetype=1
 延边卫视,http://live.ybtvyun.com/video/s10016-6297f9f7a2d5/index.m3u8
@@ -135,8 +134,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 凤凰资讯,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221226274/2/index.m3u8
 凤凰中文,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221226248/2/index.m3u8
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
-翡翠台,http://live.cooltv.top/tv/good.php?id=1350_4500
-明珠台,http://live.cooltv.top/tv/good.php?id=1351_4500
 澳门莲花,http://107.151.203.111:2209/135/hk.php?id=amlh
 
 北京地方台,#genre#
@@ -926,16 +923,7 @@ GRTN文化,https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0
 GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
 
-广东珠江,http://live.cooltv.top/tv/good.php?id=gdzhujiangHD_7500
-广东体育,http://live.cooltv.top/tv/good.php?id=1413
-广东新闻,http://live.cooltv.top/tv/good.php?id=1454
-广东民生,http://live.cooltv.top/tv/good.php?id=1455
-广东经济,http://live.cooltv.top/tv/good.php?id=GDjingjikejiaoHD_7000
-大湾区卫视,http://live.cooltv.top/tv/good.php?id=1456
-广东影视,http://live.cooltv.top/tv/good.php?id=1458
-嘉佳卡通,http://live.cooltv.top/tv/good.php?id=1459
-广东少儿,http://live.cooltv.top/tv/good.php?id=1457
-岭南戏曲,http://live.cooltv.top/tv/good.php?id=1460
+
 
 广东经济,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs1&auth=rinimabi
 大湾区卫视,http://v2.91kds.cn/b9/itouchtv.m3u8?fmt=hls&id=gdtvs2&auth=rinimabi
@@ -951,8 +939,7 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 嘉佳卡通,http://v2.91kds.cn/b9/itouchtv.m3u8?id=gdjjkt&auth=rinimabi
 广东点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
 
-广州综合,http://live.cooltv.top/tv/good.php?id=gzhounewsHD
-广州新闻,http://live.cooltv.top/tv/good.php?id=gzhouzongheHD
+
 
 广州综合,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzzh&auth=rinimabi
 广州新闻,http://v2.91kds.cn/b9/gdgztv.m3u8?id=gdgzxw&auth=rinimabi
