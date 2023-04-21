@@ -113,11 +113,16 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 凤凰中文,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221226248/2/index.m3u8
 凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
 澳门莲花,http://107.151.203.111:2209/135/hk.php?id=amlh
+
 北京地方台,#genre#
 BTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
 BTV财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 BTV生活,http://live.cooltv.top/tv/btime.php?id=btvsh
 BTV文艺,http://live.cooltv.top/tv/btime.php?id=btvwy
+BTV影视,http://lu1.cc/itv/php/btime.php?id=bjys
+BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
+
+卡酷少儿,http://lu1.cc/itv/php/btime.php?id=bjkk
 房山电视台,https://live.funhillrm.com/2/playlist.m3u8
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
 天津地方台,#genre#
@@ -955,6 +960,7 @@ CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 喜剧电影[640*360],http://epg.112114.xyz/douyu/9292492
 
 少儿卡通,#genre#
+卡酷少儿,http://lu1.cc/itv/php/btime.php?id=bjkk
 嘉佳卡通,http://v2.91kds.cn/b9/itouchtv.m3u8?id=gdjjkt&auth=rinimabi
 东南少儿,http://39.135.55.105:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
 优漫卡通,https://xuyi-tv-replay.cm.jstv.com/lizhiapp/ymkt.m3u8
