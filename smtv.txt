@@ -401,8 +401,13 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 诸暨新闻,http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 
 安徽地方台,#genre#
+安徽公共,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahgg
+安徽农业科教,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahnykj
+安徽综艺,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahzyty
+安徽国际,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahgj
 安徽影视,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahys
 安徽经济,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahjjsh
+
 安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
 安徽经济,http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959.flv
