@@ -824,12 +824,14 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
 贵州地方台,#genre#
 贵州2,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225682/1/index.m3u8?fmt=ts2hls
+贵州3,http://[2409:8087:6a01:1020::b]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226158/1/index.m3u8?fmt=ts2hls
 贵州4,http://[2409:8087:6a01:1020::e]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225740/1/index.m3u8?fmt=ts2hls
 贵州5,http://[2409:8087:6a01:1020::e]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226277/1/index.m3u8?fmt=ts2hls
 贵州6,http://[2409:8087:6a01:1020::e]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225672/1/index.m3u8?fmt=ts2hls
 贵州7,http://[2409:8087:6a01:1020::e]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226289/1/index.m3u8?fmt=ts2hls
 贵阳2,http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225684/1/index.m3u8?fmt=ts2hls
 贵阳3,http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225705/1/index.m3u8?fmt=ts2hls
+凯里,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226094/1/index.m3u8?fmt=ts2hls
 凯里,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226094/1/index.m3u8?fmt=ts2hls
 雷山综合,http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226130/1/index.m3u8?fmt=ts2hls
 瓮安,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226294/1/index.m3u8?fmt=ts2hls
@@ -843,6 +845,7 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
 云南地方台,#genre#
 云南都市,http://tvlive.ynradio.com/live/yunnandushi/chunks.m3u8
+云南康旅,http://tvlive.ynradio.com/live/yunnangonggong/chunks.m3u8
 云南娱乐,http://tvlive.ynradio.com/live/yunnanyule/chunks.m3u8
 云南少儿,http://tvlive.ynradio.com/live/yunnanshaoer/chunks.m3u8
 云南国际,http://tvlive.ynradio.com/live/yunnanguoji/playlist.m3u8
@@ -933,7 +936,9 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 玉树新闻,http://stream.ysbtv.net/1/sd/live.m3u8
 
 宁夏地方台,#genre#
+宁夏公共,http://livepgc.cmc.ningxiahuangheyun.com/pgc/041867befe3dde090202f620ade5b87c.m3u8?txSecret=39373ebcf0d57da2477968efb258e2b7&txTime=6235C9B6
 宁夏经济,http://livepgc.cmc.ningxiahuangheyun.com/pgc/10717759047cafd37fd87caa5883e9c2.m3u8?txSecret=6a3918f766d0ff625282376ffee72687&txTime=6235C9C1
+宁夏教育,http://livepgc.cmc.ningxiahuangheyun.com/pgc/0b034c59a0f219bc7887840c8d78fe20.m3u8
 宁夏少儿,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=28
 宁夏文旅,http://www.nxtv.com.cn/m2o/channel/play.php?channel_id=29
 银川公共,http://play-a2.quklive.com/live/1667883943560053.m3u8
