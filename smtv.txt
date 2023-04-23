@@ -82,6 +82,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 吉林卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1
 云南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
+山西卫视,http://60.220.147.33:808/hls/53/index.m3u8
 山西卫视,http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
 山西卫视,http://lu1.cc/itv/sxitv/sxxl.php?jd=sxws
 山西卫视,http://lu1.cc/itv/php/tide.php?id=sxiws
@@ -96,6 +97,7 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 西藏卫视,http://lu1.cc/itv/xztv/xzxl.php?id=xzws&fmt=hls
 新疆卫视,http://livehyw5.chinamcache.com/hyw/zb01.m3u8?txSecret=58347f72aece2c25c685b8dc4da74652&txTime=95A66658
 新疆卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
+康巴卫视,http://v2.91kds.cn/b9/sctv.m3u8?id=kbws&auth=rinimabi
 康巴卫视,http://lu1.cc/itv/sctv/scxl.php?id=kbws
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
@@ -104,6 +106,8 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 大湾区卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227214/index.m3u8?servicetype=1
 延边卫视,http://live.ybtvyun.com/video/s10016-6297f9f7a2d5/index.m3u8
 延边卫视,http://39.135.138.58:18890/PLTV/88888888/224/3221226201/index.m3u8
+安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8
+人间卫视,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
 
 港澳台,#genre#
 凤凰中文,http://39.135.55.105:6610/PLTV/88888888/224/3221227222/index.m3u8?servicetype=1
@@ -119,6 +123,8 @@ BTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944
 BTV财经,http://live.cooltv.top/tv/btime.php?id=btvcj
 BTV生活,http://live.cooltv.top/tv/btime.php?id=btvsh
 BTV文艺,http://live.cooltv.top/tv/btime.php?id=btvwy
+BTV影视,http://live.cooltv.top/tv/btime.php?id=btvys
+BTV新闻,http://live.cooltv.top/tv/btime.php?id=btvxw
 BTV影视,http://lu1.cc/itv/php/btime.php?id=bjys
 BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 
@@ -126,6 +132,7 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 房山电视台,https://live.funhillrm.com/2/playlist.m3u8
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
 天津地方台,#genre#
+
 滨海新闻,http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8
 滨海综艺,http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8
 滨海影视,http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8
@@ -173,6 +180,17 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 
 山西地方台,#genre#
+山西卫视,http://60.220.147.33:808/hls/53/index.m3u8
+山西经济,http://60.220.147.33:808/hls/16/index.m3u8
+山西影视,http://60.220.147.33:808/hls/17/index.m3u8
+山西法治,http://60.220.147.33:808/hls/18/index.m3u8
+山西生活,http://60.220.147.33:808/hls/19/index.m3u8
+
+山西黄河,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxhh&auth=rinimabi
+山西经济,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxjj&auth=rinimabi
+山西影视,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxys&auth=rinimabi
+山西生活,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxgg&auth=rinimabi
+
 山西经济,http://live.cooltv.top/tv/cutv.php?id=sxjj
 山西影视,http://live.cooltv.top/tv/cutv.php?id=sxys
 山西法治,http://live.cooltv.top/tv/cutv.php?id=sxkj
@@ -223,6 +241,10 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 辽宁北方,http://lu1.cc/itv/php/bfgd.php?id=lnbf
 
 吉林地方台,#genre#
+吉林都市,http://stream1.jlntv.cn/dspd/playlist.m3u8
+吉林生活,http://stream1.jlntv.cn/shpd/sd/live.m3u8
+吉林乡村,http://stream12.jlntv.cn/xqpdhd/sd/live.m3u8
+吉林东北戏曲,http://stream1.jlntv.cn/dbxq/sd/live.m3u8
 延边汉语综合,http://live.ybtvyun.com/video/s10006-04819ee234a7/index.m3u8
 延边朝鲜语综合,http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8
 
@@ -416,8 +438,8 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
 安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?auth_key=4832358963-0-0-fcaceb92c3f9bb8c98d535768941909e&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
+安庆经济,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?auth_key=1682315859-0-0-4f95b01a653e5b4a8ad15460c922baa8&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
-安庆经济,https://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?auth_key=1682172471-0-0-4c00c30bc3678b357fef12db014f6f2e&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
 望江1新闻,http://p6.vzan.com/slowlive/895613931456664742/live.m3u8
 望江3黄梅戏,http://p6.vzan.com/slowlive/277167265385951116/live.m3u8
@@ -770,6 +792,15 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 
 重庆地方台,#genre#
 重庆新闻,https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_3.stream/chunklist.m3u8
+重庆新闻,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVNewsHD/__op/default/__f/7/v1M/index.m3u8
+重庆社会与法,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVTrendyHD/__op/default/__f/1/v1M/index.m3u8
+重庆科教,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVkejiaoHD/__op/default/__f/1/v1M/index.m3u8
+重庆影视,http://113.207.84.197:8090/__cl/cg:live/__c/cqyingshiHD/__op/default/__f/1/v1M/index.m3u8
+重庆文体娱乐,http://113.207.84.197:8090/__cl/cg:live/__c/cqwtylHD/__op/default/__f/1/v1M/index.m3u8
+重庆少儿,http://113.207.84.197:8090/__cl/cg:live/__c/cqseHD/__op/default/__f/1/v1M/index.m3u8
+重庆新农村,http://113.207.84.197:8090/__cl/cg:live/__c/cqggncHD/__op/default/__f/1/v1M/index.m3u8
+重庆时尚生活,http://113.207.84.197:8090/__cl/cg:live/__c/cqssgwHD/__op/default/__f/1/v1M/index.m3u8
+重庆移动,http://113.207.84.197:8090/__cl/cg:live/__c/mryyHD/__op/default/__f/1/v1M/index.m3u8
 北碚综合,http://222.178.181.121:12034/beibei01.m3u8
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 垫江综合,http://125.62.24.185:80/1.m3u8
@@ -778,12 +809,28 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 武隆综合,https://qxlmlive9.cbg.cn/applive/wltvzh/playlist.m3u8
 
 四川地方台,#genre#
+四川经济,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv2&auth=rinimabi
+四川文化旅游,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv3&auth=rinimabi
+四川新闻,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv4&auth=rinimabi
+四川影视文艺,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv5&auth=rinimabi
+四川星空购物,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv6&auth=rinimabi
+四川妇女儿童,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv7&auth=rinimabi
+四川乡村,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv9&auth=rinimabi
+
 四川文化旅游,http://lu1.cc/itv/sctv/scxl.php?id=scwhly
 四川经济,http://lu1.cc/itv/sctv/scxl.php?id=scjj
 四川新闻,http://lu1.cc/itv/sctv/scxl.php?id=scxw
 四川影视文艺,http://lu1.cc/itv/sctv/scxl.php?id=scyswy
 四川妇女儿童,http://lu1.cc/itv/sctv/scxl.php?id=scfnet
 四川乡村,http://lu1.cc/itv/sctv/scxl.php?id=scxc
+
+成都新闻综合,http://play20.yitoutiao.net/snzx-dev/0418cdtv1.m3u8?auth_key=1681785851-0-0-7b2281ee684361d55a943f703965fbeb
+成都经济资讯,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv2&auth=rinimabi
+成都都市生活,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv3&auth=rinimabi
+成都影视文艺,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv4&auth=rinimabi
+成都公共,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv5&auth=rinimabi
+成都少儿,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv6&auth=rinimabi
+
 成都新闻综合,http://lu1.cc/itv/sctv/cdxl.php?id=cdtv1hd&fmt=hls
 成都经济资讯,http://lu1.cc/itv/sctv/cdxl.php?id=cdtv2hd&fmt=hls
 成都都市生活,http://lu1.cc/itv/sctv/cdxl.php?id=cdtv3hd&fmt=hls
@@ -966,12 +1013,13 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 新疆哈密1,http://stream.hmgbtv.com/hm1/playlist.m3u8
 新疆哈密2,http://stream.hmgbtv.com/hm2/playlist.m3u8
 新疆哈密3,http://stream.hmgbtv.com/hm3/playlist.m3u8
+
 电影,#genre#
 CHC动作电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-CHC电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 黑莓电影,http://39.135.55.105:6610/PLTV/88888888/224/3221225891/index.m3u8?servicetype=1
-喜剧电影[640*360],http://epg.112114.xyz/douyu/9292492
+
 
 少儿卡通,#genre#
 卡酷少儿,http://lu1.cc/itv/php/btime.php?id=bjkk
