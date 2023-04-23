@@ -423,6 +423,13 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 诸暨新闻,http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 
 安徽地方台,#genre#
+安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
+安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
+安徽经济,http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959.flv
+安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959.flv
+安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3.flv
+安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
+
 安徽公共,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahgg
 安徽农业科教,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahnykj
 安徽综艺,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahzyty
@@ -430,12 +437,6 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 安徽影视,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahys
 安徽经济,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahjjsh
 
-安徽影视,http://stream.ahwanyun.cn/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
-安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be.flv
-安徽经济,http://stream.ahwanyun.cn/live/eac499adad7b49ff9cfa79ba84693959.flv
-安徽经济,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959.flv
-安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3.flv
-安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
 安庆新闻,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2969.m3u8?auth_key=4832358963-0-0-fcaceb92c3f9bb8c98d535768941909e&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
 
 安庆经济,http://48535.hlsplay.aodianyun.com/tv_radio_48535/tv_channel_2970.m3u8?auth_key=1682315859-0-0-4f95b01a653e5b4a8ad15460c922baa8&extra_key=T6pdN43-y3aT4oRMDu3vyrFVVFRERluNl-_lphNP4kqd9m2gWnoxVKfQmyiAtQaufcDpOxTm7ZpDZONm9A8bwONAKN8WV8vOTu8FvPHOEAJfIC0WHMpFF7SL3q_GSKFUJ_Pqe9yy1Zm_FVGM44_TeTH-0-FgmBmtK6ouKUD1Zlc
@@ -694,23 +695,20 @@ NNM家庭理财,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.co
 
 湖南地方台,#genre#
 湖南经视,http://fm-live-rtmp.fm-tv-live.mangguonews.com/fm-tv-live/hnjs.m3u8
-湖南娱乐,http://124.232.233.16:6610/000000001001/201600020004/1400.m3u8?IASHttpSessionId=RR274120230421060837464466&m3u8_level=2&ztecid=201600020004&ispcode=3
 湖南都市,http://fm-live-rtmp.fm-tv-live.mangguonews.com/fm-tv-live/hnds.m3u8
-湖南电视剧,http://124.232.233.17:6610/000000001001/201600020006/1000.m3u8?zte_bandwidth=1000&IASHttpSessionId=RR272320230421055737457491&ztecid=201600020006&bandwidth=1433600&ispcode=3&timeformat=local&channel=201600020006&m3u8_level=2
-金鹰纪实,http://183.252.166.198:80/wh7f454c46tw1894994695_1998845250/ott.fj.chinamobile.com/PLTV/88888888/224/3221226937/index.m3u8?icpid=88888888&RTS=1682057116&from=12&hms_devid=2044&online=1682057116&vqe=3
 湖南爱晚,http://fm-live-rtmp.fm-tv-live.mangguonews.com/fm-tv-live/hngg.m3u8
 湖南爱晚,http://p8.vzan.com/slowlive/149039617847513156/live.m3u8
-金鹰卡通,http://39.135.55.105:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1
 
-湖南爱晚,http://zte.cdn.leso114.com:6060/000000001001/201600020007/index.m3u8?m3u8_level=2
-湖南电视剧,http://zte.cdn.leso114.com:6060/000000001001/201600020006/index.m3u8?m3u8_level=2
-湖南电影,http://zte.cdn.leso114.com:6060/000000001001/201600020005/index.m3u8?m3u8_level=2
-湖南都市,http://zte.cdn.leso114.com:6060/000000001001/201600020003/index.m3u8?m3u8_level=2
-湖南国际,http://zte.cdn.leso114.com:6060/000000001001/201600020001/index.m3u8?m3u8_level=2
-金鹰纪实,http://zte.cdn.leso114.com:6060/000000001001/201600020008/index.m3u8?m3u8_level=2
-金鹰卡通,http://zte.cdn.leso114.com:6060/000000001001/201600020009/index.m3u8?m3u8_level=2
-湖南经视,http://zte.cdn.leso114.com:6060/000000001001/201600020002/index.m3u8?m3u8_level=2
-湖南娱乐,http://zte.cdn.leso114.com:6060/000000001001/201600020004/index.m3u8?m3u8_level=2
+
+湖南经视,http://v2.91kds.cn/b9/hntv.m3u8?id=hnjs&auth=rinimabi
+湖南娱乐,http://v2.91kds.cn/b9/hntv.m3u8?id=hnyl&auth=rinimabi
+湖南电影,http://v2.91kds.cn/b9/hntv.m3u8?id=hndy&auth=rinimabi
+湖南都市,http://v2.91kds.cn/b9/hntv.m3u8?id=hnds&auth=rinimabi
+湖南电视剧,http://v2.91kds.cn/b9/hntv.m3u8?id=hndsj&auth=rinimabi
+湖南爱晚,http://v2.91kds.cn/b9/hntv.m3u8?id=hngg&auth=rinimabi
+
+金鹰卡通,http://39.135.55.105:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1
+金鹰纪实,http://183.252.166.198:80/wh7f454c46tw1894994695_1998845250/ott.fj.chinamobile.com/PLTV/88888888/224/3221226937/index.m3u8?icpid=88888888&RTS=1682057116&from=12&hms_devid=2044&online=1682057116&vqe=3
 
 先锋乒羽,http://39.135.55.105:6610/PLTV/88888888/224/3221226851/index.m3u8?servicetype=1
 茶频道,http://[2409:8087:6a01:1020::f]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226240/1/index.m3u8?fmt=ts2hls
