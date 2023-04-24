@@ -82,7 +82,6 @@ CCTV4欧洲,http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888
 吉林卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1
 云南卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1
 甘肃卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1
-山西卫视,http://60.220.147.33:808/hls/53/index.m3u8
 山西卫视,http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
 山西卫视,http://lu1.cc/itv/sxitv/sxxl.php?jd=sxws
 山西卫视,http://lu1.cc/itv/php/tide.php?id=sxiws
@@ -180,12 +179,6 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 
 山西地方台,#genre#
-山西卫视,http://60.220.147.33:808/hls/53/index.m3u8
-山西经济,http://60.220.147.33:808/hls/16/index.m3u8
-山西影视,http://60.220.147.33:808/hls/17/index.m3u8
-山西法治,http://60.220.147.33:808/hls/18/index.m3u8
-山西生活,http://60.220.147.33:808/hls/19/index.m3u8
-
 山西黄河,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxhh&auth=rinimabi
 山西经济,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxjj&auth=rinimabi
 山西影视,http://v2.91kds.cn/b9/tidenew.m3u8?id=sxys&auth=rinimabi
@@ -807,6 +800,14 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 武隆综合,https://qxlmlive9.cbg.cn/applive/wltvzh/playlist.m3u8
 
 四川地方台,#genre#
+四川文化旅游,https://live.v1.mk/api/sxg.php?id=SCTV-2-H265_4000
+四川经济,https://live.v1.mk/api/sxg.php?id=SCTV-3-H265_4000
+四川新闻,https://live.v1.mk/api/sxg.php?id=SCTV-4H265_4000
+四川影视文艺,https://live.v1.mk/api/sxg.php?id=SCTV-5-scysH265_4000
+四川妇女儿童,https://live.v1.mk/api/sxg.php?id=SCTV-7-_4000
+四川科教,https://live.v1.mk/api/sxg.php?id=SCTV-ggSCTV-8_4000
+四川乡村,https://live.v1.mk/api/sxg.php?id=SCTV-kjSCTV-9-_4000
+
 四川经济,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv2&auth=rinimabi
 四川文化旅游,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv3&auth=rinimabi
 四川新闻,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv4&auth=rinimabi
@@ -821,6 +822,13 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 四川影视文艺,http://lu1.cc/itv/sctv/scxl.php?id=scyswy
 四川妇女儿童,http://lu1.cc/itv/sctv/scxl.php?id=scfnet
 四川乡村,http://lu1.cc/itv/sctv/scxl.php?id=scxc
+
+峨嵋电影,https://live.v1.mk/api/sxg.php?id=emdygqH265_4000
+成都新闻,https://live.v1.mk/api/sxg.php?id=CDTV-1_4000
+成都经济,https://live.v1.mk/api/sxg.php?id=CDTV-2_4000
+成都都市,https://live.v1.mk/api/sxg.php?id=CDTV-3_4000
+成都影视,https://live.v1.mk/api/sxg.php?id=CDTV-4_4000
+成都公共,https://live.v1.mk/api/sxg.php?id=CDTV-5_4000
 
 成都新闻综合,http://play20.yitoutiao.net/snzx-dev/0418cdtv1.m3u8?auth_key=1681785851-0-0-7b2281ee684361d55a943f703965fbeb
 成都经济资讯,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv2&auth=rinimabi
