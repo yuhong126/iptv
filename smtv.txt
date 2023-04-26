@@ -798,17 +798,17 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 三沙卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1
 
 重庆地方台,#genre#
-重庆新闻高清,https://live.v1.mk/api/cqyx.php?id=CQTVNewsHD
-重庆影视高清,https://live.v1.mk/api/cqyx.php?id=cqyingshiHD
-重庆社会与法高清,https://live.v1.mk/api/cqyx.php?id=CQTVTrendyHD
-重庆时尚生活高清,https://live.v1.mk/api/cqyx.php?id=cqssgwHD
-重庆文体娱乐高清,https://live.v1.mk/api/cqyx.php?id=cqwtylHD
-重庆新农村高清,https://live.v1.mk/api/cqyx.php?id=cqggncHD
-重庆少儿高清,https://live.v1.mk/api/cqyx.php?id=cqseHD
-重庆科教高清,https://live.v1.mk/api/cqyx.php?id=CQTVkejiaoHD
-爱看导视高清,https://live.v1.mk/api/cqyx.php?id=aikanHD
-重庆汽摩高清,https://live.v1.mk/api/cqyx.php?id=cqcarSD
-重庆移动高清,https://live.v1.mk/api/cqyx.php?id=mryyHD
+重庆新闻,https://live.v1.mk/api/cqyx.php?id=CQTVNewsHD
+重庆影视,https://live.v1.mk/api/cqyx.php?id=cqyingshiHD
+重庆社会与法,https://live.v1.mk/api/cqyx.php?id=CQTVTrendyHD
+重庆时尚生活,https://live.v1.mk/api/cqyx.php?id=cqssgwHD
+重庆文体娱乐,https://live.v1.mk/api/cqyx.php?id=cqwtylHD
+重庆新农村,https://live.v1.mk/api/cqyx.php?id=cqggncHD
+重庆少儿,https://live.v1.mk/api/cqyx.php?id=cqseHD
+重庆科教,https://live.v1.mk/api/cqyx.php?id=CQTVkejiaoHD
+爱看导视,https://live.v1.mk/api/cqyx.php?id=aikanHD
+重庆汽摩,https://live.v1.mk/api/cqyx.php?id=cqcarSD
+重庆移动,https://live.v1.mk/api/cqyx.php?id=mryyHD
 
 重庆新闻,https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_3.stream/chunklist.m3u8
 重庆新闻,http://113.207.84.197:8090/__cl/cg:live/__c/CQTVNewsHD/__op/default/__f/7/v1M/index.m3u8
@@ -1050,7 +1050,7 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 
 电影,#genre#
 CHC动作电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CHC电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CHC家庭影院,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 黑莓电影,http://39.135.55.105:6610/PLTV/88888888/224/3221225891/index.m3u8?servicetype=1
 
