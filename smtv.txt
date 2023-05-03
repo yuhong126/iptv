@@ -131,8 +131,8 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 卡酷少儿,http://lu1.cc/itv/php/btime.php?id=bjkk
 房山电视台,https://live.funhillrm.com/2/playlist.m3u8
 房山城市,http://live.funhillrm.com/5/sd/live.m3u8
-天津地方台,#genre#
 
+天津地方台,#genre#
 滨海新闻,http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8
 滨海综艺,http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8
 滨海影视,http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8
@@ -459,6 +459,8 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 安徽综艺,http://stream.ahwanyun.cn/live/c41f112b83f644ddb082669501c8ecd3.flv
 安徽综艺,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3.flv
 
+安徽影视,http://stream.ahwanyun.cn:80/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8
+
 安徽公共,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahgg
 安徽农业科教,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahnykj
 安徽综艺,http://lu1.cc/itv/ahtv/ahtv1.php?id=ahzyty
@@ -557,9 +559,9 @@ BTV新闻,http://lu1.cc/itv/php/btime.php?id=bjxw
 江西少儿,http://[2409:8087:3869:8021:1001::48]:6610/PLTV/88888910/224/3221226194/index.m3u8
 江西新闻,http://[2409:8087:3869:8021:1000::aa]:6610/PLTV/88888910/224/3221225615/index.m3u8
 江西教育,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226197/index.m3u8?fmt=ts2hls
-南昌综合,http://lu1.cc/itv/jxtv/ncxl.php?id=nczh&fmt=flv
-南昌都市,http://lu1.cc/itv/jxtv/ncxl.php?id=ncds&fmt=flv
-南昌资讯,http://lu1.cc/itv/jxtv/ncxl.php?id=nczx&fmt=flv
+南昌综合,http://v2.91kds.cn:80/b9/jxnctv.m3u8?id=jxnctv1&auth=rinimabi
+南昌都市,http://v2.91kds.cn:80/b9/jxnctv.m3u8?id=jxnctv2&auth=rinimabi
+南昌资讯政法,http://v2.91kds.cn:80/b9/jxnctv.m3u8?id=jxnctv3&auth=rinimabi
 九江新闻,http://live02.jxtvcn.com.cn/live-jxtvcn/ganyun_jiujiang1.m3u8
 九江公共,http://live02.jxtvcn.com.cn/live-jxtvcn/ganyun_jiujiang2.m3u8
 九江教育,http://live02.jxtvcn.com.cn/live-jxtvcn/ganyun_jiujiang3.m3u8
@@ -862,14 +864,6 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 武隆综合,https://qxlmlive9.cbg.cn/applive/wltvzh/playlist.m3u8
 
 四川地方台,#genre#
-四川文化旅游,https://live.v1.mk/api/sxg.php?id=SCTV-2-H265_4000
-四川经济,https://live.v1.mk/api/sxg.php?id=SCTV-3-H265_4000
-四川新闻,https://live.v1.mk/api/sxg.php?id=SCTV-4H265_4000
-四川影视文艺,https://live.v1.mk/api/sxg.php?id=SCTV-5-scysH265_4000
-四川妇女儿童,https://live.v1.mk/api/sxg.php?id=SCTV-7-_4000
-四川科教,https://live.v1.mk/api/sxg.php?id=SCTV-ggSCTV-8_4000
-四川乡村,https://live.v1.mk/api/sxg.php?id=SCTV-kjSCTV-9-_4000
-
 四川经济,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv2&auth=rinimabi
 四川文化旅游,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv3&auth=rinimabi
 四川新闻,http://v2.91kds.cn/b9/sctv.m3u8?id=sctv4&auth=rinimabi
@@ -884,13 +878,6 @@ GRTN文化,http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdwh&auth=rinimabi
 四川影视文艺,http://lu1.cc/itv/sctv/scxl.php?id=scyswy
 四川妇女儿童,http://lu1.cc/itv/sctv/scxl.php?id=scfnet
 四川乡村,http://lu1.cc/itv/sctv/scxl.php?id=scxc
-
-峨嵋电影,https://live.v1.mk/api/sxg.php?id=emdygqH265_4000
-成都新闻,https://live.v1.mk/api/sxg.php?id=CDTV-1_4000
-成都经济,https://live.v1.mk/api/sxg.php?id=CDTV-2_4000
-成都都市,https://live.v1.mk/api/sxg.php?id=CDTV-3_4000
-成都影视,https://live.v1.mk/api/sxg.php?id=CDTV-4_4000
-成都公共,https://live.v1.mk/api/sxg.php?id=CDTV-5_4000
 
 成都新闻综合,http://play20.yitoutiao.net/snzx-dev/0418cdtv1.m3u8?auth_key=1681785851-0-0-7b2281ee684361d55a943f703965fbeb
 成都经济资讯,http://v2.91kds.cn/b9/sccdtv.m3u8?fmt=flv&id=sccdtv2&auth=rinimabi
@@ -1076,6 +1063,7 @@ QJTV巧家,http://livebroadcast.ccwb.cn/live/w1593303918254963.m3u8
 新疆维语经济生活,http://livehyw5.chinamcache.com/hyw/zb09.m3u8?txSecret=181d053f140036a2dab3debb05d1cb59&txTime=95A66658
 新疆体育,http://livehyw5.chinamcache.com/hyw/zb10.m3u8?txSecret=d091dfc5816b7d292a3857c717d16a66&txTime=95A66658
 新疆信息服务,http://livehyw5.chinamcache.com/hyw/zb11.m3u8?txSecret=4ef7a35eab0a7bbdd9b5d96be9d12d54&txTime=95A66658
+新疆少儿,http://livehyw5.chinamcache.com/hyw/zb12.m3u8?txSecret=ad72be135cc34bebef758d9622d90241&txTime=fffffffffff
 奎屯哈萨克语,http://218.84.12.186:8002/hls/main/playlist.m3u8
 石河子影视文体,http://124.88.144.73:1935/live/jjsh/playlist.m3u8
 伊犁哈萨克,http://110.153.180.106:55555/out_3/index.m3u8
