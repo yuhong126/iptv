@@ -432,7 +432,7 @@ BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/322122594
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
 南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
 
-九江新闻,webview://https://www.jjntv.cn/live?id=jjtv1
+九江新闻,webview://https://app.yun.jxntv.cn/video/videojs/index?site_id=10045&id=22&page=canvas&live_type=1
 九江公共,webview://https://www.jjntv.cn/live?id=jjtv2
 九江教育,webview://https://www.jjntv.cn/live?id=jjfz
 
