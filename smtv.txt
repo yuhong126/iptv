@@ -391,6 +391,8 @@ BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/322122594
 
 
 安徽,#genre#
+望江新闻,https://gnhls.qingmei.tv/live/wjxw.m3u8?volcTime=1753081769&volcSecret=417e16d73e15903fc21a4491f761a3e5
+望江黄梅戏,https://gnhls.qingmei.tv/live/wjhmx.m3u8?volcTime=1753081769&volcSecret=cd51a83cfe531c6d73edf45b7ad32154
 安徽国际,http://api2.52tb.xyz/info?id=586&token=20230405tndmhg
 安庆潜山,https://qsxw.gov.cn/rtmp_export/video22.m3u8
 
