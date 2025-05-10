@@ -106,7 +106,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-山西卫视,https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
+山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://plex.home.yulei.online:9999/udp/226.0.2.152:9128
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -420,10 +420,6 @@ BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/322122594
 江西少儿,http://58.17.89.7:8081/hls/22/index.m3u8
 江西经济,http://58.17.89.7:8081/hls/19/index.m3u8
 
-南昌综合,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/jxtv.js?id=nczh
-南昌文旅,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/jxtv.js?id=ncds
-南昌资讯,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/jxtv.js?id=nczx
-
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
 南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
@@ -607,7 +603,6 @@ BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/322122594
 海南文旅,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=6
 海南少儿,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=7
 
-海南文旅,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.hnntv.cn/live.html?playType=livePlay&channelId=6&referPage=hom
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
@@ -664,22 +659,8 @@ CDTV-8,http://wouu.net:9977/udp/239.93.0.22:1252
 贵州6,webview://https://www.gzstv.com/tv/ch06
 
 
-贵州公共,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.gzstv.com/tv/ch02
-贵州3,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.gzstv.com/tv/ch03
-贵州4,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.gzstv.com/tv/ch04
-贵州5,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.gzstv.com/tv/ch05
-贵州6,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.gzstv.com/tv/ch06
 
 云南,#genre#
-云南都市,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/yn.js?id=ynds
-云南娱乐,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/yn.js?id=ynyl
-云南澜湄,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/yn.js?id=yngj
-云南少儿,https://d.kstore.dev/download/k-web/ku9/js/10694/tv/%E9%85%B79/ku9js/yn.js?id=ynse
-云南卫视,https://A/ku9/js/yn.js?id=ynws
-云南都市,https://A/ku9/js/yn.js?id=ynds
-云南娱乐,https://A/ku9/js/yn.js?id=ynyl
-云南澜湄,https://A/ku9/js/yn.js?id=yngj
-云南少儿,https://A/ku9/js/yn.js?id=ynse
 
 
 西藏,#genre#
@@ -711,8 +692,6 @@ CDTV-8,http://wouu.net:9977/udp/239.93.0.22:1252
 海北电视台,http://lovegfs.top:8000/udp/239.120.2.234:5141
 
 宁夏,#genre#
-宁夏卫视,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.nxtv.com.cn/live/wsh/
-宁夏共公,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.nxtv.com.cn/live/gg/
 青铜峡公共,http://pili-live-hdl.nxdzsh.com/qtxdst/qtx.m3u8
 
 新疆,#genre#
