@@ -370,6 +370,9 @@ BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/322122594
 安徽农业,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=5
 安徽国际,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
 
+望江新闻,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=113
+望江黄梅戏,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=112
+
 安徽国际,http://api2.52tb.xyz/info?id=586&token=20230405tndmhg
 安庆潜山,https://qsxw.gov.cn/rtmp_export/video22.m3u8
 
