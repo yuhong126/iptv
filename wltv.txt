@@ -149,33 +149,19 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
 
 北京,#genre#
-北京国际,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226510/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EIfgL7tTUNqHAIdgvKuwj8A%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPr9j5nfyiWS_jEXD6m401A%2CEND
-北京新闻,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226437/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EncK5uEAdYwWMsf8WJWI1mQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO_LSIQh_h2P54Cz-MqgJqC%2CEND
-北京文艺,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EWrJcgMpdGPvZavpf4dmmrQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNhmwDsUZnvQgU5E5wiGA2g%2CEND
-北京体育休闲,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EeVAybrHg955d_IRT9e_uHQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNMLCKqkSfuGOusJwBMwlCbz%2CEND
-北京影视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226433/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EygquRbh9L0wUPRY53fsZWw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO62IynDcU1yYDL1b4Xte8T%2CEND
-北京生活,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226514/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Es-PVNcPJsjr_oBdcXGT40g%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNMWvZ0r6eMXcXJOGrCpJiq1%2CEND
-北京财经,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226516/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eh9_SEkmWeMdS1TMnIILZgg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPIiicEW7OIvk1s-X-PXHqO%2CEND
-北京纪实科教,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226434/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ejj3PtVjzl6ZzFdM-Vi1dmQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPJa61jREJv4ZfZigyrxX0U%2CEND
-北京IPTV 淘电影,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
-北京IPTV 淘剧场,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQaJ92NID2SpQlY6_VJVogg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOuQYJeiYEeFWTkFfE86Vq-%2CEND
-北京IPTV 淘娱乐,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ex0efg9fpenP8E8lWJUb5Lg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
-北京IPTV 淘BABY,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EN0sbBMpQv4sLsW5foy3YfA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
-北京IPTV 萌宠TV,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E_PpxWPtvSZRFtu_Ged_-vQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO0istnBuoA2R9ODSCqyIyS%2CEND
-临沂新闻,https://m3u8-channel.lytv.tv/nmip-media/channellive/channel111841/playlist.m3u8
+北京文艺,http://124.222.114.206/bjtv.php?id=bjwy
+北京纪实科教,http://124.222.114.206/bjtv.php?id=bjjs
+北京影视,http://124.222.114.206/bjtv.php?id=bjys
+北京财经,http://124.222.114.206/bjtv.php?id=bjcj
+北京体育休闲,http://124.222.114.206/bjtv.php?id=bjty
+北京生活,http://124.222.114.206/bjtv.php?id=bjsh
+北京新闻,http://124.222.114.206/bjtv.php?id=bjxw
+卡酷少儿,http://124.222.114.206/bjtv.php?id=bjkk
 
-BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
 天津,#genre#
-天津卫视,webview://https://share.wisetv.com.cn/share-ui/live/index?channelId=30001110000000000000000000000698&sourceDeviceId=38a585b366997cc9&plat=android
-天津新闻,http://live-tx.wisetv.com.cn:80/TJIPTV/TJXWHD2.m3u8?txSecret=7ddbff6bd6df1a2e31d5b9fa67b99a69&txTime=681ed286&GUID=b09f2c42b3b5d3ac3c0e1bcf73ce30e0&wisetvauth=1
-天津文艺,http://live-tx.wisetv.com.cn:80/TJIPTV/TJWYHD2.m3u8?txSecret=6ccb564ad81d9dc67ae2a18488035a0f&txTime=681ed2c5&GUID=65ff3b8354af6fb4299710ea2e8bbc96
-天津影视,http://live-tx.wisetv.com.cn:80/TJIPTV/TJYSHD2.m3u8?txSecret=dbc962b21d36a7c73326098691ce721f&txTime=681ed30d&GUID=ae8b3bcd0dc4f2aeb1e9dda3b276229d&wisetvauth=1
-天津都市,http://live2.wisetv.com.cn:80/TJIPTV/TJDSHD2/playlist.m3u8?wsSecret=039a4dd5140351f9b3671efb0f8c99cc&wsTime=681eec23&GUID=ebc7479f394f11424b69352b25583ec8
-天津体育,http://live-tx.wisetv.com.cn:80/TJIPTV/TJTYHD2.m3u8?txSecret=f9d8bf5c3a77932997b22d42cfd07de8&txTime=681ed3dd&GUID=76d66c04a1a6c3998570390a91c1d59d
-天津教育,http://live-tx.wisetv.com.cn:80/TJIPTV/TJKJHD2.m3u8?txSecret=43b27fce5f91196800ddcd21e3edd26a&txTime=681ed514&GUID=a9132d0d4b900826fd972b9074e25df0&wisetvauth=1
-
 天津新闻,http://nas.hssvm.com:8888/udp/225.1.1.130:5002
 天津文艺,http://nas.hssvm.com:8888/udp/225.1.1.131:5002
 天津影视,http://nas.hssvm.com:8888/udp/225.1.1.149:5002
@@ -385,6 +371,8 @@ BRTV科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/322122594
 
 望江新闻,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=113
 望江黄梅戏,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=112
+安庆新闻,webview://https://www.zsaqnews.cn/html/rft/live.html?channelId=61005770c525480db84eed456cd093c1&type=1&siteId=ea1cf11ceacd4d6b914fa9d78e550b91&shareAppId=ea1cf11ceacd4d6b914fa9d78e550b91
+安庆经济,webview://https://www.zsaqnews.cn/html/rft/live.html?channelId=b7287de089c6401f985ae27873fb34f8&type=1&siteId=ea1cf11ceacd4d6b914fa9d78e550b91&shareAppId=ea1cf11ceacd4d6b914fa9d78e550b91
 
 安庆潜山,https://qsxw.gov.cn/rtmp_export/video22.m3u8
 
