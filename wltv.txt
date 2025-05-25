@@ -221,16 +221,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 吉林,#genre#
-吉林都市,https://hls.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/1.m3u8?txSecret=18332044d1bac170f65541baaa24f0a5&txTime=681F2DA1
-吉林影视,https://hls.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/1.m3u8?txSecret=18332044d1bac170f65541baaa24f0a5&txTime=681F2DA1
-吉林新闻,https://hls.avap.jilintv.cn/zqvk7vpj/channel/44dcb20ec810463cb517f1814c1b3ce9/1.m3u8?txSecret=18332044d1bac170f65541baaa24f0a5&txTime=681F2DA1
-吉林生活,https://hls.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/1.m3u8?txSecret=18332044d1bac170f65541baaa24f0a5&txTime=681F2DA1
-吉林乡村,https://hls.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/1.m3u8?txSecret=18332044d1bac170f65541baaa24f0a5&txTime=681F2DA1
-
-吉林都市,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8095cf&tk=6949f8ce7202
-吉林生活,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=b17091&tk=6949f8ce7202
-吉林乡村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9a925c&tk=6949f8ce7202
-
 吉林乡村,http://61.138.128.226:19901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 吉林生活,http://61.138.128.226:19901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 吉林影视,http://61.138.128.226:19901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
