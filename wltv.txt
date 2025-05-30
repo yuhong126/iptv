@@ -29,6 +29,12 @@ CCTV风云剧场,webview://https://yangshipin.cn/tv/home?pid=600099658
 CCTV第一剧场,webview://https://yangshipin.cn/tv/home?pid=600099655
 CCTV怀旧剧场,webview://https://yangshipin.cn/tv/home?pid=600099620
 
+CCTV-电视指南,http://120.76.248.139/live/bfgd/4200000164.m3u8
+CCTV-风云足球,http://120.76.248.139/live/bfgd/4200000225.m3u8
+CCTV-怀旧剧场,http://120.76.248.139/live/bfgd/4200000224.m3u8
+CCTV-女性时尚,http://120.76.248.139/live/bfgd/4200000176.m3u8
+CCTV-世界地理,http://120.76.248.139/live/bfgd/4200000177.m3u8
+
 CCTV风云足球,http://plex.home.yulei.online:9999/rtp/226.0.1.209:2122
 CCTV女性时尚,http://plex.home.yulei.online:9999/rtp/226.0.1.210:2128
 CCTV央视网球,http://plex.home.yulei.online:9999/rtp/226.0.1.211:2132
@@ -85,6 +91,8 @@ CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/in
 CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
+重温经典,http://120.76.248.139/live/bfgd/4200000635.m3u8
+重温经典,http://120.76.248.139/live/bfgd/4200000636.m3u8
 
 1905电影网(国内电影),http://php.jdshipin.com:8880/1905.php?id=1905dy
 1905电影网(外国电影),http://php.jdshipin.com:8880/1905.php?id=1905dy2
@@ -106,6 +114,8 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+山西卫视,http://171.118.160.140:9003/hls/20/index.m3u8
+山西卫视,http://221.204.237.19:9003/hls/20/index.m3u8
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://plex.home.yulei.online:9999/udp/226.0.2.152:9128
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -158,6 +168,15 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 北京新闻,http://124.222.114.206/bjtv.php?id=bjxw
 卡酷少儿,http://124.222.114.206/bjtv.php?id=bjkk
 
+北京财经,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1748289609&sign=b4a3c204d07edf59326c91392c6b478e
+北京新闻,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1748289610&sign=53e52cf40e1047e68c987bc3466b9dca
+北京影视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1748289609&sign=ed08fc68a20f3fcd85db78fd7f5dbebe
+北京生活,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1748289610&sign=2ca2817301d76394997c529f445bd236
+北京文艺,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1748289608&sign=172ad634a4d588bd7b8d31fee3e7139d
+卡酷少儿,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1748289611&sign=7a66e300ccc6b09af1d6ceec8abc7355
+
+
+
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
@@ -171,6 +190,12 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 山西,#genre#
+山西影视,http://221.204.237.19:9003/hls/51/index.m3u8
+山西社会,http://221.204.237.19:9003/hls/53/index.m3u8
+山西经济,http://221.204.237.19:9003/hls/52/index.m3u8
+山西文体,http://221.204.237.19:9003/hls/54/index.m3u8
+黄河电视台,http://221.204.237.19:9003/hls/55/index.m3u8
+
 黄河电视台,webview://http://tv.haoqu99.com/3/shan-xi/huanghxw.html
 山西经济,webview://http://tv.haoqu99.com/3/shan-xi/shanxijj.html
 山西影视,webview://http://tv.haoqu99.com/3/shan-xi/shanxiys.html
@@ -221,14 +246,13 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 吉林,#genre#
-吉林乡村,http://61.138.128.226:19901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林生活,http://61.138.128.226:19901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林影视,http://61.138.128.226:19901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林公共新闻,http://61.138.128.226:19901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林综艺文化,http://61.138.128.226:19901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林东北戏曲,http://61.138.128.226:19901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林教育,http://61.138.128.226:19901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-长影,http://61.138.128.226:19901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
+吉林生活,http://5vn.cn:9003//hls/70/index.m3u8
+吉林都市,http://5vn.cn:9003//hls/71/index.m3u8
+吉林影视,http://5vn.cn:9003//hls/72/index.m3u8
+吉林乡村,http://5vn.cn:9003//hls/73/index.m3u8
+长影频道,http://5vn.cn:9003//hls/74/index.m3u8
+吉林教育,http://5vn.cn:9003//hls/79/index.m3u8
+吉林综艺,http://5vn.cn:9003//hls/80/index.m3u8
 
 长春综合,http://p2bj.vzan.com/slowlive/763922717250086092/live.m3u8
 长春综合,http://r2bj.vzan.com/v/slowlive_763922717250086092.flv
@@ -265,6 +289,23 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 江苏,#genre#
+江苏城市,http://122.96.108.221:9003/hls/17/index.m3u8
+江苏综艺,http://122.96.108.221:9003/hls/18/index.m3u8
+江苏国际,http://122.96.108.221:9003/hls/22/index.m3u8
+江苏体育,http://122.96.108.221:9003/hls/19/index.m3u8
+江苏新闻,http://122.96.108.221:9003/hls/21/index.m3u8
+江苏影视,http://122.96.108.221:9003/hls/20/index.m3u8
+优漫卡通,http://122.96.108.221:9003/hls/60/index.m3u8
+
+江苏城市,http://112.86.221.52:9003//hls/17/index.m3u8
+江苏综艺,http://112.86.221.52:9003//hls/18/index.m3u8
+江苏国际,http://112.86.221.52:9003//hls/22/index.m3u8
+江苏体育,http://112.86.221.52:9003//hls/19/index.m3u8
+江苏新闻,http://112.86.221.52:9003//hls/21/index.m3u8
+江苏影视,http://112.86.221.52:9003//hls/20/index.m3u8
+优漫卡通,http://112.86.221.52:9003//hls/60/index.m3u8
+
+
 江苏城市,webview://https://live.jstv.com/?channelId=535
 江苏综艺,webview://https://live.jstv.com/?channelId=556
 江苏影视,webview://https://live.jstv.com/?channelId=542
@@ -352,6 +393,13 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 安徽,#genre#
+安徽公共,http://live.ahcartv.dev.geek-zoo.cn/live/ggtv.m3u8?txSecret=642c057a63f8e7c6fcd0f236d3f24c69&txTime=6861F1F6
+安徽国际,http://live.ahcartv.dev.geek-zoo.cn/live/gjtv.m3u8?txSecret=e628bcb47d7741b3a60c6793b7295d84&txTime=6861F1F6
+安徽综艺体育,http://live.ahcartv.dev.geek-zoo.cn/live/zytytv.m3u8?txSecret=095c3ce3216bfda624ec4acce6e8a02c&txTime=6861F1F6
+安徽影视,http://live.ahcartv.dev.geek-zoo.cn/live/ystv.m3u8?txSecret=e2c76086598b48e1fb4b6a823c69e2d5&txTime=6861F1F6
+安徽农业科教,http://live.ahcartv.dev.geek-zoo.cn/live/nykjtv.m3u8?txSecret=4888aba85d563cfd8853ca0982febcbe&txTime=6861F1F6
+安徽经济生活,http://live.ahcartv.dev.geek-zoo.cn/live/jjshtv.m3u8?txSecret=94e99c3721b25b3ac3d04be07d92fa3c&txTime=6861F1F6
+
 安徽经济生活,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=1
 安徽综艺体育,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
 安徽国际,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
@@ -494,6 +542,12 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 河南,#genre#
+河南都市,http://42.227.88.122:9003/hls/18/index.m3u8
+河南法治,http://42.227.88.122:9003/hls/20/index.m3u8
+河南乡村,http://42.227.88.122:9003/hls/24/index.m3u8
+河南新闻,http://42.227.88.122:9003/hls/22/index.m3u8
+收藏天下,http://42.227.88.122:9003/hls/26/index.m3u8
+
 河南新闻,webview://https://static.hntv.tv/total/television/?id=149
 河南都市,webview://https://static.hntv.tv/total/television/?id=141
 河南民生,webview://https://static.hntv.tv/total/television/?id=146
@@ -509,6 +563,17 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 河南法治,http://39.164.174.139:5000/nl.m3u8?id=HNTV4-FZ
 
 湖北,#genre#
+湖北影视,http://58.19.43.46:9901/tsfile/live/1016_1.m3u8
+湖北垄上,http://58.19.43.46:9901/tsfile/live/1015_1.m3u8
+湖北经视,http://58.19.43.46:9901/tsfile/live/1017_1.m3u8
+湖北经视,http://113.57.93.165:9900/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北生活,http://home.sylaigym.top:8887/rtp/239.69.1.205:10872
+湖北经视,http://home.sylaigym.top:8887/rtp/239.69.1.41:9886
+湖北综合,http://home.sylaigym.top:8887/rtp/239.69.1.42:9892
+湖北公共,http://home.sylaigym.top:8887/rtp/239.69.1.40:9880
+
+
+
 湖北经视,webview://https://news.hbtv.com.cn/app/tv/432
 湖北综合,webview://https://news.hbtv.com.cn/app/tv/433
 湖北公共新闻,webview://https://news.hbtv.com.cn/app/tv/434
@@ -703,13 +768,13 @@ SCTV9,http://wouu.net:9977/udp/239.93.0.52:5140
 
 
 SCTV8,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
-CDTV-2,http://wouu.net:9977/udp/239.93.0.17:1239
-CDTV-3,http://wouu.net:9977/udp/239.93.0.18:1238
-CDTV-4,http://wouu.net:9977/udp/239.93.0.19:1250
-CDTV-5,http://wouu.net:9977/udp/239.93.1.231:5140
-CDTV-6,http://wouu.net:9977/udp/239.93.0.21:1251
-CDTV-8,http://wouu.net:9977/udp/239.93.0.22:1252
 
+成都新闻综合,webview://https://www.cditv.cn/show/4845-563.html
+成都经济资讯,webview://https://www.cditv.cn/show/4845-562.html
+成都都市生活,webview://https://www.cditv.cn/show/4845-561.html
+成都影视文艺,webview://https://www.cditv.cn/show/4845-560.html
+成都公共,webview://https://www.cditv.cn/show/4845-559.html
+成都少儿,webview://https://www.cditv.cn/show/4845-558.html
 
 德阳文旅,rtmp://scdytv.cn:1935/live/m_ggpd_livevideo
 德阳新闻,rtmp://scdytv.cn:1935/live/m_xwpd_livevideo
@@ -837,12 +902,14 @@ xjtv12,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
-CHC影迷电影,https://ali.hlspull.yximgs.com/live/diyp_chcyingmi.flv
-CHC家庭影院,https://ali.hlspull.yximgs.com/live/diyp_chcjiating.flv
-CHC动作电影,https://ali.hlspull.yximgs.com/live/diyp_chcdongzuo.flv
+CHC影迷电影,http://42.227.88.122:9003/hls/59/index.m3u8
+CHC动作电影,http://42.227.88.122:9003/hls/60/index.m3u8
+CHC家庭影院,http://42.227.88.122:9003/hls/61/index.m3u8
 
 
-CHC影迷电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8581&tk=a0c4f6cfaba3
+CHC影迷影视,http://5vn.cn:9003//hls/92/index.m3u8
+CHC动作电影,http://5vn.cn:9003//hls/91/index.m3u8
+CHC家庭影院,http://5vn.cn:9003//hls/93/index.m3u8
 
 CHC影迷电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 CHC动作电影,http://183.237.95.108:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=0&authid=0
