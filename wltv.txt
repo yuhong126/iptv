@@ -794,16 +794,10 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 四川,#genre#
-SCTV2,http://wouu.net:9977/udp/239.93.1.102:5140
-SCTV3,http://wouu.net:9977/udp/239.93.1.101:5140
-SCTV4,http://wouu.net:9977/udp/239.93.0.47:5140
-SCTV5,http://wouu.net:9977/udp/239.93.0.166:5140
-SCTV7,http://wouu.net:9977/udp/239.93.0.219:5140
-SCTV8,http://wouu.net:9977/udp/239.93.42.44:5140
-SCTV9,http://wouu.net:9977/udp/239.93.0.52:5140
-
-
-SCTV8,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
+四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-5.m3u8
+四川妇女儿童,http://live.nctv.top/DJlio/sctv.php?id=scfnet
+四川公共乡村,http://live.nctv.top/DJlio/sctv.php?id=scxc
+四川新闻,http://live.nctv.top/DJlio/sctv.php?id=scxw
 
 成都新闻综合,webview://https://www.cditv.cn/show/4845-563.html
 成都经济资讯,webview://https://www.cditv.cn/show/4845-562.html
