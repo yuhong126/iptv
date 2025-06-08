@@ -25,6 +25,19 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+CCTV-电视指南,http://202.102.201.244:40022/rtp/238.1.79.53:4560$安徽电信
+CCTV-兵器科技,http://202.102.201.244:40022/rtp/238.1.79.56:4584
+CCTV-第一剧场,http://202.102.201.244:40022/rtp/238.1.79.63:4640
+CCTV-风云剧场,http://202.102.201.244:40022/rtp/238.1.79.62:4632
+CCTV-风云音乐,http://202.102.201.244:40022/rtp/238.1.79.64:4648
+CCTV-风云足球,http://202.102.201.244:40022/rtp/238.1.79.57:4592
+CCTV-高尔夫网球,http://202.102.201.244:40022/rtp/238.1.79.58:4600
+CCTV-怀旧剧场,http://202.102.201.244:40022/rtp/238.1.79.61:4624
+CCTV-女性时尚,http://202.102.201.244:40022/rtp/238.1.79.55:4576
+CCTV-世界地理,http://202.102.201.244:40022/rtp/238.1.79.60:4616
+CCTV-央视台球,http://202.102.201.244:40022/rtp/238.1.79.59:4608
+CCTV-央视文化精品	,http://202.102.201.244:40022/rtp/238.1.79.54:4568
+
 CCTV风云剧场,webview://https://yangshipin.cn/tv/home?pid=600099658
 CCTV第一剧场,webview://https://yangshipin.cn/tv/home?pid=600099655
 CCTV怀旧剧场,webview://https://yangshipin.cn/tv/home?pid=600099620
@@ -98,7 +111,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://171.118.160.140:9003/hls/20/index.m3u8
-山西卫视,http://221.204.237.19:9003/hls/20/index.m3u8
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://plex.home.yulei.online:9999/udp/226.0.2.152:9128
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -185,12 +197,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 天津,#genre#
-天津新闻,http://60.26.15.75:9901/tsfile/live/16002_1.m3u8?key=txiptv&playlive=1&authid=0
-天津文艺,http://60.26.15.75:9901/tsfile/live/16003_1.m3u8?key=txiptv&playlive=1&authid=0
-天津影视,http://60.26.15.75:9901/tsfile/live/16004_1.m3u8?key=txiptv&playlive=1&authid=0
-天津都市,http://60.26.15.75:9901/tsfile/live/16005_1.m3u8?key=txiptv&playlive=1&authid=0
-天津体育,http://60.26.15.75:9901/tsfile/live/16006_1.m3u8?key=txiptv&playlive=1&authid=0
-天津教育,http://60.26.15.75:9901/tsfile/live/16007_1.m3u8?key=txiptv&playlive=1&authid=0
 天津新闻,http://nas.hssvm.com:8888/udp/225.1.1.130:5002
 天津文艺,http://nas.hssvm.com:8888/udp/225.1.1.131:5002
 天津影视,http://nas.hssvm.com:8888/udp/225.1.1.149:5002
@@ -308,23 +314,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 江苏,#genre#
-江苏城市,http://122.96.108.221:9003/hls/17/index.m3u8
-江苏综艺,http://122.96.108.221:9003/hls/18/index.m3u8
-江苏国际,http://122.96.108.221:9003/hls/22/index.m3u8
-江苏体育,http://122.96.108.221:9003/hls/19/index.m3u8
-江苏新闻,http://122.96.108.221:9003/hls/21/index.m3u8
-江苏影视,http://122.96.108.221:9003/hls/20/index.m3u8
-优漫卡通,http://122.96.108.221:9003/hls/60/index.m3u8
-
-江苏城市,http://112.86.221.52:9003//hls/17/index.m3u8
-江苏综艺,http://112.86.221.52:9003//hls/18/index.m3u8
-江苏国际,http://112.86.221.52:9003//hls/22/index.m3u8
-江苏体育,http://112.86.221.52:9003//hls/19/index.m3u8
-江苏新闻,http://112.86.221.52:9003//hls/21/index.m3u8
-江苏影视,http://112.86.221.52:9003//hls/20/index.m3u8
-优漫卡通,http://112.86.221.52:9003//hls/60/index.m3u8
-
-
 江苏城市,webview://https://live.jstv.com/?channelId=535
 江苏综艺,webview://https://live.jstv.com/?channelId=556
 江苏影视,webview://https://live.jstv.com/?channelId=542
@@ -426,6 +415,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 安徽公共,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=4
 安徽农业科教,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=5
 
+安徽经济生活,http://202.102.201.244:40022/rtp/238.1.79.44:4464
+安徽影视,http://202.102.201.244:40022/rtp/238.1.79.42:4448
+安徽农业科教,http://202.102.201.244:40022/rtp/238.1.79.40:4432
+安徽综艺体育,http://202.102.201.244:40022/rtp/238.1.79.41:4440
+安徽国际,http://202.102.201.244:40022/rtp/238.1.78.61:6360
+
+安庆新闻,http://202.102.201.244:40022/rtp/238.1.78.117:6808
+安庆经济,http://202.102.201.244:40022/rtp/238.1.78.118:6816
+
 望江新闻,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=113
 望江黄梅戏,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=112
 安庆新闻,webview://https://www.zsaqnews.cn/html/rft/live.html?channelId=61005770c525480db84eed456cd093c1&type=1&siteId=ea1cf11ceacd4d6b914fa9d78e550b91&shareAppId=ea1cf11ceacd4d6b914fa9d78e550b91
@@ -488,14 +486,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
-江西都市,https://play-live-hls.jxtvcn.com.cn/moss/tv_jxtv2.m3u8
-江西影视,https://play-live-hls.jxtvcn.com.cn/moss/tv_jxtv4.m3u8
-江西经济,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv3_hd.m3u8
-江西公共,https://play-live-hls.jxtvcn.com.cn/moss/tv_jxtv5.m3u8
-江西少儿,https://play-live-hls.jxtvcn.com.cn/moss/tv_jxtv6.m3u8
-江西新闻,https://play-live-hls.jxtvcn.com.cn/moss/tv_jxtv7.m3u8
+江西都市,webview://https://www.jxntv.cn/live/#/jxtv2
+江西经济,webview://https://www.jxntv.cn/live/#/jxtv3
+江西影视,webview://https://www.jxntv.cn/live/#/jxtv4
+江西公共,webview://https://www.jxntv.cn/live/#/jxtv5
+江西少儿,webview://https://www.jxntv.cn/live/#/jxtv6
+江西新闻,webview://https://www.jxntv.cn/live/#/jxtv7
 
 江西都市,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv2.m3u8
+江西经济,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv3_hd.m3u8
 江西影视,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv4.m3u8
 江西公共,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv5.m3u8
 江西少儿,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv6.m3u8
@@ -561,12 +560,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 河南,#genre#
-河南都市,http://42.227.88.122:9003/hls/18/index.m3u8
-河南法治,http://42.227.88.122:9003/hls/20/index.m3u8
-河南乡村,http://42.227.88.122:9003/hls/24/index.m3u8
-河南新闻,http://42.227.88.122:9003/hls/22/index.m3u8
-收藏天下,http://42.227.88.122:9003/hls/26/index.m3u8
-
 河南新闻,webview://https://static.hntv.tv/total/television/?id=149
 河南都市,webview://https://static.hntv.tv/total/television/?id=141
 河南民生,webview://https://static.hntv.tv/total/television/?id=146
@@ -582,16 +575,12 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 河南法治,http://39.164.174.139:5000/nl.m3u8?id=HNTV4-FZ
 
 湖北,#genre#
-湖北影视,http://58.19.43.46:9901/tsfile/live/1016_1.m3u8
-湖北垄上,http://58.19.43.46:9901/tsfile/live/1015_1.m3u8
-湖北经视,http://58.19.43.46:9901/tsfile/live/1017_1.m3u8
-湖北经视,http://113.57.93.165:9900/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-湖北生活,http://home.sylaigym.top:8887/rtp/239.69.1.205:10872
-湖北经视,http://home.sylaigym.top:8887/rtp/239.69.1.41:9886
-湖北综合,http://home.sylaigym.top:8887/rtp/239.69.1.42:9892
-湖北公共,http://home.sylaigym.top:8887/rtp/239.69.1.40:9880
-
-
+湖北经视,http://home.sylaigym.top:8887/udp/239.69.1.41:9886
+湖北综合,http://home.sylaigym.top:8887/udp/239.69.1.42:9892
+湖北垄上,http://home.sylaigym.top:8887/udp/239.69.1.43:9898
+湖北公共,http://home.sylaigym.top:8887/udp/239.69.1.40:9880
+湖北影视,http://home.sylaigym.top:8887/udp/239.69.1.204:10866
+湖北教育,http://home.sylaigym.top:8887/udp/239.69.1.206:10878
 
 湖北经视,webview://https://news.hbtv.com.cn/app/tv/432
 湖北综合,webview://https://news.hbtv.com.cn/app/tv/433
@@ -602,7 +591,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
-
 湖南经视,http://58.46.28.80:9999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南都市,http://58.46.28.80:9999/tsfile/live/1092_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南电视剧,http://58.46.28.80:9999/tsfile/live/1094_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -795,10 +783,6 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 四川,#genre#
 四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-5.m3u8
-四川妇女儿童,http://live.nctv.top/DJlio/sctv.php?id=scfnet
-四川公共乡村,http://live.nctv.top/DJlio/sctv.php?id=scxc
-四川新闻,http://live.nctv.top/DJlio/sctv.php?id=scxw
-
 成都新闻综合,webview://https://www.cditv.cn/show/4845-563.html
 成都经济资讯,webview://https://www.cditv.cn/show/4845-562.html
 成都都市生活,webview://https://www.cditv.cn/show/4845-561.html
