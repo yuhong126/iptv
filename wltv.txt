@@ -6,6 +6,8 @@ CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225923/ind
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225800/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV3,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227256/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225802/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+CCTV4欧洲,http://www.lizhinas.top:1009/udp/239.252.219.192:5140
+CCTV4美洲,http://www.lizhinas.top:1009/udp/239.252.219.193:5140
 CCTV4欧洲,webview://https://tv.cctv.com/live/cctveurope/index.shtml
 CCTV4美洲,webview://https://tv.cctv.com/live/cctvamerica/
 CCTV5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227229/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -24,6 +26,19 @@ CCTV15,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225818/in
 CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+
+CCTV-央视文化精品,http://www.lizhinas.top:1009/udp/239.252.219.81:5140$江西电信
+CCTV-央视台球,http://www.lizhinas.top:1009/udp/239.252.219.80:5140
+CCTV-风云音乐,http://www.lizhinas.top:1009/udp/239.252.219.87:5140
+CCTV-第一剧场,http://www.lizhinas.top:1009/udp/239.252.219.86:5140
+CCTV-风云剧场,http://www.lizhinas.top:1009/udp/239.252.219.89:5140
+CCTV-怀旧剧场,http://www.lizhinas.top:1009/udp/239.252.219.90:5140
+CCTV-女性时尚,http://www.lizhinas.top:1009/udp/239.252.219.94:5140
+CCTV-高尔夫网球,http://www.lizhinas.top:1009/udp/239.252.219.95:5140
+CCTV-风云足球,http://www.lizhinas.top:1009/udp/239.252.219.96:5140
+CCTV-电视指南,http://www.lizhinas.top:1009/udp/239.252.219.97:5140
+CCTV-世界地理,http://www.lizhinas.top:1009/udp/239.252.219.93:5140
+CCTV-兵器科技,http://www.lizhinas.top:1009/udp/239.252.219.98:5140
 
 CCTV-电视指南,http://202.102.201.244:40022/rtp/238.1.79.53:4560$安徽电信
 CCTV-兵器科技,http://202.102.201.244:40022/rtp/238.1.79.56:4584
@@ -151,8 +166,16 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
+莲花卫视,http://8.138.7.223/tv/lotustv.m3u8
 
 港澳台,#genre#
+凤凰中文,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰中文台
+凤凰资讯,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰资讯台
+凤凰香港,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰香港台
+中天新闻,http://qwt.zhibotv.top:2016/全网通.php?id=中天新闻
+寰宇新闻,http://qwt.zhibotv.top:2016/全网通.php?id=寰宇新闻
+翡翠台,http://qwt.zhibotv.top:2016/全网通.php?id=翡翠台
+翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
@@ -165,6 +188,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
 凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
 香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
+无线新闻,http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
 
 中天新聞台,http://222.128.55.152:9080/live/fc.m3u8
 台视新聞台,http://222.128.55.152:9080/live/ts.m3u8
@@ -486,12 +510,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
-江西都市,webview://https://www.jxntv.cn/live/#/jxtv2
-江西经济,webview://https://www.jxntv.cn/live/#/jxtv3
-江西影视,webview://https://www.jxntv.cn/live/#/jxtv4
-江西公共,webview://https://www.jxntv.cn/live/#/jxtv5
-江西少儿,webview://https://www.jxntv.cn/live/#/jxtv6
-江西新闻,webview://https://www.jxntv.cn/live/#/jxtv7
+江西都市,http://www.lizhinas.top:1009/udp/239.252.220.238:5140
+江西经济,http://www.lizhinas.top:1009/udp/239.252.219.173:5140
+江西影视,http://www.lizhinas.top:1009/udp/239.252.220.242:5140
+江西公共,http://www.lizhinas.top:1009/udp/239.252.220.102:5140
+江西少儿,http://www.lizhinas.top:1009/udp/239.252.219.113:5140
+江西新闻,http://www.lizhinas.top:1009/udp/239.252.220.100:5140
+江西移动,http://www.lizhinas.top:1009/udp/239.252.220.241:5140
+江西教育,http://www.lizhinas.top:1009/udp/239.252.219.115:5140
+江西风尚,http://www.lizhinas.top:1009/udp/239.252.219.101:5140
 
 江西都市,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv2.m3u8
 江西经济,https://local-live.jxtvcn.com.cn/live-jxtv/tv_jxtv3_hd.m3u8
@@ -509,6 +536,10 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
 南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
+
+九江新闻,https://live02.jxtvcn.com.cn:443/live-jxtvcn/ganyun_jiujiang1.m3u8?token=ae4642319f8d19c71d66ac248fd30d79&t=174974824234227
+九江公共,https://live02.jxtvcn.com.cn:443/live-jxtvcn/ganyun_jiujiang2.m3u8?token=ae4642319f8d19c71d66ac248fd30d79&t=174974824234227
+九江教育,https://live02.jxtvcn.com.cn:443/live-jxtvcn/ganyun_jiujiang3.m3u8?token=ae4642319f8d19c71d66ac248fd30d79&t=174974824234227
 
 九江新闻,webview://https://www.jjntv.cn/live?id=jjtv1
 九江公共,webview://https://www.jjntv.cn/live?id=jjtv2
@@ -921,6 +952,14 @@ xjtv12,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC影迷电影,http://qwt.zhibotv.top:2016/全网通.php?id=CHC影迷电影
+CHC动作电影,http://qwt.zhibotv.top:2016/全网通.php?id=CHC动作电影
+CHC家庭影院,http://qwt.zhibotv.top:2016/全网通.php?id=CHC家庭影院
+
+CHC高清电影,http://www.lizhinas.top:1009/udp/239.252.219.83:5140$江西电信
+CHC家庭影院,http://www.lizhinas.top:1009/udp/239.252.219.84:5140
+CHC动作电影,http://www.lizhinas.top:1009/udp/239.252.219.85:5140
+
 CHC影迷电影,http://42.227.88.122:9003/hls/59/index.m3u8
 CHC动作电影,http://42.227.88.122:9003/hls/60/index.m3u8
 CHC家庭影院,http://42.227.88.122:9003/hls/61/index.m3u8
