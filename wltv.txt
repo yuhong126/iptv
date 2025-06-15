@@ -138,7 +138,8 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/3208526general.m3u8?txSecret=eb5a3102dd5406c7ffeddf560b024952&txTime=76B2F9A0
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-陕西卫视,http://1.84.219.58:8888/udp/239.109.205.66:8464
+陕西卫视,http://42.225.117.174:11199/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+陕西卫视,http://www.cdnstv.com:6398/hls/1129/index.m3u8
 陕西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -178,6 +179,13 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+
+凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.0.162:2192
+凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.55:8302
+凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.9:2192
+凤凰资讯,http://vl15191373.imwork.net:8880/udp/239.93.0.118:2191
+凤凰资讯,http://vl15191373.imwork.net:8880/udp/239.93.1.4:2191
+
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
 凤凰资讯,http://php.jdshipin.com:8880/smt.php?id=phoenixinfo_hd
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
@@ -548,6 +556,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 彭泽,https://play-a2.quklive.com/live/1740970999257207.m3u8
 
 
+南昌新闻,http://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
 赣州新闻,http://play-live-hls.jxtvcn.com.cn/live-city/tv_ganzhou.m3u8
 南昌新闻,http://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
 九江新闻,http://play-live-hls.jxtvcn.com.cn/live-city/tv_jiujiang.m3u8
@@ -622,15 +631,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
-湖南经视,http://58.46.28.80:9999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南都市,http://58.46.28.80:9999/tsfile/live/1092_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南电视剧,http://58.46.28.80:9999/tsfile/live/1094_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南经视,http://58.46.28.80:9999/tsfile/live/1091_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南教育,http://58.46.28.80:9999/tsfile/live/1086_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南电影,http://58.46.28.80:9999/tsfile/live/1093_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南娱乐,http://58.46.28.80:9999/tsfile/live/1096_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南爱晚,http://58.46.28.80:9999/tsfile/live/1097_1.m3u8?key=txiptv&playlive=1&authid=0
-
 湖南都市,http://183.215.134.239:19901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南经视,http://183.215.134.239:19901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南电影,http://183.215.134.239:19901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -806,13 +806,49 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 重庆,#genre#
-重庆新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD5173881C62BD4ACAD0
+CQTV少儿,http://211.158.154.134:8007/udp/225.0.4.71:7980
+CQTV新农村,http://211.158.154.134:8007/udp/225.0.4.70:7980
+CQTV时尚生活,http://211.158.154.134:8007/udp/225.0.4.69:7980
+CQTV移动,http://211.158.154.134:8007/udp/225.0.4.68:7980
+CQTV娱乐,http://211.158.154.134:8007/udp/225.0.4.65:7980
+CQTV社会与法,http://211.158.154.134:8007/udp/225.0.4.64:7980
+CQTV科教,http://211.158.154.134:8007/udp/225.0.4.63:7980
+CQTV影视,http://211.158.154.134:8007/udp/225.0.4.62:7980
+CQTV汽摩,http://211.158.154.134:8007/udp/225.0.4.61:7980
+CQTV新闻,http://211.158.154.134:8007/udp/225.0.4.59:7980
+CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD5173881C62BD4ACAD0
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 垫江综合,http://125.62.24.185:80/1.m3u8
 
 
 
 四川,#genre#
+四川公共乡村,http://vl15191373.imwork.net:8880/udp/239.93.0.52:5140
+四川妇女儿童,http://vl15191373.imwork.net:8880/udp/239.93.0.219:5140
+四川影视文艺,http://vl15191373.imwork.net:8880/udp/239.93.0.166:5140
+四川影视文艺,http://vl15191373.imwork.net:8880/udp/239.93.1.195:5140
+四川文化旅游,http://vl15191373.imwork.net:8880/udp/239.93.1.101:5140
+四川文化旅游,http://vl15191373.imwork.net:8880/udp/239.93.1.20:5140
+四川新闻,http://vl15191373.imwork.net:8880/udp/239.93.0.47:5140
+四川经济,http://vl15191373.imwork.net:8880/udp/239.93.1.102:5140
+四川经济,http://vl15191373.imwork.net:8880/udp/239.93.1.16:5140
+峨眉电影,http://vl15191373.imwork.net:8880/udp/239.93.1.54:5140
+峨眉电影,http://vl15191373.imwork.net:8880/udp/239.93.1.18:5140
+康巴卫视,http://vl15191373.imwork.net:8880/udp/239.93.0.41:5140
+
+
+四川公共乡村,http://171.213.140.90:5555/udp/239.93.0.52:5140
+四川妇女儿童,http://171.213.140.90:5555/udp/239.93.0.219:5140
+四川影视文艺,http://171.213.140.90:5555/udp/239.93.0.166:5140
+四川影视文艺,http://171.213.140.90:5555/udp/239.93.1.195:5140
+四川文化旅游,http://171.213.140.90:5555/udp/239.93.1.101:5140
+四川文化旅游,http://171.213.140.90:5555/udp/239.93.1.20:5140
+四川新闻,http://171.213.140.90:5555/udp/239.93.0.47:5140
+四川经济,http://171.213.140.90:5555/udp/239.93.1.102:5140
+四川经济,http://171.213.140.90:5555/udp/239.93.1.16:5140
+峨眉电影,http://171.213.140.90:5555/udp/239.93.1.54:5140
+峨眉电影,http://171.213.140.90:5555/udp/239.93.1.18:5140
+
 四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-5.m3u8
 成都新闻综合,webview://https://www.cditv.cn/show/4845-563.html
 成都经济资讯,webview://https://www.cditv.cn/show/4845-562.html
