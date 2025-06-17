@@ -125,7 +125,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-山西卫视,http://171.118.160.140:9003/hls/20/index.m3u8
+山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://plex.home.yulei.online:9999/udp/226.0.2.152:9128
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -217,14 +217,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 翡翠台,http://111.221.218.59:8001/bysid/1
 
 北京,#genre#
-北京文艺,http://124.222.114.206/bjtv.php?id=bjwy
-北京纪实科教,http://124.222.114.206/bjtv.php?id=bjjs
-北京影视,http://124.222.114.206/bjtv.php?id=bjys
-北京财经,http://124.222.114.206/bjtv.php?id=bjcj
-北京体育休闲,http://124.222.114.206/bjtv.php?id=bjty
-北京生活,http://124.222.114.206/bjtv.php?id=bjsh
-北京新闻,http://124.222.114.206/bjtv.php?id=bjxw
-卡酷少儿,http://124.222.114.206/bjtv.php?id=bjkk
+北京,https://gh-proxy.com/github.com/mytv-android/BRTV-Live-M3U8/blob/main/BRTV.m3u
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
@@ -238,12 +231,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 山西,#genre#
-山西影视,http://221.204.237.19:9003/hls/51/index.m3u8
-山西社会与法治,http://221.204.237.19:9003/hls/53/index.m3u8
-山西经济,http://221.204.237.19:9003/hls/52/index.m3u8
-山西文体,http://221.204.237.19:9003/hls/54/index.m3u8
-黄河电视台,http://221.204.237.19:9003/hls/55/index.m3u8
-
 黄河电视台,webview://http://tv.haoqu99.com/3/shan-xi/huanghxw.html
 山西经济,webview://http://tv.haoqu99.com/3/shan-xi/shanxijj.html
 山西影视,webview://http://tv.haoqu99.com/3/shan-xi/shanxiys.html
