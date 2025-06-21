@@ -170,12 +170,15 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 莲花卫视,http://8.138.7.223/tv/lotustv.m3u8
 
 港澳台,#genre#
-凤凰中文,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰中文台
-凤凰资讯,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰资讯台
-凤凰香港,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰香港台
-中天新闻,http://qwt.zhibotv.top:2016/全网通.php?id=中天新闻
-寰宇新闻,http://qwt.zhibotv.top:2016/全网通.php?id=寰宇新闻
-翡翠台,http://qwt.zhibotv.top:2016/全网通.php?id=翡翠台
+
+凤凰中文,http://ali.hlspull.yximgs.com/live/34c748e08e88488cd201f155fff28e21.flv
+凤凰资讯,http://ali.hlspull.yximgs.com/live/06b15e0c9dc61c9a4082f8ee6ce8a76e.flv
+凤凰香港,http://ali.hlspull.yximgs.com/live/b27208d2b0aeeddd23f1ed58f894720a.flv
+中天新闻,http://ali.hlspull.yximgs.com/live/07f4871d7c2ddb21e6392bfe74186b2f.flv
+寰宇新闻,http://ali.hlspull.yximgs.com/live/cdc3f35d755a90101d1d1d44c1b894fe.flv
+翡翠台,http://ali.hlspull.yximgs.com/live/c296dd04c2b0d30b4c997dba5f39db49.flv
+星光视界,http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
+
 翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
@@ -198,8 +201,8 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
 无线新闻,http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
 
-中天新聞台,http://222.128.55.152:9080/live/fc.m3u8
-台视新聞台,http://222.128.55.152:9080/live/ts.m3u8
+中天新闻台,http://222.128.55.152:9080/live/fc.m3u8
+台视新闻台,http://222.128.55.152:9080/live/ts.m3u8
 
 香港PEAU,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -217,17 +220,49 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 翡翠台,http://111.221.218.59:8001/bysid/1
 
 北京,#genre#
-北京,https://gh-proxy.com/github.com/mytv-android/BRTV-Live-M3U8/blob/main/BRTV.m3u
+北京新闻,http://124.65.0.27:20000/rtp/239.3.1.159:8000
+北京影视,http://124.65.3.143:20000/rtp/239.3.1.158:8000
+北京文艺,http://124.65.3.143:20000/rtp/239.3.1.242:8000
+北京财经,http://124.65.3.143:20000/rtp/239.3.1.116:8000
+北京生活,http://124.65.3.143:20000/rtp/239.3.1.117:8000
+北京青年,http://124.65.3.143:20000/rtp/239.3.1.118:8000
+
+
+北京财经,http://littlegod.asuscomm.com:8012/udp/239.3.1.116:8000
+北京生活,http://littlegod.asuscomm.com:8012/udp/239.3.1.117:8000
+北京影视,http://littlegod.asuscomm.com:8012/udp/239.3.1.158:8000
+北京新闻,http://littlegod.asuscomm.com:8012/udp/239.3.1.159:8000
+卡酷少儿,http://littlegod.asuscomm.com:8012/udp/239.3.1.189:8000
+北京体育休闲,http://littlegod.asuscomm.com:8012/udp/239.3.1.97:8001
+北京纪实科教,http://littlegod.asuscomm.com:8012/udp/239.3.1.115:8000
+北京卫视,http://littlegod.asuscomm.com:8012/udp/239.3.1.225:8000
+北京文艺,http://littlegod.asuscomm.com:8012/udp/239.3.1.226:8000
+北京纪实科教,http://littlegod.asuscomm.com:8012/udp/239.3.1.227:8000
+北京影视,http://littlegod.asuscomm.com:8012/udp/239.3.1.228:8000
+北京财经,http://littlegod.asuscomm.com:8012/udp/239.3.1.229:8000
+北京生活,http://littlegod.asuscomm.com:8012/udp/239.3.1.231:8000
+北京新闻,http://littlegod.asuscomm.com:8012/udp/239.3.1.233:8000
+卡酷少儿,http://littlegod.asuscomm.com:8012/udp/239.3.1.234:8000
+北京国际,http://littlegod.asuscomm.com:8012/udp/239.3.1.235:8000
+北京文艺,http://littlegod.asuscomm.com:8012/udp/239.3.1.242:8000
+北京体育休闲,http://littlegod.asuscomm.com:8012/udp/239.3.1.243:8000
+淘剧场,http://littlegod.asuscomm.com:8012/udp/239.3.1.95:8001
+淘BABY,http://littlegod.asuscomm.com:8012/udp/239.3.1.238:8001
+淘电影,http://littlegod.asuscomm.com:8012/udp/239.3.1.250:8001
+4K超清,http://littlegod.asuscomm.com:8012/udp/239.3.1.249:8001
+淘娱乐,http://littlegod.asuscomm.com:8012/udp/239.3.1.100:8001
+萌宠,http://littlegod.asuscomm.com:8012/udp/239.3.1.102:8001
+
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
 天津,#genre#
-天津新闻,http://nas.hssvm.com:8888/udp/225.1.1.130:5002
-天津文艺,http://nas.hssvm.com:8888/udp/225.1.1.131:5002
-天津影视,http://nas.hssvm.com:8888/udp/225.1.1.149:5002
-天津都市,http://nas.hssvm.com:8888/udp/225.1.1.128:5002
-天津体育,http://nas.hssvm.com:8888/udp/225.1.1.122:5002
-天津教育,http://nas.hssvm.com:8888/udp/225.1.1.129:5002
+天津新闻,http://117.9.112.118:8888/udp/225.1.1.130:5002
+天津文艺,http://221.198.57.126:8888/udp/225.1.1.131:5002
+天津影视,http://117.9.112.118:8888/udp/225.1.1.149:5002
+天津都市,http://117.9.112.118:8888/udp/225.1.1.128:5002
+天津体育,http://117.9.112.118:8888/udp/225.1.1.122:5002
+天津教育,http://117.9.112.118:8888/udp/225.1.1.129:5002
 
 
 山西,#genre#
@@ -271,6 +306,18 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
 辽宁,#genre#
+辽宁北方,http://ygbh.site/php/bfgd.php?id=071
+辽宁都市,http://ygbh.site/php/bfgd.php?id=610
+辽宁公共,http://ygbh.site/php/bfgd.php?id=077
+辽宁公共,http://ygbh.site/php/bfgd.php?id=481
+辽宁教育青少,http://ygbh.site/php/bfgd.php?id=075
+辽宁经济,http://ygbh.site/php/bfgd.php?id=480
+辽宁经济,http://ygbh.site/php/bfgd.php?id=076
+辽宁生活,http://ygbh.site/php/bfgd.php?id=073
+辽宁体育,http://ygbh.site/php/bfgd.php?id=611
+辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
+辽宁新动漫,http://ygbh.site/php/bfgd.php?id=140
+辽宁影视剧,http://ygbh.site/php/bfgd.php?id=070
 辽宁北方,http://59.46.85.61:801/hls/17/index.m3u8
 辽宁都市,http://59.46.85.61:801/hls/18/index.m3u8
 辽宁经济,http://59.46.85.61:801/hls/21/index.m3u8
@@ -802,6 +849,12 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
 
 广西,#genre#
+广西都市,http://171.105.177.192:4022/rtp/239.81.0.247:4056
+广西新闻,http://171.105.177.192:4022/rtp/239.81.0.248:4056
+广西公共,http://171.105.177.192:4022/rtp/239.81.0.249:4056
+广西影视,http://171.105.177.192:4022/rtp/239.81.0.250:4056
+广西国际,http://171.105.177.192:4022/rtp/239.81.0.008:4056
+
 广西综艺,webview://https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
 广西都市,webview://https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html
 广西影视,webview://https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html
@@ -824,16 +877,30 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 重庆,#genre#
-CQTV少儿,http://211.158.154.134:8007/udp/225.0.4.71:7980
-CQTV新农村,http://211.158.154.134:8007/udp/225.0.4.70:7980
-CQTV时尚生活,http://211.158.154.134:8007/udp/225.0.4.69:7980
-CQTV移动,http://211.158.154.134:8007/udp/225.0.4.68:7980
-CQTV娱乐,http://211.158.154.134:8007/udp/225.0.4.65:7980
-CQTV社会与法,http://211.158.154.134:8007/udp/225.0.4.64:7980
-CQTV科教,http://211.158.154.134:8007/udp/225.0.4.63:7980
-CQTV影视,http://211.158.154.134:8007/udp/225.0.4.62:7980
-CQTV汽摩,http://211.158.154.134:8007/udp/225.0.4.61:7980
-CQTV新闻,http://211.158.154.134:8007/udp/225.0.4.59:7980
+CQTV新闻,http://27.10.213.189:8001/udp/225.0.4.188:7980
+CQTV社会与法,http://27.10.213.189:8001/udp/225.0.4.190:7980
+CQTV少儿,http://27.10.213.189:8001/udp/225.0.4.191:7980
+CQTV影视,http://27.10.213.189:8001/udp/225.0.4.192:7980
+CQTV科教,http://27.10.213.189:8001/udp/225.0.4.193:7980
+CQTV娱乐,http://27.10.213.189:8001/udp/225.0.4.194:7980
+CQTV汽摩,http://27.10.213.189:8001/udp/225.0.4.195:7980
+CQTV时尚生活,http://27.10.213.189:8001/udp/225.0.4.196:7980
+CQTV新农村,http://27.10.213.189:8001/udp/225.0.4.189:7980
+CQTV移动,http://27.10.213.189:8001/udp/225.0.4.215:7980
+
+
+CQTV少儿,http://27.10.213.189:8001/udp/225.0.4.71:7980
+CQTV新农村,http://27.10.213.189:8001/udp/225.0.4.70:7980
+CQTV时尚生活,http://27.10.213.189:8001/udp/225.0.4.69:7980
+CQTV移动,http://27.10.213.189:8001/udp/225.0.4.68:7980
+CQTV娱乐,http://27.10.213.189:8001/udp/225.0.4.65:7980
+CQTV社会与法,http://27.10.213.189:8001/udp/225.0.4.64:7980
+CQTV科教,http://27.10.213.189:8001/udp/225.0.4.63:7980
+CQTV影视,http://27.10.213.189:8001/udp/225.0.4.62:7980
+CQTV汽摩,http://27.10.213.189:8001/udp/225.0.4.61:7980
+CQTV新闻,http://27.10.213.189:8001/udp/225.0.4.59:7980
+
+
 CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD5173881C62BD4ACAD0
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 垫江综合,http://125.62.24.185:80/1.m3u8
@@ -1006,10 +1073,6 @@ xjtv12,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
-CHC影迷电影,http://qwt.zhibotv.top:2016/全网通.php?id=CHC影迷电影
-CHC动作电影,http://qwt.zhibotv.top:2016/全网通.php?id=CHC动作电影
-CHC家庭影院,http://qwt.zhibotv.top:2016/全网通.php?id=CHC家庭影院
-
 CHC影迷电影,http://www.lizhinas.top:1009/udp/239.252.219.83:5140$江西电信
 CHC家庭影院,http://www.lizhinas.top:1009/udp/239.252.219.84:5140
 CHC动作电影,http://www.lizhinas.top:1009/udp/239.252.219.85:5140
@@ -1027,11 +1090,6 @@ CHC影迷电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&pl
 CHC动作电影,http://183.237.95.108:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=0&authid=0
 CHC家庭影院,http://183.237.95.108:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
 
-
-
-CHC家庭影院,http://nas.hssvm.com:8888/udp/225.1.1.213:5002$天津
-CHC影迷电影,http://nas.hssvm.com:8888/udp/225.1.1.214:5002
-CHC动作电影,http://nas.hssvm.com:8888/udp/225.1.1.215:5002
 
 CHC影迷电影,http://119.98.133.175:8088/rtp/239.69.1.241:11088 $湖北
 CHC动作电影,http://119.98.133.175:8088/rtp/239.69.1.242:11094
