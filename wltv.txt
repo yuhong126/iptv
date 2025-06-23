@@ -163,20 +163,16 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 安多卫视,http://lovegfs.top:8000/udp/239.120.2.163:5141
 安多卫视,http://stream.qhBRTV.com/adws/playlist.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-星空卫视,http://wouu.net:9977/udp/239.93.0.156:2193
+星空卫视,http://vl15191373.imwork.net:8880/udp/239.93.0.156:2193
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
 莲花卫视,http://8.138.7.223/tv/lotustv.m3u8
 
 港澳台,#genre#
-
-凤凰中文,http://ali.hlspull.yximgs.com/live/34c748e08e88488cd201f155fff28e21.flv
-凤凰资讯,http://ali.hlspull.yximgs.com/live/06b15e0c9dc61c9a4082f8ee6ce8a76e.flv
-凤凰香港,http://ali.hlspull.yximgs.com/live/b27208d2b0aeeddd23f1ed58f894720a.flv
-中天新闻,http://ali.hlspull.yximgs.com/live/07f4871d7c2ddb21e6392bfe74186b2f.flv
-寰宇新闻,http://ali.hlspull.yximgs.com/live/cdc3f35d755a90101d1d1d44c1b894fe.flv
-翡翠台,http://ali.hlspull.yximgs.com/live/c296dd04c2b0d30b4c997dba5f39db49.flv
+凤凰中文台,http://www.python888.top:2025/python.php?id=fhzw
+凤凰资讯台,http://www.python888.top:2025/python.php?id=fhzx
+凤凰香祖国同胞,http://www.python888.top:2025/python.php?id=fhhk
 星光视界,http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 
 翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
@@ -727,6 +723,26 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 洞头综合,http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 
 广东,#genre#
+大湾区卫视,http://www.python888.top:2025/python.php?id=dwqws
+广州综合,http://www.python888.top:2025/python.php?id=gzzh
+广州新闻,http://www.python888.top:2025/python.php?id=gzxw
+广州影视,http://www.python888.top:2025/python.php?id=gzys
+广州南国都市,http://www.python888.top:2025/python.php?id=gzngds
+广州法治,http://www.python888.top:2025/python.php?id=gzfz
+广州竞赛,http://www.python888.top:2025/python.php?id=gzjs
+深圳都市,http://www.python888.top:2025/python.php?id=szds
+深圳电视剧,http://www.python888.top:2025/python.php?id=szdsj
+深圳财经,http://www.python888.top:2025/python.php?id=szcj
+东莞新闻综合,http://www.python888.top:2025/python.php?id=dgxwzh
+东莞生活资讯,http://www.python888.top:2025/python.php?id=dgshzx
+广东影视,http://www.python888.top:2025/python.php?id=gdys
+广东新闻,http://www.python888.top:2025/python.php?id=gdxw
+广东民生,http://www.python888.top:2025/python.php?id=gdms
+广东体育,http://www.python888.top:2025/python.php?id=gdty
+广东珠江,http://www.python888.top:2025/python.php?id=gdzj
+
+
+
 广东珠江,webview://https://www.gdtv.cn/tvChannelDetail/44
 广东新闻,webview://https://www.gdtv.cn/tvChannelDetail/45
 广东民生,webview://https://www.gdtv.cn/tvChannelDetail/48
