@@ -123,11 +123,13 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 天津卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227205/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227236/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广东卫视4K,http://ikuai.sunjianwu.fun:8800/udp/239.49.1.24:8000
 深圳卫视4K,http://ikuai.sunjianwu.fun:8800/udp/239.49.1.27:8000
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
+山西卫视,http://ikuai.sunjianwu.fun:8800/udp/239.49.1.55:8000
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://plex.home.yulei.online:9999/udp/226.0.2.152:9128
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -136,9 +138,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 吉林卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 贵州卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227201/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 深圳卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227242/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-深圳卫视4k,https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
-深圳卫视4k,https://livepull-tcms.sztv.com.cn:443/live/sz4Kpgm.m3u8
-深圳卫视4k,http://8.138.7.223/tv/gd.php?id=0201
+深圳卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227489/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+深圳卫视4K,https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
+深圳卫视4K,https://livepull-tcms.sztv.com.cn:443/live/sz4Kpgm.m3u8
+深圳卫视4K,http://8.138.7.223/tv/gd.php?id=0201
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/3208526general.m3u8?txSecret=eb5a3102dd5406c7ffeddf560b024952&txTime=76B2F9A0
