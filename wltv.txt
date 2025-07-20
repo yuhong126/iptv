@@ -165,6 +165,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 厦门卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海峡卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+康巴卫视,http://zqh2333.top:2222/rtp/239.93.24.41:5140
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 延边卫视,https://live.ybtvyun.com/video/s10016-5adcf2b11d0d/index.m3u8
 安多卫视,http://lovegfs.top:8000/udp/239.120.2.6:5141
@@ -178,6 +179,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 莲花卫视,http://8.138.7.223/tv/lotustv.m3u8
 
 港澳台,#genre#
+凤凰中文,https://live.sxrtv.com/iptv/fhzw.flv
+凤凰资讯,https://live.sxrtv.com/iptv/fhzx.flv
+凤凰香港,https://live.sxrtv.com/iptv/fhhk.flv
+
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.0.162:2192
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.55:8302
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.9:2192
@@ -193,6 +198,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
 凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
+
+中天亚洲,http://push-rtmp-hs-spe-f5.douyincdn.com/live/awei_ztyz.flv
+中天新闻,http://push-rtmp-hs-spe-f5.douyincdn.com/live/awei_ztxw.flv
+东森超视,http://push-rtmp-hs-spe-f5.douyincdn.com/live/awei_dscs.flv
 
 
 翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
@@ -726,6 +735,21 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 广东体育,http://www.python888.top:2025/python.php?id=gdty
 广东珠江,http://www.python888.top:2025/python.php?id=gdzj
 
+广东民生,http://121.37.185.74:18180/TV00000000000000000021@HHZT
+广东珠江,http://121.37.185.74:18180/TV00000000000000000022@HHZT
+广东新闻,http://121.37.185.74:18180/TV00000000000000000023@HHZT
+广东体育,http://121.37.185.74:18180/TV00000000000000000024@HHZT
+广东经济科教,http://121.37.185.74:18180/TV00000000000000000025@HHZT
+广东影视,http://121.37.185.74:18180/TV00000000000000000026@HHZT
+广东少儿,http://121.37.185.74:18180/TV00000000000000000027@HHZT
+大湾区卫视,http://121.37.185.74:18180/TV00000000000000000028@HHZT
+
+
+广东体育,http://push-rtmp-hs-spe-f5.douyincdn.com/live/guangdong_ty.flv
+广东民生,http://push-rtmp-hs-spe-f5.douyincdn.com/live/guangdong_ms.flv
+广东珠江,http://push-rtmp-hs-spe-f5.douyincdn.com/live/guangdong_zj.flv
+广东新闻,http://push-rtmp-hs-spe-f5.douyincdn.com/live/guangdong_xw.flv
+
 
 
 广东珠江,webview://https://www.gdtv.cn/tvChannelDetail/44
@@ -909,6 +933,14 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
+四川经济,http://zqh2333.top:2222/rtp/239.93.25.101:5140
+四川文化旅游,http://zqh2333.top:2222/rtp/239.93.25.102:5140
+四川新闻,http://zqh2333.top:2222/rtp/239.93.24.47:5140
+四川影视文艺,http://zqh2333.top:2222/rtp/239.93.24.166:5140
+SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
+四川科教,http://zqh2333.top:2222/rtp/239.93.55.44:5140
+四川乡村,http://zqh2333.top:2222/rtp/239.93.24.52:5140
+
 四川公共乡村,http://vl15191373.imwork.net:8880/udp/239.93.0.52:5140
 四川妇女儿童,http://vl15191373.imwork.net:8880/udp/239.93.0.219:5140
 四川影视文艺,http://vl15191373.imwork.net:8880/udp/239.93.0.166:5140
@@ -1074,6 +1106,10 @@ xjtv12,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC家庭影院,https://live.sxrtv.com/iptv/chcjtyy.flv
+CHC动作电影,https://live.sxrtv.com/iptv/chcdzdy.flv
+CHC影迷电影,https://live.sxrtv.com/iptv/chcymdy.flv
+
 CHC影迷电影,http://220.176.218.11:9000/udp/239.252.219.83:5140$江西电信
 CHC家庭影院,http://220.176.218.11:9000/udp/239.252.219.84:5140
 CHC动作电影,http://220.176.218.11:9000/udp/239.252.219.85:5140
