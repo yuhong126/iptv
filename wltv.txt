@@ -142,6 +142,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 深圳卫视4K,http://8.138.7.223/tv/gd.php?id=0201
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+内蒙古卫视,http://1.180.2.93:9901/tsfile/live/1068_1.m3u8
 内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/3208526general.m3u8?txSecret=eb5a3102dd5406c7ffeddf560b024952&txTime=76B2F9A0
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 陕西卫视,http://42.225.117.174:11199/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -154,7 +155,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 西藏卫视,http://www.lysvc.cc/daili/xztv.php?id=0
 东南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227156/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 重庆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227240/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=1
+新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434
 新疆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
 云南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -227,6 +228,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 未来精彩,http://61.221.215.25:8800/hls/48/index.m3u8
 
 翡翠台,http://111.221.218.59:8001/bysid/1
+RTHK31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/streamPlaylist.m3u8
 
 北京,#genre#
 北京新闻,http://124.65.0.27:20000/rtp/239.3.1.159:8000
@@ -297,6 +299,12 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 吉县新闻,http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8
 
 内蒙古,#genre#
+内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
+内蒙古古文体,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
+内蒙古经济,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
+内蒙古新闻,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
+内蒙古农牧,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
+
 内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/3208526general.m3u8?txSecret=eb5a3102dd5406c7ffeddf560b024952&txTime=76B2F9A0
 内蒙古新闻,https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=b4373417a82ed64e52b0982a66da8df2&txTime=771E8800
 内蒙古经济生活,https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=112b2c4c872de52b0f37aff6ead63ef0&txTime=771E8800
@@ -346,6 +354,9 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 吉林,#genre#
+吉林生活,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/1.m3u8
+吉林影视,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/1.m3u8
+
 吉林生活,http://5vn.cn:9003/hls/70/index.m3u8
 吉林都市,http://5vn.cn:9003/hls/71/index.m3u8
 吉林影视,http://5vn.cn:9003/hls/72/index.m3u8
@@ -476,6 +487,8 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 安徽,#genre#
+安徽影视,https://ahlive.ahwanyun.cn/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
+
 安徽公共,http://live.ahcartv.dev.geek-zoo.cn/live/ggtv.m3u8?txSecret=642c057a63f8e7c6fcd0f236d3f24c69&txTime=6861F1F6
 安徽国际,http://live.ahcartv.dev.geek-zoo.cn/live/gjtv.m3u8?txSecret=e628bcb47d7741b3a60c6793b7295d84&txTime=6861F1F6
 安徽综艺体育,http://live.ahcartv.dev.geek-zoo.cn/live/zytytv.m3u8?txSecret=095c3ce3216bfda624ec4acce6e8a02c&txTime=6861F1F6
@@ -653,6 +666,12 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 河南,#genre#
+河南法治,http://www.cdnstv.com:6398/hls/1112/index.m3u8
+河南电视剧,http://www.cdnstv.com:6398/hls/1113/index.m3u8
+河南新闻,http://www.cdnstv.com:6398/hls/1114/index.m3u8
+河南乡村,http://www.cdnstv.com:6398/hls/1116/index.m3u8
+
+
 河南新闻,webview://https://static.hntv.tv/total/television/?id=149
 河南都市,webview://https://static.hntv.tv/total/television/?id=141
 河南民生,webview://https://static.hntv.tv/total/television/?id=146
@@ -702,6 +721,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 湖南娱乐,http://php.jdshipin.com/TVOD/iptv.php?id=hnyl
 湖南娱乐,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnyl
 湖南娱乐,http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-13.m3u8
+湖南爱晚,http://p2.vzan.com/527645544/149039617847513156/live.m3u8
 湖南爱晚,http://php.jdshipin.com/TVOD/iptv.php?id=hngg
 湖南爱晚,http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-9.m3u8
 湖南电影,http://php.jdshipin.com/TVOD/iptv.php?id=hndy
@@ -1070,17 +1090,13 @@ SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
 青铜峡公共,http://pili-live-hdl.nxdzsh.com/qtxdst/qtx.m3u8
 
 新疆,#genre#
-新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=1
+新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434
 xjtv2,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=3
 xjtv3,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=4
 xjtv4,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=16
 xjtv5,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=17
-xjtv7,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=18
-xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=19
-xjtv9,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=20
-xjtv10,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=21
-xjtv11,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=22
-xjtv12,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
+xjtv7,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=21
+xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 
 巴音郭楞州综合,rtmp://tv.loulannews.cn/channellive/ch1
 巴音郭楞州蒙语,rtmp://tv.loulannews.cn/channellive/ch2
