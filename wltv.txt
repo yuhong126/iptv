@@ -142,7 +142,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 深圳卫视4K,http://8.138.7.223/tv/gd.php?id=0201
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-内蒙古卫视,http://1.180.2.93:9901/tsfile/live/1068_1.m3u8
+内蒙古卫视,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 陕西卫视,http://42.225.117.174:11199/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西卫视,http://www.cdnstv.com:6398/hls/1129/index.m3u8
@@ -368,12 +368,14 @@ RTHK31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/str
 
 
 黑龙江,#genre#
-黑龙江都市,http://39.134.67.108/PLTV/88888888/224/3221225969/1.m3u8
-黑龙江公共农业,http://39.134.67.108/PLTV/88888888/224/3221225994/1.m3u8
-黑龙江少儿,http://39.134.67.108/PLTV/88888888/224/3221225979/1.m3u8
-黑龙江文体,http://39.134.67.108/PLTV/88888888/224/3221225965/1.m3u8
-黑龙江新闻法治,http://39.134.67.108/PLTV/88888888/224/3221225967/1.m3u8
-黑龙江影视,http://39.134.67.108/PLTV/88888888/224/3221225973/1.m3u8
+黑龙江都市,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
+黑龙江影视,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
+黑龙江农业,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226242/index.m3u8
+黑龙江少儿,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226371/index.m3u8
+黑龙江文体,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226424/index.m3u8
+黑龙江新闻,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226368/index.m3u8
+黑龙江都市,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226427/index.m3u8
+
 
 上海,#genre#
 上海新纪实,http://8.138.7.223/tv/shtv.php?id=xjs
@@ -1176,6 +1178,8 @@ NewTV,#genre#
 金牌综艺,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227469/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 中国功夫,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227473/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 精品体育,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227470/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+环球奇观,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227490/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+中华特产,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227502/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 电影,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227478/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 求索,#genre#
