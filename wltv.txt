@@ -126,6 +126,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+山西卫视,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226113/1.m3u8
 山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
 山西卫视,http://ikuai.sunjianwu.fun:8800/udp/239.49.1.55:8000
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -378,6 +379,13 @@ RTHK31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/str
 
 
 上海,#genre#
+东方财经,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226134/1.m3u8
+五星体育,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225732/1.m3u8
+上视都市,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225749/1.m3u8
+第1财经,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225737/1.m3u8
+东方影视,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225744/1.m3u8
+上视新闻,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226136/1.m3u8
+
 上海新纪实,http://8.138.7.223/tv/shtv.php?id=xjs
 五星体育,http://8.138.7.223/tv/shtv.php?id=wxty
 上视新闻,http://8.138.7.223/tv/shtv.php?id=xwzh
@@ -572,6 +580,13 @@ RTHK31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/str
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
+江西都市,http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv2.m3u8
+江西经济,http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv3_hd.m3u8
+江西影视,http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv4.m3u8
+江西公共,http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv5.m3u8
+江西少儿,http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv6.m3u8
+江西新闻,http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv7.m3u8
+
 江西都市,http://182.110.170.222:4022/udp/239.252.220.238:5140
 江西经济,http://182.110.170.222:4022/udp/239.252.219.173:5140
 江西影视,http://182.110.170.222:4022/udp/239.252.220.242:5140
