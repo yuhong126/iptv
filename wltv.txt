@@ -80,7 +80,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 深圳卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227489/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-内蒙古卫视,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
+内蒙古卫视,webview://https://www.nmtv.cn/liveTv
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 陕西卫视,http://42.225.117.174:11199/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西卫视,http://www.cdnstv.com:6398/hls/1129/index.m3u8
@@ -105,10 +105,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 康巴卫视,http://zqh2333.top:2222/rtp/239.93.24.41:5140
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
-延边卫视,https://live.ybtvyun.com/video/s10016-5adcf2b11d0d/index.m3u8
+延边卫视,https://srs.iybtv.cn/video/CYS1/index.m3u8
+安多卫视,http://stream.qhBRTV.com/adws/playlist.m3u8
 安多卫视,http://lovegfs.top:8000/udp/239.120.2.6:5141
 安多卫视,http://lovegfs.top:8000/udp/239.120.2.163:5141
-安多卫视,http://stream.qhBRTV.com/adws/playlist.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 星空卫视,http://vl15191373.imwork.net:8880/udp/239.93.0.156:2193
 农林卫视,webview://http://live.snrtv.com/nl
@@ -200,13 +200,13 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 吉县新闻,http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8
 
 内蒙古,#genre#
-内蒙古农牧,http://play1-qk.nmtv.cn:80/live/1686561299036179.m3u8
+内蒙古农牧,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
 内蒙古蒙语,http://play1-qk.nmtv.cn/live/1686560387346365.m3u8
 内蒙古文化,http://play1-qk.nmtv.cn/live/1686561065304370.m3u8
-内蒙古新闻综合,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
+内蒙古新闻,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
 内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
-内蒙古文体娱乐,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
-内蒙古经济生活,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
+内蒙古文体,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
+内蒙古经济,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
 
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
