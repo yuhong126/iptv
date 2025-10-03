@@ -87,7 +87,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 陕西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|https://api.chinaaudiovisual.cn
+宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|referer:https://api.chinaaudiovisual.cn
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
@@ -264,18 +264,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 长春市民生活,http://p2bj.vzan.com/slowlive/317775187203351257/live.m3u8
 长春市民生活,http://r2bj.vzan.com/v/slowlive_317775187203351257.flv
 
-延边新闻,https://live.ybtvyun.com/video/s10016-ca5bdbc3f06d/index.m3u8
-延边经济,https://live.ybtvyun.com/video/s10016-6d4fe23a90b3/index.m3u8
 
 
 黑龙江,#genre#
-黑龙江都市,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
-黑龙江影视,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-黑龙江农业,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226242/index.m3u8
-黑龙江少儿,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226371/index.m3u8
-黑龙江文体,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226424/index.m3u8
-黑龙江新闻,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226368/index.m3u8
-黑龙江都市,http://[2409:8087:1a15:10d1::32]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226427/index.m3u8
+黑龙江都市,webview://https://www.hljtv.com/live/folder419/
+黑龙江影视,webview://https://www.hljtv.com/live/folder425/
+黑龙江农业,webview://https://www.hljtv.com/live/folder420/
+黑龙江少儿,webview://https://www.hljtv.com/live/folder422/
+黑龙江文体,webview://https://www.hljtv.com/live/folder423/
+黑龙江新闻,webview://https://www.hljtv.com/live/folder424/
+
 
 
 上海,#genre#
@@ -306,16 +304,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 江苏,#genre#
-江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4kpro.m3u8
-江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8
-江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8
-江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8
-江苏影视,https://zjcn-live-play.jstv.com/jsyspro.m3u8
-江苏新闻,https://zjcn-live-play.jstv.com/jsxwpro.m3u8
-江苏教育,https://zjcn-live-play.jstv.com/jsjypro.m3u8
-江苏体育,https://zjcn-live-play.jstv.com/jsxxpro.m3u8
-优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8
-江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8
+江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4kpro.m3u8|https://api.chinaaudiovisual.cn
+江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|https://api.chinaaudiovisual.cn
+江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|https://api.chinaaudiovisual.cn
+江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|https://api.chinaaudiovisual.cn
+江苏影视,https://zjcn-live-play.jstv.com/jsyspro.m3u8|https://api.chinaaudiovisual.cn
+江苏新闻,https://zjcn-live-play.jstv.com/jsxwpro.m3u8|https://api.chinaaudiovisual.cn
+江苏教育,https://zjcn-live-play.jstv.com/jsjypro.m3u8|https://api.chinaaudiovisual.cn
+江苏体育,https://zjcn-live-play.jstv.com/jsxxpro.m3u8|https://api.chinaaudiovisual.cn
+优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8|https://api.chinaaudiovisual.cn
+江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8|https://api.chinaaudiovisual.cn
 
 江苏城市,webview://https://live.jstv.com/?channelId=535
 江苏综艺,webview://https://live.jstv.com/?channelId=556
@@ -498,8 +496,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 江西公共,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv5.m3u8
 江西少儿,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv6.m3u8
 江西新闻,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv7.m3u8
-
-
 
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
@@ -903,11 +899,11 @@ SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
 海北电视台,http://lovegfs.top:8000/udp/239.120.2.234:5141
 
 宁夏,#genre#
-宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8
-宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8
-宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8
-宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8
-宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
+宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|https://api.chinaaudiovisual.cn
+宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8|https://api.chinaaudiovisual.cn
+宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8|https://api.chinaaudiovisual.cn
+宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8|https://api.chinaaudiovisual.cn
+宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8|https://api.chinaaudiovisual.cn
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
 银川生活,webview://https://www.qukanvideo.com/cloud/h5/1731638744888001
@@ -1012,5 +1008,4 @@ NewTV,#genre#
 求索生活,http://39.134.65.106/PLTV/88888888/224/3221225715/1.m3u8
 求索科学,http://39.134.65.106/PLTV/88888888/224/3221225728/1.m3u8
 求索动物,http://39.134.65.106/PLTV/88888888/224/3221225730/1.m3u8
-
 
