@@ -87,7 +87,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 陕西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|referer:https://api.chinaaudiovisual.cn
+宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|https://api.chinaaudiovisual.cn
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
@@ -1012,4 +1012,5 @@ NewTV,#genre#
 求索生活,http://39.134.65.106/PLTV/88888888/224/3221225715/1.m3u8
 求索科学,http://39.134.65.106/PLTV/88888888/224/3221225728/1.m3u8
 求索动物,http://39.134.65.106/PLTV/88888888/224/3221225730/1.m3u8
+
 
