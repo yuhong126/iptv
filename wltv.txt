@@ -9,6 +9,9 @@ CCTV4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225802/ind
 
 CCTV4欧洲,webview://https://tv.cctv.com/live/cctveurope/index.shtml
 CCTV4美洲,webview://https://tv.cctv.com/live/cctvamerica/
+CCTV4欧洲,http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4ouhd/51/index.m3u8?msisdn=202510031000556fc3b8a607b84ee4a1a4e22764b7c16d&mdspid=&spid=699004&netType=0&sid=2200179315&pid=2028597139&timestamp=20251003100055&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807419&ParentNodeID=-99&assertID=2200179315&client_ip=106.13.250.89&SecurityKey=20251003100055&promotionId=&mvid=2200179315&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=4b53e5607a88d798ffe0b844e6eb8c26&ddCalcu=642bec50838be0e566e0474a88b80de7f9f8
+CCTV4美洲,http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/51/index.m3u8?msisdn=202510031000556013595c88d54b3f90d8bca47883f805&mdspid=&spid=699004&netType=0&sid=2200179344&pid=2028597139&timestamp=20251003100055&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807416&ParentNodeID=-99&assertID=2200179344&client_ip=106.13.250.89&SecurityKey=20251003100055&promotionId=&mvid=2200179344&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=3d59dad710eda83de8906bb0a3d3de8e&ddCalcu=e38dee50d983d0da3da701b0be6d0a9883ed
+
 CCTV5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227229/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV5+,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225939/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV6,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227260/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -314,6 +317,14 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 江苏体育,https://zjcn-live-play.jstv.com/jsxxpro.m3u8|https://api.chinaaudiovisual.cn
 优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8|https://api.chinaaudiovisual.cn
 江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8|https://api.chinaaudiovisual.cn
+
+江苏城市,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jschengshi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+江苏综艺,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jszongyi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+江苏新闻,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsgonggong/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+江苏教育,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsjiaoyu/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+江苏国际,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsguoji/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+江苏影视,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsyingshi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+江苏体育,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
 
 江苏城市,webview://https://live.jstv.com/?channelId=535
 江苏综艺,webview://https://live.jstv.com/?channelId=556
@@ -853,6 +864,11 @@ SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
+陕西银龄,http://gslbmgsplive.miguvideo.com/migu/kailu/sxylpd/51/20250804/index.m3u8?msisdn=202510031000599420765116b74c628487da0d815f9163&mdspid=&spid=600572&netType=0&sid=5910022191&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909362&ParentNodeID=-99&assertID=5910022191&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006714&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9ea7cd1b71831817c2d72b2019983328&ddCalcu=892ee3a03768c09d911b0721b82371d821c7
+陕西都市青春,http://gslbmgsplive.miguvideo.com/migu/kailu/sxdsqc/51/20250804/index.m3u8?msisdn=2025100310005920b79f8073bb4ea195221f6c27fff790&mdspid=&spid=600572&netType=0&sid=5910022190&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909358&ParentNodeID=-99&assertID=5910022190&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006713&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=abbf4ebfd56fdd873bc291d898a81a30&ddCalcu=0a3beab01f6840ae8b9f8dd5169f2dcdb837
+陕西秦腔,http://gslbmgsplive.miguvideo.com/migu/kailu/sxqqpd/51/20250804/index.m3u8?msisdn=20251003100059df239e4c7b49469d8708514d728da9c9&mdspid=&spid=600572&netType=0&sid=5910022188&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909303&ParentNodeID=-99&assertID=5910022188&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006711&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=442bd1171a266c4a78f6dbd300bdfdac&ddCalcu=c4a4ed20fb6dd0b1010731dab2d666fc847a
+陕西新闻资讯,http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=202510031000594fda7e517a31458793c5da29639121d0&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=05d6157291bfc6645b81f1678b0c2da1&ddCalcu=10a5edd0266c1005b78279611bff1c86b654
+
 陕西新闻资讯,webview://http://live.snrtv.com/1
 陕西都市青春,webview://http://live.snrtv.com/2
 陕西银龄,webview://http://live.snrtv.com/3
