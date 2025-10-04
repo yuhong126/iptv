@@ -1,5 +1,5 @@
 央视,#genre#
-CCTV4K超高清,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+CCTV4K超,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 纯享4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227014/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -119,6 +119,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
 东南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227156/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 重庆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227240/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+新疆卫视,http://111.127.156.228:51234/rtp/239.29.1.189:5000
 新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434
 新疆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225852/index.m3u8?servicetype=1
 云南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -699,7 +700,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
 大湾区卫视（海外版）,webview://https://www.gdtv.cn/tvChannelDetail/46
 广东影视,webview://https://www.gdtv.cn/tvChannelDetail/53
-4K超高清,webview://https://www.gdtv.cn/tvChannelDetail/16
+4K超,webview://https://www.gdtv.cn/tvChannelDetail/16
 广东少儿,webview://https://www.gdtv.cn/tvChannelDetail/54
 嘉佳卡通,webview://https://www.gdtv.cn/tvChannelDetail/66
 南方购物,webview://https://www.gdtv.cn/tvChannelDetail/42
@@ -813,6 +814,15 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
+四川经济,http://125.71.74.195:4022/rtp/239.94.0.70:5140
+四川文化旅游,http://125.71.74.195:4022/rtp/239.94.0.71:5140
+四川新闻,http://125.71.74.195:4022/rtp/239.94.0.72:5140
+四川影视文艺,http://125.71.74.195:4022/rtp/239.94.0.73:5140
+SCTV-7,http://125.71.74.195:4022/rtp/239.94.0.75:5140
+SCTV-科教,http://125.71.74.195:4022/rtp/239.94.0.76:5140
+四川乡村,http://125.71.74.195:4022/rtp/239.94.0.77:5140
+康巴卫视,http://125.71.74.195:4022/rtp/239.94.0.78:5140
+
 四川经济,http://zqh2333.top:2222/rtp/239.93.25.101:5140
 四川文化旅游,http://zqh2333.top:2222/rtp/239.93.25.102:5140
 四川新闻,http://zqh2333.top:2222/rtp/239.93.24.47:5140
