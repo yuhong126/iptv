@@ -9,8 +9,6 @@ CCTV4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225802/ind
 
 CCTV4欧洲,webview://https://tv.cctv.com/live/cctveurope/index.shtml
 CCTV4美洲,webview://https://tv.cctv.com/live/cctvamerica/
-CCTV4欧洲,http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4ouhd/51/index.m3u8?msisdn=202510031000556fc3b8a607b84ee4a1a4e22764b7c16d&mdspid=&spid=699004&netType=0&sid=2200179315&pid=2028597139&timestamp=20251003100055&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807419&ParentNodeID=-99&assertID=2200179315&client_ip=106.13.250.89&SecurityKey=20251003100055&promotionId=&mvid=2200179315&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=4b53e5607a88d798ffe0b844e6eb8c26&ddCalcu=642bec50838be0e566e0474a88b80de7f9f8
-CCTV4美洲,http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/51/index.m3u8?msisdn=202510031000556013595c88d54b3f90d8bca47883f805&mdspid=&spid=699004&netType=0&sid=2200179344&pid=2028597139&timestamp=20251003100055&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807416&ParentNodeID=-99&assertID=2200179344&client_ip=106.13.250.89&SecurityKey=20251003100055&promotionId=&mvid=2200179344&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=3d59dad710eda83de8906bb0a3d3de8e&ddCalcu=e38dee50d983d0da3da701b0be6d0a9883ed
 
 CCTV5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227229/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV5+,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225939/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -29,6 +27,22 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+CCTV风云足球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.43:5140
+CCTV央视台球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.44:5140
+CCTV兵器科技,http://vpn.rogerxlj.top:9998/rtp/239.45.0.45:5140
+CCTV世界地理,http://vpn.rogerxlj.top:9998/rtp/239.45.0.46:5140
+CCTV女性时尚,http://vpn.rogerxlj.top:9998/rtp/239.45.0.47:5140
+CCTV怀旧剧场,http://vpn.rogerxlj.top:9998/rtp/239.45.0.49:5140
+CCTV风云剧场,http://vpn.rogerxlj.top:9998/rtp/239.45.0.50:5140
+CCTV第一剧场,http://vpn.rogerxlj.top:9998/rtp/239.45.0.51:5140
+CCTV风云音乐,http://vpn.rogerxlj.top:9998/rtp/239.45.0.52:5140
+CCTV电视指南,http://vpn.rogerxlj.top:9998/rtp/239.45.1.73:5140
+CCTV兵器科技,http://vpn.rogerxlj.top:9998/rtp/239.45.1.74:5140
+CCTV风云足球,http://vpn.rogerxlj.top:9998/rtp/239.45.1.75:5140
+CCTV高尔夫网球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.48:5140
+CCTV高尔夫网球,http://vpn.rogerxlj.top:9998/rtp/239.45.1.72:5140
+CCTV央视文化精品,http://vpn.rogerxlj.top:9998/rtp/239.45.0.53:5140
+CCTV央视文化精品,http://vpn.rogerxlj.top:9998/rtp/239.45.1.17:5140
 
 CCTV风云剧场,webview://https://yangshipin.cn/tv/home?pid=600099658
 CCTV第一剧场,webview://https://yangshipin.cn/tv/home?pid=600099655
@@ -55,6 +69,12 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 卫视,#genre#
+湖南卫视4k,http://111.127.156.228:51234/rtp/239.29.1.193:5000
+江苏卫视4k,http://111.127.156.228:51234/rtp/239.29.1.194:5000
+浙江卫视4k,http://111.127.156.228:51234/rtp/239.29.1.195:5000
+四川卫视4K,http://111.127.156.228:51234/rtp/239.29.1.197:5000
+山东卫视4K,http://111.127.156.228:51234/rtp/239.29.1.198:5000
+
 浙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227193/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 浙江卫视4k,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 湖南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -83,13 +103,16 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 深圳卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227489/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
 内蒙古卫视,webview://https://www.nmtv.cn/liveTv
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+陕西卫视,http://125.71.74.195:4022/udp/239.93.0.143:5140
 陕西卫视,http://42.225.117.174:11199/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西卫视,http://www.cdnstv.com:6398/hls/1129/index.m3u8
 陕西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+宁夏卫视,http://111.127.156.228:51234/rtp/239.29.1.191:5000
 宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|referer:https://api.chinaaudiovisual.cn
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
@@ -203,6 +226,14 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 吉县新闻,http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8
 
 内蒙古,#genre#
+内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
+内蒙古经济,http://111.127.156.228:51234/udp/239.29.0.212:5000
+内蒙古新闻,http://111.127.156.228:51234/udp/239.29.0.208:5000
+内蒙古文体,http://111.127.156.228:51234/udp/239.29.0.211:5000
+内蒙古农牧,http://111.127.156.228:51234/udp/239.29.0.209:5000
+内蒙古少儿,http://111.127.156.228:51234/udp/239.29.0.207:5000
+内蒙古蒙语,http://111.127.156.228:51234/udp/239.29.0.210:5000
+
 内蒙古农牧,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
 内蒙古蒙语,http://play1-qk.nmtv.cn/live/1686560387346365.m3u8
 内蒙古文化,http://play1-qk.nmtv.cn/live/1686561065304370.m3u8
@@ -414,6 +445,8 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 安徽,#genre#
 安徽影视,https://ahlive.ahwanyun.cn/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
+安徽经济生活,https://ahlive.ahwanyun.cn/live/5c6207583a334b048f77dddf370bd840/hls.m3u8
+安徽综艺体育,https://ahlive.ahwanyun.cn/live/7f908bf821d04f66b765af65e49196eb/hls.m3u8
 
 安徽公共,http://live.ahcartv.dev.geek-zoo.cn/live/ggtv.m3u8?txSecret=642c057a63f8e7c6fcd0f236d3f24c69&txTime=6861F1F6
 安徽国际,http://live.ahcartv.dev.geek-zoo.cn/live/gjtv.m3u8?txSecret=e628bcb47d7741b3a60c6793b7295d84&txTime=6861F1F6
@@ -658,6 +691,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 大湾区卫视,http://121.37.185.74:18180/TV00000000000000000028@HHZT
 
 
+
 广东珠江,webview://https://www.gdtv.cn/tvChannelDetail/44
 广东新闻,webview://https://www.gdtv.cn/tvChannelDetail/45
 广东民生,webview://https://www.gdtv.cn/tvChannelDetail/48
@@ -698,8 +732,9 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 江门侨乡生活,webview://http://www.jmtv.cn/live/jm_live_h5.shtml?pid=1
 东莞新闻综合,webview://https://dgrtv.sun0769.com/index.php/online2/4
 东莞生活资讯,webview://https://dgrtv.sun0769.com/index.php/online2/5
+河源生活,https://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
 河源综合,webview://https://www.hyrtv.cn/itv/zhds/
-河源公共,webview://https://www.hyrtv.cn/itv/ggds/
+河源生活,webview://https://www.hyrtv.cn/itv/ggds/
 清远新闻综合,webview://https://h5.qyrb.cn/h5/nfzmy-television-and-radio/#/?channelId=1
 清远文旅生活,webview://https://h5.qyrb.cn/h5/nfzmy-television-and-radio/#/?channelId=3
 韶关,webview://https://www.sgmsw.cn/v/tv?spm=0.0.0.0.nRYAvk&id=SB05RIYZOU8JR418AUQOF62CAJQ08D0E
@@ -864,11 +899,6 @@ SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
-陕西银龄,http://gslbmgsplive.miguvideo.com/migu/kailu/sxylpd/51/20250804/index.m3u8?msisdn=202510031000599420765116b74c628487da0d815f9163&mdspid=&spid=600572&netType=0&sid=5910022191&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909362&ParentNodeID=-99&assertID=5910022191&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006714&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9ea7cd1b71831817c2d72b2019983328&ddCalcu=892ee3a03768c09d911b0721b82371d821c7
-陕西都市青春,http://gslbmgsplive.miguvideo.com/migu/kailu/sxdsqc/51/20250804/index.m3u8?msisdn=2025100310005920b79f8073bb4ea195221f6c27fff790&mdspid=&spid=600572&netType=0&sid=5910022190&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909358&ParentNodeID=-99&assertID=5910022190&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006713&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=abbf4ebfd56fdd873bc291d898a81a30&ddCalcu=0a3beab01f6840ae8b9f8dd5169f2dcdb837
-陕西秦腔,http://gslbmgsplive.miguvideo.com/migu/kailu/sxqqpd/51/20250804/index.m3u8?msisdn=20251003100059df239e4c7b49469d8708514d728da9c9&mdspid=&spid=600572&netType=0&sid=5910022188&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909303&ParentNodeID=-99&assertID=5910022188&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006711&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=442bd1171a266c4a78f6dbd300bdfdac&ddCalcu=c4a4ed20fb6dd0b1010731dab2d666fc847a
-陕西新闻资讯,http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=202510031000594fda7e517a31458793c5da29639121d0&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20251003100059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=106.13.250.89&SecurityKey=20251003100059&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=05d6157291bfc6645b81f1678b0c2da1&ddCalcu=10a5edd0266c1005b78279611bff1c86b654
-
 陕西新闻资讯,webview://http://live.snrtv.com/1
 陕西都市青春,webview://http://live.snrtv.com/2
 陕西银龄,webview://http://live.snrtv.com/3
@@ -957,9 +987,10 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
-CHC家庭影院,https://live.sxrtv.com/iptv/chcjtyy.flv
-CHC动作电影,https://live.sxrtv.com/iptv/chcdzdy.flv
-CHC影迷电影,https://live.sxrtv.com/iptv/chcymdy.flv
+CHC动作电影,http://111.127.156.228:51234/rtp/239.29.1.177:5000
+CHC家庭影院,http://111.127.156.228:51234/rtp/239.29.1.176:5000
+CHC影迷电影,http://111.127.156.228:51234/rtp/239.29.1.178:5000
+
 
 CHC影迷电影,http://182.110.170.222:4022/udp/239.252.219.83:5140$江西电信
 CHC家庭影院,http://182.110.170.222:4022/udp/239.252.219.84:5140
