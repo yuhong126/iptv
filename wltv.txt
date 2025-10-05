@@ -113,7 +113,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 宁夏卫视,http://111.127.156.228:51234/rtp/239.29.1.191:5000
-宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|referer:https://api.chinaaudiovisual.cn
+宁夏卫视,宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|Referer=https://api.chinaaudiovisual.cn
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
@@ -952,11 +952,11 @@ SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
 海北电视台,http://lovegfs.top:8000/udp/239.120.2.234:5141
 
 宁夏,#genre#
-宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|https://api.chinaaudiovisual.cn
-宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8|https://api.chinaaudiovisual.cn
-宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8|https://api.chinaaudiovisual.cn
-宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8|https://api.chinaaudiovisual.cn
-宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8|https://api.chinaaudiovisual.cn
+宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|Referer=https://api.chinaaudiovisual.cn
+宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8|Referer=https://api.chinaaudiovisual.cn
+宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8|Referer=https://api.chinaaudiovisual.cn
+宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8|Referer=https://api.chinaaudiovisual.cn
+宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8|Referer=https://api.chinaaudiovisual.cn
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
 银川生活,webview://https://www.qukanvideo.com/cloud/h5/1731638744888001
