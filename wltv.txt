@@ -196,6 +196,14 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 天津,#genre#
+天津新闻,http://live-tx.wisetv.com.cn:80/TJIPTV/TJXWHD2.m3u8?txSecret=9833627e4d782ff9a64045813b9f99ab&txTime=68e18564&GUID=9caff4c3ddffc1ba9367e7ca9b02ae2c&wisetvauth=1
+天津文艺,http://live-tx.wisetv.com.cn:80/TJIPTV/TJWYHD2.m3u8?txSecret=8434af258e95744629cd06bd5c14142f&txTime=68e1858f&GUID=e5ad13477867f575aa763970b3eee284&wisetvauth=1
+天津影视,http://live-tx.wisetv.com.cn:80/TJIPTV/TJYSHD2.m3u8?txSecret=a7c862644bb357f16fc615eaff5094d0&txTime=68e17f76&GUID=d217df4e9dd3e368002c191beaf3a4c0&wisetvauth=1
+天津都市,http://live-tx.wisetv.com.cn:80/TJIPTV/TJDSHD2.m3u8?txSecret=6da4fac9f7ee9a750e3aef8554339aab&txTime=68e18639&GUID=27242cd0ba603ce571870360a7c25514&wisetvauth=1
+天津体育,http://live-tx.wisetv.com.cn:80/TJIPTV/TJTYHD2.m3u8?txSecret=e71d9d30f6a63844593196f1730d86c3&txTime=68e1db0b&GUID=4cb5984a6429e5feb908331ff659b380&wisetvauth=1
+天津教育,http://live-tx.wisetv.com.cn:80/TJIPTV/TJKJHD2.m3u8?txSecret=16f1abc0205f66e5fd72ff4f900e7260&txTime=68e1848f&GUID=c1e488b56fda63cbb64966d8ebc35eab&wisetvauth=1
+
+
 天津新闻,http://117.9.112.118:8888/udp/225.1.1.130:5002
 天津文艺,http://221.198.57.126:8888/udp/225.1.1.131:5002
 天津影视,http://117.9.112.118:8888/udp/225.1.1.149:5002
@@ -277,31 +285,20 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 吉林,#genre#
-吉林卫视,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0533b55e42354f4f802bdec78e26b571/1.m3u8
-吉林都市,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/1.m3u8
-吉林影视,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/1.m3u8
-吉林生活,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/1.m3u8
-吉林乡村,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/1.m3u8
-吉林综艺文化,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/b3925adaf01e41f287f482f0aea3d233/1.m3u8
-
-吉林生活,http://5vn.cn:9003/hls/70/index.m3u8
-吉林都市,http://5vn.cn:9003/hls/71/index.m3u8
-吉林影视,http://5vn.cn:9003/hls/72/index.m3u8
-吉林乡村,http://5vn.cn:9003/hls/73/index.m3u8
-长影频道,http://5vn.cn:9003/hls/74/index.m3u8
-吉林教育,http://5vn.cn:9003/hls/79/index.m3u8
-吉林综艺,http://5vn.cn:9003/hls/80/index.m3u8
-
-长春综合,http://p2bj.vzan.com/slowlive/763922717250086092/live.m3u8
-长春综合,http://r2bj.vzan.com/v/slowlive_763922717250086092.flv
-长春文旅体育,http://p2bj.vzan.com/slowlive/077592635708642635/live.m3u8
-长春文旅体育,http://r2bj.vzan.com/v/slowlive_077592635708642635.flv
-长春市民生活,http://p2bj.vzan.com/slowlive/317775187203351257/live.m3u8
-长春市民生活,http://r2bj.vzan.com/v/slowlive_317775187203351257.flv
-
+吉林都市,https://hls.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/1.m3u8?txSecret=91623fff3b11f5d87ea2d2112f43c4c5&txTime=68E1B5D1
+吉林影视,https://hls.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/1.m3u8?txSecret=84243c348b05af6f1e9470351129f904&txTime=68E20E51
+吉林生活,https://hls.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/1.m3u8?txSecret=84243c348b05af6f1e9470351129f904&txTime=68E20E51
+吉林乡村,https://hls.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/1.m3u8?txSecret=84243c348b05af6f1e9470351129f904&txTime=68E20E51
+吉林综艺文化,https://hls.avap.jilintv.cn/zqvk7vpj/channel/b3925adaf01e41f287f482f0aea3d233/index.m3u8?txSecret=095ee4c03bf5da9016d61df1350d50c9&txTime=68E20E51
 
 
 黑龙江,#genre#
+黑龙江影视,https://idclive.hljtv.com:4430/live/hljys_hd.m3u8
+黑龙江文体,https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8
+黑龙江新闻,https://idclive.hljtv.com:4430/live/hljxw_hd.m3u8
+黑龙江都市,https://idclive.hljtv.com:4430/live/dushi_hd.m3u8
+黑龙江农业,https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8
+
 黑龙江都市,webview://https://www.hljtv.com/live/folder419/
 黑龙江影视,webview://https://www.hljtv.com/live/folder425/
 黑龙江农业,webview://https://www.hljtv.com/live/folder420/
@@ -339,16 +336,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 江苏,#genre#
-江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4kpro.m3u8|https://api.chinaaudiovisual.cn
-江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|https://api.chinaaudiovisual.cn
-江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|https://api.chinaaudiovisual.cn
-江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|https://api.chinaaudiovisual.cn
-江苏影视,https://zjcn-live-play.jstv.com/jsyspro.m3u8|https://api.chinaaudiovisual.cn
-江苏新闻,https://zjcn-live-play.jstv.com/jsxwpro.m3u8|https://api.chinaaudiovisual.cn
-江苏教育,https://zjcn-live-play.jstv.com/jsjypro.m3u8|https://api.chinaaudiovisual.cn
-江苏体育,https://zjcn-live-play.jstv.com/jsxxpro.m3u8|https://api.chinaaudiovisual.cn
-优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8|https://api.chinaaudiovisual.cn
-江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8|https://api.chinaaudiovisual.cn
+江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4kpro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏影视,https://zjcn-live-play.jstv.com/jsyspro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏新闻,https://zjcn-live-play.jstv.com/jsxwpro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏教育,https://zjcn-live-play.jstv.com/jsjypro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏体育,https://zjcn-live-play.jstv.com/jsxxpro.m3u8|Referer=https://api.chinaaudiovisual.cn
+优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 
 江苏城市,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jschengshi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
 江苏综艺,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jszongyi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
