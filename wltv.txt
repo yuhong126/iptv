@@ -44,6 +44,19 @@ CCTV高尔夫网球,http://vpn.rogerxlj.top:9998/rtp/239.45.1.72:5140
 CCTV央视文化精品,http://vpn.rogerxlj.top:9998/rtp/239.45.0.53:5140
 CCTV央视文化精品,http://vpn.rogerxlj.top:9998/rtp/239.45.1.17:5140
 
+CCTV兵器科技,http://113.25.104.67:10000/udp/239.1.1.97:8097
+CCTV第一剧场,http://113.25.104.67:10000/udp/239.1.1.94:8094
+CCTV电视指南,http://113.25.104.67:10000/udp/239.1.1.90:8090
+CCTV风云剧场,http://113.25.104.67:10000/udp/239.1.1.93:8093
+CCTV风云音乐,http://113.25.104.67:10000/udp/239.1.1.96:8096
+CCTV风云足球,http://113.25.104.67:10000/udp/239.1.1.101:8101
+CCTV高尔夫网球,http://113.25.104.67:10000/udp/239.1.1.102:8102
+CCTV怀旧剧场,http://113.25.104.67:10000/udp/239.1.1.95:8095
+CCTV女性时尚,http://113.25.104.67:10000/udp/239.1.1.89:8089
+CCTV世界地理,http://113.25.104.67:10000/udp/239.1.1.99:8099
+CCTV央视台球,http://113.25.104.67:10000/udp/239.1.1.100:8100
+CCTV央视文化精品,http://113.25.104.67:10000/udp/239.1.1.91:8091
+
 CCTV风云剧场,webview://https://yangshipin.cn/tv/home?pid=600099658
 CCTV第一剧场,webview://https://yangshipin.cn/tv/home?pid=600099655
 CCTV怀旧剧场,webview://https://yangshipin.cn/tv/home?pid=600099620
@@ -254,27 +267,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
 辽宁,#genre#
-辽宁北方,http://ygbh.site/php/bfgd.php?id=071
-辽宁都市,http://ygbh.site/php/bfgd.php?id=610
-辽宁公共,http://ygbh.site/php/bfgd.php?id=077
-辽宁公共,http://ygbh.site/php/bfgd.php?id=481
-辽宁教育青少,http://ygbh.site/php/bfgd.php?id=075
-辽宁经济,http://ygbh.site/php/bfgd.php?id=480
-辽宁经济,http://ygbh.site/php/bfgd.php?id=076
-辽宁生活,http://ygbh.site/php/bfgd.php?id=073
-辽宁体育,http://ygbh.site/php/bfgd.php?id=611
-辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
-辽宁新动漫,http://ygbh.site/php/bfgd.php?id=140
-辽宁影视剧,http://ygbh.site/php/bfgd.php?id=070
-辽宁北方,http://59.46.85.61:801/hls/17/index.m3u8
-辽宁都市,http://59.46.85.61:801/hls/18/index.m3u8
-辽宁经济,http://59.46.85.61:801/hls/21/index.m3u8
-辽宁教育,http://59.46.85.61:801/hls/20/index.m3u8
-辽宁生活,http://59.46.85.61:801/hls/22/index.m3u8
-辽宁体育,http://59.46.85.61:801/hls/23/index.m3u8
-辽宁影视剧,http://59.46.85.61:801/hls/25/index.m3u8
-
-
 辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
 辽宁北方,http://120.76.248.139/live/bfgd/4200000071.m3u8
 辽宁教育,http://120.76.248.139/live/bfgd/4200000075.m3u8
@@ -925,11 +917,11 @@ SCTV-7,http://zqh2333.top:2222/rtp/239.93.24.219:5140
 
 
 甘肃,#genre#
-甘肃文化影视,https://hls.gstv.com.cn/skt649/004ypi.m3u8
-甘肃公共应急,https://hls.gstv.com.cn/skt649/05v00b.m3u8
-甘肃少儿,https://hls.gstv.com.cn/skt649/ok36o6.m3u8
-甘肃科教,https://hls.gstv.com.cn/skt649/s2rp5w.m3u8
-甘肃移动,https://hls.gstv.com.cn/skt649/47uw77-1748689593000.ts
+甘肃影视,http://42.92.195.138:10000/udp/239.255.30.250:8231
+甘肃少儿,http://42.92.195.138:10000/udp/239.255.30.254:8231
+甘肃经济,http://42.92.195.138:10000/udp/239.255.30.253:8231
+甘肃公共,http://42.92.195.138:10000/udp/239.255.30.251:8231
+甘肃都市,http://42.92.195.138:10000/udp/239.255.30.252:8231
 
 
 青海,#genre#
