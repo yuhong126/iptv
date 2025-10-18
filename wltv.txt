@@ -27,6 +27,34 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.18:5146
+CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.9:5146
+CCTV电视指南,http://ymz.stkeyu.top:8303/udp/239.253.43.19:5146
+CCTV电视指南,http://ymz.stkeyu.top:8303/udp/239.253.43.10:5146
+CCTV风云足球,http://ymz.stkeyu.top:8303/udp/239.253.43.20:5146
+CCTV风云足球,http://ymz.stkeyu.top:8303/udp/239.253.43.14:5146
+CCTV央视台球,http://ymz.stkeyu.top:8303/udp/239.253.43.21:5146
+CCTV央视台球,http://ymz.stkeyu.top:8303/udp/239.253.43.11:5146
+CCTV高尔夫网球,http://ymz.stkeyu.top:8303/udp/239.253.43.22:5146
+CCTV高尔夫网球,http://ymz.stkeyu.top:8303/udp/239.253.43.12:5146
+CCTV女性时尚,http://ymz.stkeyu.top:8303/udp/239.253.43.23:5146
+CCTV女性时尚,http://ymz.stkeyu.top:8303/udp/239.253.43.8:5146
+CCTV世界地理,http://ymz.stkeyu.top:8303/udp/239.253.43.24:5146
+CCTV世界地理,http://ymz.stkeyu.top:8303/udp/239.253.43.7:5146
+CCTV怀旧剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.25:5146
+CCTV怀旧剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.5:5146
+CCTV风云剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.26:5146
+CCTV风云剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.16:5146
+CCTV央视文化精品,http://ymz.stkeyu.top:8303/udp/239.253.43.27:5146
+CCTV央视文化精品,http://ymz.stkeyu.top:8303/udp/239.253.43.13:5146
+CCTV第一剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.28:5146
+CCTV第一剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.15:5146
+CCTV风云音乐,http://ymz.stkeyu.top:8303/udp/239.253.43.29:5146
+CCTV风云音乐,http://ymz.stkeyu.top:8303/udp/239.253.43.6:5146
+CCTV卫生健康,http://ymz.stkeyu.top:8303/udp/239.77.0.212:5146
+
+
+
 CCTV风云足球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.43:5140
 CCTV央视台球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.44:5140
 CCTV兵器科技,http://vpn.rogerxlj.top:9998/rtp/239.45.0.45:5140
@@ -78,6 +106,8 @@ CETV-4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227192/in
 CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+重温经典,http://8.138.7.223/tv/cwjd.php
+重温经典,http://qgtf.jydjd.top:2903/udp/224.1.100.126:11111
 重温经典,http://120.76.248.139/live/bfgd/4200000635.m3u8
 
 
@@ -89,6 +119,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 东方卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225828/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 江苏卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227160/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 北京卫视4K,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227514/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+北京卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227476/135487844.smil 
 北京卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227246/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 安徽卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227178/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 辽宁卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227141/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -120,7 +151,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 宁夏卫视,http://111.127.156.228:51234/rtp/239.29.1.191:5000
-宁夏卫视,宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|Referer=https://api.chinaaudiovisual.cn
+宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|Referer=https://api.chinaaudiovisual.cn
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
@@ -322,6 +353,14 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 江苏,#genre#
+江苏城市,http://ss.btc8080.top:8188/rtp/239.49.8.107:8000
+江苏综艺,http://ss.btc8080.top:8188/rtp/239.49.8.108:8000
+江苏体育,http://ss.btc8080.top:8188/rtp/239.49.8.117:8000
+江苏影视,http://ss.btc8080.top:8188/rtp/239.49.8.118:8000
+优漫卡通,http://ss.btc8080.top:8188/rtp/239.49.8.119:8000
+江苏新闻,http://ss.btc8080.top:8188/rtp/239.49.8.120:8000
+江苏教育,http://ss.btc8080.top:8188/rtp/239.49.8.122:8000
+
 江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4kpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|Referer=https://api.chinaaudiovisual.cn
@@ -333,13 +372,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 
-江苏城市,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jschengshi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
-江苏综艺,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jszongyi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
-江苏新闻,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsgonggong/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
-江苏教育,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsjiaoyu/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
-江苏国际,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsguoji/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
-江苏影视,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jsyingshi/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
-江苏体育,http://hlsbkmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
 
 江苏城市,webview://https://live.jstv.com/?channelId=535
 江苏综艺,webview://https://live.jstv.com/?channelId=556
@@ -529,10 +561,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
 南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
 
-九江新闻,https://live02.jxtvcn.com.cn:443/live-jxtvcn/ganyun_jiujiang1.m3u8?token=ae4642319f8d19c71d66ac248fd30d79&t=174974824234227
-九江公共,https://live02.jxtvcn.com.cn:443/live-jxtvcn/ganyun_jiujiang2.m3u8?token=ae4642319f8d19c71d66ac248fd30d79&t=174974824234227
-九江教育,https://live02.jxtvcn.com.cn:443/live-jxtvcn/ganyun_jiujiang3.m3u8?token=ae4642319f8d19c71d66ac248fd30d79&t=174974824234227
-
 九江新闻,webview://https://www.jjntv.cn/live?id=jjtv1
 九江公共,webview://https://www.jjntv.cn/live?id=jjtv2
 九江教育,webview://https://www.jjntv.cn/live?id=jjfz
@@ -657,6 +685,69 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 洞头综合,http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 
 广东,#genre#
+广州法治,http://qgtf.jydjd.top:2903/udp/224.1.100.17:11111
+广州法治,http://qgtf.jydjd.top:2903/udp/224.1.100.18:11111
+广东珠江,http://qgtf.jydjd.top:2903/udp/224.1.100.23:11111
+广东珠江,http://qgtf.jydjd.top:2903/udp/224.1.100.24:11111
+纪实科教,http://qgtf.jydjd.top:2903/udp/224.1.100.31:11111
+广东体育,http://qgtf.jydjd.top:2903/udp/224.1.100.33:11111
+纪实科教,http://qgtf.jydjd.top:2903/udp/224.1.100.32:11111
+广东体育,http://qgtf.jydjd.top:2903/udp/224.1.100.34:11111
+广州综合,http://qgtf.jydjd.top:2903/udp/224.1.100.35:11111
+广州综合,http://qgtf.jydjd.top:2903/udp/224.1.100.36:11111
+广州新闻,http://qgtf.jydjd.top:2903/udp/224.1.100.37:11111
+广州新闻,http://qgtf.jydjd.top:2903/udp/224.1.100.38:11111
+广州影视,http://qgtf.jydjd.top:2903/udp/224.1.100.87:11111
+广州影视,http://qgtf.jydjd.top:2903/udp/224.1.100.88:11111
+广州竞赛,http://qgtf.jydjd.top:2903/udp/224.1.100.105:11111
+广州竞赛,http://qgtf.jydjd.top:2903/udp/224.1.100.106:11111
+广东民生,http://qgtf.jydjd.top:2903/udp/224.1.100.4:11111
+广东新闻,http://qgtf.jydjd.top:2903/udp/224.1.100.5:11111
+广东经济科教,http://qgtf.jydjd.top:2903/udp/224.1.100.6:11111
+大湾区卫视,http://qgtf.jydjd.top:2903/udp/224.1.100.7:11111
+广东少儿,http://qgtf.jydjd.top:2903/udp/224.1.100.9:11111
+广东影视,http://qgtf.jydjd.top:2903/udp/224.1.100.11:11111
+广东岭南戏曲,http://qgtf.jydjd.top:2903/udp/224.1.100.120:11111
+大湾区卫视,http://qgtf.jydjd.top:2903/udp/224.1.100.153:11111
+广东民生,http://qgtf.jydjd.top:2903/udp/224.1.100.152:11111
+广东影视,http://qgtf.jydjd.top:2903/udp/224.1.100.154:11111
+广东新闻,http://qgtf.jydjd.top:2903/udp/224.1.100.155:11111
+广东少儿,http://qgtf.jydjd.top:2903/udp/224.1.100.156:11111
+广东岭南戏曲,http://qgtf.jydjd.top:2903/udp/224.1.100.157:11111
+广东经济科教,http://qgtf.jydjd.top:2903/udp/224.1.100.158:11111
+佛山公共,http://qgtf.jydjd.top:2903/udp/224.1.100.134:11111
+
+广东珠江,http://ymz.stkeyu.top:8303/udp/239.77.0.114:5146
+广东珠江,http://ymz.stkeyu.top:8303/udp/239.77.0.1:5146
+广东新闻,http://ymz.stkeyu.top:8303/udp/239.77.0.173:5146
+广东民生,http://ymz.stkeyu.top:8303/udp/239.77.0.225:5146
+广东体育,http://ymz.stkeyu.top:8303/udp/239.77.0.168:5146
+广东体育,http://ymz.stkeyu.top:8303/udp/239.77.0.112:5146
+广东经济,http://ymz.stkeyu.top:8303/udp/239.77.0.85:5146
+广东经济,http://ymz.stkeyu.top:8303/udp/239.77.0.167:5146
+大湾区卫视,http://ymz.stkeyu.top:8303/udp/239.77.0.215:5146
+广东影视,http://ymz.stkeyu.top:8303/udp/239.77.0.217:5146
+广东少儿,http://ymz.stkeyu.top:8303/udp/239.77.0.250:5146
+嘉佳卡通,http://ymz.stkeyu.top:8303/udp/239.77.0.179:5146
+岭南戏曲,http://ymz.stkeyu.top:8303/udp/239.77.0.122:5146
+现代教育,http://ymz.stkeyu.top:8303/udp/239.77.0.213:5146
+广州综合,http://ymz.stkeyu.top:8303/udp/239.253.43.71:5146
+广州新闻,http://ymz.stkeyu.top:8303/udp/239.253.43.72:5146
+广州影视,http://ymz.stkeyu.top:8303/udp/239.253.43.73:5146
+广州法治,http://ymz.stkeyu.top:8303/udp/239.253.43.74:5146
+南国都市4K,http://ymz.stkeyu.top:8303/udp/239.253.43.99:5146
+深圳都市,http://ymz.stkeyu.top:8303/udp/239.77.1.176:5146
+深圳都市,http://ymz.stkeyu.top:8303/udp/239.77.1.124:5146
+深圳电视剧,http://ymz.stkeyu.top:8303/udp/239.77.1.177:5146
+深圳电视剧,http://ymz.stkeyu.top:8303/udp/239.77.1.125:5146
+深圳财经,http://ymz.stkeyu.top:8303/udp/239.77.1.242:5146
+深圳体育,http://ymz.stkeyu.top:8303/udp/239.77.1.128:5146
+深圳体育,http://ymz.stkeyu.top:8303/udp/239.77.1.140:5146
+深圳少儿,http://ymz.stkeyu.top:8303/udp/239.77.1.244:5146
+深圳宝安,http://ymz.stkeyu.top:8303/udp/239.77.1.67:5146
+深圳龙岗,http://ymz.stkeyu.top:8303/udp/239.77.1.223:5146
+
+
 广州综合,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=aae0358e06f64d4db4d663321a3fa964&txTime=190def4db74#http://tencentplaygzrb01.gztv.com/live/zonghes.m3u8
 广州新闻,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=c651b79c107d9cde3914d011cbb896a6&txTime=190def3c97d#http://tencentplaygzrb01.gztv.com/live/xinwen.m3u8
 广州法治,https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=c85f24077bcfc9b0630c51843a66c5dd&txTime=1913a22caa6#http://tencentplaygzrb01.gztv.com/live/fazhi.m3u8
@@ -766,16 +857,17 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 重庆,#genre#
-CQTV新闻,http://27.9.124.194:4022/udp/225.0.4.188:7980
-CQTV社会与法,http://27.9.124.194:4022/udp/225.0.4.190:7980
-CQTV少儿,http://27.9.124.194:4022/udp/225.0.4.191:7980
-CQTV影视,http://27.9.124.194:4022/udp/225.0.4.192:7980
-CQTV科教,http://27.9.124.194:4022/udp/225.0.4.193:7980
-CQTV娱乐,http://27.9.124.194:4022/udp/225.0.4.194:7980
-CQTV汽摩,http://27.9.124.194:4022/udp/225.0.4.195:7980
-CQTV时尚生活,http://27.9.124.194:4022/udp/225.0.4.196:7980
-CQTV新农村,http://27.9.124.194:4022/udp/225.0.4.189:7980
-CQTV移动,http://27.9.124.194:4022/udp/225.0.4.215:7980
+CQTV新闻,http://211.158.48.108:8008/udp/225.0.4.188:7980
+CQTV社会与法,http://211.158.48.108:8008/udp/225.0.4.190:7980
+CQTV少儿,http://211.158.48.108:8008/udp/225.0.4.191:7980
+CQTV影视,http://211.158.48.108:8008/udp/225.0.4.192:7980
+CQTV科教,http://211.158.48.108:8008/udp/225.0.4.193:7980
+CQTV娱乐,http://211.158.48.108:8008/udp/225.0.4.194:7980
+CQTV汽摩,http://211.158.48.108:8008/udp/225.0.4.195:7980
+CQTV时尚生活,http://211.158.48.108:8008/udp/225.0.4.196:7980
+CQTV新农村,http://211.158.48.108:8008/udp/225.0.4.189:7980
+CQTV移动,http://211.158.48.108:8008/udp/225.0.4.215:7980
+
 
 CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD5173881C62BD4ACAD0
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
@@ -1013,9 +1105,4 @@ NewTV,#genre#
 中华特产,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227502/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 电影,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227478/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
-求索,#genre#
-求索纪录,http://39.134.65.106/PLTV/88888888/224/3221225713/1.m3u8
-求索生活,http://39.134.65.106/PLTV/88888888/224/3221225715/1.m3u8
-求索科学,http://39.134.65.106/PLTV/88888888/224/3221225728/1.m3u8
-求索动物,http://39.134.65.106/PLTV/88888888/224/3221225730/1.m3u8
 
