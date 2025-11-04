@@ -129,7 +129,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-山西卫视,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226113/1.m3u8
+山西卫视,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226113/index.m3u8
 山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -326,12 +326,10 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 上海,#genre#
-东方财经,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226134/1.m3u8
-五星体育,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225732/1.m3u8
-上视都市,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225749/1.m3u8
-第1财经,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225737/1.m3u8
-东方影视,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225744/1.m3u8
-上视新闻,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226136/1.m3u8
+第一财经,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225738/index.m3u8
+东方影视,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225744/index.m3u8
+上海都市,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225749/index.m3u8
+生活时尚,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225768/index.m3u8
 
 上海新纪实,http://8.138.7.223/tv/shtv.php?id=xjs
 五星体育,http://8.138.7.223/tv/shtv.php?id=wxty
@@ -535,6 +533,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 福建综合,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227149/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
+福州新闻,rtsp://183.252.176.54/PLTV/88888888/224/3221226720/45553071.smil
 福州新闻,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
@@ -542,6 +541,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 厦门一套,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226814/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 厦门二套,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226777/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 厦门三套,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226760/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+平潭综合,rtsp://183.252.176.54/PLTV/88888888/224/3221226735/45469664.smil
 
 莆田一套,webview://https://www.ptbtv.com/live/pt1t/
 莆田二套,webview://https://www.ptbtv.com/live/pt2t/
@@ -600,6 +600,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 河北,#genre#
+河北卫视,http://yaching.xmtcenter.com:9999/rtp/239.254.200.174:6000
+河北经济,http://yaching.xmtcenter.com:9999/rtp/239.254.200.18:6000
+河北都市,http://yaching.xmtcenter.com:9999/rtp/239.254.200.19:6000
+河北公共,http://yaching.xmtcenter.com:9999/rtp/239.254.200.22:6000
+河北少儿,http://yaching.xmtcenter.com:9999/rtp/239.254.200.21:6000
+河北影视,http://yaching.xmtcenter.com:9999/rtp/239.254.200.20:6000
+河北农民,http://yaching.xmtcenter.com:9999/rtp/239.254.200.23:6000
+河北睛彩,http://yaching.xmtcenter.com:9999/rtp/239.254.200.27:6000
+河北杂技,http://yaching.xmtcenter.com:9999/rtp/239.254.201.139:7203
+
 河北经济,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=1
 河北农民,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=2
 河北都市,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=3
