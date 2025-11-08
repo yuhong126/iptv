@@ -486,10 +486,8 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 安庆经济,https://aq-live.media.xinhuamm.net:443/r/ed093a3514bd4174b1dbd5af8a8e0a9c.m3u8?auth_key=2341308528-0-0-1d8df1d541b495f33875e247c9300fc1
 安庆新闻,http://202.102.201.244:40022/rtp/238.1.78.117:6808
 安庆经济,http://202.102.201.244:40022/rtp/238.1.78.118:6816
-
-望江新闻,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=113
-望江黄梅戏,webview://http://wxfxx.wangjiang.tv/mag/livevideo/v1/video/wapVideoView?id=112
-
+望江新闻,https://gnhls.qingmei.tv/live/wjnew2.m3u8?volcTime=1793176666&volcSecret=06fe02de8b86b40eb54b2a1bc99bc59b
+望江黄梅戏,https://gnhls.qingmei.tv/live/wjnew1.m3u8?volcTime=1793176666&volcSecret=ab2db6f3ae0fa8d8f7a632ba56f22966
 
 安庆潜山,https://qsxw.gov.cn/rtmp_export/video22.m3u8
 
