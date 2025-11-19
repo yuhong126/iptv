@@ -1,5 +1,5 @@
 央视,#genre#
-CCTV4K超高清,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+CCTV4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 纯享4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227014/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -113,11 +113,15 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 卫视,#genre#
 浙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227193/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+浙江卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227505/147396573.smil
 浙江卫视4k,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 湖南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+湖南卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227530/147396820.smil
 湖南卫视4k,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 东方卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225828/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+东方卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227512/147396182.smil
 江苏卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227160/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+江苏卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227526/147396617.smil
 北京卫视4K,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227514/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 北京卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227476/135487844.smil 
 北京卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227246/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -125,7 +129,9 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 辽宁卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227141/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 天津卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227205/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227236/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+山东卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227516/147396708.smil
 广东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+广东卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227500/141320607.smil
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -138,6 +144,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 吉林卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 贵州卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227201/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 深圳卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227242/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+深圳卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227485/141320617.smil
 深圳卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227489/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -149,12 +156,14 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 陕西卫视,http://www.cdnstv.com:6398/hls/1129/index.m3u8
 陕西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225850/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 四川卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225835/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+四川卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227407/147396849.smil
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 宁夏卫视,http://111.127.156.228:51234/rtp/239.29.1.191:5000
 宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8|Referer=https://api.chinaaudiovisual.cn
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
+西藏卫视,http://tv.netlive.ggff.net/xzws
 东南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227156/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 重庆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227240/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 新疆卫视,http://111.127.156.228:51234/rtp/239.29.1.189:5000
@@ -181,10 +190,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
 
 港澳台,#genre#
-凤凰中文,https://cdn6.163189.xyz/163189/fhzw
-凤凰资讯,https://cdn6.101.qzz.io/163189/fhzx
-凤凰香港,https://cdn6.101.qzz.io/163189/fhhk
-
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.0.162:2192
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.55:8302
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.9:2192
@@ -209,21 +214,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
 
 北京,#genre#
-北京IPTV淘BABY,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8
-北京IPTV淘剧场,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8
-北京IPTV淘娱乐,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8
-北京IPTV淘电影,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8
-北京IPTV萌宠TV,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8
-
-卡酷少儿,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226558/1.m3u8
-北京影视,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226486/1.m3u8
-北京文艺,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8
-北京新闻,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226437/1.m3u8
-北京生活,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226561/1.m3u8
-北京纪实科教,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226559/1.m3u8
-北京财经,http://180.153.168.29:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226560/1.m3u8
-
-
 北京财经,http://littlegod.asuscomm.com:8012/udp/239.3.1.116:8000
 北京生活,http://littlegod.asuscomm.com:8012/udp/239.3.1.117:8000
 北京影视,http://littlegod.asuscomm.com:8012/udp/239.3.1.158:8000
@@ -321,12 +311,11 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 吉林,#genre#
-吉林都市,https://hls.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/1.m3u8?txSecret=91623fff3b11f5d87ea2d2112f43c4c5&txTime=68E1B5D1
-吉林影视,https://hls.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/1.m3u8?txSecret=84243c348b05af6f1e9470351129f904&txTime=68E20E51
-吉林生活,https://hls.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/1.m3u8?txSecret=84243c348b05af6f1e9470351129f904&txTime=68E20E51
-吉林乡村,https://hls.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/1.m3u8?txSecret=84243c348b05af6f1e9470351129f904&txTime=68E20E51
-吉林综艺文化,https://hls.avap.jilintv.cn/zqvk7vpj/channel/b3925adaf01e41f287f482f0aea3d233/index.m3u8?txSecret=095ee4c03bf5da9016d61df1350d50c9&txTime=68E20E51
-
+吉林都市,http://198.204.240.250:82/live/jlds.m3u8
+吉林影视,http://198.204.240.250:82/live/jlys.m3u8
+吉林生活,http://198.204.240.250:82/live/jlsh.m3u8
+吉林乡村,http://198.204.230.114:82/live/jlxc.m3u8?jsbt=1763538160&jsbk=26c3e9b9cbd54de3af0bba238e37484a
+吉林综艺文化,http://198.204.240.250:82/live/jlfz.m3u8?jsbt=1763538255&jsbk=7aea852e7d2a962d6481dc7449f2d003
 
 黑龙江,#genre#
 黑龙江影视,https://idclive.hljtv.com:4430/live/hljys_hd.m3u8
@@ -884,6 +873,15 @@ GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 重庆,#genre#
+CQTV社会与法,http://198.204.229.234:82/live/cqds.m3u8
+CQTV少儿,http://69.30.238.178:82/live/cqse.m3u8?jsbt=1763536936&jsbk=8fa80c79d9cb8e7beda14d3818b41156
+CQTV影视,http://198.204.229.234:82/live/cqys.m3u8
+CQTV科教,http://198.204.229.234:82/live/cqkj.m3u8
+CQTV娱乐,http://69.30.238.178:82/live/cqyl.m3u8?jsbt=1763537265&jsbk=19246edac0b8d66036b6285a0263a8c3
+CQTV汽摩,http://69.30.238.178:82/live/cqqm.m3u8?jsbt=1763537345&jsbk=8e55cd3bfe2388bf85c16a4a3de5a5e2
+CQTV新农村,http://198.204.233.130:82/live/cqgg.m3u8?jsbt=1763537433&jsbk=fc9791dde91179d18b12b3a23fc857c2
+
+
 CQTV新闻,http://211.158.48.108:8008/udp/225.0.4.188:7980
 CQTV社会与法,http://211.158.48.108:8008/udp/225.0.4.190:7980
 CQTV少儿,http://211.158.48.108:8008/udp/225.0.4.191:7980
@@ -1089,6 +1087,10 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 CHC动作电影,http://111.127.156.228:51234/rtp/239.29.1.177:5000
 CHC家庭影院,http://111.127.156.228:51234/rtp/239.29.1.176:5000
 CHC影迷电影,http://111.127.156.228:51234/rtp/239.29.1.178:5000
+
+CHC家庭影院,http://tv.netlive.ggff.net/jtyy
+CHC动作电影,http://tv.netlive.ggff.net/dzyy
+CHC影迷电影,http://tv.netlive.ggff.net/ymdy
 
 
 CHC影迷电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
