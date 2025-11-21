@@ -114,10 +114,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 卫视,#genre#
 浙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227193/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 浙江卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227505/147396573.smil
-浙江卫视4k,https://play-qukan.cztv.com/live/1758879019692345.m3u8
+浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 湖南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 湖南卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227530/147396820.smil
-湖南卫视4k,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 东方卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225828/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 东方卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227512/147396182.smil
 江苏卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227160/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -135,6 +135,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+山西卫视,https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
 山西卫视,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226113/index.m3u8
 山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -367,7 +368,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 江苏新闻,http://ss.btc8080.top:8188/rtp/239.49.8.120:8000
 江苏教育,http://ss.btc8080.top:8188/rtp/239.49.8.122:8000
 
-江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4kpro.m3u8|Referer=https://api.chinaaudiovisual.cn
+江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4Kpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|Referer=https://api.chinaaudiovisual.cn
@@ -403,7 +404,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 苏州文化生活,https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
 苏州电影娱乐,https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
 苏州生活资讯,https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
-苏州试播4k,https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8
+苏州试播4K,https://live-auth.51kandianshi.com/szgd/csztv4K_4K.m3u8
 
 
 浙江,#genre#
