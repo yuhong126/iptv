@@ -302,6 +302,10 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
 辽宁,#genre#
+辽宁北方,http://173.208.187.18:82/live/rylnbf.m3u8
+辽宁生活,http://173.208.187.18:82/live/rylnsh.m3u8
+辽宁都市,http://173.208.187.18:82/live/rylnds.m3u8
+
 辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
 辽宁北方,http://120.76.248.139/live/bfgd/4200000071.m3u8
 辽宁教育,http://120.76.248.139/live/bfgd/4200000075.m3u8
@@ -563,6 +567,19 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 江西公共,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv5.m3u8|Referer=https://api.chinaaudiovisual.cn
 江西少儿,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv6.m3u8|Referer=https://api.chinaaudiovisual.cn
 江西新闻,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv7.m3u8|Referer=https://api.chinaaudiovisual.cn
+彭泽,https://play-a2.quklive.com/live/1740970999257207.m3u8
+
+南昌新闻,https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8|Referer=https://api.chinaaudiovisual.cn
+九江新闻,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jiujiang.m3u8|Referer=https://api.chinaaudiovisual.cn
+抚州台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_fuzhou.m3u8|Referer=https://api.chinaaudiovisual.cn
+萍乡台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_pingxiang.m3u8|Referer=https://api.chinaaudiovisual.cn
+宜春台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_yichun.m3u8|Referer=https://api.chinaaudiovisual.cn
+赣州台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_ganzhou.m3u8|Referer=https://api.chinaaudiovisual.cn
+上饶台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_shangrao.m3u8|Referer=https://api.chinaaudiovisual.cn
+吉安台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jian.m3u8|Referer=https://api.chinaaudiovisual.cn
+新余台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_xinyu.m3u8|Referer=https://api.chinaaudiovisual.cn
+鹰潭台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_yingtan.m3u8|Referer=https://api.chinaaudiovisual.cn
+景德镇,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jingdezhen.m3u8|Referer=https://api.chinaaudiovisual.cn
 
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
@@ -571,21 +588,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 九江新闻,webview://https://www.jjntv.cn/live?id=jjtv1
 九江公共,webview://https://www.jjntv.cn/live?id=jjtv2
 九江教育,webview://https://www.jjntv.cn/live?id=jjfz
-
-彭泽,https://play-a2.quklive.com/live/1740970999257207.m3u8
-
-南昌新闻,https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
-九江新闻,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jiujiang.m3u8
-抚州台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_fuzhou.m3u8
-萍乡台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_pingxiang.m3u8
-宜春台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_yichun.m3u8
-赣州台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_ganzhou.m3u8
-上饶台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_shangrao.m3u8
-吉安台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jian.m3u8
-新余台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_xinyu.m3u8
-鹰潭台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_yingtan.m3u8
-景德镇,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jingdezhen.m3u8
-
 
 
 山东,#genre#
