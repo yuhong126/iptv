@@ -1,5 +1,5 @@
 央视,#genre#
-CCTV4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+CCTV4K超高清,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 纯享4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227014/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -135,6 +135,15 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+
+康巴卫视,http://171.213.158.232:4443/udp/239.94.0.78:5140
+峨眉电影,http://171.213.158.232:4443/udp/239.94.0.103:5140
+陕西卫视,http://171.213.158.232:4443/udp/239.94.0.92:5140
+宁夏卫视,http://171.213.158.232:4443/udp/239.94.0.96:5140
+西藏卫视,http://171.213.158.232:4443/udp/239.94.0.97:5140
+新疆卫视,http://171.213.158.232:4443/udp/239.94.0.98:5140
+兵团卫视,http://171.213.158.232:4443/udp/239.94.0.102:5140
+
 山西卫视,https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
 山西卫视,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226113/index.m3u8
 山西卫视,webview://https://apphhplushttps.sxrtv.com//television/live_wap_650.html?site=53&color=0697F4
@@ -149,6 +158,15 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 深圳卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227489/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 甘肃卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227262/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+内蒙古卫视,http://play1-qk.nmtv.cn/live/3208526general.m3u8
+内蒙古卫视,http://play1-qk.nmtv.cn/live/3208526general.flv
+内蒙古卫视,rtmp://play1-qk.nmtv.cn/live/3208526general
+内蒙古卫视,http://play1-qk.nmtv.cn/live/2323general.m3u8
+内蒙古卫视,http://play1-qk.nmtv.cn/live/2323general.flv
+内蒙古卫视,rtmp://play1-qk.nmtv.cn/live/2323general
+内蒙古卫视,http://play1-qk.nmtv.cn/live/2359general.m3u8
+内蒙古卫视,http://play1-qk.nmtv.cn/live/2359general.flv
+内蒙古卫视,rtmp://play1-qk.nmtv.cn/live/2359general
 内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
 内蒙古卫视,webview://https://www.nmtv.cn/liveTv
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -283,6 +301,14 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 吉县新闻,http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8
 
 内蒙古,#genre#
+内蒙古农牧,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
+内蒙古蒙语,http://play1-qk.nmtv.cn/live/1686560387346365.m3u8
+内蒙古文化,http://play1-qk.nmtv.cn/live/1686561065304370.m3u8
+内蒙古新闻,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
+内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
+内蒙古文体,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
+内蒙古经济,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
+
 内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
 内蒙古经济,http://111.127.156.228:51234/udp/239.29.0.212:5000
 内蒙古新闻,http://111.127.156.228:51234/udp/239.29.0.208:5000
@@ -291,13 +317,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 内蒙古少儿,http://111.127.156.228:51234/udp/239.29.0.207:5000
 内蒙古蒙语,http://111.127.156.228:51234/udp/239.29.0.210:5000
 
-内蒙古农牧,http://play1-qk.nmtv.cn/live/1686561299036179.m3u8
-内蒙古蒙语,http://play1-qk.nmtv.cn/live/1686560387346365.m3u8
-内蒙古文化,http://play1-qk.nmtv.cn/live/1686561065304370.m3u8
-内蒙古新闻,http://play1-qk.nmtv.cn/live/1686560423879174.m3u8
-内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
-内蒙古文体,http://play1-qk.nmtv.cn/live/1686561195713372.m3u8
-内蒙古经济,http://play1-qk.nmtv.cn/live/1686562470947181.m3u8
+
 
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
@@ -323,6 +343,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 吉林综艺文化,http://198.204.240.250:82/live/jlfz.m3u8?jsbt=1763538255&jsbk=7aea852e7d2a962d6481dc7449f2d003
 
 黑龙江,#genre#
+
 黑龙江影视,https://idclive.hljtv.com:4430/live/hljys_hd.m3u8
 黑龙江文体,https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8
 黑龙江新闻,https://idclive.hljtv.com:4430/live/hljxw_hd.m3u8
@@ -344,11 +365,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 上海都市,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225749/index.m3u8
 生活时尚,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225768/index.m3u8
 
-上海新纪实,http://8.138.7.223/tv/shtv.php?id=xjs
-五星体育,http://8.138.7.223/tv/shtv.php?id=wxty
-上视新闻,http://8.138.7.223/tv/shtv.php?id=xwzh
-上视都市,http://8.138.7.223/tv/shtv.php?id=ds
-
 上海新闻综合,webview://https://live.kankanews.com/huikan?id=2
 上海都市,webview://https://live.kankanews.com/huikan?id=4
 第一财经,webview://https://live.kankanews.com/huikan?id=5
@@ -364,15 +380,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 江苏,#genre#
-江苏城市,http://ss.btc8080.top:8188/rtp/239.49.8.107:8000
-江苏综艺,http://ss.btc8080.top:8188/rtp/239.49.8.108:8000
-江苏体育,http://ss.btc8080.top:8188/rtp/239.49.8.117:8000
-江苏影视,http://ss.btc8080.top:8188/rtp/239.49.8.118:8000
-优漫卡通,http://ss.btc8080.top:8188/rtp/239.49.8.119:8000
-江苏新闻,http://ss.btc8080.top:8188/rtp/239.49.8.120:8000
-江苏教育,http://ss.btc8080.top:8188/rtp/239.49.8.122:8000
-
-江苏卫视4K,https://zjcn-live-play.jstv.com/jsws4Kpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|Referer=https://api.chinaaudiovisual.cn
@@ -382,6 +389,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 江苏体育,https://zjcn-live-play.jstv.com/jsxxpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 优漫卡通,https://zjcn-live-play.jstv.com/ymktpro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏国际,https://zjcn-live-play.jstv.com/jsgjpro.m3u8|Referer=https://api.chinaaudiovisual.cn
+
+江苏城市,http://ss.btc8080.top:8188/rtp/239.49.8.107:8000
+江苏综艺,http://ss.btc8080.top:8188/rtp/239.49.8.108:8000
+江苏体育,http://ss.btc8080.top:8188/rtp/239.49.8.117:8000
+江苏影视,http://ss.btc8080.top:8188/rtp/239.49.8.118:8000
+优漫卡通,http://ss.btc8080.top:8188/rtp/239.49.8.119:8000
+江苏新闻,http://ss.btc8080.top:8188/rtp/239.49.8.120:8000
+江苏教育,http://ss.btc8080.top:8188/rtp/239.49.8.122:8000
+
 
 
 江苏城市,webview://https://live.jstv.com/?channelId=535
@@ -580,6 +596,9 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 新余台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_xinyu.m3u8|Referer=https://api.chinaaudiovisual.cn
 鹰潭台,https://play-live-hls.jxtvcn.com.cn/live-city/tv_yingtan.m3u8|Referer=https://api.chinaaudiovisual.cn
 景德镇,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jingdezhen.m3u8|Referer=https://api.chinaaudiovisual.cn
+
+九江公共,https://play-sh13.quklive.com:443/live/1757386400403349.m3u8?auth_key=2077514765-04f25e23be1445b1a9c49800a953b2ef-0-b62358ee6dd3c69b682523d289795d53
+九江教育,https://play-sh13.quklive.com:443/live/1757386418265193.m3u8?auth_key=2077514832-371267e463524ccd850fed4811c9ae1f-0-9431fd4a37affb159b5ee482f47bd6c1
 
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
@@ -903,6 +922,24 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
+SCTV-2,http://171.213.158.232:4443/udp/239.94.0.70:5140
+SCTV-3,http://171.213.158.232:4443/udp/239.94.0.71:5140
+SCTV-4,http://171.213.158.232:4443/udp/239.94.0.72:5140
+SCTV-5,http://171.213.158.232:4443/udp/239.94.0.73:514
+SCTV-6,http://171.213.158.232:4443/udp/239.94.0.74:5140
+SCTV-7,http://171.213.158.232:4443/udp/239.94.0.75:5140
+SCTV-科教,http://171.213.158.232:4443/udp/239.94.0.76:5140
+四川乡村,http://171.213.158.232:4443/udp/239.94.0.77:5140
+康巴卫视,http://171.213.158.232:4443/udp/239.94.0.78:5140
+峨眉电影,http://171.213.158.232:4443/udp/239.94.0.103:5140
+CDTV-1,http://171.213.158.232:4443/udp/239.94.0.154:5140
+CDTV-2,http://171.213.158.232:4443/udp/239.94.0.155:5140
+CDTV-3,http://171.213.158.232:4443/udp/239.94.0.156:5140
+CDTV-4,http://171.213.158.232:4443/udp/239.94.0.157:5140
+CDTV-5,http://171.213.158.232:4443/udp/239.94.0.158:5140
+CDTV-6,http://171.213.158.232:4443/udp/239.94.0.159:5140
+CDTV-8,http://171.213.158.232:4443/udp/239.94.0.160:5140
+
 四川经济,http://125.71.74.195:4022/rtp/239.94.0.70:5140
 四川文化旅游,http://125.71.74.195:4022/rtp/239.94.0.71:5140
 四川新闻,http://125.71.74.195:4022/rtp/239.94.0.72:5140
@@ -1108,17 +1145,9 @@ CCTV14,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225933/in
 
 NewTV,#genre#
 动作电影,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225879/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-东北热剧,http://39.134.65.207:80/PLTV/88888888/224/3221225679/1.m3u8
-欢乐剧场,http://39.135.135.81:80/wh7f454c46tw1744894462_1818032107/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8?icpid=88888888&RTS=1554599517&from=1&hms_devid=690
-超级综艺,http://39.134.65.198:80/PLTV/88888888/224/3221225642/1.m3u8
 精品萌宠,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227183/index.m3u8?servicetype=1
-农业致富,http://39.134.65.196:80/PLTV/88888888/224/3221225552/1.m3u8
-健身,http://39.135.55.105:6610/PLTV/88888888/224/3221227314/index.m3u8?servicetype=1
-
 动作电影,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225879/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-金鹰卡通,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 晴彩篮球,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227158/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-精品萌宠,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227183/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 中国天气,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227210/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 晴彩青少,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227314/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 潮妈辣婆,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227311/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
