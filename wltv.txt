@@ -101,6 +101,16 @@ CCTV风云足球,http://183.237.95.108:9901/tsfile/live/1067_1.m3u8?key=txiptv&p
 CCTV世界地理,http://183.237.95.108:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV央视台球,http://183.237.95.108:9901/tsfile/live/1072_1.m3u8?key=txiptv&playlive=0&authid=0
 
+
+CCTV兵器科技,http://sh.lnott.top:880/dx81.m3u8
+CCTV央视台球,http://sh.lnott.top:880/dx82.m3u8
+CCTV风云足球,http://sh.lnott.top:880/dx71.m3u8
+CCTV高尔夫网球,http://sh.lnott.top:880/dx98.m3u8
+CCTV世界地理,http://sh.lnott.top:880/dx72.m3u8
+CCTV风云音乐,http://sh.lnott.top:880/dx73.m3u8
+CCTV女性时尚,http://sh.lnott.top:880/dx105.m3u8
+CCTV央视文化精品,http://sh.lnott.top:880/dx104.m3u8
+
 CETV-1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -135,6 +145,13 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+
+
+陕西卫视,http://sh.lnott.top:880/dx51.m3u8
+内蒙古卫视,http://sh.lnott.top:880/dx52.m3u8
+新疆卫视,http://sh.lnott.top:880/dx55.m3u8
+
+
 
 康巴卫视,http://171.213.158.232:4443/udp/239.94.0.78:5140
 峨眉电影,http://171.213.158.232:4443/udp/239.94.0.103:5140
@@ -325,6 +342,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 辽宁北方,http://173.208.187.18:82/live/rylnbf.m3u8
 辽宁生活,http://173.208.187.18:82/live/rylnsh.m3u8
 辽宁都市,http://173.208.187.18:82/live/rylnds.m3u8
+
+辽宁公共,http://sh.lnott.top:880/dx27.m3u8
+辽宁都市,http://sh.lnott.top:880/dx20.m3u8
+辽宁经济,http://sh.lnott.top:880/dx26.m3u8
+辽宁移动,http://sh.lnott.top:880/dx115.m3u8
+辽宁影视剧,http://sh.lnott.top:880/dx21.m3u8
+辽宁体育休闲,http://sh.lnott.top:880/dx22.m3u8
+辽宁生活,http://sh.lnott.top:880/dx23.m3u8
+辽宁教育青少,http://sh.lnott.top:880/dx24.m3u8
+辽宁北方,http://sh.lnott.top:880/dx25.m3u8
 
 辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
 辽宁北方,http://120.76.248.139/live/bfgd/4200000071.m3u8
@@ -819,10 +846,10 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 广东移动,webview://https://www.gdtv.cn/tvChannelDetail/74
 荔枝台,webview://https://www.gdtv.cn/tvChannelDetail/100
 纪录片,webview://https://www.gdtv.cn/tvChannelDetail/94
-GRTN健康频道,webview://https://www.gdtv.cn/tvChannelDetail/99
-GRTN文化频道,webview://https://www.gdtv.cn/tvChannelDetail/75
-GRTN生活频道,webview://https://www.gdtv.cn/tvChannelDetail/102
-GRTN教育频道,webview://https://www.gdtv.cn/tvChannelDetail/104
+GRTN健康,webview://https://www.gdtv.cn/tvChannelDetail/99
+GRTN文化,webview://https://www.gdtv.cn/tvChannelDetail/75
+GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
+GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 深圳卫视,webview://https://www.sztv.com.cn/dianshi.shtml?id=7867
 深圳都市,webview://https://www.sztv.com.cn/dianshi.shtml?id=7868
