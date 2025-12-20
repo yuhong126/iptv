@@ -232,6 +232,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
 
 北京,#genre#
+
+RTV文艺,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV文艺
+BRTV纪实科教,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV纪实科教
+BRTV影视,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV影视
+BRTV财经,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV财经
+BRTV体育休闲,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV体育休闲
+BRTV i生活,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV i生活
+BRTV新闻,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV新闻
+卡酷少儿,webview://https://www.brtn.cn/btv/btvsy_index?channel=卡酷少儿
+
 北京财经,http://littlegod.asuscomm.com:8012/udp/239.3.1.116:8000
 北京生活,http://littlegod.asuscomm.com:8012/udp/239.3.1.117:8000
 北京影视,http://littlegod.asuscomm.com:8012/udp/239.3.1.158:8000
@@ -389,6 +399,14 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 江苏,#genre#
+江苏城市,webview://https://live.jstv.com?channel=江苏城市
+江苏综艺,webview://https://live.jstv.com?channel=江苏综艺
+江苏新闻,webview://https://live.jstv.com?channel=江苏新闻
+江苏教育,webview://https://live.jstv.com?channel=江苏教育
+体育休闲,webview://https://live.jstv.com?channel=体育休闲
+优漫卡通,webview://https://live.jstv.com?channel=优漫卡通
+江苏国际,webview://https://live.jstv.com?channel=江苏国际
+
 江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|Referer=https://api.chinaaudiovisual.cn
