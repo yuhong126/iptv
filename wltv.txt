@@ -53,8 +53,6 @@ CCTV风云音乐,http://ymz.stkeyu.top:8303/udp/239.253.43.29:5146
 CCTV风云音乐,http://ymz.stkeyu.top:8303/udp/239.253.43.6:5146
 CCTV卫生健康,http://ymz.stkeyu.top:8303/udp/239.77.0.212:5146
 
-
-
 CCTV风云足球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.43:5140
 CCTV央视台球,http://vpn.rogerxlj.top:9998/rtp/239.45.0.44:5140
 CCTV兵器科技,http://vpn.rogerxlj.top:9998/rtp/239.45.0.45:5140
@@ -72,29 +70,9 @@ CCTV高尔夫网球,http://vpn.rogerxlj.top:9998/rtp/239.45.1.72:5140
 CCTV央视文化精品,http://vpn.rogerxlj.top:9998/rtp/239.45.0.53:5140
 CCTV央视文化精品,http://vpn.rogerxlj.top:9998/rtp/239.45.1.17:5140
 
-CCTV兵器科技,http://113.25.104.67:10000/udp/239.1.1.97:8097
-CCTV第一剧场,http://113.25.104.67:10000/udp/239.1.1.94:8094
-CCTV电视指南,http://113.25.104.67:10000/udp/239.1.1.90:8090
-CCTV风云剧场,http://113.25.104.67:10000/udp/239.1.1.93:8093
-CCTV风云音乐,http://113.25.104.67:10000/udp/239.1.1.96:8096
-CCTV风云足球,http://113.25.104.67:10000/udp/239.1.1.101:8101
-CCTV高尔夫网球,http://113.25.104.67:10000/udp/239.1.1.102:8102
-CCTV怀旧剧场,http://113.25.104.67:10000/udp/239.1.1.95:8095
-CCTV女性时尚,http://113.25.104.67:10000/udp/239.1.1.89:8089
-CCTV世界地理,http://113.25.104.67:10000/udp/239.1.1.99:8099
-CCTV央视台球,http://113.25.104.67:10000/udp/239.1.1.100:8100
-CCTV央视文化精品,http://113.25.104.67:10000/udp/239.1.1.91:8091
-
 CCTV风云剧场,webview://https://yangshipin.cn/tv/home?pid=600099658
 CCTV第一剧场,webview://https://yangshipin.cn/tv/home?pid=600099655
 CCTV怀旧剧场,webview://https://yangshipin.cn/tv/home?pid=600099620
-
-CCTV-电视指南,http://120.76.248.139/live/bfgd/4200000164.m3u8
-CCTV-风云足球,http://120.76.248.139/live/bfgd/4200000225.m3u8
-CCTV-怀旧剧场,http://120.76.248.139/live/bfgd/4200000224.m3u8
-CCTV-女性时尚,http://120.76.248.139/live/bfgd/4200000176.m3u8
-CCTV-世界地理,http://120.76.248.139/live/bfgd/4200000177.m3u8
-
 
 CCTV第一剧场,http://183.237.95.108:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV风云足球,http://183.237.95.108:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -232,15 +210,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
 
 北京,#genre#
-
-RTV文艺,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV文艺
-BRTV纪实科教,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV纪实科教
-BRTV影视,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV影视
-BRTV财经,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV财经
-BRTV体育休闲,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV体育休闲
-BRTV i生活,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV i生活
-BRTV新闻,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV新闻
-卡酷少儿,webview://https://www.brtn.cn/btv/btvsy_index?channel=卡酷少儿
+北京新闻,http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
+北京体育,http://iptv.huuc.edu.cn/hls/btv11hd.m3u8
+北京影视,http://iptv.huuc.edu.cn/hls/btv4hd.m3u8
+北京文艺,http://iptv.huuc.edu.cn/hls/btv2hd.m3u8
+北京体育,http://jiugong.wulinsy.cn:39901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+北京新闻,http://jiugong.wulinsy.cn:39901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+北京生活,http://jiugong.wulinsy.cn:39901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+北京财经,http://jiugong.wulinsy.cn:39901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+淘电影,http://jiugong.wulinsy.cn:39901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 
 北京财经,http://littlegod.asuscomm.com:8012/udp/239.3.1.116:8000
 北京生活,http://littlegod.asuscomm.com:8012/udp/239.3.1.117:8000
@@ -271,14 +249,6 @@ BRTV新闻,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV新闻
 
 
 天津,#genre#
-天津新闻,http://live-tx.wisetv.com.cn:80/TJIPTV/TJXWHD2.m3u8?txSecret=9833627e4d782ff9a64045813b9f99ab&txTime=68e18564&GUID=9caff4c3ddffc1ba9367e7ca9b02ae2c&wisetvauth=1
-天津文艺,http://live-tx.wisetv.com.cn:80/TJIPTV/TJWYHD2.m3u8?txSecret=8434af258e95744629cd06bd5c14142f&txTime=68e1858f&GUID=e5ad13477867f575aa763970b3eee284&wisetvauth=1
-天津影视,http://live-tx.wisetv.com.cn:80/TJIPTV/TJYSHD2.m3u8?txSecret=a7c862644bb357f16fc615eaff5094d0&txTime=68e17f76&GUID=d217df4e9dd3e368002c191beaf3a4c0&wisetvauth=1
-天津都市,http://live-tx.wisetv.com.cn:80/TJIPTV/TJDSHD2.m3u8?txSecret=6da4fac9f7ee9a750e3aef8554339aab&txTime=68e18639&GUID=27242cd0ba603ce571870360a7c25514&wisetvauth=1
-天津体育,http://live-tx.wisetv.com.cn:80/TJIPTV/TJTYHD2.m3u8?txSecret=e71d9d30f6a63844593196f1730d86c3&txTime=68e1db0b&GUID=4cb5984a6429e5feb908331ff659b380&wisetvauth=1
-天津教育,http://live-tx.wisetv.com.cn:80/TJIPTV/TJKJHD2.m3u8?txSecret=16f1abc0205f66e5fd72ff4f900e7260&txTime=68e1848f&GUID=c1e488b56fda63cbb64966d8ebc35eab&wisetvauth=1
-
-
 天津新闻,http://117.9.112.118:8888/udp/225.1.1.130:5002
 天津文艺,http://221.198.57.126:8888/udp/225.1.1.131:5002
 天津影视,http://117.9.112.118:8888/udp/225.1.1.149:5002
@@ -379,10 +349,12 @@ BRTV新闻,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV新闻
 
 
 上海,#genre#
-第一财经,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225738/index.m3u8
-东方影视,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225744/index.m3u8
-上海都市,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225749/index.m3u8
-生活时尚,http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225768/index.m3u8
+新纪实,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+爱上海,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+第一财经,http://bp-livetytv.bestv.cn/ch/bestvdycj.m3u8
+上海新闻综合,http://bp-livetytv.bestv.cn/ch/bestvxwzh.m3u8
+五星体育,http://bp-livetytv.bestv.cn/ch/bestvwxty.m3u8
+上海都市,http://bp-livetytv.bestv.cn/ch/bestvdspd.m3u8
 
 上海新闻综合,webview://https://live.kankanews.com/huikan?id=2
 上海都市,webview://https://live.kankanews.com/huikan?id=4
@@ -399,14 +371,6 @@ BRTV新闻,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV新闻
 
 
 江苏,#genre#
-江苏城市,webview://https://live.jstv.com?channel=江苏城市
-江苏综艺,webview://https://live.jstv.com?channel=江苏综艺
-江苏新闻,webview://https://live.jstv.com?channel=江苏新闻
-江苏教育,webview://https://live.jstv.com?channel=江苏教育
-体育休闲,webview://https://live.jstv.com?channel=体育休闲
-优漫卡通,webview://https://live.jstv.com?channel=优漫卡通
-江苏国际,webview://https://live.jstv.com?channel=江苏国际
-
 江苏卫视,https://zjcn-live-play.jstv.com/jswspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏城市,https://zjcn-live-play.jstv.com/jscspro.m3u8|Referer=https://api.chinaaudiovisual.cn
 江苏综艺,https://zjcn-live-play.jstv.com/jszypro.m3u8|Referer=https://api.chinaaudiovisual.cn
@@ -425,16 +389,6 @@ BRTV新闻,webview://https://www.brtn.cn/btv/btvsy_index?channel=BRTV新闻
 江苏新闻,http://ss.btc8080.top:8188/rtp/239.49.8.120:8000
 江苏教育,http://ss.btc8080.top:8188/rtp/239.49.8.122:8000
 
-
-
-江苏城市,webview://https://live.jstv.com/?channelId=535
-江苏综艺,webview://https://live.jstv.com/?channelId=556
-江苏影视,webview://https://live.jstv.com/?channelId=542
-江苏新闻,webview://https://live.jstv.com/?channelId=536
-江苏教育,webview://https://live.jstv.com/?channelId=545
-江苏体育,webview://https://live.jstv.com/?channelId=537
-江苏国际,webview://https://live.jstv.com/?channelId=544
-优漫卡通,webview://https://live.jstv.com/?channelId=543
 
 江苏城市,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.107:8000
 江苏综艺,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.108:8000
