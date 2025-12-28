@@ -186,6 +186,17 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
 
 港澳台,#genre#
+凤凰中文,https://cdn6.101.qzz.io/163189/fhzw
+凤凰资讯,https://cdn6.101.qzz.io/163189/fhzx
+凤凰香港,https://cdn6.101.qzz.io/163189/fhhk
+无线功夫,https://cdn6.101.qzz.io/163189/yzwx
+无线新闻,https://cdn6.101.qzz.io/163189/wxxw
+无线星河,https://cdn6.101.qzz.io/163189/tvbxh
+翡翠台4K,https://cdn6.101.qzz.io/163189/fct4k
+翡翠台,https://cdn6.101.qzz.io/163189/fct
+TVBplus,https://cdn6.101.qzz.io/163189/tvbp
+HOY 77,https://cdn6.101.qzz.io/163189/hoy
+
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.0.162:2192
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.55:8302
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.9:2192
@@ -208,6 +219,9 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
 TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
+科幻电影,https://yylunbo.ottiptv.cc/yy/1355065896
+科幻电影,https://yylunbo.ottiptv.cc/yy/1354930209
+
 
 北京,#genre#
 北京新闻,http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
