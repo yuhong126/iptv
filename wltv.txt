@@ -27,6 +27,21 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+
+
+CCTV第一剧场,http://113.195.172.192:808/hls/18/index.m3u8
+CCTV风云音乐,http://113.195.172.192:808/hls/19/index.m3u8
+CCTV怀旧剧场,http://113.195.172.192:808/hls/21/index.m3u8
+CCTV风云剧场,http://113.195.172.192:808/hls/20/index.m3u8
+CCTV世界地理,http://113.195.172.192:808/hls/91/index.m3u8
+CCTV女性时尚,http://113.195.172.192:808/hls/93/index.m3u8
+CCTV央视台球,http://113.195.172.192:808/hls/92/index.m3u8
+CCTV高尔夫网球,http://113.195.172.192:808/hls/95/index.m3u8
+CCTV央视文化精品,http://113.195.172.192:808/hls/94/index.m3u8
+CCTV风云足球,http://113.195.172.192:808/hls/96/index.m3u8
+CCTV兵器科技,http://113.195.172.192:808/hls/97/index.m3u8
+
+
 CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.18:5146
 CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.9:5146
 CCTV电视指南,http://ymz.stkeyu.top:8303/udp/239.253.43.19:5146
@@ -197,6 +212,11 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 TVBplus,https://cdn6.101.qzz.io/163189/tvbp
 HOY 77,https://cdn6.101.qzz.io/163189/hoy
 
+凤凰资讯,http://tv.groupshare.com.cn/fhtv?id=info&prefix=86&phone=13389247903&pwd=Llxxcc1986
+凤凰中文,http://tv.groupshare.com.cn/fhtv?id=cn&prefix=86&phone=13389247903&pwd=Llxxcc1986
+凤凰香港,http://tv.groupshare.com.cn/fhtv?id=hk&prefix=86&phone=13389247903&pwd=Llxxcc1986
+
+
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.0.162:2192
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.55:8302
 凤凰中文,http://vl15191373.imwork.net:8880/udp/239.93.1.9:2192
@@ -228,6 +248,9 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 北京体育,http://iptv.huuc.edu.cn/hls/btv11hd.m3u8
 北京影视,http://iptv.huuc.edu.cn/hls/btv4hd.m3u8
 北京文艺,http://iptv.huuc.edu.cn/hls/btv2hd.m3u8
+北京财经,http://139.ye23.vip/dl/btv2502.php?id=bjcj
+北京生活,http://139.ye23.vip/dl/btv2502.php?id=bjsh
+
 北京体育,http://jiugong.wulinsy.cn:39901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 北京新闻,http://jiugong.wulinsy.cn:39901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 北京生活,http://jiugong.wulinsy.cn:39901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -572,10 +595,30 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
+江西都市,http://113.195.172.192:808/hls/141/index.m3u8
+江西新闻,http://113.195.172.192:808/hls/146/index.m3u8
+江西少儿,http://113.195.172.192:808/hls/140/index.m3u8
+江西公共农业,http://113.195.172.192:808/hls/145/index.m3u8
+江西教育,http://113.195.172.192:808/hls/144/index.m3u8
+
+宜春法治,http://113.195.172.192:808/hls/2/index.m3u8
+宜春综合,http://113.195.172.192:808/hls/3/index.m3u8
+江西都市,http://113.195.172.192:808/hls/5/index.m3u8
+江西公共农业,http://113.195.172.192:808/hls/8/index.m3u8
+江西新闻,http://113.195.172.192:808/hls/10/index.m3u8
+江西教育,http://113.195.172.192:808/hls/13/index.m3u8
+江西移动,http://113.195.172.192:808/hls/12/index.m3u8
+江西少儿,http://113.195.172.192:808/hls/11/index.m3u8
+
+江西都市,http://58.17.89.7:8081/hls/18/index.m3u8
+江西经济生活,http://58.17.89.7:8081/hls/19/index.m3u8
+江西新闻,http://58.17.89.7:8081/hls/23/index.m3u8
+江西公共农业,http://58.17.89.7:8081/hls/21/index.m3u8
+江西少儿,http://58.17.89.7:8081/hls/22/index.m3u8
 
 江西都市,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv2.m3u8|Referer=https://api.chinaaudiovisual.cn
-江西经济,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv3.m3u8|Referer=https://api.chinaaudiovisual.cn
-江西公共,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv5.m3u8|Referer=https://api.chinaaudiovisual.cn
+江西经济生活,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv3.m3u8|Referer=https://api.chinaaudiovisual.cn
+江西公共农业,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv5.m3u8|Referer=https://api.chinaaudiovisual.cn
 江西少儿,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv6.m3u8|Referer=https://api.chinaaudiovisual.cn
 江西新闻,https://play-live-hls.jxtvcn.com.cn:443/live-city/tv_jxtv7.m3u8|Referer=https://api.chinaaudiovisual.cn
 彭泽,https://play-a2.quklive.com/live/1740970999257207.m3u8
@@ -1118,6 +1161,10 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC动作电影,http://113.195.172.192:808/hls/15/index.m3u8
+CHC影迷电影,http://113.195.172.192:808/hls/14/index.m3u8
+CHC家庭影院,http://113.195.172.192:808/hls/16/index.m3u8
+
 CHC动作电影,http://111.127.156.228:51234/rtp/239.29.1.177:5000
 CHC家庭影院,http://111.127.156.228:51234/rtp/239.29.1.176:5000
 CHC影迷电影,http://111.127.156.228:51234/rtp/239.29.1.178:5000
