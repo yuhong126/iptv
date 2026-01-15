@@ -141,6 +141,7 @@ CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/in
 CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 重温经典,http://8.138.7.223/tv/cwjd.php
+重温经典,http://183.215.134.239:19901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 重温经典,http://qgtf.jydjd.top:2903/udp/224.1.100.126:11111
 重温经典,http://120.76.248.139/live/bfgd/4200000635.m3u8
 
@@ -194,6 +195,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
 内蒙古卫视,webview://https://www.nmtv.cn/liveTv
 内蒙古卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227244/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+陕西卫视,http://117.36.76.86:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西卫视,http://125.71.74.195:4022/udp/239.93.0.143:5140
 陕西卫视,http://42.225.117.174:11199/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西卫视,http://www.cdnstv.com:6398/hls/1129/index.m3u8
@@ -974,46 +976,21 @@ SPOTV2,http://iptv.4666888.xyz/iptv2A.php?id=1
 湖南经视,http://183.215.134.239:19901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南电影,http://183.215.134.239:19901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南教育,http://183.215.134.239:19901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南经视,http://175.8.181.54:7878/udp/239.76.253.103:9000
-湖南经视,http://175.8.181.54:7878/udp/239.76.251.86:9000
-湖南都市,http://175.8.181.54:7878/udp/239.76.253.104:9000
-湖南国际,http://175.8.181.54:7878/udp/239.76.253.102:9000
-湖南国际,http://175.8.181.54:7878/udp/239.76.252.240:9000
-湖南公共,http://175.8.181.54:7878/udp/239.76.253.109:9000
-湖南娱乐,http://175.8.181.54:7878/udp/239.76.253.105:9000
-湖南电影,http://175.8.181.54:7878/udp/239.76.253.106:9000
-湖南电视剧,http://175.8.181.54:7878/udp/239.76.253.108:9000
-金鹰卡通,http://175.8.181.54:7878/udp/239.76.253.107:9000
-金鹰纪实,http://175.8.181.54:7878/udp/239.76.253.110:9000
-快乐垂钓,http://175.8.181.54:7878/udp/239.76.253.5:9000
-湖南教育台,http://175.8.181.54:7878/udp/239.76.252.233:9000
-湖南经视,http://175.8.181.54:7878/udp/239.76.252.116:9000
-湖南都市,http://175.8.181.54:7878/udp/239.76.252.117:9000
-湖南电视剧,http://175.8.181.54:7878/udp/239.76.252.118:9000
-湖南电影,http://175.8.181.54:7878/udp/239.76.252.119:9000
-湖南娱乐,http://175.8.181.54:7878/udp/239.76.252.121:9000
-湖南公共,http://175.8.181.54:7878/udp/239.76.252.123:9000
-湖南国际,http://175.8.181.54:7878/udp/239.76.252.124:9000
-
-金鹰卡通,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-金鹰纪实,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226937/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-
 
 湖南经视,http://php.jdshipin.com/TVOD/iptv.php?id=hnjs
 湖南经视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnjs
-湖南经视,http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-2.m3u8
 湖南国际,http://php.jdshipin.com/TVOD/iptv.php?id=hngj
 湖南国际,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hngj
-湖南国际,http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-4.m3u8
 湖南娱乐,http://php.jdshipin.com/TVOD/iptv.php?id=hnyl
 湖南娱乐,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnyl
-湖南娱乐,http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-13.m3u8
 湖南爱晚,http://p2.vzan.com/527645544/149039617847513156/live.m3u8
 湖南爱晚,http://php.jdshipin.com/TVOD/iptv.php?id=hngg
-湖南爱晚,http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-9.m3u8
 湖南电影,http://php.jdshipin.com/TVOD/iptv.php?id=hndy
 湖南电视剧,http://php.jdshipin.com/TVOD/iptv.php?id=hndsj
 湖南电视剧,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hndsj
+
+金鹰卡通,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+金鹰纪实,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226937/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 先锋乒羽,http://39.135.55.105:6610/PLTV/88888888/224/3221226851/index.m3u8?servicetype=1
 快乐垂钓,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226940/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -1320,6 +1297,7 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
+陕西新闻资讯,http://117.36.76.86:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西新闻资讯,http://36.46.98.221:8025/rtp/239.111.205.28:5140
 陕西都市青春,http://36.46.98.221:8025/rtp/239.111.205.42:5140
 陕西体育休闲,http://36.46.98.221:8025/rtp/239.111.205.36:5140
