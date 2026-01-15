@@ -28,6 +28,13 @@ CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
 
+CCTV风云足球,http://hmfs.f3322.net:3388/hls/9/index.m3u8
+CCTV风云剧场,http://hmfs.f3322.net:3388/hls/20/index.m3u8
+CCTV第一剧场,http://hmfs.f3322.net:3388/hls/21/index.m3u8
+CCTV世界地理,http://hmfs.f3322.net:3388/hls/28/index.m3u8
+CCTV风云音乐,http://hmfs.f3322.net:3388/hls/29/index.m3u8
+
+
 CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.18:5146
 CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.9:5146
 CCTV电视指南,http://ymz.stkeyu.top:8303/udp/239.253.43.19:5146
@@ -198,6 +205,9 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 TVBplus,https://cdn6.101.qzz.io/163189/tvbp
 HOY 77,https://cdn6.101.qzz.io/163189/hoy
 
+凤凰中文,http://61.184.46.85:85/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰资讯,http://61.184.46.85:85/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
+
 凤凰资讯,http://tv.groupshare.com.cn/fhtv?id=info&prefix=86&phone=13389247903&pwd=Llxxcc1986
 凤凰中文,http://tv.groupshare.com.cn/fhtv?id=cn&prefix=86&phone=13389247903&pwd=Llxxcc1986
 凤凰香港,http://tv.groupshare.com.cn/fhtv?id=hk&prefix=86&phone=13389247903&pwd=Llxxcc1986
@@ -228,14 +238,69 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 科幻电影,https://yylunbo.ottiptv.cc/yy/1355065896
 科幻电影,https://yylunbo.ottiptv.cc/yy/1354930209
 
+美亚电影台,http://iptv.4666888.xyz/iptv2A.php?id=30
+东森电影,http://iptv.4666888.xyz/iptv2A.php?id=48
+TVBdrama,http://iptv.4666888.xyz/iptv2A.php?id=33
+TVBS新闻台,http://iptv.4666888.xyz/iptv2A.php?id=43
+TVBS精采台,http://iptv.4666888.xyz/iptv2A.php?id=47
+HOY77,http://iptv.4666888.xyz/iptv2A.php?id=35
+民视综艺,http://iptv.4666888.xyz/iptv2A.php?id=46
+民视影剧,http://iptv.4666888.xyz/iptv2A.php?id=53
+娱乐新闻台,http://iptv.4666888.xyz/iptv2A.php?id=36
+非凡新闻,http://iptv.4666888.xyz/iptv2A.php?id=44
+华艺中文台,http://iptv.4666888.xyz/iptv2A.php?id=37
+靖洋戏剧台,http://iptv.4666888.xyz/iptv2A.php?id=42
+靖天电影台,http://iptv.4666888.xyz/iptv2A.php?id=56
+MYTVsuper,http://iptv.4666888.xyz/iptv2A.php?id=22
+RHJ31,http://iptv.4666888.xyz/iptv2A.php?id=23
+TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
+ELTA综合,http://iptv.4666888.xyz/iptv2A.php?id=49
+RockAction,http://iptv.4666888.xyz/iptv2A.php?id=50
+台视综合,http://iptv.4666888.xyz/iptv2A.php?id=51
+民视,http://iptv.4666888.xyz/iptv2A.php?id=55
+翡翠台,http://iptv.4666888.xyz/iptv2A.php?id=28
+爱奇艺,http://iptv.4666888.xyz/iptv2A.php?id=21
+八度空间,http://iptv.4666888.xyz/iptv2A.php?id=52
+Now星影台,http://74.91.26.218:82/live/nowxy.m3u8
+Now新闻台,http://cdn.163189.xyz/163189/now
+中天新闻,http://74.91.26.218:82/live/ztxw.m3u8
+无线新闻,http://74.91.26.218:82/live/inews.m3u8
+无线新闻,https://cdn6.101.qzz.io/163189/wxxw
+无线星河,https://cdn6.101.qzz.io/163189/tvbxh
+CCM,http://74.91.26.218:82/live/tyjd.m3u8
+TVB星河,https://o11.163189.xyz/stream/live/tvbxh/
+TVB明珠,https://mytv.cdn.loc.cc/o12.php?id=mzt
+TVB Plus,https://o11.163189.xyz/stream/tvb/tvbp/
+TVB Plus,http://74.91.26.218:82/live/j2.m3u8
+TVBS新闻台,http://rihou.cc:555/tv/[FY]tvbS新闻
+千禧经典台,https://o11.163189.xyz/stream/live/tvbc/
+天映频道,http://74.91.26.218:82/live/typd.m3u8
+爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
+Astro AEC,https://o11.163189.xyz/stream/live/aec/
+Astro AOD,https://o11.163189.xyz/stream/live/aod/
+sports3,http://iptv.4666888.xyz/iptv2A.php?id=3
+ASTV亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
+星空卫视,http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
+澳视澳门,http://r.jdshipin.com/n2YZI
+SPOTV,http://iptv.4666888.xyz/iptv2A.php?id=2
+SPOTV2,http://iptv.4666888.xyz/iptv2A.php?id=1
+
+
+
 
 北京,#genre#
+北京新闻,http://139.ye23.vip/dl/btv2502.php?id=bjxw
+北京体育,http://139.ye23.vip/dl/btv2502.php?id=bjty
+北京影视,http://139.ye23.vip/dl/btv2502.php?id=bjys
+北京文艺,http://139.ye23.vip/dl/btv2502.php?id=bjwy
+北京财经,http://139.ye23.vip/dl/btv2502.php?id=bjcj
+北京生活,http://139.ye23.vip/dl/btv2502.php?id=bjsh
+
 北京新闻,http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
 北京体育,http://iptv.huuc.edu.cn/hls/btv11hd.m3u8
 北京影视,http://iptv.huuc.edu.cn/hls/btv4hd.m3u8
 北京文艺,http://iptv.huuc.edu.cn/hls/btv2hd.m3u8
-北京财经,http://139.ye23.vip/dl/btv2502.php?id=bjcj
-北京生活,http://139.ye23.vip/dl/btv2502.php?id=bjsh
+
 
 北京体育,http://jiugong.wulinsy.cn:39901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 北京新闻,http://jiugong.wulinsy.cn:39901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -581,6 +646,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
+江西都市,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8|referer:https://api.chinaaudiovisual.cn
 江西都市,http://58.17.89.7:8081/hls/18/index.m3u8
 江西经济生活,http://58.17.89.7:8081/hls/19/index.m3u8
 江西新闻,http://58.17.89.7:8081/hls/23/index.m3u8
@@ -724,6 +790,13 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 洞头综合,http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 
 广东,#genre#
+大湾区卫视,http://hmfs.f3322.net:3388/hls/13/index.m3u8
+广东体育,http://hmfs.f3322.net:3388/hls/6/index.m3u8
+广东珠江,http://hmfs.f3322.net:3388/hls/7/index.m3u8
+广东影视,http://hmfs.f3322.net:3388/hls/14/index.m3u8
+广东新闻,http://hmfs.f3322.net:3388/hls/15/index.m3u8
+广东经济科教,http://hmfs.f3322.net:3388/hls/12/index.m3u8
+
 广州法治,http://qgtf.jydjd.top:2903/udp/224.1.100.17:11111
 广州法治,http://qgtf.jydjd.top:2903/udp/224.1.100.18:11111
 广东珠江,http://qgtf.jydjd.top:2903/udp/224.1.100.23:11111
