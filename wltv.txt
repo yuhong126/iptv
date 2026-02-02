@@ -1373,6 +1373,7 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 CHC家庭影院,http://go.bkpcp.top/mg/jtyy
 CHC动作电影,http://go.bkpcp.top/mg/dzdy
 CHC影迷电影,http://go.bkpcp.top/mg/ymdy
+长影频道,http://36.49.51.207:8800/rtp/239.37.0.125:5540
 
 CHC影迷电影,http://220.176.218.70:9000/udp/239.252.219.83:5140
 CHC家庭影院,http://220.176.218.70:9000/udp/239.252.219.84:5140
