@@ -508,8 +508,6 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 内蒙古少儿,http://111.127.156.228:51234/udp/239.29.0.207:5000
 内蒙古蒙语,http://111.127.156.228:51234/udp/239.29.0.210:5000
 
-
-
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
 辽宁,#genre#
@@ -1365,9 +1363,8 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 云南影视,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
 
 西藏,#genre#
-西藏藏语,http://php.jdshipin.com:8880/xztv.php?id=zy
-西藏影视,http://php.jdshipin.com:8880/xztv.php?id=ys
-西藏藏语,http://www.lysvc.cc/daili/xztv.php?id=1
+西藏藏语,https://gh-proxy.com/raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=1
+西藏影视,https://gh-proxy.com/raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=2
 拉萨综合,rtmp://tv.lasatv.cn/channellive/lszhpd
 拉萨藏语,rtmp://tv.lasatv.cn/channellive/lszypd
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
