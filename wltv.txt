@@ -400,20 +400,13 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 北京,#genre#
 
-北京文艺,http://115.171.216.188:4000/udp/225.1.8.22:8002
-北京影视,http://115.171.216.188:4000/udp/225.1.8.82:8000
-北京财经,http://115.171.216.188:4000/udp/225.1.8.106:8002
-北京体育,http://115.171.216.188:4000/udp/225.1.8.23:8002
-北京生活,http://115.171.216.188:4000/udp/225.1.8.108:8002
-北京新闻,http://115.171.216.188:4000/udp/225.1.8.83:8000
-北京卡酷少儿,http://115.171.216.188:4000/udp/225.1.8.35:8000
-北京国际,http://115.171.216.188:4000/rtp/225.1.8.131:8002
-北京IPTV淘BABY,http://115.171.216.188:4000/rtp/225.1.8.36:8002
-北京IPTV淘剧场,http://115.171.216.188:4000/rtp/225.1.8.37:8002
-北京IPTV淘电影,http://115.171.216.188:4000/rtp/225.1.8.38:8002
-北京IPTV淘娱乐,http://115.171.216.188:4000/rtp/225.1.8.61:8002
-北京IPTV萌宠TV,http://115.171.216.188:4000/rtp/225.1.8.63:8002
-北京IPTV4K超清,http://115.171.216.188:4000/rtp/225.1.8.211:8002
+北京文艺,http://223.72.123.30:85/tsfile/live/1018_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+北京科教,http://223.72.123.30:85/tsfile/live/1019_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+北京影视,http://223.72.123.30:85/tsfile/live/1020_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+北京新闻,http://223.72.123.30:85/tsfile/live/1025_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+卡酷少儿,http://223.72.123.30:85/tsfile/live/1026_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+北京财经,http://223.72.123.30:85/tsfile/live/1024_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+北京科教,http://223.72.123.30:85/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 
 
 北京财经,http://littlegod.asuscomm.com:8012/udp/239.3.1.116:8000
@@ -445,21 +438,22 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 天津,#genre#
-天津新闻,http://111.162.207.111:8686/rtp/225.1.1.130:5002
-天津文艺,http://111.162.207.111:8686/rtp/225.1.1.131:5002
-天津影视,http://111.162.207.111:8686/rtp/225.1.1.149:5002
-天津都市,http://111.162.207.111:8686/rtp/225.1.1.128:5002
-天津体育,http://111.162.207.111:8686/rtp/225.1.1.122:5002
-天津教育,http://111.162.207.111:8686/rtp/225.1.1.129:5002
-天津购物,http://111.162.207.111:8686/rtp/225.1.1.151:5002
-天津文旅,http://111.162.207.111:8686/rtp/225.1.2.123:5002
+天津新闻,http://125.38.166.133:5002/udp/225.1.1.130:5002
+天津文艺,http://125.38.166.133:5002/udp/225.1.1.131:5002
+天津影视,http://125.38.166.133:5002/udp/225.1.1.149:5002
+天津都市,http://125.38.166.133:5002/udp/225.1.1.128:5002
+天津体育,http://125.38.166.133:5002/udp/225.1.1.122:5002
+天津科教,http://125.38.166.133:5002/udp/225.1.1.129:5002
+天津少儿,http://125.38.166.133:5002/udp/225.1.1.125:5002
+天津购物,http://125.38.166.133:5002/udp/225.1.1.151:5002
+天津IPTV,http://125.38.166.133:5002/udp/225.1.2.123:5002
 
 山西,#genre#
-山西黄河,http://118.78.196.3:55555/rtp/226.0.2.235:9792
-山西经济与科技,http://118.78.196.3:55555/rtp/226.0.2.236:9800
-山西影视,http://118.78.196.3:55555/rtp/226.0.2.237:9808
-山西社会与法治,http://118.78.196.3:55555/rtp/226.0.2.238:9816
-山西文体生活,http://118.78.196.3:55555/rtp/226.0.2.16:8040
+山西黄河,http://118.79.115.72:6001/rtp/226.0.2.235:9792
+山西经济与科技,http://118.79.115.72:6001/rtp/226.0.2.236:9800
+山西影视,http://118.79.115.72:6001/rtp/226.0.2.237:9808
+山西社会与法治,http://118.79.115.72:6001/rtp/226.0.2.238:9816
+山西文体生活,http://118.79.115.72:6001/rtp/226.0.2.16:8040
 
 
 黄河电视台,webview://http://tv.haoqu99.com/3/shan-xi/huanghxw.html
@@ -511,14 +505,14 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 鄂托克旗,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8
 
 辽宁,#genre#
-辽宁都市,http://175.164.140.19:4010/rtp/232.0.0.154:1234
-辽宁影视剧,http://175.164.140.19:4010/rtp/232.0.0.25:1234
-辽宁体育休闲,http://175.164.140.19:4010/rtp/232.0.0.164:1234
-辽宁生活,http://175.164.140.19:4010/rtp/232.0.0.150:1234
-辽宁教育青少,http://175.164.140.19:4010/rtp/232.0.0.241:1234
-辽宁北方,http://175.164.140.19:4010/rtp/232.0.0.151:1234
-辽宁公共,http://175.164.140.19:4010/rtp/232.0.0.168:1234
-辽宁经济,http://175.164.140.19:4010/rtp/232.0.0.156:1234
+辽宁都市,http://116.2.163.59:4010/rtp/232.0.0.154:1234
+辽宁影视剧,http://116.2.163.59:4010/rtp/232.0.0.25:1234
+辽宁体育休闲,http://116.2.163.59:4010/rtp/232.0.0.164:1234
+辽宁生活,http://116.2.163.59:4010/rtp/232.0.0.150:1234
+辽宁教育青少,http://116.2.163.59:4010/rtp/232.0.0.241:1234
+辽宁北方,http://116.2.163.59:4010/rtp/232.0.0.151:1234
+辽宁公共,http://116.2.163.59:4010/rtp/232.0.0.168:1234
+辽宁经济,http://116.2.163.59:4010/rtp/232.0.0.156:1234
 
 辽宁北方,http://173.208.187.18:82/live/rylnbf.m3u8
 辽宁生活,http://173.208.187.18:82/live/rylnsh.m3u8
@@ -570,25 +564,12 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 上海,#genre#
-新纪实,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-爱上海,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-第一财经,http://bp-livetytv.bestv.cn/ch/bestvdycj.m3u8
-上海新闻综合,http://bp-livetytv.bestv.cn/ch/bestvxwzh.m3u8
-五星体育,http://bp-livetytv.bestv.cn/ch/bestvwxty.m3u8
-上海都市,http://bp-livetytv.bestv.cn/ch/bestvdspd.m3u8
-
 上海新闻综合,webview://https://live.kankanews.com/huikan?id=2
 上海都市,webview://https://live.kankanews.com/huikan?id=4
 第一财经,webview://https://live.kankanews.com/huikan?id=5
 哈哈炫动,webview://https://live.kankanews.com/huikan?id=9
 五星体育,webview://https://live.kankanews.com/huikan?id=10
 魔都眼,webview://https://live.kankanews.com/huikan?id=11
-
-上海新闻综合,http://218.1.217.21:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-五星体育,http://218.1.217.21:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
-上海教育,http://218.1.217.21:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-东方影视,http://218.1.217.21:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
-上海都市,http://218.1.217.21:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 江苏,#genre#
@@ -1291,6 +1272,12 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
+四川峨眉电影,http://222.214.208.34:59901/tsfile/live/1004_1.m3u8
+四川妇女儿童,http://222.214.208.34:59901/tsfile/live/1006_1.m3u8
+四川经济,http://222.214.208.34:59901/tsfile/live/1012_1.m3u8
+四川文化旅游,http://222.214.208.34:59901/tsfile/live/1015_1.m3u8
+四川影视文艺,http://222.214.208.34:59901/tsfile/live/1018_1.m3u8
+
 四川经济,http://112.192.73.53:8484/rtp/239.0.0.2:5140
 四川文化旅游,http://112.192.73.53:8484/rtp/239.0.0.3:5140
 四川新闻,http://112.192.73.53:8484/rtp/239.0.0.4:5140
@@ -1298,7 +1285,7 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 四川妇女儿童,http://112.192.73.53:8484/rtp/239.0.0.7:5140
 四川科教,http://112.192.73.53:8484/rtp/239.0.0.186:5140
 四川乡村,http://112.192.73.53:8484/rtp/239.0.0.8:5140
-峨眉电影,http://112.192.73.53:8484/rtp/239.0.0.9:5140
+四川峨眉电影,http://112.192.73.53:8484/rtp/239.0.0.9:5140
 
 
 四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-5.m3u8
@@ -1457,6 +1444,10 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+
+CHC影迷电影,http://58.17.89.7:8081/hls/26/index.m3u8
+CHC家庭影院,http://58.17.89.7:8081/hls/27/index.m3u8
+CHC动作电影,http://58.17.89.7:8081/hls/28/index.m3u8
 
 长影频道,http://36.49.55.14:8800//rtp/239.37.0.125:5540
 CHC动作电影,http://124.114.101.175:6789/rtp/239.112.205.21:5140
