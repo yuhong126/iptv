@@ -187,6 +187,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 宁夏卫视,rtsp://112.50.233.148/PLTV/88888888/224/3221227403/146210417.smil
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
 
+西藏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=0
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
 东南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227156/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 重庆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227240/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -1498,5 +1499,13 @@ NewTV,#genre#
 晴彩青少,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227314/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 晴彩广场舞,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227343/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑莓电影,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227448/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+
+CGTN,#genre#
+CGTN,https://0472.org/hls/cgtn.m3u8
+CGTN纪录,https://0472.org/hls/cgtnd.m3u8
+CGTN俄语,https://0472.org/hls/cgtne.m3u8
+CGTN法语,https://0472.org/hls/cgtnf.m3u8
+CGTN西语,https://0472.org/hls/cgtnx.m3u8
+CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
