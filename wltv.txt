@@ -140,6 +140,7 @@ CETV-4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227192/in
 CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+重温经典,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225563/index.m3u8
 重温经典,http://8.138.7.223/tv/cwjd.php
 重温经典,http://183.215.134.239:19901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 重温经典,http://qgtf.jydjd.top:2903/udp/224.1.100.126:11111
@@ -208,6 +209,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 星空卫视,http://xhyx.gz.cn:1698/hls/35/index.m3u8
 星空卫视,http://vl15191373.imwork.net:8880/udp/239.93.0.156:2193
+农林卫视,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226335/index.m3u8
 农林卫视,http://124.114.103.14:6789/rtp/239.111.205.41:5140
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
@@ -1022,6 +1024,18 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
+湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+湖南经视,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNJSMPP360.m3u8
+湖南都市,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDSMPP360.m3u8
+湖南娱乐,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNYLMPP360.m3u8
+湖南电视剧,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDSJMPP360.m3u8
+湖南电影,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDYMPP360.m3u8
+湖南爱晚,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNGGMPP360.m3u8
+湖南国际,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNGJMPP360.m3u8
+长沙新闻,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/CSXWMPP360.m3u8
+长沙政法,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/CSZFMPP360.m3u8
+
+
 湖南都市,http://113.218.204.144:9002/tsfile/live/0018_1.m3u8?key=txiptv
 湖南电影,http://113.218.204.144:9002/tsfile/live/0019_1.m3u8?key=txiptv
 湖南娱乐,http://113.218.204.144:9002/tsfile/live/1000_1.m3u8?key=txiptv
@@ -1370,11 +1384,17 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
+陕西新闻资讯,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225500/index.m3u8
+陕西都市青春,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225830/index.m3u8
+陕西体育休闲,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226093/index.m3u8
+陕西银龄,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226331/index.m3u8
+陕西西部电影,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226332/index.m3u8
+陕西秦腔,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226334/index.m3u8
 
 陕西新闻资讯,http://124.114.101.175:6789/rtp/239.111.205.28:5140
 陕西都市青春,http://124.114.101.175:6789/rtp/239.111.205.42:5140
 陕西体育休闲,http://124.114.101.175:6789/rtp/239.111.205.36:5140
-陕西农林卫视,http://124.114.101.175:6789/rtp/239.112.205.26:5140
+农林卫视,http://124.114.101.175:6789/rtp/239.112.205.26:5140
 陕西西部电影,http://124.114.101.175:6789/rtp/239.111.205.41:5140
 陕西秦腔,http://124.114.101.175:6789/rtp/239.112.205.22:5140
 陕西银铃,http://124.114.101.175:6789/rtp/239.112.205.20:5140
@@ -1384,7 +1404,7 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 陕西银龄,webview://http://live.snrtv.com/3
 陕西秦腔,webview://http://live.snrtv.com/5
 陕西体育休闲,webview://http://live.snrtv.com/7
-陕西农林,webview://http://live.snrtv.com/nl
+农林卫视,webview://http://live.snrtv.com/nl
 陕西移动,webview://http://www.sxtvs.com/sxtvs_ydpd/index.html
 西安新闻综合,webview://https://v.xiancity.cn/folder8/folder39/folder29/
 西安都市,webview://https://v.xiancity.cn/folder8/folder39/folder30/
@@ -1465,6 +1485,10 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC影迷电影,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226348/index.m3u8
+CHC家庭影院,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226370/index.m3u8
+CHC动作电影,http://[240e:f7:c010:304:38::10]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226373/index.m3u8
+
 
 CHC影迷电影,http://58.17.89.7:8081/hls/26/index.m3u8
 CHC家庭影院,http://58.17.89.7:8081/hls/27/index.m3u8
