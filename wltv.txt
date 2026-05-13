@@ -114,7 +114,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 卫视,#genre#
 浙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227193/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 浙江卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227505/147396573.smil
-浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 湖南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 湖南卫视4K,rtsp://112.50.233.148/PLTV/88888888/224/3221227530/147396820.smil
 湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
@@ -668,8 +667,6 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 蒙城新闻,http://hsza.f3322.net:4000/rtp/238.1.79.19:4264
 
 
-
-
 安徽经济生活,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=1
 安徽综艺体育,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
 安徽国际,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
@@ -765,7 +762,8 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 九江公共,http://220.176.218.193:9000/udp/239.252.219.167:5140
 九江教育,http://220.176.218.193:9000/udp/239.252.219.56:5140
 
-彭泽,https://play-a2.quklive.com/live/1740970999257207.m3u8
+彭泽,https://play-a2.quklive.com:443/live/1775529353213333.m3u8
+彭泽,https://play-a2.quklive.com:443/live/1775529353213333.m3u8
 
 南昌新闻,http://220.176.218.193:9000/rtp/239.252.220.247:5140
 南昌都市,http://220.176.218.193:9000/rtp/239.252.220.248:5140
