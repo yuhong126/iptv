@@ -412,6 +412,11 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 广西,#genre#
+广西综艺旅游,webview://https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
+广西影视,webview://https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html
+广西新闻,webview://https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html
+广西都市,webview://https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html
+广西国际,webview://https://tv.gxtv.cn/channel/channelivePlay_bfa17b64157f11e999f0e41f13b60c62.html
 
 广西综艺旅游,http://116.9.34.226:4000/udp/239.81.0.214:4056
 广西影视,http://116.9.34.226:4000/udp/239.81.0.250:4056
@@ -757,12 +762,14 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
 九江教育,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=42
 
+抚州综合,https://api.zgfznews.com/fztv/zonghe.m3u8?refere:https://www.zgfznews.com
+抚州公共,https://api.zgfznews.com/fztv/gonggong.m3u8?refere:https://www.zgfznews.com
+
 
 九江新闻,http://220.176.218.193:9000/udp/239.252.220.176:5140
 九江公共,http://220.176.218.193:9000/udp/239.252.219.167:5140
 九江教育,http://220.176.218.193:9000/udp/239.252.219.56:5140
 
-彭泽,https://play-a2.quklive.com:443/live/1775529353213333.m3u8
 彭泽,https://play-a2.quklive.com:443/live/1775529353213333.m3u8
 
 南昌新闻,http://220.176.218.193:9000/rtp/239.252.220.247:5140
