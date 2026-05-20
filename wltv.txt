@@ -743,6 +743,17 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
+
+江西都市,http://113.195.44.227:85/tsfile/live/1161_1.m3u8?key=txiptv&playlive=0&authid=0
+江西经济生活,http://113.195.44.227:85/tsfile/live/1162_1.m3u8?key=txiptv&playlive=0&authid=0
+江西公共农业,http://113.195.44.227:85/tsfile/live/1164_1.m3u8?key=txiptv&playlive=0&authid=0
+江西少儿,http://113.195.44.227:85/tsfile/live/1165_1.m3u8?key=txiptv&playlive=0&authid=0
+江西新闻,http://113.195.44.227:85/tsfile/live/1166_1.m3u8?key=txiptv&playlive=0&authid=0
+九江新闻,http://113.195.44.227:85/tsfile/live/1114_1.m3u8?key=txiptv&playlive=1&authid=0
+九江公共,http://113.195.44.227:85/tsfile/live/1115_1.m3u8?key=txiptv&playlive=1&authid=0
+九江教育,http://113.195.44.227:85/tsfile/live/1116_1.m3u8?key=txiptv&playlive=1&authid=0
+
+
 江西都市,http://220.176.218.193:9000/udp/239.252.220.238:5140
 江西经济生活,http://220.176.218.193:9000/udp/239.252.219.173:5140
 江西公共农业,http://220.176.218.193:9000/udp/239.252.220.102:5140
@@ -762,8 +773,6 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
 九江教育,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=42
 
-抚州综合,https://api.zgfznews.com/fztv/zonghe.m3u8?refere:https://www.zgfznews.com
-抚州公共,https://api.zgfznews.com/fztv/gonggong.m3u8?refere:https://www.zgfznews.com
 
 
 九江新闻,http://220.176.218.193:9000/udp/239.252.220.176:5140
@@ -862,6 +871,15 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
+湖南经视,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5377
+湖南娱乐,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5391
+湖南电影,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5405
+湖南都市,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5398
+湖南电视剧,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5412
+湖南爱晚,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5419
+金鹰卡通,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5349
+
+
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 湖南经视,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNJSMPP360.m3u8
 湖南都市,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNDSMPP360.m3u8
