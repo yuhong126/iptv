@@ -743,16 +743,13 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
-
-江西都市,http://113.195.44.227:85/tsfile/live/1161_1.m3u8?key=txiptv&playlive=0&authid=0
-江西经济生活,http://113.195.44.227:85/tsfile/live/1162_1.m3u8?key=txiptv&playlive=0&authid=0
-江西公共农业,http://113.195.44.227:85/tsfile/live/1164_1.m3u8?key=txiptv&playlive=0&authid=0
-江西少儿,http://113.195.44.227:85/tsfile/live/1165_1.m3u8?key=txiptv&playlive=0&authid=0
-江西新闻,http://113.195.44.227:85/tsfile/live/1166_1.m3u8?key=txiptv&playlive=0&authid=0
-九江新闻,http://113.195.44.227:85/tsfile/live/1114_1.m3u8?key=txiptv&playlive=1&authid=0
-九江公共,http://113.195.44.227:85/tsfile/live/1115_1.m3u8?key=txiptv&playlive=1&authid=0
-九江教育,http://113.195.44.227:85/tsfile/live/1116_1.m3u8?key=txiptv&playlive=1&authid=0
-
+江西都市,http://58.17.89.7:8081/hls/17/index.m3u8
+江西经济生活,http://58.17.89.7:8081/hls/18/index.m3u8
+江西公共农业,http://58.17.89.7:8081/hls/19/index.m3u8
+江西少儿,http://58.17.89.7:8081/hls/24/index.m3u8
+江西新闻,http://58.17.89.7:8081/hls/20/index.m3u8
+江西移动,http://58.17.89.7:8081/hls/22/index.m3u8
+江西教育,http://58.17.89.7:8081/hls/21/index.m3u8
 
 江西都市,http://220.176.218.193:9000/udp/239.252.220.238:5140
 江西经济生活,http://220.176.218.193:9000/udp/239.252.219.173:5140
@@ -761,13 +758,7 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 江西新闻,http://220.176.218.193:9000/udp/239.252.220.100:5140
 江西教育,http://220.176.218.193:9000/udp/239.252.219.115:5140
 
-江西都市,http://58.17.89.7:8081/hls/17/index.m3u8
-江西经济生活,http://58.17.89.7:8081/hls/18/index.m3u8
-江西公共农业,http://58.17.89.7:8081/hls/19/index.m3u8
-江西少儿,http://58.17.89.7:8081/hls/24/index.m3u8
-江西新闻,http://58.17.89.7:8081/hls/20/index.m3u8
-江西移动,http://58.17.89.7:8081/hls/22/index.m3u8
-江西教育,http://58.17.89.7:8081/hls/21/index.m3u8
+
 
 九江新闻,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=40
 九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
