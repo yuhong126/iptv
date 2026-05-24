@@ -412,6 +412,11 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 广西,#genre#
+
+广西综艺旅游,http://221.7.175.154:85/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
+广西影视,http://221.7.175.154:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+广西新闻,http://221.7.175.154:85/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+
 广西综艺旅游,webview://https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
 广西影视,webview://https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html
 广西新闻,webview://https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html
@@ -425,6 +430,15 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 广西国际,http://116.9.34.226:4000/udp/239.81.0.8:4056
 
 内蒙古,#genre#
+内蒙古卫视,http://rihou.cc:555/tv/内蒙古卫视   
+内蒙古蒙语,http://play1-qk.nmtv.cn/live/2315general.m3u8
+内蒙古新闻,http://play1-qk.nmtv.cn/live/2316general.m3u8
+内蒙古文体,http://play1-qk.nmtv.cn/live/2319general.m3u8
+内蒙古经济,http://play1-qk.nmtv.cn/live/2317general.m3u8
+内蒙古农牧,http://play1-qk.nmtv.cn/live/2320general.m3u8
+内蒙古少儿,http://play1-qk.nmtv.cn/live/2318general.m3u8
+内蒙古文化,http://play1-qk.nmtv.cn/live/2321general.m3u8
+
 内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
 内蒙古经济,http://111.127.156.228:51234/udp/239.29.0.212:5000
 内蒙古新闻,http://111.127.156.228:51234/udp/239.29.0.208:5000
@@ -435,6 +449,15 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 辽宁,#genre#
+辽宁都市,http://fuxin.yunjifei.top:999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁影视剧,http://fuxin.yunjifei.top:999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁体育休闲,http://fuxin.yunjifei.top:999/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁生活,http://fuxin.yunjifei.top:999/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁教育青少,http://fuxin.yunjifei.top:999/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁北方,http://fuxin.yunjifei.top:999/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁公共,http://fuxin.yunjifei.top:999/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁经济,http://fuxin.yunjifei.top:999/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁移动,http://fuxin.yunjifei.top:999/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 辽宁北方,http://173.208.187.18:82/live/rylnbf.m3u8
@@ -495,6 +518,17 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 上海,#genre#
+
+上海新闻综合,http://218.1.208.13:7777/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+上海都市,http://218.1.208.13:7777/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+东方影视,http://218.1.208.13:7777/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+第一财经,http://218.1.208.13:7777/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+五星体育,http://218.1.208.13:7777/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+
+哈哈炫动,http://218.1.208.13:7777/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+上海教育台,http://218.1.208.13:7777/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
+魔都眼,http://123.207.224.130:123/shanghai/kankan.php
+
 上海新闻综合,webview://https://live.kankanews.com/huikan?id=2
 上海都市,webview://https://live.kankanews.com/huikan?id=4
 第一财经,webview://https://live.kankanews.com/huikan?id=5
@@ -751,6 +785,13 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 江西移动,http://58.17.89.7:8081/hls/22/index.m3u8
 江西教育,http://58.17.89.7:8081/hls/21/index.m3u8
 
+江西新闻,http://192.151.150.154/live/jxtv7.m3u8
+江西都市,http://192.151.150.154/live/jxtv2.m3u8
+江西经济生活,http://192.151.150.154/live/jxtv3.m3u8
+江西公共农业,http://192.151.150.154/live/jxtv5.m3u8
+江西少儿,http://192.151.150.154/live/jxtv6.m3u8
+江西移动,http://192.151.150.154/live/jxtv8.m3u8
+
 江西都市,http://220.176.218.193:9000/udp/239.252.220.238:5140
 江西经济生活,http://220.176.218.193:9000/udp/239.252.219.173:5140
 江西公共农业,http://220.176.218.193:9000/udp/239.252.220.102:5140
@@ -862,13 +903,13 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
-湖南经视,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5377
-湖南娱乐,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5391
-湖南电影,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5405
-湖南都市,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5398
-湖南电视剧,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5412
-湖南爱晚,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5419
-金鹰卡通,http://kxz.kaniptv.cn/xz/xz_9bbbdd7f20/湖南广电.php?id=5349
+湖南经视,http://218.77.84.102:85/tsfile/live/146/2002_1.m3u8?key=txiptv$湖南/永州/电信
+湖南都市,http://218.77.84.102:85/tsfile/live/147/2003_1.m3u8?key=txiptv$湖南/永州/电信
+湖南电视剧,http://218.77.84.102:85/tsfile/live/148/2004_1.m3u8?key=txiptv$湖南/永州/电信
+湖南电影,http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv$湖南/永州/电信
+湖南爱晚,http://218.77.84.102:85/tsfile/live/150/2006_1.m3u8?key=txiptv$湖南/永州/电信
+湖南娱乐,http://218.77.84.102:85/tsfile/live/151/2007_1.m3u8?key=txiptv$湖南/永州/电信
+湖南教育,http://218.77.84.102:85/tsfile/live/156/2011_1.m3u8?key=txiptv$湖南/永州/电信
 
 
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
@@ -1062,6 +1103,17 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 重庆,#genre#
+CQTV新闻,http://home.scanflove.com:7788/rtp/235.254.196.199:7980$重庆电信
+CQTV新闻,http://home.scanflove.com:7788/rtp/235.254.196.199:7980$重庆cmc3+
+CQTV影视,http://home.scanflove.com:7788/rtp/235.254.198.180:7980$重庆cmc3+
+CQTV社会与法,http://home.scanflove.com:7788/rtp/235.254.198.181:7980$重庆cmc3+
+CQTV红岩文化,http://home.scanflove.com:7788/rtp/235.254.198.182:7980$重庆cmc3+
+CQTV文体娱乐,http://home.scanflove.com:7788/rtp/235.254.198.187:7980$重庆cmc3+
+CQTV新农村,http://home.scanflove.com:7788/rtp/235.254.198.186:7980$重庆cmc3+
+CQTV社会与法,http://home.scanflove.com:7788/rtp/235.254.196.210:1112$重庆cmc3+
+CQTV红叶,http://home.scanflove.com:7788/rtp/235.254.196.215:1132$重庆cmc3+
+CQTV汽摩,http://home.scanflove.com:7788/rtp/235.254.196.221:1156$重庆cmc3+
+
 CQTV新闻,http://106.83.119.152:8188/rtp/235.254.196.199:7980
 CQTV影视剧,http://106.83.119.152:8188/rtp/235.254.198.180:7980
 CQTV社会与法,http://106.83.119.152:8188/rtp/235.254.198.181:7980
@@ -1128,6 +1180,14 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 贵州,#genre#
 
+贵州卫视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzws
+贵州公共,http://123.207.224.130:123/guizhou/guizhou.php?id=gzgg
+贵州影视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzwy
+贵州生活,http://123.207.224.130:123/guizhou/guizhou.php?id=gzsh
+贵州法制,http://123.207.224.130:123/guizhou/guizhou.php?id=gzfz
+贵州科教,http://123.207.224.130:123/guizhou/guizhou.php?id=gzkj
+贵州经济,http://123.207.224.130:123/guizhou/guizhou.php?id=gzjj
+贵州移动,http://123.207.224.130:123/guizhou/guizhou.php?id=gzyd
 
 贵州2,webview://https://www.gzstv.com/tv/ch02
 贵州3,webview://https://www.gzstv.com/tv/ch03
@@ -1146,6 +1206,9 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 云南影视,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
 
 西藏,#genre#
+西藏藏语,http://123.207.224.130:123/xizang/xizang.php?id=xzzy
+西藏影视,http://123.207.224.130:123/xizang/xizang.php?id=xzys
+
 西藏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=0
 西藏藏语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=1
 西藏影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=2
