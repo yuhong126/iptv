@@ -27,20 +27,6 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
-CCTV电视指南,http://tonyk.56301232.xyz:3477/rtp/239.37.0.115:5540
-CCTV女性时尚,http://tonyk.56301232.xyz:3477/rtp/239.37.0.69:5540
-CCTV兵器科技,http://tonyk.56301232.xyz:3477/rtp/239.37.0.84:5540
-CCTV世界地理,http://tonyk.56301232.xyz:3477/rtp/239.37.0.79:5540
-CCTV怀旧剧场,http://tonyk.56301232.xyz:3477/rtp/239.37.0.82:5540
-CCTV风云足球,http://tonyk.56301232.xyz:3477/rtp/239.37.0.80:5540
-CCTV第一剧场,http://tonyk.56301232.xyz:3477/rtp/239.37.0.78:5540
-CCTV风云音乐,http://tonyk.56301232.xyz:3477/rtp/239.37.0.81:5540
-CCTV央视文化精品,http://tonyk.56301232.xyz:3477/rtp/239.37.0.83:5540
-CCTV风云剧场,http://tonyk.56301232.xyz:3477/rtp/239.37.0.114:5540
-CCTV央视台球,http://tonyk.56301232.xyz:3477/rtp/239.37.0.163:5540
-CCTV高尔夫网球,http://tonyk.56301232.xyz:3477/rtp/239.37.0.230:5540
-CCTV卫生健康,http://tonyk.56301232.xyz:3477/rtp/239.37.0.229:5540
-
 
 CCTV电视指南,http://hsza.f3322.net:4000/rtp/238.1.79.53:4560
 CCTV兵器科技,http://hsza.f3322.net:4000/rtp/238.1.79.56:4584
@@ -106,8 +92,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 重温经典,http://[240e:946:3000:7001:20::]:8088/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225563/index.m3u8
 重温经典,http://8.138.7.223/tv/cwjd.php
-重温经典,http://183.215.134.239:19901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-重温经典,http://qgtf.jydjd.top:2903/udp/224.1.100.126:11111
 重温经典,http://120.76.248.139/live/bfgd/4200000635.m3u8
 
 
@@ -150,8 +134,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 青海卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 宁夏卫视,rtsp://112.50.233.148/PLTV/88888888/224/3221227403/146210417.smil
 宁夏卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225849/index.m3u8?servicetype=1
-
-
 西藏卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226808/48629336.smil
 东南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227156/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 重庆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227240/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -160,12 +142,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 云南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 兵团卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226804/48628997.smil
-兵团卫视,http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
 厦门卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海峡卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-康巴卫视,http://112.192.73.53:8484/rtp/239.0.0.175:5140
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 延边卫视,https://srs.iyb983.cn/video/CYS/index.m3u8
 延边卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227536/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -177,31 +157,22 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 港澳台,#genre#
-凤凰中文,http://61.184.46.85:85/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯,http://61.184.46.85:85/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
 翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
-翡翠台,http://iptv.4666888.xyz/iptv2A.php?id=28
 TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
-
 TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
 黄金华剧台,http://iptv.4666888.xyz/iptv2A.php?id=34
-TVB翡翠,http://iptv.4666888.xyz/iptv2A.php?id=28
 TVB明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
 TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
-千禧经典,http://iptv.4666888.xyz/iptv2A.php?id=22
-HOY77,http://iptv.4666888.xyz/iptv2A.php?id=35
 HOY78,http://iptv.4666888.xyz/iptv2A.php?id=31
 RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
 TVB娱乐新闻,http://iptv.4666888.xyz/iptv2A.php?id=36
 MYTV黃金翡翠,http://iptv.4666888.xyz/iptv2A.php?id=32
-澳视澳门,http://iptv.4666888.xyz/iptv2A.php?id=41
 TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43
 非凡新闻,http://iptv.4666888.xyz/iptv2A.php?id=44
 靖洋戏剧,http://iptv.4666888.xyz/iptv2A.php?id=42
-靖天电影,http://iptv.4666888.xyz/iptv2A.php?id=56
 邵氏武侠,http://iptv.4666888.xyz/iptv2A.php?id=40
 東森电影,http://iptv.4666888.xyz/iptv2A.php?id=48
 TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47
@@ -212,17 +183,11 @@ Now新闻台,http://cdn.163189.xyz/163189/now
 TVB Plus,https://o11.163189.xyz/stream/tvb/tvbp/
 TVBS新闻,http://rihou.cc:555/tv/[FY]tvbS新闻
 千禧经典台,https://o11.163189.xyz/stream/live/tvbc/
-
 iQIYI,https://o11.163189.xyz/stream/live/iqiyi/
 Astro AOD,https://o11.163189.xyz/stream/live/aod/
-澳视澳门,http://r.jdshipin.com/n2YZI
-凤凰中文,http://61.184.46.85:85/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-澳视澳门,http://iptv.4666888.xyz/iptv2A.php?id=41
 无线翡翠,http://iptv.4666888.xyz/iptv2A.php?id=34
-无线华丽,http://iptv.4666888.xyz/iptv2A.php?id=28
 无线明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
 无线娱乐,http://iptv.4666888.xyz/iptv2A.php?id=36
-无线千禧,http://iptv.4666888.xyz/iptv2A.php?id=22
 TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
 有线综合,http://iptv.4666888.xyz/iptv2A.php?id=35
 RTHK-31,http://iptv.4666888.xyz/iptv2A.php?id=23
@@ -238,15 +203,12 @@ ELta综合,http://iptv.4666888.xyz/iptv2A.php?id=49
 rock娱乐,http://iptv.4666888.xyz/iptv2A.php?id=50
 EYE-戏剧,http://iptv.4666888.xyz/iptv2A.php?id=56
 TVB黃金華劇,http://iptv.4666888.xyz/iptv2A.php?id=34
-TVB翡翠,http://iptv.4666888.xyz/iptv2A.php?id=28
 TVB明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
 TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
-千禧經典,http://iptv.4666888.xyz/iptv2A.php?id=22
 HOY77,http://iptv.4666888.xyz/iptv2A.php?id=35
 RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
 TVB娛樂新聞,http://iptv.4666888.xyz/iptv2A.php?id=36
 MYTV黃金翡翠,http://iptv.4666888.xyz/iptv2A.php?id=32
-澳視澳門,http://iptv.4666888.xyz/iptv2A.php?id=41
 中國電影,http://iptv.4666888.xyz/iptv2A.php?id=61
 TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43
 民視,http://iptv.4666888.xyz/iptv2A.php?id=55
@@ -265,8 +227,6 @@ MOMO親子,http://iptv.4666888.xyz/iptv2A.php?id=49
 TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47
 八度空間,http://iptv.4666888.xyz/iptv2A.php?id=52
 韓流美食料理秀,http://iptv.4666888.xyz/iptv2A.php?id=63
-娛樂百分百,http://iptv.4666888.xyz/iptv2A.php?id=64
-綜藝大贏家,http://iptv.4666888.xyz/iptv2A.php?id=65
 龙华经典,https://cdn8.163189.xyz/163189/lhjd
 东森新闻,http://211.72.174.95:8138/0.ts
 东森新闻,http://211.72.174.95:8138/0.ts
@@ -282,56 +242,13 @@ NOW NEWS,http://cdn.163189.xyz/163189/now
 TVB明珠,https://mytv.cdn.loc.cc/o12.php?id=mzt
 新视觉hd,http://120.76.248.139/live/bfgd/4200000249.m3u8
 香港C+_-,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
+环球电视[1280*702],http://utv1.hqtvzb.com:9999/hls/world.m3u8
 香港面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 香港_C+_,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
-澳视澳门,http://iptv.4666888.xyz/iptv2A.php?id=41
-无线翡翠,http://iptv.4666888.xyz/iptv2A.php?id=34
-无线华丽,http://iptv.4666888.xyz/iptv2A.php?id=28
-无线明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
-无线娱乐,http://iptv.4666888.xyz/iptv2A.php?id=36
-无线千禧,http://iptv.4666888.xyz/iptv2A.php?id=22
-无线J1美,http://iptv.4666888.xyz/iptv2A.php?id=26
-有线综合,http://iptv.4666888.xyz/iptv2A.php?id=35
-RTHK-31,http://iptv.4666888.xyz/iptv2A.php?id=23
-tvbs新闻,http://iptv.4666888.xyz/iptv2A.php?id=43
-纬来电影,http://iptv.4666888.xyz/iptv2A.php?id=40
-民视闽南,http://iptv.4666888.xyz/iptv2A.php?id=55
-民视影剧,http://iptv.4666888.xyz/iptv2A.php?id=53
-民视综艺,http://iptv.4666888.xyz/iptv2A.php?id=46
-八度空间,http://iptv.4666888.xyz/iptv2A.php?id=52
-爱奇艺综,http://iptv.4666888.xyz/iptv2A.php?id=21
-ELta综合,http://iptv.4666888.xyz/iptv2A.php?id=49
-rock娱乐,http://iptv.4666888.xyz/iptv2A.php?id=50
-EYE-戏剧,http://iptv.4666888.xyz/iptv2A.php?id=56
-TVBS新闻台,http://iptv.4666888.xyz/iptv2A.php?id=43
-TVBS精采台,http://iptv.4666888.xyz/iptv2A.php?id=47
-HOY77,http://iptv.4666888.xyz/iptv2A.php?id=35
-民视综艺,http://iptv.4666888.xyz/iptv2A.php?id=46
-民视影剧,http://iptv.4666888.xyz/iptv2A.php?id=53
-娱乐新闻台,http://iptv.4666888.xyz/iptv2A.php?id=36
-靖洋戏剧台,http://iptv.4666888.xyz/iptv2A.php?id=42
-靖天电影台,http://iptv.4666888.xyz/iptv2A.php?id=56
-MY影视TVsuper,http://iptv.4666888.xyz/iptv2A.php?id=22
-RHJ31,http://iptv.4666888.xyz/iptv2A.php?id=23
-TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
-ELTA综合,http://iptv.4666888.xyz/iptv2A.php?id=49
-RockAction,http://iptv.4666888.xyz/iptv2A.php?id=50
-民视,http://iptv.4666888.xyz/iptv2A.php?id=55
-爱奇艺,http://iptv.4666888.xyz/iptv2A.php?id=21
-八度空间,http://iptv.4666888.xyz/iptv2A.php?id=52
 TVB星河,https://o11.163189.xyz/stream/live/tvbxh/
 TVB Plus,https://o11.163189.xyz/stream/tvb/tvbp/
-TVBS新闻台,http://rihou.cc:555/tv/[FY]tvbS新闻
-
-凤凰中文,http://61.184.46.85:85/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯,http://61.184.46.85:85/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰中文,http://rihou.cc:555/tv/[Pd]凤凰中文
-凤凰中文,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUWdJdT-WvPAhPYAjqDDKUkgBhqPU05spvygdOQVMR-49HfUHqoz3BWysXpY3IcoxaskiJ6HCxNUFEGBHN7J9cHwJfR5qJYrfvRgFxEFVGK3M4e6U8zBBcXQ62XaSa7kUQZiYq5vbmVseM-xEImPe5pGROKnFK232_zwhQVcDCWqJ8GlcYI2uYcWREAj3tlSyt6pugIwt_wjsXByc9jMtMyw.m3u8?u=1756878715
-凤凰资讯,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUWdJdT-WvPAhPYAjqDDKUknI2Qgu2H4THar3t2qm5CfJDW3oVsOfc-rbdZFzD2Lybr1EdctHM-qT90R9UPodL2nKzV7EyOABx0QR2dts6OWSHtsa0zWi7JZHPykhh2gL-1HTjlyHCq6MZDtf1gui0jRYCedTismGdA915iCIozcMoT5gl1u-RHNMhb_AyfsUllhm3olGmi0Hmey4uCeMycw.m3u8?u=1756878715
-凤凰中文,http://61.184.46.85:85/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯,http://61.184.46.85:85/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 台湾|唯心WXTV2,http://61.216.67.119:1935/wxtv/wxtv.stream/playlist.m3u8
 生命电视,https://5ddce30eb4b55.streamlock.net/lifetv/lifetv.stream/playlist.m3u8
@@ -345,21 +262,17 @@ TVBS新闻台,http://rihou.cc:555/tv/[FY]tvbS新闻
 澳视卫星,http://rihou.cc:555/tv/[Pd]澳视卫星
 龙华经典,http://rihou.cc:555/tv/[Pd]龙华经典
 CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
-民视新闻,http://rihou.cc:555/tv/[Hk]民视新聞
 闽镜新闻,http://rihou.cc:555/tv/[Hk]闽镜新闻
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
-无线明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
-民视闽南,http://iptv.4666888.xyz/iptv2A.php?id=55
-民视综艺,http://iptv.4666888.xyz/iptv2A.php?id=46
-八度空间,http://iptv.4666888.xyz/iptv2A.php?id=52
 无线明珠高码,http://beishan008.asuscomm.com:8890/bysid/2.m3u8
 RTHK-31高码,http://beishan008.asuscomm.com:8892/bysid/31.m3u8
 RTHK-32高码,http://beishan008.asuscomm.com:8892/bysid/32.m3u8
 RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
-
 北京,#genre#
+BTV文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
+
 北京卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=573ib1kp5nk92irinpumbo9krlb
 北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
 北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
@@ -370,16 +283,6 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 北京生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50j015rjrei9vmp3h8upblr41jf
 北京新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53gpt1ephlp86eor6ahtkg5b2hf
 卡酷少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=55skfjq618b9kcq9tfjr5qllb7r
-
-
-北京文艺,http://223.72.123.30:85/tsfile/live/1018_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-北京纪实科教,http://223.72.123.30:85/tsfile/live/1019_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-北京影视,http://223.72.123.30:85/tsfile/live/1020_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-北京新闻,http://223.72.123.30:85/tsfile/live/1025_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-卡酷少儿,http://223.72.123.30:85/tsfile/live/1026_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-北京财经,http://223.72.123.30:85/tsfile/live/1024_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-北京纪实科教,http://223.72.123.30:85/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-
 
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
@@ -871,6 +774,19 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 
 
 河南,#genre#
+河南都市,http://1.192.241.74:8188/rtp/239.16.20.164:11640
+河南民生,http://1.192.241.74:8188/rtp/239.16.20.165:11650
+河南法治,http://1.192.241.74:8188/rtp/239.16.10.122:2000
+河南电视剧,http://1.192.241.74:8188/rtp/239.16.20.167:11670
+河南新闻,http://1.192.241.74:8188/rtp/239.16.20.168:11680
+河南乡村,http://1.192.241.74:8188/rtp/239.16.20.195:11950
+河南戏曲,http://1.192.241.74:8188/rtp/239.16.20.171:11710
+河南收藏天下,http://1.192.241.74:8188/rtp/239.16.10.149:2000
+河南中华功夫,http://1.192.241.74:8188/rtp/239.16.20.173:11730
+河南移动电视,http://1.192.241.74:8188/rtp/239.16.20.204:12040
+河南调解剧场,http://1.192.241.74:8188/rtp/239.16.20.197:11970
+河南移动戏曲,http://1.192.241.74:8188/rtp/239.16.20.120:11200
+河南睛彩中原,http://1.192.241.74:8188/rtp/239.16.20.122:11220
 
 河南新闻,webview://https://static.hntv.tv/total/television/?id=149
 河南都市,webview://https://static.hntv.tv/total/television/?id=141
@@ -887,12 +803,14 @@ RTHK-33高码,http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 河南法治,http://39.164.174.139:5000/nl.m3u8?id=HNTV4-FZ
 
 湖北,#genre#
-湖北经视,http://home.sylaigym.top:8887/udp/239.69.1.41:9886
-湖北综合,http://home.sylaigym.top:8887/udp/239.69.1.42:9892
-湖北垄上,http://home.sylaigym.top:8887/udp/239.69.1.43:9898
-湖北公共,http://home.sylaigym.top:8887/udp/239.69.1.40:9880
-湖北影视,http://home.sylaigym.top:8887/udp/239.69.1.204:10866
-湖北教育,http://home.sylaigym.top:8887/udp/239.69.1.206:10878
+湖北公共,http://59.174.163.201:4022/rtp/239.69.1.40:9880
+湖北经视,http://59.174.163.201:4022/rtp/239.69.1.41:9886
+湖北综合,http://59.174.163.201:4022/rtp/239.69.1.42:9892
+湖北垄上,http://59.174.163.201:4022/rtp/239.69.1.43:9898
+湖北影视,http://59.174.163.201:4022/rtp/239.69.1.204:10866
+湖北生活,http://59.174.163.201:4022/rtp/239.69.1.205:10872
+湖北教育,http://59.174.163.201:4022/rtp/239.69.1.206:10878
+
 
 湖北经视,webview://https://news.hbtv.com.cn/app/tv/432
 湖北综合,webview://https://news.hbtv.com.cn/app/tv/433
