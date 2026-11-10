@@ -169,7 +169,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 厦门卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海峡卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-康巴卫视,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=60e49f
 康巴卫视,http://171.213.150.179:4022/rtp/239.94.0.78:5140
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 延边卫视,https://srs.iyb983.cn/video/CYS/index.m3u8
@@ -183,10 +182,6 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 港澳台,#genre#
-凤凰中文,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=7bfea7
-凤凰中文,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=3259af
-凤凰资讯,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=2ba6cb
-凤凰资讯,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=0e8a20
 翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
 翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
@@ -241,17 +236,13 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 北京,#genre#
-北京国际,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=11b483
-北京影视,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=e3802b
-北京文艺,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=b1267d
-北京新闻,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=41c982
-北京生活,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=1d4a56
-北京纪实科教,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=f30d5d
-北京财经,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=68939e
-淘baby,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=a701eb
-淘剧场,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=ad7172
-淘娱乐,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=c8a5e3
-淘电影,http://tv.305362.xyz/zhth/tv.php?f=3422b9&id=7f2d18
+
+北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
+北京纪实科教,http://103.72.172.253:8041/hls/347295318/index.m3u8
+北京影视,http://103.72.172.253:8041/hls/357945484/index.m3u8
+北京财经,http://103.72.172.253:8041/hls/358948176/index.m3u8
+北京生活,http://103.72.172.253:8041/hls/366415771/index.m3u8
+北京新闻,http://103.72.172.253:8041/hls/382837277/index.m3u8
 
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
 
@@ -284,14 +275,6 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 天津,#genre#
 
-天津新闻,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=870747
-天津文艺,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=125df2
-天津影视,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=330529
-天津都市,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=076f44
-天津体育,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=494328
-天津教育,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=2fed14
-天津文旅,http://tv.305362.xyz/zhth/tv.php?f=1aaa81&id=639a2d
-
 天津新闻,http://125.38.166.133:5002/udp/225.1.1.130:5002
 天津文艺,http://125.38.166.133:5002/udp/225.1.1.131:5002
 天津影视,http://125.38.166.133:5002/udp/225.1.1.149:5002
@@ -319,11 +302,6 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 广西,#genre#
-广西公共,http://tv.305362.xyz/zhth/tv.php?f=12f831&id=ed2955
-广西影视,http://tv.305362.xyz/zhth/tv.php?f=12f831&id=afd199
-广西新闻,http://tv.305362.xyz/zhth/tv.php?f=12f831&id=3e4b35
-广西综艺,http://tv.305362.xyz/zhth/tv.php?f=12f831&id=35a59a
-广西都市,http://tv.305362.xyz/zhth/tv.php?f=12f831&id=33f9f8
 
 广西综艺,http://221.7.175.154:85/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 广西影视,http://221.7.175.154:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -533,16 +511,6 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 安徽,#genre#
-
-安徽公共,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=49b369
-安徽农业科教,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=508d84
-安徽国际,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=81e09d
-安徽影视,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=42a366
-安徽经济生活,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=9959dc
-安徽综艺体育,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=ebffcf
-安庆公共,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=b6b228
-安庆新闻,http://tv.305362.xyz/zhth/tv.php?f=ffd384&id=cbedc8
-
 
 安徽影视,https://ahlive.ahwanyun.cn/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
 安徽经济生活,https://ahlive.ahwanyun.cn/live/5c6207583a334b048f77dddf370bd840/hls.m3u8
@@ -754,6 +722,12 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 
 山东,#genre#
+山东综艺,http://112.255.144.205:85/tsfile/live/0002_49.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+山东教育,http://112.255.144.205:85/tsfile/live/0002_50.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+山东新闻,http://112.255.144.205:85/tsfile/live/0002_53.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+山东少儿,http://112.255.144.205:85/tsfile/live/0002_54.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+山东农科,http://112.255.144.205:85/tsfile/live/0002_55.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+山东卫视,http://112.255.144.205:85/tsfile/live/0002_56.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 
 山东齐鲁,webview://https://v.iqilu.com/live/qlpd/
 山东新闻,webview://https://v.iqilu.com/live/ggpd/
@@ -772,6 +746,22 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 河北,#genre#
+河北经济,http://121.19.134.33:808/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河北都市,http://121.19.134.33:808/tsfile/live/1001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河北影视,http://121.19.134.33:808/tsfile/live/1002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河北少儿,http://121.19.134.33:808/tsfile/live/1003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河北三农,http://121.19.134.33:808/tsfile/live/1004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+
+河北都市,http://101.18.25.227:808/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河北文旅,http://101.18.25.227:808/tsfile/live/1001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河北少儿,http://101.18.25.227:808/tsfile/live/1002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+
+河北都市,http://60.10.50.14:808/hls/59/index.m3u8
+河北影视,http://60.10.50.14:808/hls/60/index.m3u8
+河北少儿,http://60.10.50.14:808/hls/61/index.m3u8
+河北农民,http://60.10.50.14:808/hls/63/index.m3u8
+
+
 河北经济,http://120.211.62.180:8000/hls/20/index.m3u8
 河北都市,http://120.211.62.180:8000/hls/21/index.m3u8
 河北文旅,http://120.211.62.180:8000/hls/22/index.m3u8
@@ -803,6 +793,26 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 河南,#genre#
+河南卫视,http://42.237.159.233:9003/hls/17/index.m3u8
+河南都市,http://42.237.159.233:9003/hls/18/index.m3u8
+河南民生,http://42.237.159.233:9003/hls/19/index.m3u8
+河南法治,http://42.237.159.233:9003/hls/20/index.m3u8
+河南电视剧,http://42.237.159.233:9003/hls/21/index.m3u8
+河南新闻,http://42.237.159.233:9003/hls/22/index.m3u8
+河南公共,http://42.237.159.233:9003/hls/23/index.m3u8
+河南新农村,http://42.237.159.233:9003/hls/24/index.m3u8
+河南梨园,http://42.237.159.233:9003/hls/25/index.m3u8
+文物宝库,http://42.237.159.233:9003/hls/26/index.m3u8
+武术世界,http://42.237.159.233:9003/hls/27/index.m3u8
+
+河南都市,http://2g545s5578.qicp.vip:59901/tsfile/live/1007_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河南法制,http://2g545s5578.qicp.vip:59901/tsfile/live/1009_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河南电视剧,http://2g545s5578.qicp.vip:59901/tsfile/live/1010_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河南梨园,http://2g545s5578.qicp.vip:59901/tsfile/live/1015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河南公共,http://2g545s5578.qicp.vip:59901/tsfile/live/1012_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+河南新农村,http://2g545s5578.qicp.vip:59901/tsfile/live/1013_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+
+
 河南都市,http://lysj.aylzline.top:8899/rtp/225.1.2.56:10330
 河南民生,http://lysj.aylzline.top:8899/rtp/225.1.2.57:10336
 河南法治,http://lysj.aylzline.top:8899/rtp/225.1.2.58:10342
@@ -841,11 +851,12 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 河南法治,http://39.164.174.139:5000/nl.m3u8?id=HNTV4-FZ
 
 湖北,#genre#
-湖北综合,http://tv.305362.xyz/zhth/tv.php?f=d22064&id=65d9ed
-湖北垄上,http://tv.305362.xyz/zhth/tv.php?f=d22064&id=f24cdb
-湖北影视,http://tv.305362.xyz/zhth/tv.php?f=d22064&id=f4bcf2
-湖北教育,http://tv.305362.xyz/zhth/tv.php?f=d22064&id=a73dfd
-湖北经视,http://tv.305362.xyz/zhth/tv.php?f=d22064&id=854863
+湖北经视,http://183.94.146.79:9901/tsfile/live/0128_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖北影视,http://183.94.146.79:9901/tsfile/live/0107_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖北卫视,http://183.94.146.79:9901/tsfile/live/0124_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖北综合,http://183.94.146.79:9901/tsfile/live/0127_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖北教育,http://183.94.146.79:9901/tsfile/live/1017_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖北垄上,http://183.94.146.79:9901/tsfile/live/1015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 
 湖北公共,http://59.174.163.201:4022/rtp/239.69.1.40:9880
 湖北经视,http://59.174.163.201:4022/rtp/239.69.1.41:9886
@@ -865,12 +876,15 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
-湖南娱乐,http://tv.305362.xyz/zhth/tv.php?f=6ef844&id=b2e3f6
-湖南教育,http://tv.305362.xyz/zhth/tv.php?f=6ef844&id=47d83b
-湖南电影,http://tv.305362.xyz/zhth/tv.php?f=6ef844&id=ce3120
-湖南电视剧,http://tv.305362.xyz/zhth/tv.php?f=6ef844&id=86a20d
-湖南经视,http://tv.305362.xyz/zhth/tv.php?f=6ef844&id=404ecd
-湖南都市,http://tv.305362.xyz/zhth/tv.php?f=6ef844&id=857172
+
+湖南经视,http://116.128.243.121:85/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖南都市,http://116.128.243.121:85/tsfile/live/1001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖南娱乐,http://116.128.243.121:85/tsfile/live/1002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖南电影,http://116.128.243.121:85/tsfile/live/1003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖南电视剧,http://116.128.243.121:85/tsfile/live/1004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+湖南公共,http://116.128.243.121:85/tsfile/live/1005_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
+
+
 
 湖南经视,http://218.77.84.102:85/tsfile/live/146/2002_1.m3u8?key=txiptv$湖南/永州/电信
 湖南都市,http://218.77.84.102:85/tsfile/live/147/2003_1.m3u8?key=txiptv$湖南/永州/电信
@@ -1072,15 +1086,6 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 重庆,#genre#
-CQTV新闻,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=c81fdb
-CQTV影视剧,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=cad43a
-CQTV社会与法,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=c4b139
-CQTV红岩文化,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=abfa2e
-CQTV文体娱乐,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=12c6ee
-CQTV新农村,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=13cec1
-CQTV少儿,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=beb382
-CQTV红叶,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=e5143f
-CQTV汽摩,http://tv.305362.xyz/zhth/tv.php?f=ac2d72&id=f23844
 
 CQTV新闻,http://home.scanflove.com:7788/rtp/235.254.196.199:7980$重庆电信
 CQTV新闻,http://home.scanflove.com:7788/rtp/235.254.196.199:7980$重庆cmc3+
@@ -1113,23 +1118,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
-四川影视,http://tv.305362.xyz/zhth/tv.php?f=000ffa&id=e95a2b
-四川科教,http://tv.305362.xyz/zhth/tv.php?f=000ffa&id=e12f05
-峨眉电影,http://tv.305362.xyz/zhth/tv.php?f=000ffa&id=6258db
-
-四川乡村,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=1d283a
-四川乡村,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=94f8cd
-四川乡村,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=80c598
-四川影视,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=556822
-四川文旅,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=707b50
-四川文旅,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=e5260d
-四川文旅,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=800ed2
-四川文旅,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=4b9894
-四川新闻,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=13ed93
-四川新闻,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=04e8b9
-四川新闻,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=877b55
-四川科教,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=16c379
-四川经济,http://tv.305362.xyz/zhth/tv.php?f=89f7b4&id=793959
 
 四川经济,http://171.213.150.179:4022/rtp/239.94.0.70:5140
 四川文旅,http://171.213.150.179:4022/rtp/239.94.0.71:5140
@@ -1225,11 +1213,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
-陕西银龄,http://tv.305362.xyz/zhth/tv.php?f=db6061&id=178e73
-陕西都市青春,http://tv.305362.xyz/zhth/tv.php?f=db6061&id=5bd05c
-陕西秦腔,http://tv.305362.xyz/zhth/tv.php?f=db6061&id=0f6a20
-陕西新闻资讯,http://tv.305362.xyz/zhth/tv.php?f=db6061&id=67d5b3
-
 陕西新闻资讯,http://1.83.52.151:7000/rtp/239.111.205.28:5140
 陕西都市青春,http://1.82.70.201:8009/rtp/239.111.205.42:5140
 陕西体育休闲,http://1.82.70.201:8009/rtp/239.111.205.36:5140
@@ -1329,6 +1312,10 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC高清电影,http://42.227.90.3:9003/hls/59/index.m3u8
+CHC动作电影,http://42.227.90.3:9003/hls/60/index.m3u8
+CHC家庭影院,http://42.227.90.3:9003/hls/61/index.m3u8
+
 CHC家庭影院,http://lysj.aylzline.top:8899/rtp/225.1.2.214:11422
 CHC动作电影,http://lysj.aylzline.top:8899/rtp/225.1.2.215:11428
 CHC高清电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
