@@ -320,6 +320,13 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 广西国际,http://116.9.34.226:4000/udp/239.81.0.8:4056
 
 内蒙古,#genre#
+内蒙古卫视,webview://https://www.nmtv.cn/liveTv?tag=内蒙古卫视
+内蒙古新闻,webview://https://www.nmtv.cn/liveTv?tag=新闻综合
+内蒙古经济,webview://https://www.nmtv.cn/liveTv?tag=经济生活
+内蒙古文体,webview://https://www.nmtv.cn/liveTv?tag=文体娱乐
+内蒙古农牧,webview://https://www.nmtv.cn/liveTv?tag=农牧频道
+内蒙古蒙语,webview://https://www.nmtv.cn/liveTv?tag=内蒙古蒙古语卫视
+内蒙古文化,webview://https://www.nmtv.cn/liveTv?tag=内蒙古蒙古语文化
 
 
 内蒙古卫视,http://rihou.cc:555/tv/内蒙古卫视   
@@ -343,18 +350,13 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 辽宁,#genre#
 辽宁都市,http://fuxin.yunjifei.top:999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁影视剧,http://fuxin.yunjifei.top:999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁体育休闲,http://fuxin.yunjifei.top:999/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁体育休闲,https://bdrmlivezb.lnyun.com.cn/bdrm57/xczb57.m3u8
 辽宁生活,http://fuxin.yunjifei.top:999/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁教育青少,http://fuxin.yunjifei.top:999/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁北方,http://fuxin.yunjifei.top:999/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁公共,http://fuxin.yunjifei.top:999/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁经济,http://fuxin.yunjifei.top:999/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁移动,http://fuxin.yunjifei.top:999/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-
-
-辽宁北方,http://173.208.187.18:82/live/rylnbf.m3u8
-辽宁生活,http://173.208.187.18:82/live/rylnsh.m3u8
-辽宁都市,http://173.208.187.18:82/live/rylnds.m3u8
 
 辽宁公共,http://sh.lnott.top:880/dx27.m3u8
 辽宁都市,http://sh.lnott.top:880/dx20.m3u8
@@ -376,6 +378,12 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 吉林,#genre#
+吉林都市,webview://https://www.jlntv.cn/tv?tag=1
+吉林生活,webview://https://www.jlntv.cn/tv?tag=2
+吉林影视,webview://https://www.jlntv.cn/tv?tag=3
+吉林乡村,webview://https://www.jlntv.cn/tv?tag=4
+吉林综艺文化,webview://https://www.jlntv.cn/tv?tag=5
+
 吉林综艺文化,http://tonyk.56301232.xyz:3477/rtp/239.37.1.7:5540
 吉林都市,http://tonyk.56301232.xyz:3477/rtp/239.37.1.2:5540
 吉林影视,http://tonyk.56301232.xyz:3477/rtp/239.37.1.3:5540
@@ -433,6 +441,14 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 江苏,#genre#
+江苏综艺,webview://https://live.jstv.com/?tag=江苏综艺
+江苏新闻,webview://https://live.jstv.com/?tag=江苏新闻
+江苏城市,webview://https://live.jstv.com/?tag=江苏城市
+江苏影视,webview://https://live.jstv.com/?tag=江苏影视
+江苏教育,webview://https://live.jstv.com/?tag=江苏教育
+江苏体育,webview://https://live.jstv.com/?tag=体育休闲
+江苏国际,webview://https://live.jstv.com/?tag=江苏国际
+
 江苏城市,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.107:8000
 江苏综艺,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.108:8000
 江苏体育,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.117:8000
@@ -511,6 +527,14 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 安徽,#genre#
+安徽经济生活,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=1
+安徽综艺体育,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
+安徽国际,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
+安徽综艺,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
+安徽影视,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=3
+安徽公共,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=4
+安徽农业科教,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=5
+安徽移动,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=7
 
 安徽影视,https://ahlive.ahwanyun.cn/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
 安徽经济生活,https://ahlive.ahwanyun.cn/live/5c6207583a334b048f77dddf370bd840/hls.m3u8
@@ -602,12 +626,6 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 蒙城新闻,http://hsza.f3322.net:4000/rtp/238.1.79.19:4264
 
 
-安徽经济生活,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=1
-安徽综艺体育,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
-安徽国际,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
-安徽影视,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=3
-安徽公共,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=4
-安徽农业科教,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=5
 
 安徽经济生活,http://202.102.201.244:40022/rtp/238.1.79.44:4464
 安徽影视,http://202.102.201.244:40022/rtp/238.1.79.42:4448
@@ -1175,6 +1193,13 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 泸州新闻,rtmp://tvdrs.luzhoubs.com/channellive/lztv1
 
 贵州,#genre#
+贵州公共,webview://https://www.gzstv.com/tv/ch02?utao=1
+贵州影视,webview://https://www.gzstv.com/tv/ch03?utao=1
+贵州生活,webview://https://www.gzstv.com/tv/ch04?utao=1
+贵州乡村,webview://https://www.gzstv.com/tv/ch05?utao=1
+贵州科教,webview://https://www.gzstv.com/tv/ch06?utao=1
+贵州移动,webview://https://www.gzstv.com/tv/ch13?utao=1
+
 
 贵州卫视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzws
 贵州公共,http://123.207.224.130:123/guizhou/guizhou.php?id=gzgg
@@ -1185,17 +1210,8 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 贵州经济,http://123.207.224.130:123/guizhou/guizhou.php?id=gzjj
 贵州移动,http://123.207.224.130:123/guizhou/guizhou.php?id=gzyd
 
-贵州2,webview://https://www.gzstv.com/tv/ch02
-贵州3,webview://https://www.gzstv.com/tv/ch03
-贵州4,webview://https://www.gzstv.com/tv/ch04
-贵州5,webview://https://www.gzstv.com/tv/ch05
-贵州6,webview://https://www.gzstv.com/tv/ch06
-
-
 
 云南,#genre#
-
-
 云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
 云南康旅,https://hwapi.yntv.net/62hdvf/227q43.m3u8
 云南娱乐,https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
@@ -1266,6 +1282,10 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西宁生活服务,webview://https://www.xntv.tv/xnshpd
 
 宁夏,#genre#
+宁夏公共,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8
+宁夏经济,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8
+宁夏文旅,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8
+宁夏少儿,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
 
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
@@ -1274,15 +1294,7 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 青铜峡公共,http://pili-live-hdl.nxdzsh.com/qtxdst/qtx.m3u8
 
 新疆,#genre#
-新疆卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjws
-xjtv2,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjwyzh
-xjtv3,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjhyzh
-xjtv4,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjzy
-xjtv5,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjwyys
-xjtv7,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjtyjk
-xjtv8,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xj.js?id=xjse
-
-新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434
+新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=1
 xjtv2,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=3
 xjtv3,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=4
 xjtv4,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=16
