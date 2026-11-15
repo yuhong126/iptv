@@ -441,13 +441,14 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 
 
 江苏,#genre#
-江苏综艺,webview://https://live.jstv.com/?tag=江苏综艺
-江苏新闻,webview://https://live.jstv.com/?tag=江苏新闻
-江苏城市,webview://https://live.jstv.com/?tag=江苏城市
-江苏影视,webview://https://live.jstv.com/?tag=江苏影视
-江苏教育,webview://https://live.jstv.com/?tag=江苏教育
-江苏体育,webview://https://live.jstv.com/?tag=体育休闲
-江苏国际,webview://https://live.jstv.com/?tag=江苏国际
+江苏综艺,webview://https://live.jstv.com/?channelId=663
+江苏新闻,webview://https://live.jstv.com/?channelId=668
+江苏城市,webview://https://live.jstv.com/?channelId=669
+江苏影视,webview://https://live.jstv.com/?channelId=664
+江苏教育,webview://https://live.jstv.com/?channelId=666
+江苏国际,webview://https://live.jstv.com/?channelId=671
+优漫卡通,webview://https://live.jstv.com/?channelId=667
+
 
 江苏城市,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.107:8000
 江苏综艺,http://ikuai.sunjianwu.fun:8800/udp/239.49.8.108:8000
