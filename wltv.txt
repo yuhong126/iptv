@@ -320,15 +320,6 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 广西国际,http://116.9.34.226:4000/udp/239.81.0.8:4056
 
 内蒙古,#genre#
-内蒙古卫视,webview://https://www.nmtv.cn/liveTv?tag=内蒙古卫视
-内蒙古新闻,webview://https://www.nmtv.cn/liveTv?tag=新闻综合
-内蒙古经济,webview://https://www.nmtv.cn/liveTv?tag=经济生活
-内蒙古文体,webview://https://www.nmtv.cn/liveTv?tag=文体娱乐
-内蒙古农牧,webview://https://www.nmtv.cn/liveTv?tag=农牧频道
-内蒙古蒙语,webview://https://www.nmtv.cn/liveTv?tag=内蒙古蒙古语卫视
-内蒙古文化,webview://https://www.nmtv.cn/liveTv?tag=内蒙古蒙古语文化
-
-
 内蒙古卫视,http://rihou.cc:555/tv/内蒙古卫视   
 内蒙古蒙语,http://play1-qk.nmtv.cn/live/2315general.m3u8
 内蒙古新闻,http://play1-qk.nmtv.cn/live/2316general.m3u8
@@ -446,6 +437,7 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 江苏城市,webview://https://live.jstv.com/?channelId=669
 江苏影视,webview://https://live.jstv.com/?channelId=664
 江苏教育,webview://https://live.jstv.com/?channelId=666
+江苏体育,webview://https://live.jstv.com/?channelId=665
 江苏国际,webview://https://live.jstv.com/?channelId=671
 优漫卡通,webview://https://live.jstv.com/?channelId=667
 
@@ -720,6 +712,9 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 九江新闻,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=40
 九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
 九江教育,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=42
+南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
+南昌都市,webview://https://www.nctv.net.cn/live?channel=2
+南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
 
 
 九江新闻,http://220.176.218.193:9000/udp/239.252.220.176:5140
@@ -738,7 +733,7 @@ CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 赣州公共,http://220.176.218.193:9000/rtp/239.252.220.253:5140
 赣州新闻,http://220.176.218.193:9000/rtp/239.252.220.252:5140
 
-南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
+
 
 山东,#genre#
 山东综艺,http://112.255.144.205:85/tsfile/live/0002_49.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -1283,10 +1278,10 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西宁生活服务,webview://https://www.xntv.tv/xnshpd
 
 宁夏,#genre#
-宁夏公共,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8
-宁夏经济,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8
-宁夏文旅,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8
-宁夏少儿,webview://https://api.chinaaudiovisual.cn/tv-web/live.html?url=https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
+宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8|referrer=https://api.chinaaudiovisual.cn
+宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8|referrer=https://api.chinaaudiovisual.cn
+宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8|referrer=https://api.chinaaudiovisual.cn
+宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8|referrer=https://api.chinaaudiovisual.cn
 
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
