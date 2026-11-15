@@ -182,20 +182,10 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 
 
 港澳台,#genre#
-翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
-翡翠台,https://o11.163189.xyz/stream/tvb/fct4k/
 TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
 TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
-
-Now新闻台,http://cdn.163189.xyz/163189/now
-TVB Plus,https://o11.163189.xyz/stream/tvb/tvbp/
-千禧经典台,https://o11.163189.xyz/stream/live/tvbc/
-iQIYI,https://o11.163189.xyz/stream/live/iqiyi/
-Astro AOD,https://o11.163189.xyz/stream/live/aod/
-
-龙华经典,https://cdn8.163189.xyz/163189/lhjd
 东森新闻,http://211.72.174.95:8138/0.ts
 东森新闻,http://211.72.174.95:8138/0.ts
 民视新闻,http://211.72.174.95:8117/0.ts
@@ -203,33 +193,17 @@ Astro AOD,https://o11.163189.xyz/stream/live/aod/
 华视HD,http://211.72.174.95:8114/0.ts
 公视,http://211.72.174.95:8116/0.ts
 民视,http://211.72.174.95:8115/0.ts
-Now新闻,http://cdn.163189.xyz/163189/now
-澳门体育,http://cdn6.163189.xyz/163189/amty
-澳门综艺,http://cdn6.163189.xyz/163189/amzy
-NOW NEWS,http://cdn.163189.xyz/163189/now
 新视觉hd,http://120.76.248.139/live/bfgd/4200000249.m3u8
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
 香港面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
-TVB星河,https://o11.163189.xyz/stream/live/tvbxh/
-TVB Plus,https://o11.163189.xyz/stream/tvb/tvbp/
-凤凰中文,http://rihou.cc:555/tv/[Pd]凤凰中文
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 台湾|唯心WXTV2,http://61.216.67.119:1935/wxtv/wxtv.stream/playlist.m3u8
 生命电视,https://5ddce30eb4b55.streamlock.net/lifetv/lifetv.stream/playlist.m3u8
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 唯心,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8
-有线综合,http://rihou.cc:555/tv/[Pd]有线综合
-龙华经典,http://rihou.cc:555/tv/[Pd]龙华经典
-凤凰中文,http://rihou.cc:555/tv/[Pd]凤凰中文
-凤凰资讯,http://rihou.cc:555/tv/[Pd]凤凰资讯
-凤凰香港,http://rihou.cc:555/tv/[Pd]凤凰香港
-澳视卫星,http://rihou.cc:555/tv/[Pd]澳视卫星
-龙华经典,http://rihou.cc:555/tv/[Pd]龙华经典
-CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
-闽镜新闻,http://rihou.cc:555/tv/[Hk]闽镜新闻
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
 无线明珠高码,http://beishan008.asuscomm.com:8890/bysid/2.m3u8
 
