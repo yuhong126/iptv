@@ -433,6 +433,18 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 安徽,#genre#
+安徽经济生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=jjshtv
+安徽影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ystv
+安徽综艺体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=zytytv
+安徽公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ggtv
+安徽农业科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=nykjtv
+安徽国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=gjtv
+安庆新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=aqpd
+蚌埠新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=bbtv
+淮北新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=hbxw
+六安综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=latv
+芜湖新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=whxw
+
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.79.43:4456
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.78.57:6328
 安徽经济生活,http://hsza.f3322.net:4000/rtp/238.1.79.44:4464
