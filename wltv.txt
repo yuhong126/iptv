@@ -170,8 +170,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 北京,#genre#
-北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime7.js?id=54db6gi5vfj8r8q1e6r89imd64s
-北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime7.js?id=50mqo8t4n4e8gtarqr3orj9l93v
 
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
 北京纪实科教,http://103.72.172.253:8041/hls/347295318/index.m3u8
@@ -190,7 +188,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
 北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
 北京纪实科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53bn9rlalq08lmb8nf8iadoph0b
-北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime-diag3.js?id=50mqo8t4n4e8gtarqr3orj9l93v
+北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50mqo8t4n4e8gtarqr3orj9l93v
 北京财经,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50e335k9dq488lb7jo44olp71f5
 北京体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54hv0f3pq079d4oiil2k12dkvsc
 北京生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50j015rjrei9vmp3h8upblr41jf
@@ -202,15 +200,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 天津,#genre#
 
-天津新闻,http://125.38.166.133:5002/udp/225.1.1.130:5002
-天津文艺,http://125.38.166.133:5002/udp/225.1.1.131:5002
-天津影视,http://125.38.166.133:5002/udp/225.1.1.149:5002
-天津都市,http://125.38.166.133:5002/udp/225.1.1.128:5002
-天津体育,http://125.38.166.133:5002/udp/225.1.1.122:5002
-天津科教,http://125.38.166.133:5002/udp/225.1.1.129:5002
-天津少儿,http://125.38.166.133:5002/udp/225.1.1.125:5002
-天津购物,http://125.38.166.133:5002/udp/225.1.1.151:5002
-天津IPTV,http://125.38.166.133:5002/udp/225.1.2.123:5002
+天津新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=1
+天津文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=2
+天津影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=3
+天津都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=4
+天津体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=5
+天津科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=6
+天津少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=7
+天津购物,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=8
+天津IPTV,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=9
 
 山西,#genre#
 山西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=0
@@ -219,14 +217,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 山西影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=3
 山西社会与法治,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=4
 山西文体生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=5
-
-
-山西黄河,webview://http://xbtv.net/tv/sxi/hhtv.html
-山西经济,webview://http://xbtv.net/tv/sxi/sxjj.html
-山西公共,webview://http://xbtv.net/tv/sxi/sxgg.html
-山西影视,webview://http://tv.haoqu99.com/3/shan-xi/shanxiys.html
-山西社会与法治,webview://http://tv.haoqu99.com/3/shan-xi/shanxikejiao.html
-山西文体,webview://http://tv.haoqu99.com/3/shan-xi/shanxigg.html
 
 大同新闻,webview://http:share.dtradio.com.cn/?_hgOutLink=live/livedetail&channel_id=16
 大同公共,webview://http:share.dtradio.com.cn/?_hgOutLink=live/livedetail&channel_id=8
@@ -449,20 +439,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 安徽,#genre#
-安徽经济生活,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=1
-安徽综艺体育,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
-安徽国际,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
-安徽综艺,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
-安徽影视,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=3
-安徽公共,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=4
-安徽农业科教,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=5
-安徽移动,webview://https://www.ahtv.cn/folder9000/folder20193?channelIndex=7
-
-安徽影视,https://ahlive.ahwanyun.cn/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
-安徽经济生活,https://ahlive.ahwanyun.cn/live/5c6207583a334b048f77dddf370bd840/hls.m3u8
-安徽综艺体育,https://ahlive.ahwanyun.cn/live/7f908bf821d04f66b765af65e49196eb/hls.m3u8
-
-安徽影视,https://t.freetv.fun/live/an-hui-ying-shi.m3u8
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.79.43:4456
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.78.57:6328
 安徽经济生活,http://hsza.f3322.net:4000/rtp/238.1.79.44:4464
