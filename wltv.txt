@@ -170,6 +170,8 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 北京,#genre#
+北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime7.js?id=54db6gi5vfj8r8q1e6r89imd64s
+北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime7.js?id=50mqo8t4n4e8gtarqr3orj9l93v
 
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
 北京纪实科教,http://103.72.172.253:8041/hls/347295318/index.m3u8
