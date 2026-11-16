@@ -170,7 +170,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 北京,#genre#
-北京卫视,https://brtv-play.v.btime.com/live/btv_sn_20170706_s1.m3u8?txSecret=1194188c16b03f19281f97e6f08c89c8&txTime=6AFAD93B&btime_token=HMGZEGb7OLHEKzk66vmCNxoMBwUAT0Amq7kIoW_tz7x-EBzqGIdKvbSZvj-g8UV_iBPa3odIUzhsSVlhp5-NDcrJQ-yWEzQHQcpTo_uajHBgx0kuso2QE5rn_37_CEnIwOnGQcTyl8_HxW2s2qJClLXonpOaKFo6oHvjOdpAin2yyAcVMLLYssxbD1UYnJOMKCytomftNu6eElTJ-9lOCSQrDdd_TgZVGpDAlNMzJVgQsYOXqNFG0gUP3QieQZ-5DRcllr9c9jmb09MYDHMPlG1t2Mv3kdyVpJlQF7acLOtpgxL-V7ViJrohe1ZpEgJBXo7nQ77UHYBdvd70xiukjGjHygSXV7Vz5wFOvrh2Px3t4cTnpYQR3cWhq0TZ4H3AWp9tMEjS0L1AEPbLDgBYgdvO2eyb7RXZ8NKwWvqAzM33ouwyLzYEmQ90WanGgcLEd6KZeCj1aDmXAbMrdxcJhNgSFjioM6Qq2yUOU8Wf3s6HLnFyz1H3l_iPuxz22Sd5&btime_ts=1794824507&btime_sign=2d7aecc69cebb000da9bf625ec07a3f3
 
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
 北京纪实科教,http://103.72.172.253:8041/hls/347295318/index.m3u8
@@ -328,18 +327,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 上海,#genre#
-
-上海新闻综合,http://218.1.208.13:7777/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-上海都市,http://218.1.208.13:7777/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-东方影视,http://218.1.208.13:7777/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-第一财经,http://218.1.208.13:7777/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-五星体育,http://218.1.208.13:7777/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-
-哈哈炫动,http://218.1.208.13:7777/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-上海教育台,http://218.1.208.13:7777/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0$上海/电信
-魔都眼,http://123.207.224.130:123/shanghai/kankan.php
-
-上海新闻综合,webview://https://live.kankanews.com/huikan?id=2
+上海新闻,webview://https://live.kankanews.com/huikan?id=2
 上海都市,webview://https://live.kankanews.com/huikan?id=4
 第一财经,webview://https://live.kankanews.com/huikan?id=5
 哈哈炫动,webview://https://live.kankanews.com/huikan?id=9
@@ -603,9 +591,9 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 江西陶瓷,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=7
 
 
-九江新闻,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=40
-九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
-九江教育,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=42
+九江一套,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/jjtv.js?id=0
+九江二套,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/jjtv.js?id=1
+九江三套,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/jjtv.js?id=2
 南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
 南昌都市,webview://https://www.nctv.net.cn/live?channel=2
 南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
@@ -626,9 +614,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 德兴综合,http://218.64.164.152:5021/live_hls/2/playlist.m3u8
 玉山综合,https://play-a2.quklive.com/live/1744269699236128.m3u8
 丰城综合,http://play-sh13.quklive.com/live/1753663315049013.m3u8?auth_key=2079618218-43a81f8882264506923871b82faf8326-0-1b2ac19fffa1a603da6cb6e67161ac25
-
-
-
 
 
 
@@ -669,6 +654,19 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 石家庄文化娱乐,webview://https://plusshare.sjzntv.cn/?_hgOutLink=live/livedetail&channel_id=6
 
 河南,#genre#
+河南卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=145
+河南都市,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=141
+河南民生,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=146
+河南法治,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=147
+河南电视剧,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=148
+河南新闻,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=149
+河南购物,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=150
+河南公共,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=151
+河南乡村,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=152
+河南梨园,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=154
+河南文物宝库,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=155
+河南武术,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=156
+
 河南新闻,webview://https://static.hntv.tv/total/television/?id=149&u-link=1
 河南都市,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=14
 河南民生,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=15
