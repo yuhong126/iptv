@@ -667,23 +667,16 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 河南文物宝库,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=155
 河南武术,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=156
 
-河南新闻,webview://https://static.hntv.tv/total/television/?id=149&u-link=1
-河南都市,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=14
-河南民生,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=15
-河南梨园,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=16
-河南法治,webview://https://static.hntv.tv/total/television/?id=147&u-link=1
-河南公共,webview://https://static.hntv.tv/total/television/?id=151&u-link=1
-河南乡村,webview://https://static.hntv.tv/total/television/?id=152&u-link=1
-河南电视剧,webview://https://static.hntv.tv/total/television/?id=148&u-link=1
-河南文物宝库,webview://https://static.hntv.tv/total/television/?id=155&u-link=1
-河南武术世界,webview://https://static.hntv.tv/total/television/?id=156&u-link=1
-河南曲艺,webview://https://static.hntv.tv/total/television/?id=157&u-link=1
-河南移动戏曲,webview://https://static.hntv.tv/total/television/?id=163&u-link=1
-河南象视界,webview://https://static.hntv.tv/total/television/?id=183&u-link=1
-河南国学,webview://https://static.hntv.tv/total/television/?id=194&u-link=1
-
 
 湖北,#genre#
+湖北卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=431
+湖北经视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=432
+湖北综合,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=433
+湖北影视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=435
+湖北教育,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=437
+湖北垄上,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=438
+
+
 湖北经视,webview://https://news.hbtv.com.cn/app/tv/432
 湖北综合,webview://https://news.hbtv.com.cn/app/tv/433
 湖北公共,webview://https://news.hbtv.com.cn/app/tv/434
@@ -961,15 +954,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 泸州新闻,rtmp://tvdrs.luzhoubs.com/channellive/lztv1
 
 贵州,#genre#
-贵州卫视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzws
-贵州公共,http://123.207.224.130:123/guizhou/guizhou.php?id=gzgg
-贵州影视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzwy
-贵州生活,http://123.207.224.130:123/guizhou/guizhou.php?id=gzsh
-贵州法制,http://123.207.224.130:123/guizhou/guizhou.php?id=gzfz
-贵州科教,http://123.207.224.130:123/guizhou/guizhou.php?id=gzkj
-贵州经济,http://123.207.224.130:123/guizhou/guizhou.php?id=gzjj
-贵州移动,http://123.207.224.130:123/guizhou/guizhou.php?id=gzyd
-
 贵州公共,webview://https://www.gzstv.com/tv/ch02?utao=1
 贵州影视,webview://https://www.gzstv.com/tv/ch03?utao=1
 贵州生活,webview://https://www.gzstv.com/tv/ch04?utao=1
@@ -987,9 +971,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西双版纳文化旅游,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112694/playlist.m3u8
 
 西藏,#genre#
-西藏藏语,http://123.207.224.130:123/xizang/xizang.php?id=xzzy
-西藏影视,http://123.207.224.130:123/xizang/xizang.php?id=xzys
-
 西藏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=0
 西藏藏语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=1
 西藏影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=2
