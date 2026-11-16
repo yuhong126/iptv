@@ -184,15 +184,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 北京淘电影,http://36.110.54.118:866/hls/21/index.m3u8
 
 
-北京新闻,http://114.254.86.42:8888/rtp/239.3.1.159:8000
-北京影视,http://114.254.86.42:8888/rtp/239.3.1.158:8000
-北京文艺,http://114.254.86.42:8888/rtp/239.3.1.242:8000
-北京财经,http://114.254.86.42:8888/rtp/239.3.1.116:8000
-北京生活,http://114.254.86.42:8888/rtp/239.3.1.117:8000
-卡酷少儿,http://114.254.86.42:8888/rtp/239.3.1.189:8000
-北京体育休闲,http://114.254.86.42:8888/rtp/239.3.1.243:8000
-北京国际,http://114.254.86.42:8888/rtp/239.3.1.235:8000
-
 北京卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=573ib1kp5nk92irinpumbo9krlb
 北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
 北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
@@ -221,8 +212,9 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 山西,#genre#
 
-山西黄河,webview://http://tv.haoqu99.com/3/shan-xi/huanghxw.html
-山西经济,webview://http://tv.haoqu99.com/3/shan-xi/shanxijj.html
+山西黄河,webview://http://xbtv.net/tv/sxi/hhtv.html
+山西经济,webview://http://xbtv.net/tv/sxi/sxjj.html
+山西公共,webview://http://xbtv.net/tv/sxi/sxgg.html
 山西影视,webview://http://tv.haoqu99.com/3/shan-xi/shanxiys.html
 山西社会与法治,webview://http://tv.haoqu99.com/3/shan-xi/shanxikejiao.html
 山西文体,webview://http://tv.haoqu99.com/3/shan-xi/shanxigg.html
@@ -612,14 +604,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
-江西卫视,webview://https://www.jxntv.cn/live/?_ch=1
-江西都市,webview://https://www.jxntv.cn/live/?_ch=2
-江西经济生活,webview://https://www.jxntv.cn/live/?_ch=3
-江西公共农业,webview://https://www.jxntv.cn/live/?_ch=4
-江西少儿,webview://https://www.jxntv.cn/live/?_ch=5
-江西新闻,webview://https://www.jxntv.cn/live/?_ch=6
-江西移动,webview://https://www.jxntv.cn/live/?_ch=7
-江西陶瓷,webview://https://www.jxntv.cn/live/?_ch=8
+江西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=0
+江西都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=1
+江西经济生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=2
+江西公共农业,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=3
+江西少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=4
+江西新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=5
+江西移动电视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=6
+江西陶瓷,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=7
+
 
 九江新闻,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=40
 九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
