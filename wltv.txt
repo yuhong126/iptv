@@ -253,13 +253,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 内蒙古少儿,http://play1-qk.nmtv.cn/live/2318general.m3u8
 内蒙古文化,http://play1-qk.nmtv.cn/live/2321general.m3u8
 
-内蒙古卫视,http://111.127.156.228:51234/udp/239.29.0.2:5000
-内蒙古经济,http://111.127.156.228:51234/udp/239.29.0.212:5000
-内蒙古新闻,http://111.127.156.228:51234/udp/239.29.0.208:5000
-内蒙古文体,http://111.127.156.228:51234/udp/239.29.0.211:5000
-内蒙古农牧,http://111.127.156.228:51234/udp/239.29.0.209:5000
-内蒙古少儿,http://111.127.156.228:51234/udp/239.29.0.207:5000
-内蒙古蒙语,http://111.127.156.228:51234/udp/239.29.0.210:5000
 
 
 辽宁,#genre#
@@ -267,7 +260,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 辽宁影视剧,http://fuxin.yunjifei.top:999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁体育休闲,https://bdrmlivezb.lnyun.com.cn/bdrm57/xczb57.m3u8
 辽宁生活,http://fuxin.yunjifei.top:999/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁教育青少,http://fuxin.yunjifei.top:999/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁教育,http://fuxin.yunjifei.top:999/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁北方,http://fuxin.yunjifei.top:999/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁公共,http://fuxin.yunjifei.top:999/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁经济,http://fuxin.yunjifei.top:999/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -280,7 +273,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 辽宁影视剧,http://sh.lnott.top:880/dx21.m3u8
 辽宁体育休闲,http://sh.lnott.top:880/dx22.m3u8
 辽宁生活,http://sh.lnott.top:880/dx23.m3u8
-辽宁教育青少,http://sh.lnott.top:880/dx24.m3u8
+辽宁教育,http://sh.lnott.top:880/dx24.m3u8
 辽宁北方,http://sh.lnott.top:880/dx25.m3u8
 
 辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
@@ -293,11 +286,21 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 吉林,#genre#
-吉林都市,webview://https://www.jlntv.cn/tv?tag=1
-吉林生活,webview://https://www.jlntv.cn/tv?tag=2
-吉林影视,webview://https://www.jlntv.cn/tv?tag=3
-吉林乡村,webview://https://www.jlntv.cn/tv?tag=4
-吉林综艺文化,webview://https://www.jlntv.cn/tv?tag=5
+吉林卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1531
+吉林都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1532
+吉林生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1534
+吉林影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1535
+吉林乡村,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1536
+吉林综艺文化,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1538
+长春综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812402
+吉林新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812373
+四平新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812374
+辽源新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812376
+通化新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812379
+白山新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812383
+白城新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812380
+松原新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812382
+延边卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812244
 
 
 长春综合,webview://https://chinactv.com/live/1442880654565093377.html
