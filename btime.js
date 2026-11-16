@@ -1,18 +1,22 @@
 /* ============================================================
- * 北京台(BRTV)直播 · mytv / 酷9 通用 JS 源  (v2 重写)
+ * 北京台(BRTV)直播 · mytv / 酷9 通用 JS 源  (v3)
  *
  * 用法（一行一个台），id 就是官网的频道 gid：
  *   北京卫视,javascript://<本文件在线地址>?id=573ib1kp5nk92irinpumbo9krlb
  *
- * 原理：
- *   1) 用「简短 UA = Mozilla/5.0」调官方 video/play 接口拿 stream_url
- *      —— 关键！用完整的 Chrome UA 会被判「用户未登录」(errno:401)
- *      简短 UA 直接放行，不需要 usid、不需要登录、sign 也不校验
- *   2) stream_url = base64(base64( m3u8地址反转 ))，反转+解两次 base64 得真地址
- *   3) 真地址是带 time/sign 的临时 m3u8，所以每次都现取，不缓存
+ * 基于曾能用的旧脚本结构，只修掉两个失效点：
+ *   1) 旧脚本写死的 usid 会话已过期 → 去掉，改为免登录
+ *   2) 关键发现：调 video/play 接口必须用「简短 UA = Mozilla/5.0」，
+ *      用完整 Chrome UA 会被判 errno:401 用户未登录；短 UA 直接放行，
+ *      不需要 usid / 登录，sign 也不校验。
  *
- * 旧版失效原因：写死了会过期的 usid + 用完整 Chrome UA → 接口 401
+ * 返回给播放器的部分保持旧脚本原样（完整 UA + Referer + Origin + player:3），
+ * 因为 m3u8 取流需要正常 UA —— 短 UA 只用来骗接口，不能给播放器。
+ *
+ * stream_url = base64(base64(真实m3u8地址反转))，反转 + 解两次 base64 得真地址。
  * ============================================================ */
+
+var BT_UA_FULL = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36';
 
 function main(item) {
   var uri = (item && item.url) ? item.url : '';
@@ -21,18 +25,36 @@ function main(item) {
     : ((typeof ku9 !== 'undefined' && ku9 && typeof ku9.getQuery === 'function')
         ? String(ku9.getQuery(uri, 'id') || '') : '');
 
-  var r = { url: '', headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.btime.com/' } };
+  // 返回结构完全照搬旧脚本：完整 UA + Referer + Origin + player:3
+  var r = {
+    'url': '',
+    'headers': {
+      'User-Agent': BT_UA_FULL,
+      'Referer': 'https://www.btime.com/',
+      'Origin': 'https://www.btime.com'
+    },
+    'player': 3
+  };
   if (!pid) { r.url = '缺少频道 id'; return r; }
 
-  // 关键：简短 UA。完整 Chrome UA 会被判未登录。
-  var UA = 'Mozilla/5.0';
+  // 缓存（沿用旧脚本，30 分钟）
+  var cacheKey = 'btime_v3_' + pid;
+  if (typeof ku9 !== 'undefined' && ku9 && typeof ku9.getCache === 'function') {
+    var cached = ku9.getCache(cacheKey);
+    if (cached && String(cached).indexOf('http') === 0) {
+      r.url = cached;
+      return r;
+    }
+  }
+
   var ts = Math.floor((new Date()).getTime() / 1000);
+  // 关键：接口用短 UA，且不带 Origin / 完整 UA
   var api = 'https://pc.api.btime.com/video/play?from=pc&id=' + pid +
             '&type_id=151&timestamp=' + ts + '&sign=x&guid=x&_=' + ts;
 
   var res;
   try {
-    res = ku9.get(api, { 'User-Agent': UA, 'Referer': 'https://www.btime.com/' });
+    res = ku9.get(api, { 'User-Agent': 'Mozilla/5.0' });
   } catch (e) {
     r.url = '接口请求异常：' + e;
     return r;
@@ -68,6 +90,9 @@ function main(item) {
   }
   if (stream.indexOf('http') !== 0) { r.url = '解码结果异常：' + stream.substring(0, 80); return r; }
 
+  if (typeof ku9 !== 'undefined' && ku9 && typeof ku9.setCache === 'function') {
+    try { ku9.setCache(cacheKey, stream, 60000 * 30); } catch (e4) { /* 缓存失败不影响播放 */ }
+  }
   r.url = stream;
   return r;
 }
