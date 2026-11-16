@@ -211,6 +211,13 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 天津IPTV,http://125.38.166.133:5002/udp/225.1.2.123:5002
 
 山西,#genre#
+山西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=0
+黄河电视台,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=1
+山西经济与科技,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=2
+山西影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=3
+山西社会与法治,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=4
+山西文体生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=5
+
 
 山西黄河,webview://http://xbtv.net/tv/sxi/hhtv.html
 山西经济,webview://http://xbtv.net/tv/sxi/sxjj.html
