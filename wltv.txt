@@ -188,7 +188,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
 北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
 北京纪实科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53bn9rlalq08lmb8nf8iadoph0b
-北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime-diag.js?id=50mqo8t4n4e8gtarqr3orj9l93v
+北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime-diag3.js?id=50mqo8t4n4e8gtarqr3orj9l93v
 北京财经,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50e335k9dq488lb7jo44olp71f5
 北京体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54hv0f3pq079d4oiil2k12dkvsc
 北京生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50j015rjrei9vmp3h8upblr41jf
