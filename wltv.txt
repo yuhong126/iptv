@@ -27,30 +27,6 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
-CCTV风云音乐,http://58.17.89.7:8081/hls/65/index.m3u8
-CCTV第一剧场,http://58.17.89.7:8081/hls/64/index.m3u8
-CCTV风云剧场,http://58.17.89.7:8081/hls/66/index.m3u8
-CCTV怀旧剧场,http://58.17.89.7:8081/hls/67/index.m3u8
-CCTV央视台球,http://58.17.89.7:8081/hls/69/index.m3u8
-CCTV世界地理,http://58.17.89.7:8081/hls/68/index.m3u8
-CCTV女性时尚,http://58.17.89.7:8081/hls/70/index.m3u8
-
-CCTV卫生健康,http://1.82.70.201:8009/rtp/239.111.205.109:5140
-CCTV女性时尚,http://1.82.70.201:8009/rtp/239.111.205.110:5140
-CCTV世界地理,http://1.82.70.201:8009/rtp/239.111.205.111:5140
-CCTV怀旧剧场,http://1.82.70.201:8009/rtp/239.111.205.112:5140
-CCTV风云剧场,http://1.82.70.201:8009/rtp/239.111.205.113:5140
-CCTV兵器科技,http://1.82.70.201:8009/rtp/239.111.205.114:5140
-CCTV风云音乐,http://1.82.70.201:8009/rtp/239.111.205.115:5140
-CCTV央视台球,http://1.82.70.201:8009/rtp/239.111.205.116:5140
-CCTV高尔夫网球,http://1.82.70.201:8009/rtp/239.111.205.117:5140
-CCTV第一剧场,http://1.82.70.201:8009/rtp/239.111.205.118:5140
-CCTV央视文化精品,http://1.82.70.201:8009/rtp/239.111.205.119:5140
-CCTV风云足球,http://1.82.70.201:8009/rtp/239.111.205.120:5140
-CCTV电视指南,http://1.82.70.201:8009/rtp/239.111.205.121:5140
-
-
-
 CCTV电视指南,http://hsza.f3322.net:4000/rtp/238.1.79.53:4560
 CCTV兵器科技,http://hsza.f3322.net:4000/rtp/238.1.79.56:4584
 CCTV第一剧场,http://hsza.f3322.net:4000/rtp/238.1.79.63:4640
@@ -63,14 +39,6 @@ CCTV女性时尚,http://hsza.f3322.net:4000/rtp/238.1.79.55:4576
 CCTV世界地理,http://hsza.f3322.net:4000/rtp/238.1.79.60:4616
 CCTV央视台球,http://hsza.f3322.net:4000/rtp/238.1.79.59:4608
 CCTV央视文化精品,http://hsza.f3322.net:4000/rtp/238.1.79.54:4568
-
-CCTV风云足球,http://hmfs.f3322.net:3388/hls/9/index.m3u8
-CCTV风云剧场,http://hmfs.f3322.net:3388/hls/20/index.m3u8
-CCTV第一剧场,http://hmfs.f3322.net:3388/hls/21/index.m3u8
-CCTV世界地理,http://hmfs.f3322.net:3388/hls/28/index.m3u8
-CCTV风云音乐,http://hmfs.f3322.net:3388/hls/29/index.m3u8
-
-
 CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.18:5146
 CCTV兵器科技,http://ymz.stkeyu.top:8303/udp/239.253.43.9:5146
 CCTV电视指南,http://ymz.stkeyu.top:8303/udp/239.253.43.19:5146
@@ -96,18 +64,10 @@ CCTV第一剧场,http://ymz.stkeyu.top:8303/udp/239.253.43.15:5146
 CCTV风云音乐,http://ymz.stkeyu.top:8303/udp/239.253.43.29:5146
 CCTV风云音乐,http://ymz.stkeyu.top:8303/udp/239.253.43.6:5146
 CCTV卫生健康,http://ymz.stkeyu.top:8303/udp/239.77.0.212:5146
-
-
-CCTV风云剧场,webview://https://yangshipin.cn/tv/home?pid=600099658
-CCTV第一剧场,webview://https://yangshipin.cn/tv/home?pid=600099655
-CCTV怀旧剧场,webview://https://yangshipin.cn/tv/home?pid=600099620
-
 CCTV第一剧场,http://183.237.95.108:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV风云足球,http://183.237.95.108:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV世界地理,http://183.237.95.108:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=0&authid=0
-CCTV央视台球,http://183.237.95.108:9901/tsfile/live/1072_1.m3u8?key=txiptv&playlive=0&authid=0
 
-CETV早期教育,http://1.82.70.201:8009/rtp/239.111.205.108:5140
 CETV-1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -267,31 +227,30 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 山西社会与法治,webview://http://tv.haoqu99.com/3/shan-xi/shanxikejiao.html
 山西文体,webview://http://tv.haoqu99.com/3/shan-xi/shanxigg.html
 
-山西卫视,http://plex.home.yulei.online:9999/udp/226.0.2.152:9128
-山西文体,http://plex.home.yulei.online:9999/udp/226.0.1.200:2006
-山西经济,http://plex.home.yulei.online:9999/udp/226.0.1.81:2003
-山西影视,http://plex.home.yulei.online:9999/udp/226.0.1.82:2004
-山西社会与法治,http://plex.home.yulei.online:9999/udp/226.0.1.83:2005
-山西黄河,http://plex.home.yulei.online:9999/udp/226.0.1.84:2002
+大同新闻,webview://http:share.dtradio.com.cn/?_hgOutLink=live/livedetail&channel_id=16
+大同公共,webview://http:share.dtradio.com.cn/?_hgOutLink=live/livedetail&channel_id=8
+大同生活,webview://http:share.dtradio.com.cn/?_hgOutLink=live/livedetail&channel_id=9
 
 
 广西,#genre#
-
-广西综艺,http://221.7.175.154:85/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
-广西影视,http://221.7.175.154:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
-广西新闻,http://221.7.175.154:85/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
-
-广西综艺,webview://https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
+广西旅游,webview://https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
+广西都市,webview://https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html
 广西影视,webview://https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html
 广西新闻,webview://https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html
-广西都市,webview://https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html
 广西国际,webview://https://tv.gxtv.cn/channel/channelivePlay_bfa17b64157f11e999f0e41f13b60c62.html
+广西移动电视,webview://https://tv.gxtv.cn/channel/channelivePlay_78dbfd44e6b74ab687204d2d8113cbf5.html
+南宁新闻综合,webview://https://www.nntv.cn/live/nntv_xw/
+南宁文旅生活,webview://https://www.nntv.cn/live/nntv_ds/
+南宁影视娱乐,webview://https://www.nntv.cn/live/nntv_ys/
+南宁公共,webview://https://www.nntv.cn/live/nntv_gg/
+桂林新闻综合,webview://https://guilinbcnew.zainanjing365.com/share/live/detailTv?resourceId=33&appscheme=gdmm-zaiguilin
+桂林科教旅游,webview://https://guilinbcnew.zainanjing365.com/share/live/detailTv?resourceId=35&appscheme=gdmm-zaiguilin
+桂林公共,webview://https://guilinbcnew.zainanjing365.com/share/live/detailTv?resourceId=34&appscheme=gdmm-zaiguilin
+北海新闻综合,webview://https://res.gxbhxww.cn/html/rft/live.html?channelId=389d764cf13244de97a30bc44161d235&type=1&siteId=c510269b15014be4aaf5aa6d2b92c629&shareAppId=c510269b15014be4aaf5aa6d2b92c629
+北海经济科教,webview://https://res.gxbhxww.cn/html/rft/live.html?channelId=51733cd2fd0548d288c3015ec3d0535b&type=1&siteId=c510269b15014be4aaf5aa6d2b92c629&shareAppId=c510269b15014be4aaf5aa6d2b92c629
+玉林新闻综合,webview://https://web.guangdianyun.tv/tv/3289?uin=4042
+玉林公共,webview://https://web.guangdianyun.tv/tv/3290?uin=4042
 
-广西综艺,http://116.9.34.226:4000/udp/239.81.0.214:4056
-广西影视,http://116.9.34.226:4000/udp/239.81.0.250:4056
-广西新闻,http://116.9.34.226:4000/udp/239.81.0.248:4056
-广西都市,http://116.9.34.226:4000/udp/239.81.0.247:4056
-广西国际,http://116.9.34.226:4000/udp/239.81.0.8:4056
 
 内蒙古,#genre#
 内蒙古卫视,http://rihou.cc:555/tv/内蒙古卫视   
@@ -349,22 +308,10 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 吉林乡村,webview://https://www.jlntv.cn/tv?tag=4
 吉林综艺文化,webview://https://www.jlntv.cn/tv?tag=5
 
-吉林综艺文化,http://tonyk.56301232.xyz:3477/rtp/239.37.1.7:5540
-吉林都市,http://tonyk.56301232.xyz:3477/rtp/239.37.1.2:5540
-吉林影视,http://tonyk.56301232.xyz:3477/rtp/239.37.1.3:5540
-吉林乡村,http://tonyk.56301232.xyz:3477/rtp/239.37.1.5:5540
-吉林生活,http://tonyk.56301232.xyz:3477/rtp/239.37.1.4:5540
-吉林篮球,http://tonyk.56301232.xyz:3477/rtp/239.37.0.212:5540
-吉林篮球,http://tonyk.56301232.xyz:3477/rtp/239.37.0.214:5540
-吉林篮球,http://tonyk.56301232.xyz:3477/rtp/239.37.0.213:5540
-长影频道,http://tonyk.56301232.xyz:3477/rtp/239.37.0.125:5540
 
-
-吉林都市,http://198.204.240.250:82/live/jlds.m3u8
-吉林影视,http://198.204.240.250:82/live/jlys.m3u8
-吉林生活,http://198.204.240.250:82/live/jlsh.m3u8
-吉林综艺文化,http://198.204.240.250:82/live/jlfz.m3u8?jsbt=1763538255&jsbk=7aea852e7d2a962d6481dc7449f2d003
-
+长春综合,webview://https://chinactv.com/live/1442880654565093377.html
+长春文旅体育,webview://https://chinactv.com/live/1442880767035355137.html
+长春市民生活,webview://https://chinactv.com/live/1442880854423678977.html
 延边朝鲜语综,https://srs.iyb983.cn/video/ybtv1/index.m3u8
 延边汉语综合,https://srs.iyb983.cn/video/ybtv2/index.m3u8
 
@@ -449,6 +396,13 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 宁波经济,webview://https://www.ncmc.nbtv.cn/gbds/folder8458/NBTV2/index.shtml
 宁波都市,webview://https://www.ncmc.nbtv.cn/gbds/folder8458/NBTV3/index.shtml
 宁波影视,webview://https://www.ncmc.nbtv.cn/gbds/folder8458/NBTV4/index.shtml
+
+杭州综合,webview://https://tv.hoolo.tv/hzzh/
+杭州西湖明珠,webview://https://tv.hoolo.tv/xhmz/
+杭州生活,webview://https://tv.hoolo.tv/hzsh/
+杭州影视,webview://https://tv.hoolo.tv/utv/
+杭州青少体育,webview://https://tv.hoolo.tv/hzse/
+杭州文化,webview://https://tv.hoolo.tv/whpd/
 
 
 绍兴公共,http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
@@ -658,13 +612,22 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 江西,#genre#
-江西都市,http://220.176.218.193:9000/udp/239.252.220.238:5140
-江西经济生活,http://220.176.218.193:9000/udp/239.252.219.173:5140
-江西公共农业,http://220.176.218.193:9000/udp/239.252.220.102:5140
-江西少儿,http://220.176.218.193:9000/udp/239.252.219.113:5140
-江西新闻,http://220.176.218.193:9000/udp/239.252.220.100:5140
-江西教育,http://220.176.218.193:9000/udp/239.252.219.115:5140
+江西卫视,webview://https://www.jxntv.cn/live/?_ch=1
+江西都市,webview://https://www.jxntv.cn/live/?_ch=2
+江西经济生活,webview://https://www.jxntv.cn/live/?_ch=3
+江西公共农业,webview://https://www.jxntv.cn/live/?_ch=4
+江西少儿,webview://https://www.jxntv.cn/live/?_ch=5
+江西新闻,webview://https://www.jxntv.cn/live/?_ch=6
+江西移动,webview://https://www.jxntv.cn/live/?_ch=7
+江西陶瓷,webview://https://www.jxntv.cn/live/?_ch=8
 
+九江新闻,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=40
+九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
+九江教育,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=42
+南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
+南昌都市,webview://https://www.nctv.net.cn/live?channel=2
+南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
+彭泽,https://play-a2.quklive.com:443/live/1775529353213333.m3u8
 
 南昌航空大学,http://iptv.nchu.edu.cn/hls/nchuhd.m3u8
 新余新闻,http://175.178.86.156:8001/hls/w_MGyzT4AuoD4I3TRAoQxjGRQwg74r0M/playlist.m3u8
@@ -683,40 +646,11 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 丰城综合,http://play-sh13.quklive.com/live/1753663315049013.m3u8?auth_key=2079618218-43a81f8882264506923871b82faf8326-0-1b2ac19fffa1a603da6cb6e67161ac25
 
 
-九江新闻,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=40
-九江公共,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=41
-九江教育,webview://https://app.jjntv.cn/webDetails/live/tvLive?tenantId=314&id=42
-南昌新闻,webview://https://www.nctv.net.cn/live?channel=1
-南昌都市,webview://https://www.nctv.net.cn/live?channel=2
-南昌资讯,webview://https://www.nctv.net.cn/live?channel=3
 
-
-九江新闻,http://220.176.218.193:9000/udp/239.252.220.176:5140
-九江公共,http://220.176.218.193:9000/udp/239.252.219.167:5140
-九江教育,http://220.176.218.193:9000/udp/239.252.219.56:5140
-
-彭泽,https://play-a2.quklive.com:443/live/1775529353213333.m3u8
-
-南昌新闻,http://220.176.218.193:9000/rtp/239.252.220.247:5140
-南昌都市,http://220.176.218.193:9000/rtp/239.252.220.248:5140
-南昌资讯,http://220.176.218.193:9000/rtp/239.252.220.249:5140
-
-上饶新闻,http://220.176.218.193:9000/rtp/239.252.219.124:5140
-上饶经济旅游,http://220.176.218.193:9000/rtp/239.252.219.125:5140
-
-赣州公共,http://220.176.218.193:9000/rtp/239.252.220.253:5140
-赣州新闻,http://220.176.218.193:9000/rtp/239.252.220.252:5140
 
 
 
 山东,#genre#
-山东综艺,http://112.255.144.205:85/tsfile/live/0002_49.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-山东教育,http://112.255.144.205:85/tsfile/live/0002_50.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-山东新闻,http://112.255.144.205:85/tsfile/live/0002_53.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-山东少儿,http://112.255.144.205:85/tsfile/live/0002_54.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-山东农科,http://112.255.144.205:85/tsfile/live/0002_55.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-山东卫视,http://112.255.144.205:85/tsfile/live/0002_56.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-
 山东齐鲁,webview://https://v.iqilu.com/live/qlpd/
 山东新闻,webview://https://v.iqilu.com/live/ggpd/
 山东农科,webview://https://v.iqilu.com/live/nkpd/
@@ -726,6 +660,12 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 山东生活,webview://https://v.iqilu.com/live/shpd/
 山东综艺,webview://https://v.iqilu.com/live/zypd/
 
+青岛新闻综合,webview://http:www.qtv.com.cn/live/tv/index.shtml
+青岛经济生活,webview://http:www.qtv.com.cn/live/tv/tv_qtv2.shtml
+青岛影视,webview://http:www.qtv.com.cn/live/tv/tv_qtv3.shtml
+青岛文化娱乐,webview://http:www.qtv.com.cn/live/tv/tv_qtv4.shtml
+青岛体育休闲,webview://http:www.qtv.com.cn/live/tv/tv_qtv5.shtml
+
 青州文化旅游,http://sdqz.chinashadt.com:2036/live/stream:3.stream/playlist.m3u8
 烟台公共,http://live.yantaitv.cn/live/e50f104a4ffe4a41b2217cbda534146f/d86092e69df94668b33390278b061700-1.m3u8
 烟台经济,http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a16014d0becd1261-1.m3u8
@@ -734,36 +674,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 河北,#genre#
-河北经济,http://121.19.134.33:808/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河北都市,http://121.19.134.33:808/tsfile/live/1001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河北影视,http://121.19.134.33:808/tsfile/live/1002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河北少儿,http://121.19.134.33:808/tsfile/live/1003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河北三农,http://121.19.134.33:808/tsfile/live/1004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-
-河北都市,http://101.18.25.227:808/tsfile/live/1000_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河北文旅,http://101.18.25.227:808/tsfile/live/1001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河北少儿,http://101.18.25.227:808/tsfile/live/1002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-
-河北都市,http://60.10.50.14:808/hls/59/index.m3u8
-河北影视,http://60.10.50.14:808/hls/60/index.m3u8
-河北少儿,http://60.10.50.14:808/hls/61/index.m3u8
-河北农民,http://60.10.50.14:808/hls/63/index.m3u8
-
-
-河北经济,http://120.211.62.180:8000/hls/20/index.m3u8
-河北都市,http://120.211.62.180:8000/hls/21/index.m3u8
-河北文旅,http://120.211.62.180:8000/hls/22/index.m3u8
-河北少儿,http://120.211.62.180:8000/hls/23/index.m3u8
-河北农民,http://120.211.62.180:8000/hls/25/index.m3u8
-
-河北经济,http://yaching.xmtcenter.com:9999/rtp/239.254.200.18:6000
-河北都市,http://yaching.xmtcenter.com:9999/rtp/239.254.200.19:6000
-河北公共,http://yaching.xmtcenter.com:9999/rtp/239.254.200.22:6000
-河北少儿,http://yaching.xmtcenter.com:9999/rtp/239.254.200.21:6000
-河北影视剧,http://yaching.xmtcenter.com:9999/rtp/239.254.200.20:6000
-河北农民,http://yaching.xmtcenter.com:9999/rtp/239.254.200.23:6000
-河北睛彩,http://yaching.xmtcenter.com:9999/rtp/239.254.200.27:6000
-
 
 河北经济,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=1
 河北农民,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=2
@@ -772,95 +682,35 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 河北少儿,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=5
 河北公共,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=6
 
-河北经济,http://1.94.31.214/php/hebei.php?id=jjsh
-河北农民,http://1.94.31.214/php/hebei.php?id=nmpd
-河北都市,http://1.94.31.214/php/hebei.php?id=hbds
-河北影视剧,http://1.94.31.214/php/hebei.php?id=hbys
-河北少儿,http://1.94.31.214/php/hebei.php?id=sekj
-河北公共,http://1.94.31.214/php/hebei.php?id=hbgg
-
+石家庄新闻综合,webview://https://plusshare.sjzntv.cn/?_hgOutLink=live/livedetail&channel_id=4
+石家庄城市服务,webview://https://plusshare.sjzntv.cn/?_hgOutLink=live/livedetail&channel_id=5
+石家庄文化娱乐,webview://https://plusshare.sjzntv.cn/?_hgOutLink=live/livedetail&channel_id=6
 
 河南,#genre#
-河南卫视,http://42.237.159.233:9003/hls/17/index.m3u8
-河南都市,http://42.237.159.233:9003/hls/18/index.m3u8
-河南民生,http://42.237.159.233:9003/hls/19/index.m3u8
-河南法治,http://42.237.159.233:9003/hls/20/index.m3u8
-河南电视剧,http://42.237.159.233:9003/hls/21/index.m3u8
-河南新闻,http://42.237.159.233:9003/hls/22/index.m3u8
-河南公共,http://42.237.159.233:9003/hls/23/index.m3u8
-河南新农村,http://42.237.159.233:9003/hls/24/index.m3u8
-河南梨园,http://42.237.159.233:9003/hls/25/index.m3u8
-文物宝库,http://42.237.159.233:9003/hls/26/index.m3u8
-武术世界,http://42.237.159.233:9003/hls/27/index.m3u8
+河南新闻,webview://https://static.hntv.tv/total/television/?id=149&u-link=1
+河南都市,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=14
+河南民生,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=15
+河南梨园,webview://https://www.hndyjyfw.gov.cn/livePlay.html?u=16
+河南法治,webview://https://static.hntv.tv/total/television/?id=147&u-link=1
+河南公共,webview://https://static.hntv.tv/total/television/?id=151&u-link=1
+河南乡村,webview://https://static.hntv.tv/total/television/?id=152&u-link=1
+河南电视剧,webview://https://static.hntv.tv/total/television/?id=148&u-link=1
+河南文物宝库,webview://https://static.hntv.tv/total/television/?id=155&u-link=1
+河南武术世界,webview://https://static.hntv.tv/total/television/?id=156&u-link=1
+河南曲艺,webview://https://static.hntv.tv/total/television/?id=157&u-link=1
+河南移动戏曲,webview://https://static.hntv.tv/total/television/?id=163&u-link=1
+河南象视界,webview://https://static.hntv.tv/total/television/?id=183&u-link=1
+河南国学,webview://https://static.hntv.tv/total/television/?id=194&u-link=1
 
-河南都市,http://2g545s5578.qicp.vip:59901/tsfile/live/1007_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河南法制,http://2g545s5578.qicp.vip:59901/tsfile/live/1009_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河南电视剧,http://2g545s5578.qicp.vip:59901/tsfile/live/1010_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河南梨园,http://2g545s5578.qicp.vip:59901/tsfile/live/1015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河南公共,http://2g545s5578.qicp.vip:59901/tsfile/live/1012_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-河南新农村,http://2g545s5578.qicp.vip:59901/tsfile/live/1013_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-
-
-河南都市,http://lysj.aylzline.top:8899/rtp/225.1.2.56:10330
-河南民生,http://lysj.aylzline.top:8899/rtp/225.1.2.57:10336
-河南法治,http://lysj.aylzline.top:8899/rtp/225.1.2.58:10342
-河南电视剧,http://lysj.aylzline.top:8899/rtp/225.1.2.59:10348
-河南新闻,http://lysj.aylzline.top:8899/rtp/225.1.2.60:10354
-河南公共,http://lysj.aylzline.top:8899/rtp/225.1.2.62:10366
-河南乡村,http://lysj.aylzline.top:8899/rtp/225.1.2.104:10618
-河南国际,http://lysj.aylzline.top:8899/rtp/225.1.2.103:10612
-
-河南都市,http://1.192.241.74:8188/rtp/239.16.20.164:11640
-河南民生,http://1.192.241.74:8188/rtp/239.16.20.165:11650
-河南法治,http://1.192.241.74:8188/rtp/239.16.10.122:2000
-河南电视剧,http://1.192.241.74:8188/rtp/239.16.20.167:11670
-河南新闻,http://1.192.241.74:8188/rtp/239.16.20.168:11680
-河南乡村,http://1.192.241.74:8188/rtp/239.16.20.195:11950
-河南戏曲,http://1.192.241.74:8188/rtp/239.16.20.171:11710
-河南收藏天下,http://1.192.241.74:8188/rtp/239.16.10.149:2000
-河南中华功夫,http://1.192.241.74:8188/rtp/239.16.20.173:11730
-河南移动电视,http://1.192.241.74:8188/rtp/239.16.20.204:12040
-河南调解剧场,http://1.192.241.74:8188/rtp/239.16.20.197:11970
-河南移动戏曲,http://1.192.241.74:8188/rtp/239.16.20.120:11200
-河南睛彩中原,http://1.192.241.74:8188/rtp/239.16.20.122:11220
-
-河南新闻,webview://https://static.hntv.tv/total/television/?id=149
-河南都市,webview://https://static.hntv.tv/total/television/?id=141
-河南民生,webview://https://static.hntv.tv/total/television/?id=146
-河南法治,webview://https://static.hntv.tv/total/television/?id=147
-河南公共,webview://https://static.hntv.tv/total/television/?id=151
-河南电视剧,webview://https://static.hntv.tv/total/television/?id=148
-
-河南都市,http://39.164.174.139:5000/nl.m3u8?id=HENDSHD
-河南电视剧,http://39.164.174.139:5000/nl.m3u8?id=HENDSJHD
-河南公共,http://39.164.174.139:5000/nl.m3u8?id=HENGGHD
-河南新闻,http://39.164.174.139:5000/nl.m3u8?id=HNTV-XW
-河南民生,http://39.164.174.139:5000/nl.m3u8?id=HNTV3-MS
-河南法治,http://39.164.174.139:5000/nl.m3u8?id=HNTV4-FZ
 
 湖北,#genre#
-湖北经视,http://183.94.146.79:9901/tsfile/live/0128_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-湖北影视,http://183.94.146.79:9901/tsfile/live/0107_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-湖北卫视,http://183.94.146.79:9901/tsfile/live/0124_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-湖北综合,http://183.94.146.79:9901/tsfile/live/0127_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-湖北教育,http://183.94.146.79:9901/tsfile/live/1017_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-湖北垄上,http://183.94.146.79:9901/tsfile/live/1015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-
-湖北公共,http://59.174.163.201:4022/rtp/239.69.1.40:9880
-湖北经视,http://59.174.163.201:4022/rtp/239.69.1.41:9886
-湖北综合,http://59.174.163.201:4022/rtp/239.69.1.42:9892
-湖北垄上,http://59.174.163.201:4022/rtp/239.69.1.43:9898
-湖北影视,http://59.174.163.201:4022/rtp/239.69.1.204:10866
-湖北生活,http://59.174.163.201:4022/rtp/239.69.1.205:10872
-湖北教育,http://59.174.163.201:4022/rtp/239.69.1.206:10878
-
-
 湖北经视,webview://https://news.hbtv.com.cn/app/tv/432
 湖北综合,webview://https://news.hbtv.com.cn/app/tv/433
 湖北公共,webview://https://news.hbtv.com.cn/app/tv/434
 湖北生活,webview://https://news.hbtv.com.cn/app/tv/436
 湖北教育,webview://https://news.hbtv.com.cn/app/tv/437
-
+十堰新闻,webview://https://www.syiptv.com/tv?station_id=1
+十堰经济,webview://https://www.syiptv.com/tv?station_id=3
 十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
 
 湖南,#genre#
@@ -895,29 +745,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 长沙政法,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/CSZFMPP360.m3u8
 
 
-湖南经视,http://58.46.28.106:8188/udp/239.76.253.103:9000
-湖南经视,http://58.46.28.106:8188/udp/239.76.251.86:9000
-湖南都市,http://58.46.28.106:8188/udp/239.76.253.104:9000
-湖南国际,http://58.46.28.106:8188/udp/239.76.253.102:9000
-湖南国际,http://58.46.28.106:8188/udp/239.76.252.240:9000
-湖南公共,http://58.46.28.106:8188/udp/239.76.253.109:9000
-湖南娱乐,http://58.46.28.106:8188/udp/239.76.253.105:9000
-湖南电影,http://58.46.28.106:8188/udp/239.76.253.106:9000
-湖南电视剧,http://58.46.28.106:8188/udp/239.76.253.108:9000
-
-
-湖南经视,http://php.jdshipin.com/TVOD/iptv.php?id=hnjs
-湖南经视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnjs
-湖南国际,http://php.jdshipin.com/TVOD/iptv.php?id=hngj
-湖南国际,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hngj
-湖南娱乐,http://php.jdshipin.com/TVOD/iptv.php?id=hnyl
-湖南娱乐,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnyl
-湖南爱晚,http://p2.vzan.com/527645544/149039617847513156/live.m3u8
-湖南爱晚,http://php.jdshipin.com/TVOD/iptv.php?id=hngg
-湖南电影,http://php.jdshipin.com/TVOD/iptv.php?id=hndy
-湖南电视剧,http://php.jdshipin.com/TVOD/iptv.php?id=hndsj
-湖南电视剧,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hndsj
-
 快乐垂钓,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226940/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 金鹰卡通,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227018/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 金鹰纪实,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227532/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -927,63 +754,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 洞头综合,http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 
 广东,#genre#
-大湾区卫视,http://hmfs.f3322.net:3388/hls/13/index.m3u8
-广东体育,http://hmfs.f3322.net:3388/hls/6/index.m3u8
-广东珠江,http://hmfs.f3322.net:3388/hls/7/index.m3u8
-广东影视,http://hmfs.f3322.net:3388/hls/14/index.m3u8
-广东新闻,http://hmfs.f3322.net:3388/hls/15/index.m3u8
-广东经济科教,http://hmfs.f3322.net:3388/hls/12/index.m3u8
-
-广东珠江,http://ymz.stkeyu.top:8303/udp/239.77.0.114:5146
-广东珠江,http://ymz.stkeyu.top:8303/udp/239.77.0.1:5146
-广东新闻,http://ymz.stkeyu.top:8303/udp/239.77.0.173:5146
-广东民生,http://ymz.stkeyu.top:8303/udp/239.77.0.225:5146
-广东体育,http://ymz.stkeyu.top:8303/udp/239.77.0.168:5146
-广东体育,http://ymz.stkeyu.top:8303/udp/239.77.0.112:5146
-广东经济,http://ymz.stkeyu.top:8303/udp/239.77.0.85:5146
-广东经济,http://ymz.stkeyu.top:8303/udp/239.77.0.167:5146
-大湾区卫视,http://ymz.stkeyu.top:8303/udp/239.77.0.215:5146
-广东影视,http://ymz.stkeyu.top:8303/udp/239.77.0.217:5146
-广东少儿,http://ymz.stkeyu.top:8303/udp/239.77.0.250:5146
-嘉佳卡通,http://ymz.stkeyu.top:8303/udp/239.77.0.179:5146
-岭南戏曲,http://ymz.stkeyu.top:8303/udp/239.77.0.122:5146
-现代教育,http://ymz.stkeyu.top:8303/udp/239.77.0.213:5146
-广州综合,http://ymz.stkeyu.top:8303/udp/239.253.43.71:5146
-广州新闻,http://ymz.stkeyu.top:8303/udp/239.253.43.72:5146
-广州影视,http://ymz.stkeyu.top:8303/udp/239.253.43.73:5146
-广州法治,http://ymz.stkeyu.top:8303/udp/239.253.43.74:5146
-南国都市4K,http://ymz.stkeyu.top:8303/udp/239.253.43.99:5146
-深圳都市,http://ymz.stkeyu.top:8303/udp/239.77.1.176:5146
-深圳都市,http://ymz.stkeyu.top:8303/udp/239.77.1.124:5146
-深圳电视剧,http://ymz.stkeyu.top:8303/udp/239.77.1.177:5146
-深圳电视剧,http://ymz.stkeyu.top:8303/udp/239.77.1.125:5146
-深圳财经,http://ymz.stkeyu.top:8303/udp/239.77.1.242:5146
-深圳体育,http://ymz.stkeyu.top:8303/udp/239.77.1.128:5146
-深圳体育,http://ymz.stkeyu.top:8303/udp/239.77.1.140:5146
-深圳少儿,http://ymz.stkeyu.top:8303/udp/239.77.1.244:5146
-深圳宝安,http://ymz.stkeyu.top:8303/udp/239.77.1.67:5146
-深圳龙岗,http://ymz.stkeyu.top:8303/udp/239.77.1.223:5146
-
-
-广州综合,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=aae0358e06f64d4db4d663321a3fa964&txTime=190def4db74#http://tencentplaygzrb01.gztv.com/live/zonghes.m3u8
-广州新闻,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=c651b79c107d9cde3914d011cbb896a6&txTime=190def3c97d#http://tencentplaygzrb01.gztv.com/live/xinwen.m3u8
-广州法治,https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=c85f24077bcfc9b0630c51843a66c5dd&txTime=1913a22caa6#http://tencentplaygzrb01.gztv.com/live/fazhi.m3u8
-广州南国,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de#http://tencentplaygzrb01.gztv.com/live/nanguodushi.m3u8
-东莞生活,https://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
-东莞新闻,https://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
-
-
-广东民生,http://121.37.185.74:18180/TV00000000000000000021@HHZT
-广东珠江,http://121.37.185.74:18180/TV00000000000000000022@HHZT
-广东新闻,http://121.37.185.74:18180/TV00000000000000000023@HHZT
-广东体育,http://121.37.185.74:18180/TV00000000000000000024@HHZT
-广东经济科教,http://121.37.185.74:18180/TV00000000000000000025@HHZT
-广东影视,http://121.37.185.74:18180/TV00000000000000000026@HHZT
-广东少儿,http://121.37.185.74:18180/TV00000000000000000027@HHZT
-大湾区卫视,http://121.37.185.74:18180/TV00000000000000000028@HHZT
-
-
-
 广东珠江,webview://https://www.gdtv.cn/tvChannelDetail/44
 广东新闻,webview://https://www.gdtv.cn/tvChannelDetail/45
 广东民生,webview://https://www.gdtv.cn/tvChannelDetail/48
@@ -1034,17 +804,9 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 云浮综合,webview://https://static.yft.ndoe.cn/hd/ysx/#/?channelType=0&channelId=8
 云浮文旅,webview://https://static.yft.ndoe.cn/hd/ysx/#/?channelType=0&channelId=9
 
-大湾区卫视,http://183.237.95.108:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=0&authid=0
-番禺电视台,http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
 
-广东新闻,http://183.237.95.108:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=0&authid=0
-广东民生,http://183.237.95.108:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=0&authid=0
-广东珠江,http://183.237.95.108:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=0&authid=0
-广东体育,http://183.237.95.108:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0
-广东经济,http://183.237.95.108:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=0&authid=0
-广东影视,http://183.237.95.108:9901/tsfile/live/1038_1.m3u8?key=txiptv&playlive=0&authid=0
-广东少儿,http://183.237.95.108:9901/tsfile/live/1097_1.m3u8?key=txiptv&playlive=0&authid=0
-嘉佳卡通,http://183.237.95.108:9901/tsfile/live/1098_1.m3u8?key=txiptv&playlive=0&authid=0
+东莞生活,https://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
+东莞新闻,https://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
 
 
 广州综合,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
@@ -1053,13 +815,89 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 广州南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 广州法治,https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
 
-
-广东珠江,http://218.13.170.98:9901/tsfile/live/1000_1.m3u8
-广东体育,http://218.13.170.98:9901/tsfile/live/0019_1.m3u8
-
-东莞生活资讯,https://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
-东莞综合,https://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
 南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
+
+广东珠江,http://183.7.18.0:4000/udp/239.77.0.1:5146
+广东新闻,http://183.7.18.0:4000/udp/239.77.0.173:5146
+广东民生,http://183.7.18.0:4000/udp/239.77.0.225:5146
+广东体育,http://183.7.18.0:4000/udp/239.77.0.112:5146
+广东体育,http://183.7.18.0:4000/udp/239.77.0.168:5146
+广东国际,http://183.7.18.0:4000/udp/239.77.0.7:5146
+经济科教,http://183.7.18.0:4000/udp/239.77.0.85:5146
+经济科教,http://183.7.18.0:4000/udp/239.77.0.167:5146
+大湾区卫视,http://183.7.18.0:4000/udp/239.77.0.215:5146
+广东影视,http://183.7.18.0:4000/udp/239.77.0.217:5146
+广东少儿,http://183.7.18.0:4000/udp/239.77.0.250:5146
+岭南戏曲,http://183.7.18.0:4000/udp/239.77.0.122:5146
+广东综艺 4K,http://183.7.18.0:4000/udp/239.77.1.237:5146
+广州综合,http://183.7.18.0:4000/udp/239.253.43.71:5146
+广州新闻,http://183.7.18.0:4000/udp/239.253.43.72:5146
+南国都市 4K,http://183.7.18.0:4000/udp/239.253.43.99:5146
+深圳卫视,http://183.7.18.0:4000/udp/239.77.1.3:5146
+深圳卫视,http://183.7.18.0:4000/udp/239.77.1.148:5146
+深圳卫视,http://183.7.18.0:4000/udp/239.77.1.107:5146
+深圳卫视,http://183.7.18.0:4000/udp/239.77.0.92:5146
+深圳都市频道,http://183.7.18.0:4000/udp/239.77.1.176:5146
+深圳电视剧频道,http://183.7.18.0:4000/udp/239.77.1.177:5146
+深圳少儿频道,http://183.7.18.0:4000/udp/239.77.1.244:5146
+深圳龙岗频道,http://183.7.18.0:4000/udp/239.77.1.223:5146
+深圳宜和购物,http://183.7.18.0:4000/udp/239.77.1.87:5146
+韶关新闻综合,http://183.7.18.0:4000/udp/239.77.0.117:5146
+湛江新闻综合,http://183.7.18.0:4000/udp/239.77.0.141:5146
+揭阳综合,http://183.7.18.0:4000/udp/239.77.0.229:5146
+汕尾新闻综合,http://183.7.18.0:4000/udp/239.77.0.25:5146
+江门综合,http://183.7.18.0:4000/udp/239.77.0.201:5146
+HZTV-1,http://183.7.18.0:4000/udp/239.77.1.232:5146
+HZTV-2,http://183.7.18.0:4000/udp/239.77.1.233:5146
+珠海-1,http://183.7.18.0:4000/udp/239.77.0.155:5146
+肇庆综合,http://183.7.18.0:4000/udp/239.253.43.1:5146
+河源综合,http://183.7.18.0:4000/udp/239.253.43.213:5146
+云浮综合,http://183.7.18.0:4000/udp/239.77.0.253:5146
+茂名综合,http://183.7.18.0:4000/udp/239.77.0.206:5146
+汕头综合,http://183.7.18.0:4000/udp/239.253.43.45:5146
+汕头经济生活,http://183.7.18.0:4000/udp/239.253.43.46:5146
+佛山公共,http://183.7.18.0:4000/udp/239.253.43.53:5146
+佛山南海,http://183.7.18.0:4000/udp/239.253.43.54:5146
+佛山顺德,http://183.7.18.0:4000/udp/239.253.43.55:5146
+佛山综合,http://183.7.18.0:4000/udp/239.253.43.57:5146
+东莞新闻综合,http://183.7.18.0:4000/udp/239.253.43.104:5146
+中山综合,http://183.7.18.0:4000/udp/239.77.0.185:5146
+中山综合,http://183.7.18.0:4000/udp/239.253.43.62:5146
+潮州民生,http://183.7.18.0:4000/udp/239.253.43.75:5146
+梅州综合,http://183.7.18.0:4000/udp/239.253.43.123:5146
+客家生活,http://183.7.18.0:4000/udp/239.253.43.124:5146
+阳江-1,http://183.7.18.0:4000/udp/239.253.43.82:5146
+CGTN英语,http://183.7.18.0:4000/udp/239.77.0.199:5146
+CGTN Documentary,http://183.7.18.0:4000/udp/239.253.43.122:5146
+CGTN西班牙语,http://183.7.18.0:4000/udp/239.77.0.221:5146
+CGTN法语,http://183.7.18.0:4000/udp/239.77.0.228:5146
+CGTN阿拉伯语,http://183.7.18.0:4000/udp/239.253.43.200:5146
+CGTN俄语,http://183.7.18.0:4000/udp/239.253.43.201:5146
+兵器科技,http://183.7.18.0:4000/udp/239.253.43.18:5146
+兵器科技,http://183.7.18.0:4000/udp/239.253.43.9:5146
+电视指南,http://183.7.18.0:4000/udp/239.253.43.19:5146
+电视指南,http://183.7.18.0:4000/udp/239.253.43.10:5146
+风云足球,http://183.7.18.0:4000/udp/239.253.43.20:5146
+风云足球,http://183.7.18.0:4000/udp/239.253.43.14:5146
+央视台球,http://183.7.18.0:4000/udp/239.253.43.21:5146
+央视台球,http://183.7.18.0:4000/udp/239.253.43.11:5146
+高尔夫网球,http://183.7.18.0:4000/udp/239.253.43.22:5146
+高尔夫网球,http://183.7.18.0:4000/udp/239.253.43.12:5146
+女性时尚,http://183.7.18.0:4000/udp/239.253.43.23:5146
+女性时尚,http://183.7.18.0:4000/udp/239.253.43.8:5146
+世界地理,http://183.7.18.0:4000/udp/239.253.43.24:5146
+世界地理,http://183.7.18.0:4000/udp/239.253.43.7:5146
+怀旧剧场,http://183.7.18.0:4000/udp/239.253.43.25:5146
+怀旧剧场,http://183.7.18.0:4000/udp/239.253.43.5:5146
+风云剧场,http://183.7.18.0:4000/udp/239.253.43.26:5146
+风云剧场,http://183.7.18.0:4000/udp/239.253.43.16:5146
+央视文化精品,http://183.7.18.0:4000/udp/239.253.43.13:5146
+第一剧场,http://183.7.18.0:4000/udp/239.253.43.28:5146
+第一剧场,http://183.7.18.0:4000/udp/239.253.43.15:5146
+风云音乐,http://183.7.18.0:4000/udp/239.253.43.29:5146
+风云音乐,http://183.7.18.0:4000/udp/239.253.43.6:5146
+卫生健康,http://183.7.18.0:4000/udp/239.77.0.212:5146
+
 
 
 
@@ -1107,31 +945,11 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 四川,#genre#
 
-四川经济,http://171.213.150.179:4022/rtp/239.94.0.70:5140
-四川文旅,http://171.213.150.179:4022/rtp/239.94.0.71:5140
-四川新闻,http://171.213.150.179:4022/rtp/239.94.0.72:5140
-四川影视,http://171.213.150.179:4022/rtp/239.94.0.73:5140
-四川购物,http://171.213.150.179:4022/rtp/239.94.0.74:5140
-四川妇儿,http://171.213.150.179:4022/rtp/239.94.0.75:5140
-四川科教,http://171.213.150.179:4022/rtp/239.94.0.76:5140
-四川乡村,http://171.213.150.179:4022/rtp/239.94.0.77:5140
-康巴卫视,http://171.213.150.179:4022/rtp/239.94.0.78:5140
-峨眉电影,http://171.213.150.179:4022/rtp/239.94.0.103:5140
-
 
 峨眉电影,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8
 四川文旅,http://118.122.144.115:8888/newlive/live/hls/35/live.m3u8
 四川文旅,http://118.122.144.115:8888/newlive/live/hls/34/live.m3u8
 四川乡村,http://118.122.144.115:8888/newlive/live/hls/36/live.m3u8
-
-四川经济,http://112.192.73.53:8484/rtp/239.0.0.2:5140
-四川文旅,http://112.192.73.53:8484/rtp/239.0.0.3:5140
-四川新闻,http://112.192.73.53:8484/rtp/239.0.0.4:5140
-四川影视http://112.192.73.53:8484/rtp/239.0.0.5:5140
-四川妇儿,http://112.192.73.53:8484/rtp/239.0.0.7:5140
-四川科教,http://112.192.73.53:8484/rtp/239.0.0.186:5140
-四川乡村,http://112.192.73.53:8484/rtp/239.0.0.8:5140
-峨眉电影,http://112.192.73.53:8484/rtp/239.0.0.9:5140
 
 
 四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-5.m3u8
@@ -1163,14 +981,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 泸州新闻,rtmp://tvdrs.luzhoubs.com/channellive/lztv1
 
 贵州,#genre#
-贵州公共,webview://https://www.gzstv.com/tv/ch02?utao=1
-贵州影视,webview://https://www.gzstv.com/tv/ch03?utao=1
-贵州生活,webview://https://www.gzstv.com/tv/ch04?utao=1
-贵州乡村,webview://https://www.gzstv.com/tv/ch05?utao=1
-贵州科教,webview://https://www.gzstv.com/tv/ch06?utao=1
-贵州移动,webview://https://www.gzstv.com/tv/ch13?utao=1
-
-
 贵州卫视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzws
 贵州公共,http://123.207.224.130:123/guizhou/guizhou.php?id=gzgg
 贵州影视,http://123.207.224.130:123/guizhou/guizhou.php?id=gzwy
@@ -1180,12 +990,21 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 贵州经济,http://123.207.224.130:123/guizhou/guizhou.php?id=gzjj
 贵州移动,http://123.207.224.130:123/guizhou/guizhou.php?id=gzyd
 
+贵州公共,webview://https://www.gzstv.com/tv/ch02?utao=1
+贵州影视,webview://https://www.gzstv.com/tv/ch03?utao=1
+贵州生活,webview://https://www.gzstv.com/tv/ch04?utao=1
+贵州乡村,webview://https://www.gzstv.com/tv/ch05?utao=1
+贵州科教,webview://https://www.gzstv.com/tv/ch06?utao=1
+贵州移动,webview://https://www.gzstv.com/tv/ch13?utao=1
 
 云南,#genre#
 云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
 云南康旅,https://hwapi.yntv.net/62hdvf/227q43.m3u8
 云南娱乐,https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
 云南影视,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
+
+西双版纳新闻综合,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112526/playlist.m3u8
+西双版纳文化旅游,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112694/playlist.m3u8
 
 西藏,#genre#
 西藏藏语,http://123.207.224.130:123/xizang/xizang.php?id=xzzy
@@ -1199,15 +1018,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
-陕西新闻资讯,http://1.83.52.151:7000/rtp/239.111.205.28:5140
-陕西都市青春,http://1.82.70.201:8009/rtp/239.111.205.42:5140
-陕西体育休闲,http://1.82.70.201:8009/rtp/239.111.205.36:5140
-陕西西部电影,http://1.82.70.201:8009/rtp/239.111.205.41:5140
-陕西秦腔,http://1.82.70.201:8009/rtp/239.112.205.22:5140
-陕西银铃,http://1.82.70.201:8009/rtp/239.112.205.20:5140
-
-农林卫视,http://1.82.70.201:8009/rtp/239.112.205.26:5140
-
 陕西新闻资讯,http://gxlive.snrtv.com:80/sx1-SD.m3u8
 陕西都市青春,http://gxlive.snrtv.com:80/sx2-SD.m3u8
 陕西银龄,http://gxlive.snrtv.com:80/sx3-SD.m3u8
@@ -1243,9 +1053,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 青海,#genre#
-青海都市,http://220.167.170.123:4000/rtp/239.120.1.41:8220
-青海经视,http://220.167.170.123:4000/rtp/239.120.1.42:8226
-
 青海经视,webview://https://www.qhbtv.com/new_index/live/folder2647/
 青海都市,webview://https://www.qhbtv.com/new_index/live/folder2648/
 西宁新闻综合,webview://https://www.xntv.tv/xnxwpd
