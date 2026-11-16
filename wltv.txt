@@ -170,6 +170,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 北京,#genre#
+北京卫视,https://brtv-play.v.btime.com/live/btv_sn_20170706_s1.m3u8?txSecret=1194188c16b03f19281f97e6f08c89c8&txTime=6AFAD93B&btime_token=HMGZEGb7OLHEKzk66vmCNxoMBwUAT0Amq7kIoW_tz7x-EBzqGIdKvbSZvj-g8UV_iBPa3odIUzhsSVlhp5-NDcrJQ-yWEzQHQcpTo_uajHBgx0kuso2QE5rn_37_CEnIwOnGQcTyl8_HxW2s2qJClLXonpOaKFo6oHvjOdpAin2yyAcVMLLYssxbD1UYnJOMKCytomftNu6eElTJ-9lOCSQrDdd_TgZVGpDAlNMzJVgQsYOXqNFG0gUP3QieQZ-5DRcllr9c9jmb09MYDHMPlG1t2Mv3kdyVpJlQF7acLOtpgxL-V7ViJrohe1ZpEgJBXo7nQ77UHYBdvd70xiukjGjHygSXV7Vz5wFOvrh2Px3t4cTnpYQR3cWhq0TZ4H3AWp9tMEjS0L1AEPbLDgBYgdvO2eyb7RXZ8NKwWvqAzM33ouwyLzYEmQ90WanGgcLEd6KZeCj1aDmXAbMrdxcJhNgSFjioM6Qq2yUOU8Wf3s6HLnFyz1H3l_iPuxz22Sd5&btime_ts=1794824507&btime_sign=2d7aecc69cebb000da9bf625ec07a3f3
 
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
 北京纪实科教,http://103.72.172.253:8041/hls/347295318/index.m3u8
