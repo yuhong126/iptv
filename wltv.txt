@@ -171,6 +171,18 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 北京,#genre#
 
+北京卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=573ib1kp5nk92irinpumbo9krlb
+北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
+北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
+北京纪实科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53bn9rlalq08lmb8nf8iadoph0b
+北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50mqo8t4n4e8gtarqr3orj9l93v
+北京财经,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50e335k9dq488lb7jo44olp71f5
+北京体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54hv0f3pq079d4oiil2k12dkvsc
+北京生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50j015rjrei9vmp3h8upblr41jf
+北京新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53gpt1ephlp86eor6ahtkg5b2hf
+卡酷少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=55skfjq618b9kcq9tfjr5qllb7r
+
+
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
 北京纪实科教,http://103.72.172.253:8041/hls/347295318/index.m3u8
 北京影视,http://103.72.172.253:8041/hls/357945484/index.m3u8
@@ -184,16 +196,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 北京淘电影,http://36.110.54.118:866/hls/21/index.m3u8
 
 
-北京卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=573ib1kp5nk92irinpumbo9krlb
-北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=5755n511tbk8flo40l4c71l0sdf
-北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=54db6gi5vfj8r8q1e6r89imd64s
-北京纪实科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=53bn9rlalq08lmb8nf8iadoph0b
-北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=50mqo8t4n4e8gtarqr3orj9l93v
-北京财经,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=50e335k9dq488lb7jo44olp71f5
-北京体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=54hv0f3pq079d4oiil2k12dkvsc
-北京生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=50j015rjrei9vmp3h8upblr41jf
-北京新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=53gpt1ephlp86eor6ahtkg5b2hf
-卡酷少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime9.js?id=55skfjq618b9kcq9tfjr5qllb7r
 
 北京纪实科教,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
@@ -917,6 +919,16 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
+四川卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016553
+四川卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1970689144638746626
+四川新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1844567123037646849
+四川经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016554
+四川文旅体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016555
+四川影视文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016557
+四川妇女儿童,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016558
+四川星空购物,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016559
+四川乡村,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016560
+四川康巴卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
 
 
 峨眉电影,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8
