@@ -1,59 +1,50 @@
 /*
- * 安徽广播电视台 / 安徽视讯 —— mytv-android 专用 JS 源
- * 生成日期: 2026-11-16
+ * 安徽广播电视台 / 安徽视讯 —— JS 直播源【通用版】
+ * 新文件名 ahsx_u.js（换名避开 gh-proxy 同名缓存粘滞）
  *
- * ================== 为什么要有这个文件 ==================
- * mytv-android 的 JS 接口和酷9 不是一套，混用必然播不了：
+ * ============ 为什么要有这个通用版（2026-11-17 兼容性问题） ============
+ * 现象：同一个源列表，在 4 个 mytv/酷9 版本里表现不一致：
+ *   改版 v5（WebView江苏江西修正版）：四川能播，安徽/河南不能播
+ *   未改版原版                    ：安徽/河南能播，四川不能播
+ *   另有 2 个版本                 ：全部能播
  *
- *   项目        | 酷9                          | mytv-android
- *   ------------|------------------------------|------------------------------
- *   main 参数   | 对象 {url, id, name}         | 查询字符串 "id=ahwssx"
- *   取参数      | ku9.getQuery(item.url,'id')  | parseItems(item).id / 正则
- *   返回值      | 对象 {url, userAgent}        | JSON 字符串 {"url":..,"headers":..}
- *   请求头      | headers: {'User-Agent': ..}  | headers: 'User-Agent: ijkplayer'
- *                                              （字符串，多行用 \n）
- *   网络请求    | ku9.request / get            | mytv.request / get / post / fetch
- *   MD5         | ku9.md5                      | CryptoJS.MD5(..).toString()
+ * 根因：三个 JS 用了三种互不兼容的「方言」：
+ *   安徽(旧 ahsx.js) = 纯 mytv：item 当字符串、返回 JSON 字符串
+ *   河南(hntv.js)    = 纯酷9 ：依赖 ku9.request / item.id、返回对象
+ *   四川(sctv4.js)   = 双兼容：运行时探测宿主，两种都要满足
+ * 只要某个客户端版本的引擎细节与「那一种方言」不符，就解析失败。
  *
- * 本文件严格按 mytv 规范写，不引用任何 ku9.* —— 在 mytv 上可直接运行。
- * 酷9 请用同目录的 ahsx.js（两者接口不通用）。
+ * 本版照抄四川 sctv4.js 已验证过的「双环境兼容」模型：
+ *   1) 运行时探测宿主，而不是写死某一种引擎
+ *   2) item 三种形态都兼容：纯字符串 "id=xxx" / 对象 .id / 对象 .params.id
+ *   3) 返回值按宿主选：酷9→对象；mytv(含带 ku9 桥接的改版)→JSON 字符串
+ *      —— mytv 引擎的 normalizeMainResult 对「对象」和「JSON 字符串」都接受，
+ *         但返回 JSON 字符串在所有已测版本上都 100% 正确，故优先。
  *
- * ================== 源本身的关键结论 ==================
- * 1) 安徽台直播走腾讯云 CDN，两个域名：
- *      http://live.ahsx.ahtv.cn      放行 UA 含 ijkplayer 或 ExoPlayerLib（区分大小写）
- *      https://seclive.ahsx.ahtv.cn  只放行 UA 含 ijkplayer
- *    Chrome / VLC / okhttp / Lavf / stagefright / 空 UA 一律 403
- * 2) m3u8 与 .ts 分片是同一套 UA 校验，headers 没带到分片就黑屏。
- *    所以下面把 User-Agent 放在 headers 里返回，mytv 会应用到列表和分片。
- * 3) txTime=70db6800（= 2030-01-01）是 APP 内写死的静态签名，不需要登录、
- *    不需要 token、不需要请求任何接口。若某天全台 403，说明台方换了 key。
- * 4) 宿州 szxw 签名正常但源站连不上，已剔除。
- *
- * 用法: javascript://https://gh-proxy.com/https://raw.githubusercontent.com/<你>/<仓库>/main/ahsx_mytv.js?id=ahwssx
- * 实测: 2026-11-16 13 台 m3u8 与首个分片均 200
+ * 源本身：腾讯云 CDN，UA 白名单只放行含小写 ijkplayer / ExoPlayerLib，
+ *         AliPlayer 与浏览器 UA 一律 403（2026-11-16/17 多次实测）。
+ *         txTime=70db6800(2030-01-01) 是 APP 内写死静态签名，零网络请求。
  */
-function main(item) {
-  // ---- 1. 解析频道 id：mytv 传进来的是 "id=ahwssx" 这种查询串 ----
-  var qs = (item === null || item === undefined) ? '' : String(item);
+
+// 真酷9：只有 ku9、没有 mytv；带 ku9 桥接的改版 mytv 两者都在 → 走 mytv 分支
+var AH_IS_KU9 = (typeof ku9 !== 'undefined') && (typeof mytv === 'undefined');
+
+// item 三种形态统一取 id
+function ahGetId(item) {
   var id = '';
-
-  // mytv 内置 parseItems（个别版本没有），用 try 探测，避免 ReferenceError
-  var pi = null;
-  try { pi = parseItems; } catch (e0) { pi = null; }
-  if (typeof pi === 'function') {
-    try {
-      var obj = pi(qs);
-      if (obj && obj.id) id = String(obj.id);
-    } catch (e) { /* 忽略，走正则 */ }
-  }
+  try { if (item && typeof item === 'object' && item.id) id = String(item.id); } catch (e) {}
+  try { if (!id && item && item.params && item.params.id) id = String(item.params.id); } catch (e) {}
   if (!id) {
-    var m = /(?:^|[?&])id=([^&]*)/.exec(qs);
-    if (m) {
-      try { id = decodeURIComponent(m[1]); } catch (e2) { id = m[1]; }
-    }
+    var s = '';
+    try { s = String(item == null ? '' : item); } catch (e) { s = ''; }
+    var m = /(?:^|[?&])id=([^&]*)/.exec(s);
+    if (m) { try { id = decodeURIComponent(m[1]); } catch (e2) { id = m[1]; } }
   }
+  return id;
+}
 
-  // ---- 2. 频道表: id -> { 流名, txSecret } ----
+function main(item) {
+  // id -> {流名, txSecret}
   var CH = {
     'ahwssx': { s: 'ahwssx', k: '5d9bb423b14e850c07d2ead6ec1e6e86' },
     'jjshtv': { s: 'jjshtv', k: '90c3f69a99577ab3a7e05e13f9fcab9d' },
@@ -70,19 +61,18 @@ function main(item) {
     'xctv':   { s: 'xctv',   k: 'e0dd62ab8bf4bba4a6e1e0ed53639019' }
   };
 
-  var ch = CH[id];
-  if (!ch) ch = CH['ahwssx'];
+  var id = ahGetId(item);
+  var ch = CH[id] || CH['ahwssx'];
 
-  // ---- 3. 拼真实地址 ----
+  // http 域名放行 ijkplayer + ExoPlayerLib（https seclive 只放行 ijkplayer，且本机不通）
   var url = 'http://live.ahsx.ahtv.cn/live/' + ch.s + '.m3u8'
           + '?txSecret=' + ch.k + '&txTime=70db6800';
 
-  // ---- 4. 返回：mytv 要求 JSON 字符串，headers 是字符串 ----
-  // 关键：User-Agent 必须在 headers 里，否则 CDN 对 m3u8 和分片都回 403
-  var hdrs = ['User-Agent: ijkplayer'].join('\n');
+  // 酷9：对象 + 双套 UA 通道（userAgent 字段 + headers 对象）
+  if (AH_IS_KU9) {
+    return { url: url, userAgent: 'ijkplayer', headers: { 'User-Agent': 'ijkplayer' } };
+  }
 
-  return JSON.stringify({
-    url: url,
-    headers: hdrs
-  });
+  // mytv（含带 ku9 桥接的改版 v5）：JSON 字符串 + 多行 headers 字符串
+  return JSON.stringify({ url: url, headers: 'User-Agent: ijkplayer' });
 }
