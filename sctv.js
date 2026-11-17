@@ -1,6 +1,15 @@
 /*
- * 四川网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v3 APP 真实链路版
+ * 四川网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v4 修复版
  * 逆向自 四川观察 APP com.sctv.scfocus v10.2.0（2026-11-17 从雷电模拟器 logcat 抓出）
+ *
+ * ★★★ v4 修复 mytv 真机 LJK_ERROR_WHAT-10000 / 1KB/s（2026-11-17 19:15）：
+ *   v3 虽端到端本机 200，但返回 m3u8 文本时，headers(User-Agent/Referer) 只作用于
+ *   mytv 的内部回环服务；播放器内核(IJK)拉真实 .ts 分片时用自己的默认 UA 且不带
+ *   Referer，命中 CDN 的 "denied by UA ACL = blacklist" → 分片 403 → 播放失败。
+ *   实测证据：分片 UA=空/Mozilla → 403；UA=AliPlayer/ijkplayer 且带 Referer → 200；
+ *   不带 Referer → 403。故 v4 改为【返回带 auth_key 的 m3u8 URL + headers】，
+ *   由播放器从真实 CDN 拉流并继承 headers（与已验证成功的宁夏源同一模式），
+ *   不再 fetch m3u8 文本、不再用 m3u8 字段。分片自带 auth_key，相对路径自动解析。
  *
  * ★★★ v3 推翻 v1/v2 全部假设，改用 APP 自己的播放链路（这是真正能播的）：
  *   APP logcat 实测（点播经济频道）：
@@ -178,52 +187,36 @@ function main(item) {
   var stream = '/live/' + ch.s + '.m3u8';
   var playUrl = 'https://' + HOST + stream;
 
-  // 1) APP 接口换取 auth_key（缓存 50 分钟）
-  var cacheKey = 'sctv3_auth_' + ch.s;
-  var secret = sctvCacheGet(cacheKey);
-  if (!secret) {
-    var api = API + '?streamName=' + encodeURIComponent(stream)
-            + '&host=' + encodeURIComponent(HOST)
-            + '&txTime=' + sctvUnix();
-    var res = sctvRequest(api, 'GET', {
-      'authorization': 'bearer ' + token,
-      'referer': REFERER,
-      'User-Agent': UA,
-      'Accept': 'application/json, text/plain, */*'
-    });
-    var body = res.body || '';
-    if (body) {
-      try {
-        var j = (typeof body === 'string') ? JSON.parse(body) : body;
-        if (j && Number(j.rs) === 200 && j.data && j.data.secret) {
-          secret = j.data.secret;                       // 形如 "auth_key=<ts>-<uid>-0-<md5>"
-          sctvCacheSet(cacheKey, secret, 3000000);
-        }
-      } catch (e) {}
-    }
+  // 实时换取 auth_key（mytv 直播列表每几秒重跑 main，不缓存，保证 key 新鲜）
+  var secret = '';
+  var api = API + '?streamName=' + encodeURIComponent(stream)
+          + '&host=' + encodeURIComponent(HOST)
+          + '&txTime=' + sctvUnix();
+  var res = sctvRequest(api, 'GET', {
+    'authorization': 'bearer ' + token,
+    'referer': REFERER,
+    'User-Agent': UA,
+    'Accept': 'application/json, text/plain, */*'
+  });
+  var body = res.body || '';
+  if (body) {
+    try {
+      var j = (typeof body === 'string') ? JSON.parse(body) : body;
+      if (j && Number(j.rs) === 200 && j.data && j.data.secret) {
+        secret = j.data.secret;                         // 形如 "auth_key=<ts>-<uid>-0-<md5>"
+      }
+    } catch (e) {}
   }
 
   var keyedUrl = secret
     ? (playUrl + (playUrl.indexOf('?') >= 0 ? '&' : '?') + secret)
     : playUrl;
 
-  // 2) fetch 原始 m3u8 文本 → 分片绝对化 → m3u8 字段返回
-  var m3uRes = sctvRequest(keyedUrl, 'GET', {
-    'User-Agent': UA,
-    'referer': REFERER,
-    'Accept': 'application/vnd.apple.mpegurl,application/x-mpegURL,*/*'
-  });
-  var playlist = (m3uRes.body || '') + '';
-
-  if (playlist.indexOf('#EXTM3U') >= 0) {
-    var rewritten = sctvRewritePlaylist(playlist, playUrl);
-    if (SCTV_IS_KU9) {
-      return { url: keyedUrl, m3u8: rewritten, referer: REFERER, userAgent: UA };
-    }
-    return JSON.stringify({ m3u8: rewritten, headers: retHeaders, url: keyedUrl });
-  }
-
-  // 兜底：拿不到文本（网络异常）则直接返回带 key 的 url
+  // ★ v4 关键：不返回 m3u8 文本！返回带签名的 URL + headers，让播放器自己拉 m3u8 与分片。
+  //   v3 返回 m3u8 文本时，headers 只作用于 mytv 内部回环服务，播放器拉分片用内核默认
+  //   浏览器系 UA → 撞 CDN 的 "denied by UA ACL = blacklist" → 403 → LJK_ERROR / 1KB/s。
+  //   分片自带 auth_key，相对路径以 m3u8 的目录为 base 自动解析，无需 JS 改写。
+  //   已验证（宁夏源同模式）：mytv 会把 headers 里的 User-Agent + Referer 带到 m3u8 和分片。
   if (SCTV_IS_KU9) {
     return { url: keyedUrl, referer: REFERER, userAgent: UA };
   }
