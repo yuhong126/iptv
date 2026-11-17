@@ -169,8 +169,9 @@ function main(item) {
 
   // 判断是否为真正的 m3u8 文本（而非 403 的 HTML 错误页）
   if (playlist.indexOf('#EXTM3U') >= 0) {
-    var rewritten = sctvRewritePlaylist(playlist, key);
+    var rewritten = sctvRewritePlaylist(playlist, key, ch.u);
     // 通过 m3u8 字段把改写后的播放列表直接交给播放器
+    // 分片已全部绝对化并带 auth_key，不依赖播放器回环服务按相对路径解析
     if (SCTV_IS_KU9) {
       return { url: keyedUrl, m3u8: rewritten, referer: REFERER, userAgent: UA };
     }
@@ -184,22 +185,55 @@ function main(item) {
   return JSON.stringify({ url: keyedUrl, headers: retHeaders });
 }
 
-// 给 m3u8 每个媒体 URI 注入 auth_key（复刻官网自定义 loader）
-function sctvRewritePlaylist(text, key) {
-  if (!key) return text;
+// 相对 URI 转绝对 URL（QuickJS 无 URL 对象，纯字符串实现）
+// base 形如 https://sub-tvshowf.scgczm.com/live/sctv4.m3u8
+function sctvAbs(base, ref) {
+  ref = (ref || '').replace(/^\s+|\s+$/g, '');
+  if (!ref) return ref;
+  // 已是绝对地址
+  if (/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//.test(ref) || ref.indexOf('//') === 0) return ref;
+  var m = /^([a-zA-Z][a-zA-Z0-9+.-]*:\/\/[^/?#]+)(\/[^?#]*)?/.exec(base || '');
+  if (!m) return ref;
+  var root = m[1];            // https://host[:port]
+  var path = m[2] || '/';     // /live/sctv4.m3u8
+  if (ref.charAt(0) === '/') return root + ref;              // 根相对
+  var q = path.indexOf('?');
+  if (q >= 0) path = path.substring(0, q);
+  var slash = path.lastIndexOf('/');
+  var dir = slash >= 0 ? path.substring(0, slash + 1) : '/'; // /live/
+  return root + dir + ref;                                    // 目录相对
+}
+
+// 给 URI 追加 auth_key（避免重复注入）
+function sctvAddKey(uri, key) {
+  if (!key) return uri;
+  if (uri.indexOf('auth_key=') >= 0) return uri;
+  return uri + (uri.indexOf('?') >= 0 ? '&' : '?') + 'auth_key=' + key;
+}
+
+// 给 m3u8 每个媒体 URI 注入 auth_key 并绝对化（复刻官网自定义 loader + 满足 mytv 文本规范）
+function sctvRewritePlaylist(text, key, baseUrl) {
+  if (!text) return text;
   var lines = text.split('\n');
   var out = [];
   for (var i = 0; i < lines.length; i++) {
     var line = lines[i];
     var trimmed = line.replace(/\r$/, '');
-    // 注释行 / 空行：保留
-    if (!trimmed || trimmed.charAt(0) === '#') { out.push(line); continue; }
-    // 媒体 URI（.ts 分片、子 m3u8、或任意相对/绝对 URL）：补 auth_key
-    var uri = trimmed;
-    var sep = uri.indexOf('?') >= 0 ? '&' : '?';
-    // 避免重复注入
-    if (uri.indexOf('auth_key=') >= 0) { out.push(line); continue; }
-    out.push(uri + sep + 'auth_key=' + key);
+    if (!trimmed) { out.push(line); continue; }
+
+    // #EXT-X-KEY / #EXT-X-MAP 的 URI="..." 也要绝对化 + 带 key
+    if (trimmed.charAt(0) === '#' && /^#EXT-X-(KEY|MAP)\b/.test(trimmed)) {
+      line = line.replace(/URI="([^"]*)"/g, function (all, u) {
+        return 'URI="' + sctvAddKey(sctvAbs(baseUrl, u), key) + '"';
+      });
+      out.push(line);
+      continue;
+    }
+    // 其它注释行：保留
+    if (trimmed.charAt(0) === '#') { out.push(line); continue; }
+
+    // 媒体 URI（.ts 分片、子 m3u8）：先绝对化，再补 auth_key
+    out.push(sctvAddKey(sctvAbs(baseUrl, trimmed), key));
   }
   return out.join('\n');
 }
