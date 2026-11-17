@@ -439,11 +439,11 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 安徽公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ggtv
 安徽农业科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=nykjtv
 安徽国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=gjtv
-安庆新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=aqpd
+安庆新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=aqpd
 蚌埠新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=bbtv
-淮北新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=hbxw
+淮北新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=hbxw
 六安综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=latv
-芜湖新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=whxw
+芜湖新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=whxw
 
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.79.43:4456
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.78.57:6328
@@ -479,7 +479,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 徽州新闻,http://hsza.f3322.net:4000/rtp/238.1.78.138:6976
 黄山区融媒,http://hsza.f3322.net:4000/rtp/238.1.78.199:7464
 屯溪融媒,http://hsza.f3322.net:4000/rtp/238.1.79.45:4472
-歙县综合,http://hsza.f3322.net:4000/rtp/238.安徽1.78.200:7472
+歙县综合,http://hsza.f3322.net:4000/rtp/238.1.78.200:7472
 休宁新闻综合,http://hsza.f3322.net:4000/rtp/238.1.79.20:4272
 祁门综合,http://hsza.f3322.net:4000/rtp/238.1.79.14:4224
 黟县新闻综合,http://hsza.f3322.net:4000/rtp/238.1.78.149:7064
@@ -529,13 +529,6 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 涡阳新闻综合,http://hsza.f3322.net:4000/rtp/238.1.78.197:7448
 蒙城新闻,http://hsza.f3322.net:4000/rtp/238.1.79.19:4264
 
-
-
-安徽经济生活,http://202.102.201.244:40022/rtp/238.1.79.44:4464
-安徽影视,http://202.102.201.244:40022/rtp/238.1.79.42:4448
-安徽农业科教,http://202.102.201.244:40022/rtp/238.1.79.40:4432
-安徽综艺体育,http://202.102.201.244:40022/rtp/238.1.79.41:4440
-安徽国际,http://202.102.201.244:40022/rtp/238.1.78.61:6360
 
 安庆新闻,https://aq-live.media.xinhuamm.net:443/r/252b77197b104e1aa2456481204fb656.m3u8?auth_key=2341308330-0-0-4e8ffbdb0c0dcfab23e1b8962730f59d
 安庆经济,https://aq-live.media.xinhuamm.net:443/r/ed093a3514bd4174b1dbd5af8a8e0a9c.m3u8?auth_key=2341308528-0-0-1d8df1d541b495f33875e247c9300fc1
@@ -683,12 +676,12 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 湖北,#genre#
-湖北卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=431
-湖北经视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=432
-湖北综合,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=433
-湖北影视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=435
-湖北教育,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=437
-湖北垄上,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=438
+湖北卫视,http://183.94.146.79:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北经视,http://183.94.146.79:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北综合,http://183.94.146.79:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北影视,http://183.94.146.79:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北教育,http://183.94.146.79:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北垄上,http://183.94.146.79:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 湖北经视,webview://https://news.hbtv.com.cn/app/tv/432
@@ -1044,11 +1037,11 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西宁生活服务,webview://https://www.xntv.tv/xnshpd
 
 宁夏,#genre#
-宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8|referrer=https://api.chinaaudiovisual.cn
-宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8|referrer=https://api.chinaaudiovisual.cn
-宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8|referrer=https://api.chinaaudiovisual.cn
-宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8|referrer=https://api.chinaaudiovisual.cn
-
+宁夏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxws1M
+宁夏公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxgg1M
+宁夏经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxjj1M
+宁夏文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxwl1M
+宁夏少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxse1M
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
 银川生活,webview://https://www.qukanvideo.com/cloud/h5/1731638744888001
