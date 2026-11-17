@@ -129,7 +129,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 厦门卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海峡卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-康巴卫视,http://171.213.150.179:4022/rtp/239.94.0.78:5140
+康巴卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 延边卫视,https://srs.iyb983.cn/video/CYS/index.m3u8
 延边卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227536/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -820,24 +820,15 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 四川文旅体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016555
 四川影视文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016557
 四川妇女儿童,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016558
-四川星空购物,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016559
 四川乡村,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016560
-四川康巴卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
+康巴卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
 
 
 峨眉电影,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8
-四川文旅,http://118.122.144.115:8888/newlive/live/hls/35/live.m3u8
-四川文旅,http://118.122.144.115:8888/newlive/live/hls/34/live.m3u8
+四川文旅体育,http://118.122.144.115:8888/newlive/live/hls/35/live.m3u8
+四川文旅体育,http://118.122.144.115:8888/newlive/live/hls/34/live.m3u8
 四川乡村,http://118.122.144.115:8888/newlive/live/hls/36/live.m3u8
 
-
-四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-5.m3u8
-成都新闻综合,webview://https://www.cditv.cn/show/4845-563.html
-成都经济资讯,webview://https://www.cditv.cn/show/4845-562.html
-成都都市生活,webview://https://www.cditv.cn/show/4845-561.html
-成都影视文艺,webview://https://www.cditv.cn/show/4845-560.html
-成都公共,webview://https://www.cditv.cn/show/4845-559.html
-成都少儿,webview://https://www.cditv.cn/show/4845-558.html
 
 德阳文旅,rtmp://scdytv.cn:1935/live/m_ggpd_livevideo
 德阳新闻,rtmp://scdytv.cn:1935/live/m_xwpd_livevideo
@@ -912,11 +903,13 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 甘肃,#genre#
-甘肃影视,http://42.92.195.138:10000/udp/239.255.30.250:8231
-甘肃少儿,http://42.92.195.138:10000/udp/239.255.30.254:8231
-甘肃经济,http://42.92.195.138:10000/udp/239.255.30.253:8231
-甘肃公共,http://42.92.195.138:10000/udp/239.255.30.251:8231
-甘肃都市,http://42.92.195.138:10000/udp/239.255.30.252:8231
+甘肃卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv1
+甘肃影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv2
+甘肃移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv3
+甘肃少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv4
+甘肃科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv5
+甘肃公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv6
+
 
 
 青海,#genre#
