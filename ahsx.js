@@ -64,8 +64,12 @@ function main(item) {
   var id = ahGetId(item);
   var ch = CH[id] || CH['ahwssx'];
 
-  // http 域名放行 ijkplayer + ExoPlayerLib（https seclive 只放行 ijkplayer，且本机不通）
-  var url = 'http://live.ahsx.ahtv.cn/live/' + ch.s + '.m3u8'
+  // ★ 2026-11-17 改 https：同一个 CDN、同一套 txSecret/txTime 签名，只换加密端口。
+  //   13/13 频道 m3u8 与首个分片实测全 200（见文件末尾实测记录）。
+  //   目的：http 明文在默认内核下播不了，逼着要装 IJK 组件；而 IJK 内核不发送
+  //   Referer（su5.smali 只设 user_agent，无 referer/headers 通道），四川这类
+  //   强校验 Referer 的源在 IJK 下必然 403。改 https 后不需要装 IJK，两边都不冲突。
+  var url = 'https://live.ahsx.ahtv.cn/live/' + ch.s + '.m3u8'
           + '?txSecret=' + ch.k + '&txTime=70db6800';
 
   // 酷9：对象 + 双套 UA 通道（userAgent 字段 + headers 对象）
