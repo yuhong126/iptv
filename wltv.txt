@@ -202,6 +202,12 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 天津,#genre#
 
+天津新闻,http://live-tx.wisetv.com.cn:80/TJIPTV/TJXWHD2.m3u8?txSecret=fc7f93cb63623a7b80d28affd348cc4b&txTime=6afb1b49&GUID=07978f852d0499ce415a6fd799e4dc7b&wisetvauth=1
+天津文艺,http://live-tx.wisetv.com.cn:80/TJIPTV/TJWYHD2.m3u8?txSecret=6235fa1d94a422526dad29ee909671f7&txTime=6afb1bd5&GUID=f97003f673d04e826136d151a7777296&wisetvauth=1
+天津科教,http://live-tx.wisetv.com.cn:80/TJIPTV/TJKJHD2.m3u8?txSecret=e3e3b4394f0735caa3d58809c2f1285e&txTime=6afb1c96&GUID=f7ca50a2f7773f78214f42c27f57901d&wisetvauth=1
+天津体育,http://live-bd.wisetv.com.cn:80/TJIPTV/TJTYHD2.m3u8?secret=6bb23be0d3c51aaf71e30e1ce4be4e5e&timestamp=1794842311&_bd_session_id=2fcb8c6becb4365c8269116018de81b7&GUID=2482ab98c8c01f1f6fdc03056b45732f
+天津都市,http://live-bd.wisetv.com.cn:80/TJIPTV/TJDSHD2.m3u8?secret=1529d7f0e96841afb80d2a5055b583ce&timestamp=1794842257&GUID=7983240d754176f827af8a01858d5e3c&_bd_session_id=2fcb8c6becb4365c8269116018de81b7
+
 天津新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=1
 天津文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=2
 天津影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=3
@@ -209,8 +215,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 天津体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=5
 天津科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=6
 天津少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=7
-天津购物,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=8
-天津IPTV,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=9
+
 
 山西,#genre#
 山西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=0
@@ -258,6 +263,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 辽宁,#genre#
+辽宁卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnws
+辽宁都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnds
+辽宁影视剧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnys
+辽宁教育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnjy
+辽宁生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnsh
+辽宁体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnty
+辽宁北方,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnbf
+
+
 辽宁都市,http://fuxin.yunjifei.top:999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁影视剧,http://fuxin.yunjifei.top:999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁体育休闲,https://bdrmlivezb.lnyun.com.cn/bdrm57/xczb57.m3u8
