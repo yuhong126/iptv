@@ -1037,11 +1037,11 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西宁生活服务,webview://https://www.xntv.tv/xnshpd
 
 宁夏,#genre#
-宁夏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxws1M
-宁夏公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxgg1M
-宁夏经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxjj1M
-宁夏文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxwl1M
-宁夏少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv_mytv.js?id=nxse1M
+宁夏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxws1M
+宁夏公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxgg1M
+宁夏经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxjj1M
+宁夏文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxwl1M
+宁夏少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxse1M
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
 银川生活,webview://https://www.qukanvideo.com/cloud/h5/1731638744888001
