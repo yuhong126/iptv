@@ -166,6 +166,14 @@ function main(item) {
     return HN_IS_KU9 ? { url: err } : JSON.stringify({ url: '', error: err });
   }
 
-  var u = data.video_streams[0];
+  // ★ 2026-11-17 修正：接口下发的是 http://tvcdn.stream3.hndt.com/...（明文）。
+  //   明文 http 在默认播放内核下播不了，逼着必须装 IJK 组件；而 IJK 内核不发送
+  //   Referer（su5.smali 只设 user_agent，没有 referer/headers 通道），会让四川
+  //   这类强校验 Referer 的源在 IJK 下必然 403。改成 https 后不需要装 IJK。
+  //   实测：12/12 频道的 https m3u8 与首个分片全部 200（2026-11-17）。
+  //   https 会 302 到 100ycdn 的 https 节点，客户端自动跟随即可。
+  var u = String(data.video_streams[0]);
+  if (u.indexOf('http://') === 0) u = 'https://' + u.substring(7);
+
   return HN_IS_KU9 ? { url: u } : JSON.stringify({ url: u });
 }
