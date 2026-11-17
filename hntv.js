@@ -1,18 +1,18 @@
 /* ============================================================
- * 河南台直播 · mytv / 酷9 通用 JS 源（12 个电视频道）
+ * 河南台直播 JS 源 —— 通用版（mytv 全版本 + 酷9 通吃）
+ * 新文件名 hntv_u.js（换名避开 gh-proxy 缓存；并改走 gh-proxy，
+ * 原列表直连 raw.githubusercontent.com 在国内常被墙/超时）
  *
- * 用法（一行一个台）：
- *   河南卫视,javascript://<本文件的在线地址>?id=145
- *   河南都市,javascript://<本文件的在线地址>?id=141
- *   ...
+ * ============ 为什么重写（2026-11-17 兼容性问题） ============
+ * 旧 hntv.js 是「纯酷9方言」，有三处硬依赖，任何一处不满足就播不了：
+ *   1) 开头就判断 if (!ku9 || !ku9.request) return 错误文本 —— 原版 mytv 没有 ku9 → 直接失败
+ *   2) 只用 item.id 取频道 —— 原版 mytv 的 item 是查询串字符串，没有 .id
+ *   3) 只用 ku9.request 发签名请求 —— 纯 mytv 环境无此对象
+ * 本版照抄四川 sctv4.js 已验证的「双环境兼容」模型，三点全部兼容。
  *
- * id = 官网频道 cid（详见下方 CHANNELS），也支持传台名。
- *
- * 原理：
- *   大象 TV / 河南台网页 (static.hntv.tv/total/television) 的取流接口需要
- *   两个头：sign = SHA256("6ca114a836ac7d73" + 秒级时间戳)，timestamp。
- *   本脚本在客户端算出签名 -> 调 getAuth 接口 -> 取 video_streams[0]
- *   的 m3u8 直接返回。m3u8 与分片均无需请求头，不需要中转服务器。
+ * 源：大象TV/河南台接口 sign = SHA256("6ca114a836ac7d73"+秒级时间戳)，
+ *     自带纯 JS SHA-256（不依赖宿主 ku9.sha256 / CryptoJS），
+ *     返回 video_streams[0]，m3u8 与分片均无需请求头。
  * ============================================================ */
 
 /* ---------------- 纯 JS SHA-256（ES5，不依赖宿主） ---------------- */
@@ -32,158 +32,140 @@ function hnUtf8(s) {
   s = String(s);
   for (i = 0; i < s.length; i++) {
     c = s.charCodeAt(i);
-    if (c < 0x80) {
-      o += String.fromCharCode(c);
-    } else if (c < 0x800) {
-      o += String.fromCharCode(0xc0 | (c >> 6), 0x80 | (c & 63));
-    } else if (c < 0xd800 || c >= 0xe000) {
-      o += String.fromCharCode(0xe0 | (c >> 12), 0x80 | ((c >> 6) & 63), 0x80 | (c & 63));
-    } else {
-      i++;
-      c2 = s.charCodeAt(i);
-      u = 0x10000 + ((c & 0x3ff) << 10) + (c2 & 0x3ff);
-      o += String.fromCharCode(
-        0xf0 | (u >> 18), 0x80 | ((u >> 12) & 63),
-        0x80 | ((u >> 6) & 63), 0x80 | (u & 63)
-      );
-    }
+    if (c < 0x80) o += String.fromCharCode(c);
+    else if (c < 0x800) o += String.fromCharCode(0xc0 | (c >> 6), 0x80 | (c & 63));
+    else if (c < 0xd800 || c >= 0xe000) o += String.fromCharCode(0xe0 | (c >> 12), 0x80 | ((c >> 6) & 63), 0x80 | (c & 63));
+    else { i++; c2 = s.charCodeAt(i); u = 0x10000 + ((c & 0x3ff) << 10) + (c2 & 0x3ff);
+      o += String.fromCharCode(0xf0 | (u >> 18), 0x80 | ((u >> 12) & 63), 0x80 | ((u >> 6) & 63), 0x80 | (u & 63)); }
   }
   return o;
 }
-
 function hnRor(x, n) { return (x >>> n) | (x << (32 - n)); }
-
 function hnSha256(text) {
-  var bytes = hnUtf8(text);
-  var n = bytes.length;
-  var bitLen = n * 8;
-  var blocks = Math.ceil((n + 9) / 64);
+  var bytes = hnUtf8(text), n = bytes.length, bitLen = n * 8, blocks = Math.ceil((n + 9) / 64);
   var h0 = 0x6a09e667, h1 = 0xbb67ae85, h2 = 0x3c6ef372, h3 = 0xa54ff53a;
   var h4 = 0x510e527f, h5 = 0x9b05688c, h6 = 0x1f83d9ab, h7 = 0x5be0cd19;
-  var w = [], i, j, k, s0, s1, ch, maj, t1, t2;
-  var a, b, c, d, e, f, g, h;
-
+  var w = [], i, j, k, s0, s1, ch, maj, t1, t2, a, b, c, d, e, f, g, h;
   for (k = 0; k < blocks; k++) {
     for (i = 0; i < 64; i++) w[i] = 0;
     for (i = 0; i < 16; i++) {
       var pos = k * 64 + i * 4, val = 0;
       for (j = 0; j < 4; j++) {
-        var bp = pos + j;
-        var byte = (bp < n) ? (bytes.charCodeAt(bp) & 0xff) : 0;
+        var bp = pos + j, byte = (bp < n) ? (bytes.charCodeAt(bp) & 0xff) : 0;
         if (bp === n) byte = 0x80;
         val = (val << 8) | byte;
       }
       w[i] = val >>> 0;
     }
-    if (k === blocks - 1) {
-      w[14] = Math.floor(bitLen / 4294967296) >>> 0;
-      w[15] = bitLen >>> 0;
-    }
+    if (k === blocks - 1) { w[14] = Math.floor(bitLen / 4294967296) >>> 0; w[15] = bitLen >>> 0; }
     for (i = 16; i < 64; i++) {
-      s0 = hnRor(w[i - 15], 7) ^ hnRor(w[i - 15], 18) ^ (w[i - 15] >>> 3);
-      s1 = hnRor(w[i - 2], 17) ^ hnRor(w[i - 2], 19) ^ (w[i - 2] >>> 10);
-      w[i] = (w[i - 16] + s0 + w[i - 7] + s1) | 0;
+      s0 = hnRor(w[i-15],7) ^ hnRor(w[i-15],18) ^ (w[i-15] >>> 3);
+      s1 = hnRor(w[i-2],17) ^ hnRor(w[i-2],19) ^ (w[i-2] >>> 10);
+      w[i] = (w[i-16] + s0 + w[i-7] + s1) | 0;
     }
-    a = h0; b = h1; c = h2; d = h3; e = h4; f = h5; g = h6; h = h7;
+    a=h0;b=h1;c=h2;d=h3;e=h4;f=h5;g=h6;h=h7;
     for (i = 0; i < 64; i++) {
-      s1 = hnRor(e, 6) ^ hnRor(e, 11) ^ hnRor(e, 25);
+      s1 = hnRor(e,6) ^ hnRor(e,11) ^ hnRor(e,25);
       ch = (e & f) ^ (~e & g);
       t1 = (h + s1 + ch + HN_K[i] + w[i]) | 0;
-      s0 = hnRor(a, 2) ^ hnRor(a, 13) ^ hnRor(a, 22);
+      s0 = hnRor(a,2) ^ hnRor(a,13) ^ hnRor(a,22);
       maj = (a & b) ^ (a & c) ^ (b & c);
       t2 = (s0 + maj) | 0;
-      h = g; g = f; f = e; e = (d + t1) | 0;
-      d = c; c = b; b = a; a = (t1 + t2) | 0;
+      h=g;g=f;f=e;e=(d+t1)|0;d=c;c=b;b=a;a=(t1+t2)|0;
     }
-    h0 = (h0 + a) | 0; h1 = (h1 + b) | 0; h2 = (h2 + c) | 0; h3 = (h3 + d) | 0;
-    h4 = (h4 + e) | 0; h5 = (h5 + f) | 0; h6 = (h6 + g) | 0; h7 = (h7 + h) | 0;
+    h0=(h0+a)|0;h1=(h1+b)|0;h2=(h2+c)|0;h3=(h3+d)|0;
+    h4=(h4+e)|0;h5=(h5+f)|0;h6=(h6+g)|0;h7=(h7+h)|0;
   }
-
-  var hs = [h0, h1, h2, h3, h4, h5, h6, h7];
-  var out = '', v, byte;
-  for (i = 0; i < 8; i++) {
-    v = hs[i];
-    for (j = 0; j < 4; j++) {
-      byte = (v >>> (24 - j * 8)) & 0xff;
-      out += (byte < 16 ? '0' : '') + byte.toString(16);
-    }
-  }
+  var hs = [h0,h1,h2,h3,h4,h5,h6,h7], out = '', v, byte;
+  for (i = 0; i < 8; i++) { v = hs[i];
+    for (j = 0; j < 4; j++) { byte = (v >>> (24 - j*8)) & 0xff; out += (byte < 16 ? '0' : '') + byte.toString(16); } }
   return out;
+}
+
+/* ---------------- 双环境工具层 ---------------- */
+var HN_IS_KU9 = (typeof ku9 !== 'undefined') && (typeof mytv === 'undefined');
+
+function hnGetId(item) {
+  var key = '';
+  try { if (item && item.id !== undefined && item.id !== null) key = String(item.id); } catch (e) {}
+  try { if (!key && item && item.params && item.params.id) key = String(item.params.id); } catch (e) {}
+  if (!key) {
+    var s = '';
+    try { s = (item && item.url) ? String(item.url) : String(item == null ? '' : item); } catch (e) { s = ''; }
+    var m = /(?:^|[?&])id=([^&]*)/.exec(s);
+    if (m) { try { key = decodeURIComponent(m[1]); } catch (e2) { key = m[1]; } }
+  }
+  return key;
+}
+
+// 请求封装：酷9用对象头，mytv 用数组头；两者都试，取第一个拿到 body 的
+function hnRequest(url, method, headersObj) {
+  var body = '';
+  // 路径1：ku9.request（酷9 / 带 ku9 桥接的改版 mytv）
+  try {
+    if (typeof ku9 !== 'undefined' && typeof ku9.request === 'function') {
+      var r = ku9.request(url, method || 'GET', headersObj, null);
+      if (r && r.body) body = String(r.body);
+    }
+  } catch (e) {}
+  // 路径2：mytv.request（原版 mytv，headers 为数组）
+  if (!body) {
+    try {
+      if (typeof mytv !== 'undefined' && typeof mytv.request === 'function') {
+        var hs = [];
+        for (var k in headersObj) hs.push(k + ': ' + headersObj[k]);
+        var mr = mytv.request(url, method || 'GET', hs, '');
+        if (mr) body = String((mr.body !== undefined ? mr.body : mr) || '');
+      }
+    } catch (e2) {}
+  }
+  return body;
 }
 
 /* ============================ 主入口 ============================ */
 function main(item) {
-  // 官网 class_id=11 的全部电视频道（cid 循环探测所得）
   var CHANNELS = [
-    { id: 141, name: '都市频道' },
-    { id: 145, name: '河南卫视' },
-    { id: 146, name: '民生频道' },
-    { id: 147, name: '法治频道' },
-    { id: 148, name: '电视剧频道' },
-    { id: 149, name: '新闻频道' },
-    { id: 150, name: '欢腾购物' },
-    { id: 151, name: '公共频道' },
-    { id: 152, name: '河南乡村' },
-    { id: 154, name: '梨园频道' },
-    { id: 155, name: '文物宝库' },
-    { id: 156, name: '武术频道' }
+    { id: 141, name: '都市频道' }, { id: 145, name: '河南卫视' },
+    { id: 146, name: '民生频道' }, { id: 147, name: '法治频道' },
+    { id: 148, name: '电视剧频道' }, { id: 149, name: '新闻频道' },
+    { id: 150, name: '欢腾购物' }, { id: 151, name: '公共频道' },
+    { id: 152, name: '河南乡村' }, { id: 154, name: '梨园频道' },
+    { id: 155, name: '文物宝库' }, { id: 156, name: '武术频道' }
   ];
-
   var SECRET = '6ca114a836ac7d73';
   var API = 'https://pubmod.hntv.tv/program/getAuth/channel/channelIds/1/';
 
-  var hasKu9 = (typeof ku9 !== 'undefined' && ku9);
-  if (!hasKu9 || typeof ku9.request !== 'function') {
-    return { url: '当前播放器不支持 JS 源（缺少 ku9.request），请升级到新版 mytv' };
-  }
-
-  // ---- 解析 id（cid 或台名）----
-  var key = '';
-  if (item && item.id !== undefined && item.id !== null && String(item.id) !== '') {
-    key = String(item.id);
-  } else if (item && item.url && typeof ku9.getQuery === 'function') {
-    key = String(ku9.getQuery(item.url, 'id') || '');
-  }
+  var key = hnGetId(item);
   var cid = parseInt(key, 10);
   if (isNaN(cid)) {
     for (var q = 0; q < CHANNELS.length; q++) {
       if (CHANNELS[q].name === key || key.indexOf(CHANNELS[q].name) >= 0) { cid = CHANNELS[q].id; break; }
     }
   }
-  if (isNaN(cid) || cid <= 0) cid = 145; // 默认河南卫视
+  if (isNaN(cid) || cid <= 0) cid = 145;
 
-  // ---- 签名（带重试：避免同一秒重复签名被判重）----
   var ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36';
   var data = null, lastBody = '';
   for (var attempt = 0; attempt < 3 && !data; attempt++) {
-    var ts = Math.floor((new Date()).getTime() / 1000) - attempt;
-    var sign = (typeof ku9.sha256 === 'function') ? ku9.sha256(SECRET + ts) : hnSha256(SECRET + ts);
-    var res = null;
+    var ts = Math.floor(Date.now() / 1000) - attempt;
+    var sign = (typeof ku9 !== 'undefined' && typeof ku9.sha256 === 'function')
+      ? ku9.sha256(SECRET + ts) : hnSha256(SECRET + ts);
+    var body = hnRequest(API + cid, 'GET', {
+      'sign': sign, 'timestamp': String(ts), 'User-Agent': ua, 'Referer': 'https://static.hntv.tv/'
+    });
+    lastBody = body;
+    if (!body) continue;
     try {
-      res = ku9.request(API + cid, 'GET', {
-        'sign': sign,
-        'timestamp': String(ts),
-        'User-Agent': ua,
-        'Referer': 'https://static.hntv.tv/'
-      }, null);
-    } catch (e) {
-      lastBody = String(e);
-      continue;
-    }
-    if (!res || !res.body) continue;
-    lastBody = String(res.body);
-    try {
-      var arr = JSON.parse(res.body);
-      if (arr && arr.length && arr[0] && arr[0].video_streams && arr[0].video_streams.length) {
-        data = arr[0];
-      }
-    } catch (e2) { /* 落在下面统一报错 */ }
+      var arr = JSON.parse(body);
+      if (arr && arr.length && arr[0] && arr[0].video_streams && arr[0].video_streams.length) data = arr[0];
+    } catch (e2) {}
   }
 
   if (!data) {
-    return { url: '河南台 cid=' + cid + ' 取流失败：' + lastBody.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').substring(0, 80) };
+    var err = '河南台 cid=' + cid + ' 取流失败：' + String(lastBody).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').substring(0, 80);
+    return HN_IS_KU9 ? { url: err } : JSON.stringify({ url: '', error: err });
   }
 
-  // video_streams[0]（wsSecret 型）实测 m3u8 与分片均无需请求头，直接返回
-  return { url: data.video_streams[0] };
+  var u = data.video_streams[0];
+  return HN_IS_KU9 ? { url: u } : JSON.stringify({ url: u });
 }
