@@ -723,11 +723,6 @@ GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 深圳卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7867
 深圳卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=24725
 
-深圳都市,webview://https://www.sztv.com.cn/dianshi.shtml?id=7868
-深圳电视剧,webview://https://www.sztv.com.cn/dianshi.shtml?id=7880
-深圳少儿,webview://https://www.sztv.com.cn/dianshi.shtml?id=7881
-深圳移动,webview://https://www.sztv.com.cn/dianshi.shtml?id=7869
-深圳国际,webview://https://www.sztv.com.cn/dianshi.shtml?id=7944
 
 佛山顺德,webview://http://xiubo.net/tv/gd/fssd.html
 佛山公共,webview://http://xiubo.net/tv/gd/fsgg.html
