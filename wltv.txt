@@ -629,7 +629,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 河北经济,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=1
 河北都市,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=2
-河北都市,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=3
+河北文旅,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=3
 河北少儿,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=4
 河北农民,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=5
 
@@ -773,10 +773,11 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 海南,#genre#
-海南新闻,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=3
-海南公共,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=4
-海南文旅,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=6
-海南少儿,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=7
+海南自贸webview://https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home
+海南新闻,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=3&referPage=home
+海南社会与法,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=4&referPage=home
+海南文旅,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=6&referPage=home
+海南少儿,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=7&referPage=home
 
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
