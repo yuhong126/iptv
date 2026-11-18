@@ -1,33 +1,35 @@
 /*
- * 深圳网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v4 内置key版
+ * 深圳网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v5 诊断版
  * 逆向自 www.sztv.com.cn 官网播放器（dianshi.shtml + pindao/LSDPlayer.js）2026-11-18
  *
- * ★★★ v4 关键修复（2026-11-18 17:30）：去掉第三方 key 接口依赖 ★★★
- *   v1~v3 每次播放都要先请求 hls-api.sztv.com.cn/getCutvHlsLiveKey 换 key，
- *   真机 mytv 内该请求失败 → JS 返回空 url → mytv 报 "No playable data found (10087)"。
- *   实测该 key 完全固定（每频道一个常量，不随时间变），故 v4 直接内置 key，
- *   播放只需：本地生成签名 sign=md5(salt+path+hexTime) + 拼 URL，零网络请求。
- *   —— 与已三端可播的四川源结构一致（四川 token 也是内置）。
+ * ★ v4 → v5 变化（2026-11-18 晚）：
+ *   报错从 10087（JS 返回空 URL）变成 IJK_ERROR_WHAT=-10000（播放器打不开流），
+ *   说明 v4 JS 已成功返回 URL，问题在播放器/网络层。
+ *   静态反编译已确认：
+ *     - JS headers 的 User-Agent 会被 f4a 提取 → su5$l → setOption("user_agent") 下发给 IJK；
+ *     - 深圳 CDN：m3u8 + 分片都强制 UA 严格以 "Mozilla/5.0" 开头（空/ijkplayer/AliPlayer 全 403），
+ *       sign 根本不校验，Referer 无所谓，编码是标准 H.264 Main + AAC。
+ *   剩下唯一无法静态验证的：真机上 mytv.request 能否连到该 CDN、UA 是否真的带上。
+ *   → v5 新增 &debug=1 真机自测：用 mytv.request 实测 m3u8，把结果回报在 error 字段。
  *
- * ★ 链路（签名实时生成，时间窗口 ±4h 都有效）：
- *   1. key 内置（见 SZT_CH，从官网 key 接口逆向，固定不变）
- *   2. path = /<code>/500/<key>.m3u8
- *      sign = md5(SALT + path + hexTime)，hexTime=(nowSec+7200).toString(16)
- *      URL  = https://sztv-live.sztv.com.cn<path>?sign=&t=
- *   3. ★ CDN 强校验：m3u8 + 每个分片都必须带浏览器 UA（Mozilla），否则 403。
- *      用标准 headers 字段带 'Referer + User-Agent: Mozilla/5.0'（与四川同结构）。
+ * ★ 链路（sign 实时生成，CDN 实测不校验，但官网带，保留兼容）：
+ *   path = /<code>/500/<key>.m3u8
+ *   sign = md5(SALT + path + hexTime)，hexTime=(nowSec+7200).toString(16)
+ *   URL  = https://sztv-live.sztv.com.cn<path>?sign=&t=
+ *   headers 带 'User-Agent: Mozilla/5.0'（CDN 唯一硬性要求）
  *
  * 用法: javascript://.../sztv.js?id=7868
- *       ?id 为频道 id（见 SZT_CH）
+ *       ?id 为频道 id（见 SZT_CH）；加 &debug=1 进真机自测模式
  *
  * 兼容：mytv 返回 JSON 字符串 {url,headers}；酷9 返回对象 {url,referer,userAgent}。
  */
 
 // ---------- 环境兼容 ----------
 var SZT_IS_KU9 = (typeof ku9 !== 'undefined');
-var SZT_UA = 'Mozilla/5.0';                       // 最短浏览器 UA（实测 m3u8+分片都 200）
+var SZT_UA = 'Mozilla/5.0';                       // CDN 硬性要求：必须以此开头
 var SZT_SALT = 'ejow6p6p6hmrm9g96beh2knecdq5kyw9bp0zxyg7';
 var SZT_SERVER = 'sztv-live.sztv.com.cn';
+var SZT_REFERER = 'https://www.sztv.com.cn/';
 
 // code = 官网播放频道码；key = 官网 key 接口返回值（固定）
 var SZT_CH = {
@@ -93,9 +95,36 @@ function sztvGetQuery(url,key){
   return '';
 }
 
+// 真机 HTTP 请求（诊断用）：返回 {code, body}
+function sztvRequest(url) {
+  var hs = ['User-Agent: ' + SZT_UA, 'Referer: ' + SZT_REFERER];
+  try {
+    if (SZT_IS_KU9 && typeof ku9.request === 'function') {
+      var r = ku9.request(url, 'GET', {'User-Agent': SZT_UA, 'Referer': SZT_REFERER});
+      return { code: (r && r.code) || 0, body: ((r && r.body) || '') + '' };
+    }
+  } catch (e) {}
+  try {
+    if (typeof mytv !== 'undefined') {
+      if (typeof mytv.request === 'function') {
+        var mr = mytv.request(url, 'GET', hs, '', true);
+        var code = 0;
+        try { if (mr && mr.code !== undefined) code = mr.code | 0; } catch (e2) {}
+        return { code: code, body: ((mr && mr.body) || '') + '' };
+      }
+      if (typeof mytv.get === 'function') {
+        var g = mytv.get(url, hs);
+        return { code: g ? 200 : 0, body: (g || '') + '' };
+      }
+    }
+  } catch (e3) {}
+  return { code: -1, body: '' };
+}
+
 function main(item){
   var urlArg=(item&&item.url)||(typeof item==='string'?item:'')||'';
   var id=sztvGetQuery(urlArg,'id')||'7868';
+  var debug=sztvGetQuery(urlArg,'debug')==='1';
   var ch=SZT_CH[id];
   if(!ch) return SZT_IS_KU9 ? {url:'',error:'未知频道:'+id} : JSON.stringify({url:'',error:'未知频道:'+id});
 
@@ -104,6 +133,22 @@ function main(item){
   var sign=sztvMd5(SZT_SALT+path+hexTime);
   var streamUrl='https://'+SZT_SERVER+path+'?sign='+sign+'&t='+hexTime;
 
-  if(SZT_IS_KU9) return {url:streamUrl,referer:'https://www.sztv.com.cn/',userAgent:SZT_UA};
-  return JSON.stringify({url:streamUrl,headers:'Referer: https://www.sztv.com.cn/\nUser-Agent: '+SZT_UA});
+  // ---- 真机自测模式：回报 m3u8 请求状态，用于定位 -10000 根因 ----
+  if (debug) {
+    var res = sztvRequest(streamUrl);
+    var body = res.body || '';
+    var head = body.length > 60 ? body.substring(0, 60) : body;
+    var hasM3u8 = body.indexOf('#EXTM3U') >= 0;
+    var msg = 'DBG id=' + id
+            + ' | code=' + res.code
+            + ' | len=' + body.length
+            + ' | m3u8=' + hasM3u8
+            + ' | head=' + head
+            + ' | url=' + streamUrl;
+    if (SZT_IS_KU9) return { url:'', error: msg };
+    return JSON.stringify({ url:'', error: msg });
+  }
+
+  if(SZT_IS_KU9) return {url:streamUrl,referer:SZT_REFERER,userAgent:SZT_UA};
+  return JSON.stringify({url:streamUrl,headers:'Referer: '+SZT_REFERER+'\nUser-Agent: '+SZT_UA});
 }
