@@ -773,7 +773,7 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 海南,#genre#
-海南自贸webview://https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home
+海南自贸,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home
 海南新闻,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=3&referPage=home
 海南社会与法,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=4&referPage=home
 海南文旅,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=6&referPage=home
