@@ -64,26 +64,31 @@ function main(item) {
   var id = ahGetId(item);
   var ch = CH[id] || CH['ahwssx'];
 
-  // ★★ 2026-11-18 关键修复：换到 seclive（CDN 多线 + DigiCert 正规证书）
+  // ★★ 2026-11-18 定版：双域名自动探测 + UA 只送 ijkplayer
   //
-  //   上一版用 live.ahsx.ahtv.cn，实测发现它是【单 IP 单线】：
-  //       live.ahsx.ahtv.cn     -> 1 个 IPv4：36.136.120.15（移动）
-  //       seclive.ahsx.ahtv.cn  -> 4 个 IPv4：112.48.198.169 / 112.50.114.189 /
-  //                                          36.159.103.95 / 36.159.62.143
-  //   单 IP 移动线路最典型的坑就是「跨网不通」——同一 WiFi 下电脑能播、
-  //   换手机流量（联通/电信）就黑屏转圈，这正好对上"电脑/电视能播、手机播不了"。
-  //   seclive 是四线 CDN，跨运营商可达，且证书是腾讯云 DigiCert 正规证书
-  //   （live 那张是 DNSPod 自建 CA，openssl verify error 19，移动端风险更高）。
+  //   实测锁定的真实门槛（Python 严格 TLS + 20 种 UA 全测）：
+  //     CDN 只放行 2 类 UA —— "ijkplayer" 或 "ExoPlayerLib*"，其余一律 403：
+  //       UA=ijkplayer            https/live 200   http/live 200   http/seclive 200
+  //       UA=ExoPlayerLib/2.18.1  https/live 200   http/live 200   http/seclive 403
+  //       UA=okhttp/5.4.0（APP 的 OkHttp 默认 UA） 全部 403  ← 这就是播不了的根因
+  //       UA=Media3 / Dalvik / Lavf / VLC / 浏览器 / 空 全部 403
+  //     并且【带 Referer 一定 403】：ijkplayer+Referer -> 403，所以 headers 里
+  //     只能有 User-Agent，绝不能带 Referer（这是本文件最容易写错的一点）。
+  //     分片 .ts 与 m3u8 完全同规则（ijkplayer/ExoPlayerLib 200，okhttp 403）。
   //
-  //   实测（2026-11-18，Python 严格 TLS 上下文）：
-  //     seclive https 全 13 频道 m3u8=200、首个分片=200（115KB ~ 1156KB）
-  //     UA 白名单极窄：仅 ijkplayer 放行，ExoPlayerLib / VLC / Lavf / 空 UA 一律 403
-  //     → 所以 headers 必须精确给出 User-Agent: ijkplayer（见下方返回）
-  //
-  //   备用域名 live 保留在注释里：如果某天 seclive 整体不可用，把上面这行
-  //   换成 http://live.ahsx.ahtv.cn（该域名对 ExoPlayerLib 也放行，容错更宽）。
-  var url = 'https://seclive.ahsx.ahtv.cn/live/' + ch.s + '.m3u8'
-          + '?txSecret=' + ch.k + '&txTime=70db6800';
+  //   两个可用域名各有短板，所以这里做成自动探测、按实际网络择优：
+  //     seclive.ahsx.ahtv.cn  4 个 IP 四线 CDN，跨运营商可达；
+  //                           但证书是自签 CA，Android 严格校验下握手失败
+  //                           → 只能用 http（App 的 usesCleartextTraffic=true 允许明文）
+  //     live.ahsx.ahtv.cn     证书系统信任（严格 TLS 校验 PASS），可走 https；
+  //                           但只有 1 个 IP（36.136.120.15 移动），跨网可能不通
+  //   → 先试 seclive（CDN 多线概率高），不通再回退 live（证书可靠）。
+  var qs = '?txSecret=' + ch.k + '&txTime=70db6800';
+  var AH_HOSTS = [
+    'http://seclive.ahsx.ahtv.cn/live/' + ch.s + '.m3u8' + qs,
+    'https://live.ahsx.ahtv.cn/live/' + ch.s + '.m3u8' + qs
+  ];
+  var url = ahPick(AH_HOSTS);
 
   // 酷9：对象 + 双套 UA 通道（userAgent 字段 + headers 对象）
   if (AH_IS_KU9) {
@@ -91,5 +96,52 @@ function main(item) {
   }
 
   // mytv（含带 ku9 桥接的改版 v5）：JSON 字符串 + 多行 headers 字符串
+  // 注意：headers 只给 User-Agent，加 Referer 会直接 403
   return JSON.stringify({ url: url, headers: 'User-Agent: ijkplayer' });
+}
+
+/* ---------------- 探测：选第一个真正返回 m3u8 的域名 ----------------
+ * 宿主不支持发请求时（没有 mytv.request / ku9.request），直接返回首选，
+ * 交给播放器自己试，不额外增加失败面。
+ */
+function ahPickBody(r) {
+  if (r === null || r === undefined) return '';
+  if (typeof r === 'string') return r;
+  try {
+    if (r.body !== undefined && r.body !== null) return String(r.body);
+    if (r.data !== undefined && r.data !== null) {
+      return (typeof r.data === 'string') ? r.data : JSON.stringify(r.data);
+    }
+    if (r.content !== undefined && r.content !== null) return String(r.content);
+    if (r.text !== undefined && r.text !== null) return String(r.text);
+  } catch (e) {}
+  return '';
+}
+
+function ahFetch(url) {
+  var body = '';
+  try {
+    if (typeof mytv !== 'undefined' && typeof mytv.request === 'function') {
+      body = ahPickBody(mytv.request(url, 'GET', ['User-Agent: ijkplayer'], ''));
+    }
+  } catch (e) {}
+  if (!body) {
+    try {
+      if (typeof ku9 !== 'undefined' && typeof ku9.request === 'function') {
+        body = ahPickBody(ku9.request(url, 'GET', { 'User-Agent': 'ijkplayer' }, null));
+      }
+    } catch (e2) {}
+  }
+  return body;
+}
+
+function ahPick(list) {
+  var canReq = (typeof mytv !== 'undefined' && typeof mytv.request === 'function') ||
+               (typeof ku9 !== 'undefined' && typeof ku9.request === 'function');
+  if (!canReq) return list[0];
+  for (var i = 0; i < list.length; i++) {
+    var b = ahFetch(list[i]);
+    if (b && b.indexOf('#EXTM3U') >= 0) return list[i];
+  }
+  return list[0];
 }
