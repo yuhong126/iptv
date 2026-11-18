@@ -5,15 +5,20 @@
  * ★ 官方链路（App 本身就这么播）：
  *   1) 调官方 API 拿最新 m3u8：
  *      https://mapi1.kxm.xmtv.cn/api/v1/channel.php?channel_id=<数字ID>
- *      → [0].m3u8 = 顶层 master m3u8（带 _upt 动态签名）
  *      注：2024 年网上流传的旧 ID(57/58/59/138) 已全部失效返回 []；
  *          现用官方真实 ID（见下表），已实测可用。
- *   2) 顶层 m3u8 带 _upt 签名（8位hex + now+7200 时间戳），会过期
- *      → 每次点播现调 API，不能写死 URL
- *   3) 顶层 m3u8 → 相对路径二级 media m3u8 → .ts 分片
- *      media 与分片路径本身无签名，但整条链路【 CDN 强制 Referer 】：
- *        必须带 Referer: https://www.xmtv.cn/
- *        裸 / 仅 UA / 旧Referer(kxmapp...) 全部 403；只要 Referer 对，任意 UA 都能播
+ *   2) ★★ 关键（v2 修复 -10000）：API 返回两个地址——
+ *      [0].m3u8                      = 顶层 master，内容是 playlist.m3u8?_upt=签名
+ *                                      里面用【相对路径】指向二级 media
+ *      [0].channel_stream[0].m3u8     = 二级 media 的【绝对 URL】（也带 _upt 签名）
+ *      IJK 内核解析"带 query 的 master + 相对路径"时会把 query 拼进路径 →
+ *        错误请求 .../xmtjs1/?_upt=签名ytkTnG/live.m3u8 → 404 → -10000
+ *      （手机系统播放器/VLC 标准解析没问题，所以手机能播、电视盒子 IJK 不能播）
+ *      → v2 直接返回 channel_stream[0].m3u8（media 绝对 URL），绕开相对路径解析
+ *   3) _upt 签名（8位hex + now+7200 时间戳）会过期 → 每次点播现调 API，不能写死
+ *   4) 整条链路【 CDN 强制 Referer 】：
+ *        必须带 Referer: https://www.xmtv.cn/（含 www.xmtv.cn 即可，写法宽松）
+ *        裸 / 仅 UA / 旧Referer(kxmapp...) / m.xmtv.cn 全部 403；UA 任意不影响
  *      → headers 带 Referer 即可，IJK / Media3 / 酷9 通吃
  *
  * 用法: javascript://.../xmtv.js?id=xm1
@@ -77,22 +82,35 @@ function xmRequest(url) {
   return { body: '', code: 0 };
 }
 
-// 从 API 响应抠出 [0].m3u8（兼容 \/ 转义与正常 /）
+function xmUnescape(s) {
+  return (s || '').indexOf('\\/') >= 0 ? s.replace(/\\\//g, '/') : (s || '');
+}
+
+// v2：优先取二级 media 绝对 URL（绕开 IJK 解析 master 相对路径的坑）
+// 返回 { url: 最终播放地址, via: 'media'|'master' }
 function xmParseM3u8(body) {
   try {
     var j = JSON.parse(body);
     if (j && j.length && j[0]) {
-      var m3u8 = j[0].m3u8 || '';
-      if (m3u8.indexOf('\\/') >= 0) m3u8 = m3u8.replace(/\\\//g, '/');
-      return m3u8;
+      var c = j[0];
+      // 首选 channel_stream[0].m3u8（media 绝对 URL）
+      if (c.channel_stream && c.channel_stream.length && c.channel_stream[0]) {
+        var media = xmUnescape(c.channel_stream[0].m3u8 || '');
+        if (media.indexOf('http') === 0 && /^https?:\/\//.test(media)) {
+          return { url: media, via: 'media' };
+        }
+      }
+      // 回退顶层 master
+      var top = xmUnescape(c.m3u8 || '');
+      if (top.indexOf('http') === 0) return { url: top, via: 'master' };
     }
-  } catch (e) {
-    try {
-      var m = /"m3u8"\s*:\s*"([^"]+)"/.exec(body);
-      if (m) return m[1].replace(/\\\//g, '/');
-    } catch (e2) {}
-  }
-  return '';
+  } catch (e) {}
+  // 退化：正则抓第一个 m3u8 字段
+  try {
+    var m = /"m3u8"\s*:\s*"(https?:[^"]+)"/.exec(body);
+    if (m) return { url: xmUnescape(m[1]), via: 'regex' };
+  } catch (e2) {}
+  return { url: '', via: '' };
 }
 
 function main(item) {
@@ -102,7 +120,8 @@ function main(item) {
 
   var api = XM_API + '?channel_id=' + channelId;
   var resp = xmRequest(api);
-  var m3u8 = xmParseM3u8(resp.body);
+  var parsed = xmParseM3u8(resp.body);
+  var m3u8 = parsed.url;
 
   if (XM_IS_KU9) {
     if (!m3u8) return { url: '', referer: '', userAgent: '' };
