@@ -715,7 +715,7 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 
 
-深圳都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7868
+深圳都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7868&debug=1
 深圳电视剧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7880
 深圳少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7881
 深圳移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7869
