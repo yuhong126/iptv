@@ -1,144 +1,301 @@
-/* ============================================================
- * 湖北台（长江云）直播 · mytv / 酷9 通用 JS 源
+/**
+ * 湖北台 直播源 v3（长江云 cjyun 官方链路，纯 JS 完整实现）2026-11-18
+ * ---------------------------------------------------------------
+ * 频道 id：hbws / hbjs / hbzh / hbgg / hbys / hbjy / hbls
  *
- * ⚠️ 重要（2026-11-16 复核）：本源依赖的 client-id 注册是【短时效】的
- *    （约 5-6 分钟失效），必须靠 WebSocket 心跳持续保活；而 ku9 的 JS
- *    环境没有 WebSocket、无法发送握手后的WebSocket帧，故内置的 cid 会
- *    很快过期，本 JS 目前【无法稳定播放】。已验证：用刚注册的活跃 cid
- *    时 main() 完全正常（m3u8 200），但几分钟后即失效。
- *    => 湖北台不能用纯 JS 稳定实现，需服务端/浏览器保活方案。详见使用说明。
+ * 链路（每次播放都由 JS 现场生成，地址全部带时效签名，永不过期）：
+ *   1. GET https://news.hbtv.com.cn/app/tv/<sid>   ← 取响应头 Set-Cookie
+ *        → client-id / aa-look / client-token
+ *   2. GET https://app.cjyun.org.cn/video/player/stream?stream_id=<sid>&site_id=10008
+ *        → 带 auth_key 的 m3u8
+ *   3. mytv.websocket() 连 wss://remote-wa.cjyun.org.cn/liveweb
+ *        发送 {"client_id","aa_look","client_token"} 完成在线登记
+ *        ★ 不登记时 CDN 一律 403 —— 这就是普通 HTTP 请求（含 php/curl）打不开的原因
+ *   4. GET https://news.hbtv.com.cn/ajax/get_cdn_leech?url=<m3u8>&client-id=<cid>
+ *        → 追加 extrakey / aalook 后的最终地址
+ *   5. 播放必须带 Referer: https://news.hbtv.com.cn/（m3u8 与每个 .ts 都要）
  *
- * 用法（一行一个台，id 见下方 CHANNELS）：
- *   湖北卫视,javascript://<本文件在线地址>?id=431
- *   湖北经视,javascript://<本文件在线地址>?id=432
- *   ...
- * 也支持直接传台名，如 ?id=湖北影视。
- *
- * 原理（逆向 news.hbtv.com.cn/app/tv 播放器）：
- *   1) 页面服务端渲染时把各频道的原始 m3u8（带 30 分钟 auth_key 签名）
- *      写进 HTML 的 Vue liveList/audioList 里。
- *   2) 直接请求该 m3u8 会被 CDN 拒绝：必须先用页面 Set-Cookie 的
- *      client-id 调 /ajax/get_cdn_leech 换取带 extrakey/aalook 的地址。
- *   3) get_cdn_leech 依赖一个"已注册"的 client-id——正常由网页通过
- *      WebSocket(wss://remote-wa.cjyun.org.cn/liveweb) 心跳注册。
- *      ku9 环境无 WebSocket，故本脚本内置若干个已注册并验证可用的
- *      client-id 轮询使用（注册与出口 IP 无关，仅播放需带正确 Referer）。
- *   4) 换到带 extrakey 的地址后返回，并附带 referer 让播放器带来源页。
- *   实测：m3u8 与 ts 分片都只需正确 Referer，无需 Cookie。
- * ============================================================ */
+ * 兼容 mytv（返回 JSON 字符串 + headers 多行）与酷9（返回对象）两种宿主。
+ */
 
-var HB_PAGE = 'https://news.hbtv.com.cn/app/tv/435';
-var HB_LEECH = 'https://news.hbtv.com.cn/ajax/get_cdn_leech';
-var HB_REFERER = 'https://news.hbtv.com.cn/app/tv/435';
-var HB_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36';
+var DESKTOP_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               + '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
+var REFERER = 'https://news.hbtv.com.cn/';
+var SITE_ID = '10008';
+var WS_URL  = 'wss://remote-wa.cjyun.org.cn/liveweb';
+var WS_NAME = 'cjyun_hb';
 
-// 已通过 WebSocket 心跳注册并验证可用的 client-id（备用轮询）
-var HB_CIDS = [
-  '972e7202-7cbd-4cb5-a5d3-7b37e7b3fe8f',
-  '824c28ef-4ba2-41b6-b336-1e8edc11d200',
-  '9402f10b-77fb-4eff-bb79-91823e08cbb4',
-  'ab57c2e1-642f-46b8-a356-bb3c4b14b43f',
-  'f14046c3-ba13-4619-9a3b-bb2468eaf331'
-];
+// 别名 → { 频道名, 长江云 stream_id }
+var HB_CH = {
+  hbws: { n: '湖北卫视', id: 431 },
+  hbjs: { n: '湖北经视', id: 432 },
+  hbzh: { n: '湖北综合', id: 433 },
+  hbgg: { n: '湖北公共', id: 434 },
+  hbys: { n: '湖北影视', id: 435 },
+  hbsh: { n: '湖北生活', id: 436 },
+  hbjy: { n: '湖北教育', id: 437 },
+  hbls: { n: '湖北垄上', id: 438 },
+  mjgw: { n: '美嘉购物', id: 439 }
+};
 
-// 可用频道：id -> { name, file(原始 m3u8 文件名特征) }
-// 实测 200 的 6 个电视频道 + 5 个广播；404/已下线的不列入
-var HB_CHANNELS = [
-  { id: 431, name: '湖北卫视',   file: 'new-hbws.m3u8' },
-  { id: 432, name: '湖北经视',   file: 'new-hbjs.m3u8' },
-  { id: 433, name: '湖北综合',   file: 'new-hbzh.m3u8' },
-  { id: 435, name: '湖北影视',   file: 'new-hbys.m3u8' },
-  { id: 437, name: '湖北教育',   file: 'new-hbjy.m3u8' },
-  { id: 438, name: '垄上频道',   file: 'new-hbls.m3u8' },
-  { id: 187, name: '湖北之声',   file: 'new-hbzs1046.m3u8' },
-  { id: 223, name: '经济广播',   file: 'new-hbjj998.m3u8' },
-  { id: 417, name: '经典音乐',   file: 'new-jdyy1038.m3u8' },
-  { id: 193, name: '楚天交通',   file: 'new-ctjt927.m3u8' },
-  { id: 187, name: '湖北之声FM', file: 'new-hbzs1046.m3u8' }
-];
+// 数字 id 也认（431 → hbws）
+var HB_BY_ID = {};
+for (var hbk in HB_CH) {
+  if (HB_CH.hasOwnProperty(hbk)) { HB_BY_ID['' + HB_CH[hbk].id] = hbk; }
+}
 
-// 从页面 HTML 里提取所有 live21 的 m3u8 原始地址
-function hbExtractStreams(html) {
-  var out = [];
-  var re = /https:\/\/live21-cjy\.hbtv\.com\.cn\/[^"\s]+?\.m3u8[^"\s]*/g;
-  var m;
-  while ((m = re.exec(html)) !== null) {
-    if (out.indexOf(m[0]) < 0) out.push(m[0]);
+// ---------------- 宿主能力探测 ----------------
+
+function hbHost() {
+  var m = (typeof mytv !== 'undefined' && mytv) ? mytv : null;
+  var k = (typeof ku9  !== 'undefined' && ku9)  ? ku9  : null;
+  var h = { req: null, isKu9: false, ws: null };
+
+  if (m && typeof m.request === 'function') {
+    h.req = function (url, headers) {
+      // mytv.request(url, method, headersArray, body, redirect)
+      return m.request(url, 'GET', headers || [], '', true);
+    };
+    if (typeof m.websocket === 'function') { h.ws = function () { return m.websocket(); }; }
+    return h;
   }
+  if (k && typeof k.request === 'function') {
+    h.isKu9 = true;
+    h.req = function (url, headers) {
+      var obj = {};
+      var list = headers || [];
+      for (var i = 0; i < list.length; i++) {
+        var line = list[i], p = line.indexOf(':');
+        if (p > 0) { obj[line.slice(0, p).trim()] = line.slice(p + 1).trim(); }
+      }
+      // ku9.request(url, method, headersObject, body)
+      return k.request(url, 'GET', obj, '');
+    };
+    if (typeof k.websocket === 'function') { h.ws = function () { return k.websocket(); }; }
+    return h;
+  }
+  return h;
+}
+
+// 把宿主各式返回体统一成 { code, body, raw }（raw = 原始响应头文本）
+function hbPick(res) {
+  var out = { code: 0, body: '', raw: '' };
+  if (res === null || res === undefined) { return out; }
+  if (typeof res === 'string') {
+    out.body = res; out.raw = res; out.code = res ? 200 : 0;
+    return out;
+  }
+  try {
+    if (typeof res.headersText === 'string' && res.headersText) { out.raw = res.headersText; }
+  } catch (e) {}
+  if (!out.raw) { try { if (typeof res.headers === 'string') { out.raw = res.headers; } } catch (e1) {} }
+  if (!out.raw) {
+    // headers 被包装成对象时拼回文本（多个 Set-Cookie 可能被合并，仍可正则捞）
+    try {
+      var hs = res.headers;
+      if (hs && typeof hs === 'object') {
+        var buf = '';
+        for (var kk in hs) { if (hs.hasOwnProperty(kk)) { buf += kk + ': ' + hs[kk] + '\n'; } }
+        out.raw = buf;
+      }
+    } catch (e2) {}
+  }
+  try {
+    if (typeof res.body === 'string') { out.body = res.body; }
+    else if (res.body !== null && res.body !== undefined) { out.body = String(res.body); }
+  } catch (e3) {}
+  try {
+    if (typeof res.code === 'number') { out.code = res.code; }
+    else if (res.code !== null && res.code !== undefined) { out.code = parseInt(res.code, 10) || 0; }
+  } catch (e4) {}
   return out;
 }
 
-function main(item) {
-  if (typeof ku9 === 'undefined' || !ku9 || typeof ku9.request !== 'function') {
-    return { url: '当前播放器不支持 JS 源（缺少 ku9.request），请升级到新版 mytv' };
-  }
+function hbGet(host, url) {
+  try { return hbPick(host.req(url, ['User-Agent: ' + DESKTOP_UA])); }
+  catch (e) { return { code: -1, body: '', raw: '' }; }
+}
 
-  // ---- 解析 id ----
-  var key = '';
-  if (item && item.id !== undefined && item.id !== null && String(item.id) !== '') {
-    key = String(item.id);
-  } else if (item && item.url && typeof ku9.getQuery === 'function') {
-    key = String(ku9.getQuery(item.url, 'id') || '');
-  }
+// ---------------- 取 client-id / aa-look / client-token ----------------
 
-  var ch = null, i;
-  var numKey = parseInt(key, 10);
-  if (!isNaN(numKey)) {
-    for (i = 0; i < HB_CHANNELS.length; i++) {
-      if (HB_CHANNELS[i].id === numKey) { ch = HB_CHANNELS[i]; break; }
-    }
-  }
-  if (!ch && key) {
-    for (i = 0; i < HB_CHANNELS.length; i++) {
-      if (HB_CHANNELS[i].name === key || key.indexOf(HB_CHANNELS[i].name) >= 0 ||
-          HB_CHANNELS[i].name.indexOf(key) >= 0) { ch = HB_CHANNELS[i]; break; }
-    }
-  }
-  if (!ch) ch = HB_CHANNELS[0]; // 默认湖北卫视
+function hbCookie(raw, name) {
+  if (!raw) { return ''; }
+  var m = new RegExp(name + '=([^;,\\s]+)').exec(raw);
+  return m ? m[1] : '';
+}
 
-  var headers = { 'User-Agent': HB_UA, 'Referer': HB_REFERER };
+function hbFetchClient(host, sid) {
+  var r = hbGet(host, 'https://news.hbtv.com.cn/app/tv/' + sid);
+  var cid  = hbCookie(r.raw, 'client-id');
+  var look = hbCookie(r.raw, 'aa-look');
+  var tok  = hbCookie(r.raw, 'client-token');
+  if (!cid && r.body) {
+    cid = hbCookie(r.body, 'client-id');
+    if (!look) { look = hbCookie(r.body, 'aa-look'); }
+    if (!tok)  { tok  = hbCookie(r.body, 'client-token'); }
+  }
+  return { cid: cid, look: look, tok: tok };
+}
 
-  // ---- 1) 取页面，提取该频道原始 stream ----
-  var html = '';
+// ---------------- 拿带 auth_key 的 m3u8 ----------------
+
+function hbStreamUrl(host, sid) {
+  var r = hbGet(host, 'https://app.cjyun.org.cn/video/player/stream?stream_id=' + sid
+                      + '&site_id=' + SITE_ID);
+  if (!r.body) { return ''; }
   try {
-    var pr = ku9.request(HB_PAGE, 'GET', headers, null);
-    if (pr && pr.body) html = String(pr.body);
-  } catch (e) { html = ''; }
+    var d = JSON.parse(r.body);
+    if (d && typeof d.stream === 'string' && d.stream) { return d.stream; }
+    if (d && typeof d.play_url === 'string' && d.play_url) { return d.play_url; }
+  } catch (e) {}
+  var m = /"stream"\s*:\s*"([^"]+)"/.exec(r.body);
+  if (m && m[1]) { return m[1].replace(/\\\//g, '/'); }
+  return '';
+}
 
-  if (!html || html.indexOf('.m3u8') < 0) {
-    return { url: '湖北台页面获取失败，请稍后重试', referer: HB_REFERER };
-  }
+// ---------------- WebSocket 在线登记 ----------------
 
-  var streams = hbExtractStreams(html);
-  var orig = null;
-  for (i = 0; i < streams.length; i++) {
-    if (streams[i].indexOf(ch.file) >= 0) { orig = streams[i]; break; }
-  }
-  if (!orig) {
-    return { url: '湖北台未找到频道 ' + ch.name + ' 的流', referer: HB_REFERER };
-  }
+function hbWait(ms) {
+  var t = Date.now();
+  while (Date.now() - t < ms) { /* 分片阻塞等待，单片 <=40ms 较安全 */ }
+}
 
-  // ---- 2) 用已注册 cid 调 get_cdn_leech 换带 extrakey 的地址 ----
-  var leechUrl = HB_LEECH + '?url=' + encodeURIComponent(orig) + '&client-id=';
-  var leechHeaders = {
-    'User-Agent': HB_UA,
-    'Referer': HB_REFERER,
-    'X-Requested-With': 'XMLHttpRequest'
-  };
-  for (i = 0; i < HB_CIDS.length; i++) {
-    var real = '';
-    try {
-      var lr = ku9.request(leechUrl + HB_CIDS[i], 'GET', leechHeaders, null);
-      if (lr && lr.body) {
-        var j = JSON.parse(lr.body);
-        if (j && j.state && j.data) real = String(j.data).replace(/\\\//g, '/');
-      }
-    } catch (e2) { real = ''; }
-    if (real && real.indexOf('extrakey=') > 0 && real.indexOf('.m3u8') > 0) {
-      // 返回地址 + referer（播放器拉 m3u8 与分片都需带来源页）
-      return { url: real, referer: 'https://news.hbtv.com.cn/', userAgent: HB_UA };
+function hbWsRegister(host, ck) {
+  if (!host.ws || !ck.cid || !ck.look || !ck.tok) { return false; }
+  try {
+    var api = host.ws();
+    if (!api || typeof api.connect !== 'function') { return false; }
+
+    // 必须带 Origin，否则握手被拒（实测：不带 Origin 即使连上也拿不到放行）
+    api.connect(WS_URL, ['Origin: https://news.hbtv.com.cn', 'User-Agent: ' + DESKTOP_UA], WS_NAME);
+
+    // 等握手完成：status() === 1 表示已 open(-1 失败 / 0 连接中 / 2 关闭中 / 3 已关)
+    var sock = null, st = 0;
+    for (var i = 0; i < 60; i++) {
+      hbWait(40);
+      try {
+        sock = api.get(WS_NAME);
+        if (sock && typeof sock.status === 'function') {
+          st = sock.status();
+          if (st === 1) { break; }
+          if (st === -1) { sock = null; break; }
+        } else if (sock) {
+          break; // 拿不到 status 就按已连处理，send 会自行判断
+        }
+      } catch (e) { sock = null; }
     }
+    if (!sock) { return false; }
+
+    var payload = '{"client_id":"' + ck.cid + '","aa_look":"' + ck.look
+                + '","client_token":"' + ck.tok + '"}';
+    try { sock.send(payload); } catch (e2) { return false; }
+
+    hbWait(300); // 给服务端一点落库时间
+    return true;
+  } catch (e3) {
+    return false;
+  }
+}
+
+// ---------------- 换 extrakey ----------------
+
+function hbLeech(host, streamUrl, cid) {
+  var r = hbGet(host, 'https://news.hbtv.com.cn/ajax/get_cdn_leech?url='
+                      + streamUrl + '&client-id=' + cid);
+  if (!r.body) { return ''; }
+  try {
+    var d = JSON.parse(r.body);
+    if (d && d.state && typeof d.data === 'string' && d.data) { return d.data; }
+  } catch (e) {}
+  var m = /"data"\s*:\s*"([^"]+)"/.exec(r.body);
+  if (m && m[1]) { return m[1].replace(/\\\//g, '/'); }
+  return '';
+}
+
+// 真拉一次 m3u8，避免“地址拿到了但 403”的假成功
+var HB_LAST_CODE = 0;
+function hbPlayable(host, url) {
+  HB_LAST_CODE = 0;
+  try {
+    var r = hbPick(host.req(url, ['Referer: ' + REFERER, 'User-Agent: okhttp/5.4.0']));
+    HB_LAST_CODE = r.code || 0;
+    if (r.code && r.code !== 200) { return false; }
+    var b = r.body || '';
+    return b.indexOf('#EXTM3U') >= 0 || b.indexOf('#EXTINF') >= 0;
+  } catch (e) {
+    return false;
+  }
+}
+
+// ---------------- 返回封装 ----------------
+
+function hbOk(host, url) {
+  if (host.isKu9) { return { url: url, referer: REFERER }; }
+  return JSON.stringify({ url: url, headers: 'Referer: ' + REFERER });
+}
+
+function hbErr(host, msg) {
+  if (host.isKu9) { return { url: '', referer: REFERER, error: msg }; }
+  return JSON.stringify({ error: msg });
+}
+
+// ---------------- 入口 ----------------
+
+function hbParseId(item) {
+  var raw = '';
+  try {
+    if (item === null || item === undefined) { raw = ''; }
+    else if (typeof item === 'string') { raw = item; }
+    else if (typeof item === 'object') {
+      if (item.id) { raw = String(item.id); }
+      else if (item.params && item.params.id) { raw = String(item.params.id); }
+      else if (item.url) { raw = String(item.url); }
+      else { raw = String(item); }
+    } else { raw = String(item); }
+  } catch (e) { raw = ''; }
+
+  var m = /(?:^|[?&])id=([^&#]+)/.exec(raw);
+  var id = m ? m[1] : raw;
+  try { id = decodeURIComponent(id); } catch (e2) {}
+  id = (id || '').trim().toLowerCase();
+  if (HB_BY_ID[id]) { id = HB_BY_ID[id]; }
+  return id;
+}
+
+function main(item) {
+  var host = hbHost();
+  if (!host.req) { return hbErr(host, '宿主不支持网络请求'); }
+
+  var id = hbParseId(item);
+  var ch = HB_CH[id];
+  if (!ch) { return hbErr(host, '未知频道: ' + id); }
+  var sid = ch.id;
+
+  // 1) 取流地址（不依赖 cookie）
+  var streamUrl = hbStreamUrl(host, sid);
+  if (!streamUrl) { return hbErr(host, ch.n + ' 取流地址失败'); }
+
+  // 2) 该频道页面 → 拿三个 cookie
+  var ck = hbFetchClient(host, sid);
+
+  // 3) WS 在线登记（不登记后面一定 403）
+  var wsOk = hbWsRegister(host, ck);
+
+  // 4) 换 extrakey，最多 4 次（首发可能抢在登记落库之前）
+  var finalUrl = '', lastUrl = '';
+  for (var i = 0; i < 4; i++) {
+    lastUrl = hbLeech(host, streamUrl, ck.cid);
+    if (lastUrl && hbPlayable(host, lastUrl)) { finalUrl = lastUrl; break; }
+    hbWait(250);
   }
 
-  return { url: '湖北台 ' + ch.name + ' 取流失败（leech 未成功）', referer: HB_REFERER };
+  if (finalUrl) { return hbOk(host, finalUrl); }
+
+  if (HB_LAST_CODE === 404) {
+    return hbErr(host, ch.n + '：官方流已下线（HTTP 404）');
+  }
+  if (!wsOk) {
+    return hbErr(host, ch.n + '：本机播放器不支持 WebSocket，该源必需 ws');
+  }
+  return hbErr(host, ch.n + '：CDN 鉴权未通过（extrakey 校验失败）');
 }
