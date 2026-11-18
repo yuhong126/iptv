@@ -1,50 +1,45 @@
 /*
- * 深圳网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v3 诊断版
+ * 深圳网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v4 内置key版
  * 逆向自 www.sztv.com.cn 官网播放器（dianshi.shtml + pindao/LSDPlayer.js）2026-11-18
  *
- * ★ v3 改动（2026-11-18 17:20）：
- *   1. 加 ?debug=1 诊断模式——把每一步执行结果编码进 error 回报，定位真机卡点。
- *   2. UA 用最短可用值 'Mozilla/5.0'（实测 m3u8+分片都 200；避免长 UA 潜在解析差异）。
- *   3. key 接口返回体完整容错（string / object.body / 带引号）。
- *   4. MD5 优先用 mytv 内置 md5（若可用），回退纯 JS。
+ * ★★★ v4 关键修复（2026-11-18 17:30）：去掉第三方 key 接口依赖 ★★★
+ *   v1~v3 每次播放都要先请求 hls-api.sztv.com.cn/getCutvHlsLiveKey 换 key，
+ *   真机 mytv 内该请求失败 → JS 返回空 url → mytv 报 "No playable data found (10087)"。
+ *   实测该 key 完全固定（每频道一个常量，不随时间变），故 v4 直接内置 key，
+ *   播放只需：本地生成签名 sign=md5(salt+path+hexTime) + 拼 URL，零网络请求。
+ *   —— 与已三端可播的四川源结构一致（四川 token 也是内置）。
  *
- * ★ 链路（每次播放 JS 现场生成，签名实时有效）：
- *   1. token = md5(nowSec + channelCode + "cutvLiveStream|Dream2017")
- *   2. GET https://hls-api.sztv.com.cn/getCutvHlsLiveKey?t=&id=&token=&at=1
- *      → 带引号混淆串，经 sztvZ() 解码得 key
- *   3. path = /<code>/500/<key>.m3u8
- *      sign = md5(salt + path + hexTime)，hexTime=(nowSec+7200).toString(16)
- *      URL = https://sztv-live.sztv.com.cn<path>?sign=&t=
- *   4. ★ CDN 强校验：m3u8 + 每个分片都必须带浏览器 UA（Mozilla），否则 403。
- *      用标准 headers 字段带 'User-Agent: Mozilla/5.0'。
+ * ★ 链路（签名实时生成，时间窗口 ±4h 都有效）：
+ *   1. key 内置（见 SZT_CH，从官网 key 接口逆向，固定不变）
+ *   2. path = /<code>/500/<key>.m3u8
+ *      sign = md5(SALT + path + hexTime)，hexTime=(nowSec+7200).toString(16)
+ *      URL  = https://sztv-live.sztv.com.cn<path>?sign=&t=
+ *   3. ★ CDN 强校验：m3u8 + 每个分片都必须带浏览器 UA（Mozilla），否则 403。
+ *      用标准 headers 字段带 'Referer + User-Agent: Mozilla/5.0'（与四川同结构）。
  *
  * 用法: javascript://.../sztv.js?id=7868
- *       加 &debug=1 进入诊断模式（error 字段回报每一步状态）
+ *       ?id 为频道 id（见 SZT_CH）
+ *
+ * 兼容：mytv 返回 JSON 字符串 {url,headers}；酷9 返回对象 {url,referer,userAgent}。
  */
 
 // ---------- 环境兼容 ----------
 var SZT_IS_KU9 = (typeof ku9 !== 'undefined');
-var SZT_UA = 'Mozilla/5.0';                       // 最短浏览器 UA（实测够用）
-var SZT_SECRET = 'cutvLiveStream|Dream2017';
+var SZT_UA = 'Mozilla/5.0';                       // 最短浏览器 UA（实测 m3u8+分片都 200）
 var SZT_SALT = 'ejow6p6p6hmrm9g96beh2knecdq5kyw9bp0zxyg7';
 var SZT_SERVER = 'sztv-live.sztv.com.cn';
-var SZT_KEYAPI = 'https://hls-api.sztv.com.cn/getCutvHlsLiveKey';
 
+// code = 官网播放频道码；key = 官网 key 接口返回值（固定）
 var SZT_CH = {
-  '7868': { n:'深圳都市', c:'ZwxzUXr' },
-  '7880': { n:'深圳电视剧', c:'4azbkoY' },
-  '7881': { n:'深圳少儿', c:'1SIQj6s' },
-  '7869': { n:'深圳移动', c:'wDF6KJ3' },
-  '7944': { n:'深圳国际', c:'sztvgjpd' },
-  '7867': { n:'深圳卫视', c:'AxeFRth' },
-  '24725': { n:'深圳卫视4K', c:'R77mK1v' },
-  '7878': { n:'宜和购物', c:'BJ5u5k2' }
+  '7868': { n:'深圳都市', c:'ZwxzUXr', k:'p3ujwsz' },
+  '7880': { n:'深圳电视剧', c:'4azbkoY', k:'s5rhasb' },
+  '7881': { n:'深圳少儿', c:'1SIQj6s', k:'s9rdSsQ' },
+  '7869': { n:'深圳移动', c:'wDF6KJ3', k:'g73gDs6' },
+  '7944': { n:'深圳国际', c:'sztvgjpd', k:'o17pzsvm' },
+  '7867': { n:'深圳卫视', c:'AxeFRth', k:'c67hwsF' },
+  '24725': { n:'深圳卫视4K', c:'R77mK1v', k:'g93e7sm' },
+  '7878': { n:'宜和购物', c:'BJ5u5k2', k:'n8weJsu' }
 };
-
-// 诊断缓冲
-var SZT_DBG = [];
-function sztvD(s) { try { SZT_DBG.push(s); } catch (e) {} }
-function sztvDump() { return SZT_DBG.join(' | '); }
 
 // ---------- MD5：优先宿主内置，回退纯 JS ----------
 function sztvMd5(str) {
@@ -92,92 +87,23 @@ function sztvMd5js(str) {
   return (X(a)+X(b)+X(c)+X(d)).toLowerCase();
 }
 
-// ---------- Base64 解码 + Z() ----------
-function sztvB64decode(a) {
-  var chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/', out='', i=0;
-  a=a.replace(/[^A-Za-z0-9+/=]/g,'');
-  while(i<a.length){
-    var e1=chars.indexOf(a.charAt(i++)),e2=chars.indexOf(a.charAt(i++)),e3=chars.indexOf(a.charAt(i++)),e4=chars.indexOf(a.charAt(i++));
-    out+=String.fromCharCode((e1<<2)|(e2>>4));
-    if(e3!==-1)out+=String.fromCharCode(((e2&15)<<4)|(e3>>2));
-    if(e4!==-1)out+=String.fromCharCode(((e3&3)<<6)|e4);
-  }
-  return out;
-}
-function sztvZ(a){
-  var b=a.length-Math.floor(a.length/2);
-  a=a.substr(b)+a.substr(0,b);
-  return sztvB64decode(a.split('').reverse().join(''));
-}
-
-// ---------- 网络请求：完整容错 ----------
-function sztvRaw(url) {
-  for (var attempt=0; attempt<3; attempt++) {
-    try {
-      if (SZT_IS_KU9 && typeof ku9.request==='function') {
-        var r=ku9.request(url,'GET',{});
-        if (r && r.body) return r.body+'';
-      } else if (typeof mytv!=='undefined') {
-        if (typeof mytv.request==='function') {
-          var mr=mytv.request(url,'GET',[],'',true);
-          if (mr!==null && mr!==undefined) {
-            if (typeof mr==='string') { if(mr) return mr; }
-            else if (typeof mr.body==='string' && mr.body) return mr.body;
-            else if (mr.body!==null && mr.body!==undefined && (mr.body+'')!=='') return mr.body+'';
-          }
-        }
-        if (typeof mytv.get==='function'){var g=mytv.get(url,[]);if(g)return g+'';}
-        if (typeof mytv.fetch==='function'){var f=mytv.fetch(url);if(f)return f+'';}
-      }
-    } catch(e){ sztvD('reqErr'+attempt+':'+e.message); }
-  }
-  return '';
-}
-
 function sztvGetQuery(url,key){
   try{if(SZT_IS_KU9&&typeof ku9.getQuery==='function')return ku9.getQuery(url,key);}catch(e){}
   try{var m=new RegExp('(?:^|[?&])'+key+'=([^&]*)').exec(url||'');return m?decodeURIComponent(m[1]):'';}catch(e2){}
   return '';
 }
 
-function sztvErr(msg, dbg, isKu9){
-  var text = msg + (dbg ? ' 【'+(dbg==='1'?sztvDump():dbg)+'】' : '');
-  return isKu9 ? {url:'',error:text} : JSON.stringify({url:'',error:text});
-}
-
 function main(item){
-  SZT_DBG=[];
   var urlArg=(item&&item.url)||(typeof item==='string'?item:'')||'';
-  var dbg=sztvGetQuery(urlArg,'debug');
   var id=sztvGetQuery(urlArg,'id')||'7868';
-  sztvD('id='+id);
   var ch=SZT_CH[id];
-  if(!ch) return sztvErr('未知频道:'+id, dbg, SZT_IS_KU9);
+  if(!ch) return SZT_IS_KU9 ? {url:'',error:'未知频道:'+id} : JSON.stringify({url:'',error:'未知频道:'+id});
 
-  var nowSec=Math.floor(Date.now()/1000);
-  var token=sztvMd5(''+nowSec+ch.c+SZT_SECRET);
-  sztvD('md5='+token.slice(0,8));
-  var api=SZT_KEYAPI+'?t='+nowSec+'&id='+ch.c+'&token='+token+'&at=1';
-  var raw=sztvRaw(api);
-  sztvD('rawLen='+(raw?raw.length:0));
-  if(!raw) return sztvErr(ch.n+':key接口空', dbg, SZT_IS_KU9);
-
-  var enc=(raw+'').replace(/^[\s"']+|[\s"']+$/g,'');
-  var key='';
-  try{key=sztvZ(enc);}catch(e){sztvD('Zerr:'+e.message);}
-  sztvD('key='+key);
-  if(!key) return sztvErr(ch.n+':key解码失败', dbg, SZT_IS_KU9);
-
-  var path='/'+ch.c+'/500/'+key+'.m3u8';
-  var hexTime=(nowSec+7200).toString(16);
+  var path='/'+ch.c+'/500/'+ch.k+'.m3u8';
+  var hexTime=(Math.floor(Date.now()/1000)+7200).toString(16);
   var sign=sztvMd5(SZT_SALT+path+hexTime);
   var streamUrl='https://'+SZT_SERVER+path+'?sign='+sign+'&t='+hexTime;
-  sztvD('urlOK');
-
-  // debug 模式：把完整链路状态塞进 error 回报（即使成功），便于真机定位
-  if(dbg==='1') return JSON.stringify({url:'',error:'DBG '+sztvDump()+' | URL='+streamUrl});
 
   if(SZT_IS_KU9) return {url:streamUrl,referer:'https://www.sztv.com.cn/',userAgent:SZT_UA};
-  // headers 与四川同结构（Referer + UA），避免宿主对单行 headers 的特殊处理
   return JSON.stringify({url:streamUrl,headers:'Referer: https://www.sztv.com.cn/\nUser-Agent: '+SZT_UA});
 }
