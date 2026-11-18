@@ -15,9 +15,13 @@
  *      其中 hexTime = (nowSec + 7200).toString(16)  ← 注意是未来 2 小时
  *      最终 URL = https://sztv-live.sztv.com.cn<流路径>?sign=<sign>&t=<hexTime>
  *   4. ★ CDN 校验 UA：只认浏览器系（Mozilla），AliPlayer/空 UA 一律 403（与四川相反）。
- *      用 mytv「在链接中提取 Header」把 UA 内嵌进 URL：
- *        <流URL>|User-Agent=Mozilla/5.0 (...)
- *      mytv 统一解析入口拆出 header 并带到 m3u8 + 每个 .ts 分片，IJK/Media3/VLC 全适用。
+ *      用 mytv 标准 headers 字段把 UA 带给 m3u8 + 分片：
+ *        JSON.stringify({ url: streamUrl, headers: 'User-Agent: Mozilla/5.0 ...' })
+ *      ★★ 重要：不要用 url|User-Agent=... 内嵌写法！反编译确认 a5f$n 解析 JS 返回的
+ *         url 时不做 | 拆分，直接 new URI(url)，带空格/竖线会构造失败 → 播放不了。
+ *        |Header 提取只在 a5f$X() 的 WebView 视频提取路径生效，对 JS 源无效。
+ *      ★ 分片转发：Media3 内核会把 headers 带到 .ts 分片；若电视端默认 IJK 不转发，
+ *        需在「设置 → 视频播放器内核」切到 Media3（本源与安徽/河南/四川同机制）。
  *
  * ★ 实测校验（2026-11-18）：
  *   分片带 Mozilla UA → 200 / 2.4MB；带 AliPlayer UA → 403；无任何头 → 403；Referer 非必需。
@@ -206,6 +210,7 @@ function main(item) {
   if (SZT_IS_KU9) {
     return { url: streamUrl, userAgent: SZT_UA };
   }
-  // ★ mytv：内嵌浏览器 UA（深圳 CDN 只认 Mozilla），作用于 m3u8 + 分片，内核无关
-  return JSON.stringify({ url: streamUrl + '|User-Agent=' + SZT_UA });
+  // ★ mytv：用标准 headers 字段带浏览器 UA（深圳 CDN 只认 Mozilla）
+  //   不要用 url|User-Agent= 内嵌——JS 源的 url 不走 WebView 的 |Header 解析，会变成畸形 URL
+  return JSON.stringify({ url: streamUrl, headers: 'User-Agent: ' + SZT_UA });
 }
