@@ -144,28 +144,16 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 港澳台,#genre#
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
 TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
-TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
-中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
-东森新闻,http://211.72.174.95:8138/0.ts
-东森新闻,http://211.72.174.95:8138/0.ts
-民视新闻,http://211.72.174.95:8117/0.ts
-中视HD,http://211.72.174.95:8113/0.ts
-华视HD,http://211.72.174.95:8114/0.ts
-公视,http://211.72.174.95:8116/0.ts
-民视,http://211.72.174.95:8115/0.ts
-新视觉hd,http://120.76.248.139/live/bfgd/4200000249.m3u8
-香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
 香港面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 台湾|唯心WXTV2,http://61.216.67.119:1935/wxtv/wxtv.stream/playlist.m3u8
 生命电视,https://5ddce30eb4b55.streamlock.net/lifetv/lifetv.stream/playlist.m3u8
 生命电视,http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 唯心,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
-无线明珠高码,http://beishan008.asuscomm.com:8890/bysid/2.m3u8
+
 
 
 
@@ -649,6 +637,15 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 湖北,#genre#
+湖北卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=431
+湖北经视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=432
+湖北综合,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=433
+湖北公共,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=434
+湖北影视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=435
+湖北生活,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=436
+湖北教育,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=437
+湖北垄上,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=438
+
 湖北卫视,http://183.94.146.79:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北经视,http://183.94.146.79:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北综合,http://183.94.146.79:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -664,7 +661,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 湖北教育,webview://https://news.hbtv.com.cn/app/tv/437
 十堰新闻,webview://https://www.syiptv.com/tv?station_id=1
 十堰经济,webview://https://www.syiptv.com/tv?station_id=3
-十堰新闻,http://p8.vzan.com/slowlive/034028687228317362/live.m3u8
+
 
 湖南,#genre#
 
@@ -707,6 +704,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 洞头综合,http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 
 广东,#genre#
+广东4K超,webview://https://www.gdtv.cn/tvChannelDetail/16
 广东珠江,webview://https://www.gdtv.cn/tvChannelDetail/44
 广东新闻,webview://https://www.gdtv.cn/tvChannelDetail/45
 广东民生,webview://https://www.gdtv.cn/tvChannelDetail/48
@@ -714,26 +712,19 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
 大湾区卫视（海外版）,webview://https://www.gdtv.cn/tvChannelDetail/46
 广东影视,webview://https://www.gdtv.cn/tvChannelDetail/53
-4K超,webview://https://www.gdtv.cn/tvChannelDetail/16
 广东少儿,webview://https://www.gdtv.cn/tvChannelDetail/54
 嘉佳卡通,webview://https://www.gdtv.cn/tvChannelDetail/66
-南方购物,webview://https://www.gdtv.cn/tvChannelDetail/42
 岭南戏曲,webview://https://www.gdtv.cn/tvChannelDetail/15
 广东移动,webview://https://www.gdtv.cn/tvChannelDetail/74
-荔枝台,webview://https://www.gdtv.cn/tvChannelDetail/100
-纪录片,webview://https://www.gdtv.cn/tvChannelDetail/94
-GRTN健康,webview://https://www.gdtv.cn/tvChannelDetail/99
-GRTN文化,webview://https://www.gdtv.cn/tvChannelDetail/75
+广东台经典剧,webview://https://www.gdtv.cn/tvChannelDetail/100
 GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
-GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
+
 
 深圳卫视,webview://https://www.sztv.com.cn/dianshi.shtml?id=7867
 深圳都市,webview://https://www.sztv.com.cn/dianshi.shtml?id=7868
 深圳电视剧,webview://https://www.sztv.com.cn/dianshi.shtml?id=7880
-深圳财经,webview://https://www.sztv.com.cn/dianshi.shtml?id=7871
 深圳少儿,webview://https://www.sztv.com.cn/dianshi.shtml?id=7881
 深圳移动,webview://https://www.sztv.com.cn/dianshi.shtml?id=7869
-深圳宜和购物,webview://https://www.sztv.com.cn/dianshi.shtml?id=7878
 深圳国际,webview://https://www.sztv.com.cn/dianshi.shtml?id=7944
 
 佛山顺德,webview://http://xiubo.net/tv/gd/fssd.html
@@ -764,11 +755,7 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 广州综合,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 广州新闻,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-广州影视,https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-广州南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
-广州法治,https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-
-南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
+南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
 
 海南,#genre#
@@ -858,12 +845,12 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 泸州新闻,rtmp://tvdrs.luzhoubs.com/channellive/lztv1
 
 贵州,#genre#
-贵州公共,webview://https://www.gzstv.com/tv/ch02?utao=1
-贵州影视,webview://https://www.gzstv.com/tv/ch03?utao=1
-贵州生活,webview://https://www.gzstv.com/tv/ch04?utao=1
-贵州乡村,webview://https://www.gzstv.com/tv/ch05?utao=1
-贵州科教,webview://https://www.gzstv.com/tv/ch06?utao=1
-贵州移动,webview://https://www.gzstv.com/tv/ch13?utao=1
+贵州公共,webview://https://www.gzstv.com/tv/ch02
+贵州影视,webview://https://www.gzstv.com/tv/ch03
+贵州生活,webview://https://www.gzstv.com/tv/ch04
+贵州乡村,webview://https://www.gzstv.com/tv/ch05
+贵州科教,webview://https://www.gzstv.com/tv/ch06
+贵州移动,webview://https://www.gzstv.com/tv/ch13
 
 云南,#genre#
 云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
@@ -968,27 +955,14 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
-CHC高清电影,http://42.227.90.3:9003/hls/59/index.m3u8
+CHC影迷电影,http://42.227.90.3:9003/hls/59/index.m3u8
 CHC动作电影,http://42.227.90.3:9003/hls/60/index.m3u8
 CHC家庭影院,http://42.227.90.3:9003/hls/61/index.m3u8
 
 CHC家庭影院,http://lysj.aylzline.top:8899/rtp/225.1.2.214:11422
 CHC动作电影,http://lysj.aylzline.top:8899/rtp/225.1.2.215:11428
-CHC高清电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
+CHC影迷电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
 
-CHC家庭影院,http://171.213.150.179:4022/rtp/239.94.1.173:5140
-CHC影迷电影,http://171.213.150.179:4022/rtp/239.94.1.174:5140
-CHC动作电影,http://171.213.150.179:4022/rtp/239.94.1.175:5140
-
-
-CHC家庭影院,http://api.kkhk.itv888.vip:8080/streams/qja633ty8n/index.m3u8
-CHC动作电影,http://api.kkhk.itv888.vip:8080/streams/tbqrnwqrilg/index.m3u8
-CHC影迷电影,http://api.kkhk.itv888.vip:8080/streams/narc71xn3d/index.m3u8
-
-
-CHC影迷电影,http://58.17.89.7:8081/hls/26/index.m3u8
-CHC家庭影院,http://58.17.89.7:8081/hls/27/index.m3u8
-CHC动作电影,http://58.17.89.7:8081/hls/28/index.m3u8
 
 CHC影迷电影,http://hsza.f3322.net:4000/rtp/238.1.79.17:4248
 CHC动作电影,http://hsza.f3322.net:4000/rtp/238.1.79.18:4256
@@ -997,9 +971,6 @@ CHC家庭影院,http://hsza.f3322.net:4000/rtp/238.1.79.22:4288
 CHC影迷电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 CHC动作电影,http://183.237.95.108:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=0&authid=0
 CHC家庭影院,http://183.237.95.108:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
-
-
-长影频道,http://tonyk.56301232.xyz:3477/rtp/239.37.0.125:5540
 
 
 
