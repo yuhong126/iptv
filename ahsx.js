@@ -64,12 +64,25 @@ function main(item) {
   var id = ahGetId(item);
   var ch = CH[id] || CH['ahwssx'];
 
-  // ★ 2026-11-17 改 https：同一个 CDN、同一套 txSecret/txTime 签名，只换加密端口。
-  //   13/13 频道 m3u8 与首个分片实测全 200（见文件末尾实测记录）。
-  //   目的：http 明文在默认内核下播不了，逼着要装 IJK 组件；而 IJK 内核不发送
-  //   Referer（su5.smali 只设 user_agent，无 referer/headers 通道），四川这类
-  //   强校验 Referer 的源在 IJK 下必然 403。改 https 后不需要装 IJK，两边都不冲突。
-  var url = 'https://live.ahsx.ahtv.cn/live/' + ch.s + '.m3u8'
+  // ★★ 2026-11-18 关键修复：换到 seclive（CDN 多线 + DigiCert 正规证书）
+  //
+  //   上一版用 live.ahsx.ahtv.cn，实测发现它是【单 IP 单线】：
+  //       live.ahsx.ahtv.cn     -> 1 个 IPv4：36.136.120.15（移动）
+  //       seclive.ahsx.ahtv.cn  -> 4 个 IPv4：112.48.198.169 / 112.50.114.189 /
+  //                                          36.159.103.95 / 36.159.62.143
+  //   单 IP 移动线路最典型的坑就是「跨网不通」——同一 WiFi 下电脑能播、
+  //   换手机流量（联通/电信）就黑屏转圈，这正好对上"电脑/电视能播、手机播不了"。
+  //   seclive 是四线 CDN，跨运营商可达，且证书是腾讯云 DigiCert 正规证书
+  //   （live 那张是 DNSPod 自建 CA，openssl verify error 19，移动端风险更高）。
+  //
+  //   实测（2026-11-18，Python 严格 TLS 上下文）：
+  //     seclive https 全 13 频道 m3u8=200、首个分片=200（115KB ~ 1156KB）
+  //     UA 白名单极窄：仅 ijkplayer 放行，ExoPlayerLib / VLC / Lavf / 空 UA 一律 403
+  //     → 所以 headers 必须精确给出 User-Agent: ijkplayer（见下方返回）
+  //
+  //   备用域名 live 保留在注释里：如果某天 seclive 整体不可用，把上面这行
+  //   换成 http://live.ahsx.ahtv.cn（该域名对 ExoPlayerLib 也放行，容错更宽）。
+  var url = 'https://seclive.ahsx.ahtv.cn/live/' + ch.s + '.m3u8'
           + '?txSecret=' + ch.k + '&txTime=70db6800';
 
   // 酷9：对象 + 双套 UA 通道（userAgent 字段 + headers 对象）
