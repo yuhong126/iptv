@@ -773,6 +773,13 @@ GRTN教育,webview://https://www.gdtv.cn/tvChannelDetail/104
 
 
 海南,#genre#
+海南自贸,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=1&qq_aio_chat_type=2
+海南新闻,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=3&qq_aio_chat_type=2
+海南社会与法,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=4&qq_aio_chat_type=2
+海南文旅,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=6&qq_aio_chat_type=2
+海南少儿,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=7&qq_aio_chat_type=2
+
+
 海南自贸,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home
 海南新闻,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=3&referPage=home
 海南社会与法,webview://https://www.hnntv.cn/live.html?playType=livePlay&channelld=4&referPage=home
