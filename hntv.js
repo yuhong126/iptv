@@ -98,28 +98,46 @@ function hnGetId(item) {
   return key;
 }
 
-// 请求封装：酷9用对象头，mytv 用数组头；两者都试，取第一个拿到 body 的
-function hnRequest(url, method, headersObj) {
-  var body = '';
-  // 路径1：ku9.request（酷9 / 带 ku9 桥接的改版 mytv）
+/* ---------------- 请求封装（双通道 + 返回体归一化） ---------------- */
+// 宿主返回体形态不统一：可能是字符串 / {body:..} / {data:..} / {content:..}，
+// 统一抽成字符串，避免"请求成功但 body 取不到"被误判成接口失败。
+function hnPickBody(r) {
+  if (r === null || r === undefined) return '';
+  if (typeof r === 'string') return r;
   try {
-    if (typeof ku9 !== 'undefined' && typeof ku9.request === 'function') {
-      var r = ku9.request(url, method || 'GET', headersObj, null);
-      if (r && r.body) body = String(r.body);
+    if (r.body !== undefined && r.body !== null) return String(r.body);
+    if (r.data !== undefined && r.data !== null) {
+      return (typeof r.data === 'string') ? r.data : JSON.stringify(r.data);
+    }
+    if (r.content !== undefined && r.content !== null) return String(r.content);
+    if (r.text !== undefined && r.text !== null) return String(r.text);
+  } catch (e) {}
+  return '';
+}
+
+function hnRequest(url, method, headersObj) {
+  var m = method || 'GET';
+  var k, arr;
+
+  // 路径1：mytv.request —— headers 是 "K: V" 的数组
+  try {
+    if (typeof mytv !== 'undefined' && typeof mytv.request === 'function') {
+      arr = [];
+      for (k in headersObj) { if (headersObj.hasOwnProperty(k)) arr.push(k + ': ' + headersObj[k]); }
+      var b1 = hnPickBody(mytv.request(url, m, arr, ''));
+      if (b1) return b1;
     }
   } catch (e) {}
-  // 路径2：mytv.request（原版 mytv，headers 为数组）
-  if (!body) {
-    try {
-      if (typeof mytv !== 'undefined' && typeof mytv.request === 'function') {
-        var hs = [];
-        for (var k in headersObj) hs.push(k + ': ' + headersObj[k]);
-        var mr = mytv.request(url, method || 'GET', hs, '');
-        if (mr) body = String((mr.body !== undefined ? mr.body : mr) || '');
-      }
-    } catch (e2) {}
-  }
-  return body;
+
+  // 路径2：ku9.request —— headers 是普通对象（真酷9，或注入了 ku9 桥接的 mytv）
+  try {
+    if (typeof ku9 !== 'undefined' && typeof ku9.request === 'function') {
+      var b2 = hnPickBody(ku9.request(url, m, headersObj, null));
+      if (b2) return b2;
+    }
+  } catch (e2) {}
+
+  return '';
 }
 
 /* ============================ 主入口 ============================ */
@@ -166,14 +184,18 @@ function main(item) {
     return HN_IS_KU9 ? { url: err } : JSON.stringify({ url: '', error: err });
   }
 
-  // ★ 2026-11-17 修正：接口下发的是 http://tvcdn.stream3.hndt.com/...（明文）。
-  //   明文 http 在默认播放内核下播不了，逼着必须装 IJK 组件；而 IJK 内核不发送
-  //   Referer（su5.smali 只设 user_agent，没有 referer/headers 通道），会让四川
-  //   这类强校验 Referer 的源在 IJK 下必然 403。改成 https 后不需要装 IJK。
-  //   实测：12/12 频道的 https m3u8 与首个分片全部 200（2026-11-17）。
-  //   https 会 302 到 100ycdn 的 https 节点，客户端自动跟随即可。
+  // ★ 2026-11-18 回退：不再把接口下发的 http 升级成 https
+  //   上一版把 http://tvcdn.stream3.hndt.com 强行改 https，理由是"明文要装 IJK"。
+  //   但实测 App 的 AndroidManifest 全开明文（usesCleartextTraffic=true），
+  //   http 完全合法；而 hndt.com 的证书由 "DNSPod DV TLS RSA CA 2025" 签发
+  //   （openssl verify error 20 拿不到本地签发者），移动端 TLS 校验更严格的
+  //   机型会直接失败。电视上能播河南的版本用的也是 http。
+  //   → 原样返回接口下发的 http 地址，不做协议改写。
   var u = String(data.video_streams[0]);
-  if (u.indexOf('http://') === 0) u = 'https://' + u.substring(7);
+  var hs = 'User-Agent: ' + ua + '\nReferer: https://static.hntv.tv/';
 
-  return HN_IS_KU9 ? { url: u } : JSON.stringify({ url: u });
+  if (HN_IS_KU9) {
+    return { url: u, userAgent: ua, headers: { 'User-Agent': ua, 'Referer': 'https://static.hntv.tv/' } };
+  }
+  return JSON.stringify({ url: u, headers: hs });
 }
