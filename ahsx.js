@@ -1,35 +1,56 @@
 /*
- * 安徽广播电视台 / 安徽视讯 —— JS 直播源【通用版】
- * 新文件名 ahsx_u.js（换名避开 gh-proxy 同名缓存粘滞）
+ * 安徽广播电视台 / 安徽视讯 —— JS 直播源【v6 定版 · 2026-11-18 09:35】
+ * 文件名固定 ahsx.js（不带后缀、不带数字），以后只改内容，直播源地址永不变更。
  *
- * ============ 为什么要有这个通用版（2026-11-17 兼容性问题） ============
- * 现象：同一个源列表，在 4 个 mytv/酷9 版本里表现不一致：
- *   改版 v5（WebView江苏江西修正版）：四川能播，安徽/河南不能播
- *   未改版原版                    ：安徽/河南能播，四川不能播
- *   另有 2 个版本                 ：全部能播
+ * ================== v6 改了什么（关键，别再改回去） ==================
+ * 现象：同样的 JS，河南 hntv.js 能播，四川 sctv.js 能播，唯独安徽一直播不了。
  *
- * 根因：三个 JS 用了三种互不兼容的「方言」：
- *   安徽(旧 ahsx.js) = 纯 mytv：item 当字符串、返回 JSON 字符串
- *   河南(hntv.js)    = 纯酷9 ：依赖 ku9.request / item.id、返回对象
- *   四川(sctv4.js)   = 双兼容：运行时探测宿主，两种都要满足
- * 只要某个客户端版本的引擎细节与「那一种方言」不符，就解析失败。
+ * 2026-11-18 用 4 域名 × 9 种 UA 全矩阵复测，锁死两条铁律：
  *
- * 本版照抄四川 sctv4.js 已验证过的「双环境兼容」模型：
- *   1) 运行时探测宿主，而不是写死某一种引擎
- *   2) item 三种形态都兼容：纯字符串 "id=xxx" / 对象 .id / 对象 .params.id
- *   3) 返回值按宿主选：酷9→对象；mytv(含带 ku9 桥接的改版)→JSON 字符串
- *      —— mytv 引擎的 normalizeMainResult 对「对象」和「JSON 字符串」都接受，
- *         但返回 JSON 字符串在所有已测版本上都 100% 正确，故优先。
+ *   ① 域名必须用 live.ahsx.ahtv.cn，不能用 seclive.ahsx.ahtv.cn
+ *      http://live.ahsx.ahtv.cn    ijkplayer=200  ExoPlayerLib*=200  okhttp=403  Lavf=403  VLC=403
+ *      https://live.ahsx.ahtv.cn   ijkplayer=200  ExoPlayerLib*=200  okhttp=403  Lavf=403  VLC=403
+ *      http://seclive.ahsx.ahtv.cn ijkplayer=200  ExoPlayerLib*=403  okhttp=403  Lavf=403  VLC=403
+ *      https://seclive.ahsx.ahtv.cn 全部失败（DNSPod 自签 CA，Android 严格校验握手失败）
+ *      → live 是唯一「同时放行 ijkplayer 与 ExoPlayerLib」的域名，覆盖面最大。
  *
- * 源本身：腾讯云 CDN，UA 白名单只放行含小写 ijkplayer / ExoPlayerLib，
- *         AliPlayer 与浏览器 UA 一律 403（2026-11-16/17 多次实测）。
- *         txTime=70db6800(2030-01-01) 是 APP 内写死静态签名，零网络请求。
+ *   ② 绝对不能带 Referer
+ *      ijkplayer + Referer: https://xxx  →  403
+ *      ijkplayer 无 Referer              →  200
+ *      所以返回的 headers 里只能有 User-Agent 一项。
+ *
+ * 为什么 v5 播不了：v5 把 seclive 当首选（因为它有 4 条 CDN 线路），
+ * 而 seclive 只认 ijkplayer 一个 UA。只要播放器没有老老实实带上我们给的 UA
+ * （Media3/ExoPlayer 内核默认 UA 是 ExoPlayerLib/…、IJK 原生默认是 Lavf/…），
+ * seclive 就 403，黑屏。而 live 对 ExoPlayerLib 也放行，容错面直接翻倍。
+ * 这也解释了为什么「原始版本能播安徽」——原始版本用的就是 live。
+ *
+ * 结论（按优先级探测，谁先返回 #EXTM3U 就用谁）：
+ *     1) http://live.ahsx.ahtv.cn      ← 首选，原始可播版本同款，兼容面最大
+ *     2) https://live.ahsx.ahtv.cn     ← 同域名，证书正规（严格 TLS 校验 PASS）
+ *     3) http://seclive.ahsx.ahtv.cn   ← 兜底：live 单 IP 跨网不通时用（只认 ijkplayer）
+ *
+ * 签名：txTime=70db6800 = 2030-01-01 00:00:00，APP 内写死的静态签名，
+ *       txSecret 每台固定，不会过期，无需网络换签。
  */
 
-// 真酷9：只有 ku9、没有 mytv；带 ku9 桥接的改版 mytv 两者都在 → 走 mytv 分支
-var AH_IS_KU9 = (typeof ku9 !== 'undefined') && (typeof mytv === 'undefined');
+/* 宿主探测：全部用「取值即真」判断，绝不直接写 ku9.xxx / mytv.xxx
+ * （部分版本的引擎会把未启用的桥接对象注入成 null，写 ku9.request 会直接抛异常，
+ *   main 一抛异常 = 解析失败 = 黑屏。这是 v5 在某些包上整体播不了的隐患之一。）*/
+function ahHas(o) {
+  var t = typeof o;
+  return (t !== 'undefined') && (o !== null) && (t === 'object' || t === 'function');
+}
+function ahCanReq(o) {
+  try { return ahHas(o) && (typeof o.request === 'function'); } catch (e) { return false; }
+}
 
-// item 三种形态统一取 id
+// 真酷9：只有 ku9、没有 mytv；带 ku9 桥接的改版 mytv 两者都在 → 走 mytv 分支
+// ★ 注意：直接写 ku9 当参数会在「未声明」时抛 ReferenceError，所以先用 typeof 挡一层
+var AH_IS_KU9 = ahHas(typeof ku9 === 'undefined' ? null : ku9) &&
+                !ahHas(typeof mytv === 'undefined' ? null : mytv);
+
+// item 三种形态统一取 id（纯字符串 / 对象 .id / 对象 .params.id）
 function ahGetId(item) {
   var id = '';
   try { if (item && typeof item === 'object' && item.id) id = String(item.id); } catch (e) {}
@@ -44,65 +65,50 @@ function ahGetId(item) {
 }
 
 function main(item) {
-  // id -> {流名, txSecret}
+  // id -> {流名, txSecret}   13 个频道，与 wltv.txt 中的 id 一一对应
   var CH = {
-    'ahwssx': { s: 'ahwssx', k: '5d9bb423b14e850c07d2ead6ec1e6e86' },
-    'jjshtv': { s: 'jjshtv', k: '90c3f69a99577ab3a7e05e13f9fcab9d' },
-    'ystv':   { s: 'ystv',   k: '6a973e72be86a0ae7cccfc75bb4d537b' },
-    'zytytv': { s: 'zytytv', k: 'a23d35a0b79adea92db0aa1cb5f18b06' },
-    'ggtv':   { s: 'ggtv',   k: 'bf6e5dfcccfb9bc5ee1513eec0cd2307' },
-    'nykjtv': { s: 'nykjtv', k: '403760067744a1645bbf79a63bf4c2fd' },
-    'gjtv':   { s: 'gjtv',   k: '67176b04f5762569f28b4e59423cf3f9' },
-    'aqpd':   { s: 'aqpd',   k: '3135baf2090ac893fb82b6ff9f114d36' },
-    'bbtv':   { s: 'bbtv',   k: '0384cc59bc1a07e9497b6fd89a31213a' },
-    'hbxw':   { s: 'hbxw',   k: '04e60ecff2e5f8539fc57ce370ae70ff' },
-    'latv':   { s: 'latv',   k: 'aca9fac261a345932aae830fad64970c' },
-    'whxw':   { s: 'whxw',   k: '5a28c409c52749559bad424e84226e61' },
-    'xctv':   { s: 'xctv',   k: 'e0dd62ab8bf4bba4a6e1e0ed53639019' }
+    'ahwssx': { s: 'ahwssx', k: '5d9bb423b14e850c07d2ead6ec1e6e86' }, // 安徽卫视
+    'jjshtv': { s: 'jjshtv', k: '90c3f69a99577ab3a7e05e13f9fcab9d' }, // 安徽经济生活
+    'ystv':   { s: 'ystv',   k: '6a973e72be86a0ae7cccfc75bb4d537b' }, // 安徽影视
+    'zytytv': { s: 'zytytv', k: 'a23d35a0b79adea92db0aa1cb5f18b06' }, // 安徽综艺体育
+    'ggtv':   { s: 'ggtv',   k: 'bf6e5dfcccfb9bc5ee1513eec0cd2307' }, // 安徽公共
+    'nykjtv': { s: 'nykjtv', k: '403760067744a1645bbf79a63bf4c2fd' }, // 安徽农业科教
+    'gjtv':   { s: 'gjtv',   k: '67176b04f5762569f28b4e59423cf3f9' }, // 安徽国际
+    'aqpd':   { s: 'aqpd',   k: '3135baf2090ac893fb82b6ff9f114d36' }, // 安庆新闻综合
+    'bbtv':   { s: 'bbtv',   k: '0384cc59bc1a07e9497b6fd89a31213a' }, // 蚌埠新闻
+    'hbxw':   { s: 'hbxw',   k: '04e60ecff2e5f8539fc57ce370ae70ff' }, // 淮北新闻综合
+    'latv':   { s: 'latv',   k: 'aca9fac261a345932aae830fad64970c' }, // 六安综合
+    'whxw':   { s: 'whxw',   k: '5a28c409c52749559bad424e84226e61' }, // 芜湖新闻综合
+    'xctv':   { s: 'xctv',   k: 'e0dd62ab8bf4bba4a6e1e0ed53639019' }  // 宣城综合
   };
 
   var id = ahGetId(item);
   var ch = CH[id] || CH['ahwssx'];
 
-  // ★★ 2026-11-18 定版：双域名自动探测 + UA 只送 ijkplayer
-  //
-  //   实测锁定的真实门槛（Python 严格 TLS + 20 种 UA 全测）：
-  //     CDN 只放行 2 类 UA —— "ijkplayer" 或 "ExoPlayerLib*"，其余一律 403：
-  //       UA=ijkplayer            https/live 200   http/live 200   http/seclive 200
-  //       UA=ExoPlayerLib/2.18.1  https/live 200   http/live 200   http/seclive 403
-  //       UA=okhttp/5.4.0（APP 的 OkHttp 默认 UA） 全部 403  ← 这就是播不了的根因
-  //       UA=Media3 / Dalvik / Lavf / VLC / 浏览器 / 空 全部 403
-  //     并且【带 Referer 一定 403】：ijkplayer+Referer -> 403，所以 headers 里
-  //     只能有 User-Agent，绝不能带 Referer（这是本文件最容易写错的一点）。
-  //     分片 .ts 与 m3u8 完全同规则（ijkplayer/ExoPlayerLib 200，okhttp 403）。
-  //
-  //   两个可用域名各有短板，所以这里做成自动探测、按实际网络择优：
-  //     seclive.ahsx.ahtv.cn  4 个 IP 四线 CDN，跨运营商可达；
-  //                           但证书是自签 CA，Android 严格校验下握手失败
-  //                           → 只能用 http（App 的 usesCleartextTraffic=true 允许明文）
-  //     live.ahsx.ahtv.cn     证书系统信任（严格 TLS 校验 PASS），可走 https；
-  //                           但只有 1 个 IP（36.136.120.15 移动），跨网可能不通
-  //   → 先试 seclive（CDN 多线概率高），不通再回退 live（证书可靠）。
   var qs = '?txSecret=' + ch.k + '&txTime=70db6800';
+  var path = '/live/' + ch.s + '.m3u8' + qs;
+
+  // ★ 探测顺序 = 兼容面从大到小（见文件头矩阵）
   var AH_HOSTS = [
-    'http://seclive.ahsx.ahtv.cn/live/' + ch.s + '.m3u8' + qs,
-    'https://live.ahsx.ahtv.cn/live/' + ch.s + '.m3u8' + qs
+    'http://live.ahsx.ahtv.cn' + path,     // 首选：ijkplayer / ExoPlayerLib 全放行
+    'https://live.ahsx.ahtv.cn' + path,    // 同域名 https（正规证书）
+    'http://seclive.ahsx.ahtv.cn' + path   // 兜底：仅 ijkplayer，live 跨网不通时用
   ];
   var url = ahPick(AH_HOSTS);
 
-  // 酷9：对象 + 双套 UA 通道（userAgent 字段 + headers 对象）
+  // 酷9：对象 + 两套 UA 通道（userAgent 字段 + headers 对象）
   if (AH_IS_KU9) {
     return { url: url, userAgent: 'ijkplayer', headers: { 'User-Agent': 'ijkplayer' } };
   }
 
-  // mytv（含带 ku9 桥接的改版 v5）：JSON 字符串 + 多行 headers 字符串
-  // 注意：headers 只给 User-Agent，加 Referer 会直接 403
+  // mytv（含带 ku9 桥接的改版）：JSON 字符串 + 多行 headers 字符串
+  // ★ headers 只给 User-Agent，加 Referer 必定 403
   return JSON.stringify({ url: url, headers: 'User-Agent: ijkplayer' });
 }
 
-/* ---------------- 探测：选第一个真正返回 m3u8 的域名 ----------------
- * 宿主不支持发请求时（没有 mytv.request / ku9.request），直接返回首选，
- * 交给播放器自己试，不额外增加失败面。
+/* ---------------- 探测：选第一个真正返回 m3u8 的地址 ----------------
+ * 宿主没有 mytv.request / ku9.request 时直接返回首选，交给播放器自己试，
+ * 不额外增加失败面。探测只为避开「live 在你那条宽带不通」这种情况。
  */
 function ahPickBody(r) {
   if (r === null || r === undefined) return '';
@@ -118,17 +124,17 @@ function ahPickBody(r) {
   return '';
 }
 
-function ahFetch(url) {
+function ahFetch(u) {
   var body = '';
   try {
-    if (typeof mytv !== 'undefined' && typeof mytv.request === 'function') {
-      body = ahPickBody(mytv.request(url, 'GET', ['User-Agent: ijkplayer'], ''));
+    if (ahCanReq(typeof mytv === 'undefined' ? null : mytv)) {
+      body = ahPickBody(mytv.request(u, 'GET', ['User-Agent: ijkplayer'], ''));
     }
   } catch (e) {}
   if (!body) {
     try {
-      if (typeof ku9 !== 'undefined' && typeof ku9.request === 'function') {
-        body = ahPickBody(ku9.request(url, 'GET', { 'User-Agent': 'ijkplayer' }, null));
+      if (ahCanReq(typeof ku9 === 'undefined' ? null : ku9)) {
+        body = ahPickBody(ku9.request(u, 'GET', { 'User-Agent': 'ijkplayer' }, null));
       }
     } catch (e2) {}
   }
@@ -136,12 +142,16 @@ function ahFetch(url) {
 }
 
 function ahPick(list) {
-  var canReq = (typeof mytv !== 'undefined' && typeof mytv.request === 'function') ||
-               (typeof ku9 !== 'undefined' && typeof ku9.request === 'function');
+  var canReq = false;
+  try {
+    canReq = ahCanReq(typeof mytv === 'undefined' ? null : mytv) ||
+             ahCanReq(typeof ku9 === 'undefined' ? null : ku9);
+  } catch (e) { canReq = false; }
   if (!canReq) return list[0];
   for (var i = 0; i < list.length; i++) {
     var b = ahFetch(list[i]);
     if (b && b.indexOf('#EXTM3U') >= 0) return list[i];
   }
+  // 探测全失败：仍然返回首选（http 版 live），别把「探测不通」变成「不返回地址」
   return list[0];
 }
