@@ -126,6 +126,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 海南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 兵团卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226804/48628997.smil
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
+厦门卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
 厦门卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海峡卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -540,10 +541,11 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 福州新闻,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-厦门卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-厦门一套,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226814/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-厦门二套,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226777/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-厦门三套,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226760/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+厦视一套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm1
+厦视二套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm2
+厦门卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
+厦门移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmyd
+
 平潭综合,rtsp://183.252.176.54/PLTV/88888888/224/3221226735/45469664.smil
 
 莆田一套,webview://https://www.ptbtv.com/live/pt1t/
