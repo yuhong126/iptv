@@ -1,41 +1,41 @@
 /*
- * 安徽广播电视台 / 安徽视讯 —— JS 直播源【v6 定版 · 2026-11-18 09:35】
+ * 安徽广播电视台 / 安徽视讯 —— JS 直播源【v7 定版 · 2026-11-18 10:05】
  * 文件名固定 ahsx.js（不带后缀、不带数字），以后只改内容，直播源地址永不变更。
  *
- * ================== v6 改了什么（关键，别再改回去） ==================
- * 现象：同样的 JS，河南 hntv.js 能播，四川 sctv.js 能播，唯独安徽一直播不了。
+ * ============ v7 相对 v6 的关键改动：主动清空 Referer ============
+ * v6 已经确认：域名用 live、UA 送 ijkplayer，但老板实测 Media3/IJK/VLC 三个内核全黑。
+ * 2026-11-18 10:00 用原始 HTTP 报文逐头排查，结论只有两条会让安徽 403：
  *
- * 2026-11-18 用 4 域名 × 9 种 UA 全矩阵复测，锁死两条铁律：
+ *   ① User-Agent 不在白名单 → 403
+ *        同时放行 ijkplayer 与 ExoPlayerLib* 的只有 live.ahsx.ahtv.cn
+ *   ② Referer 非空 → 403（哪怕是它自己站的地址、ahtv.cn、scgc 都 403）
+ *        UA=ijkplayer 无 Referer            → 200
+ *        UA=ijkplayer Referer: (空)         → 200
+ *        UA=ijkplayer Referer: -            → 200   ← 本版采用
+ *        UA=ijkplayer Referer: http://...   → 403
+ *        UA=ijkplayer Referer: about:blank  → 403
+ *      Origin / Cookie / Accept-Encoding / Range / Cache-Control 全部无害（均 200）。
  *
- *   ① 域名必须用 live.ahsx.ahtv.cn，不能用 seclive.ahsx.ahtv.cn
- *      http://live.ahsx.ahtv.cn    ijkplayer=200  ExoPlayerLib*=200  okhttp=403  Lavf=403  VLC=403
- *      https://live.ahsx.ahtv.cn   ijkplayer=200  ExoPlayerLib*=200  okhttp=403  Lavf=403  VLC=403
- *      http://seclive.ahsx.ahtv.cn ijkplayer=200  ExoPlayerLib*=403  okhttp=403  Lavf=403  VLC=403
- *      https://seclive.ahsx.ahtv.cn 全部失败（DNSPod 自签 CA，Android 严格校验握手失败）
- *      → live 是唯一「同时放行 ijkplayer 与 ExoPlayerLib」的域名，覆盖面最大。
+ * 为什么 v6 会踩到 ②：反编译 mytv 2.2.0.219 的 a5f.smali 后确认，播放前会先拼一份
+ * 「基础头」（base headers），来源是 APP 设置：
+ *        jt0.l() -> Referer      jt0.k() -> Origin      jt0.j() -> Cookie
+ *        jt0.m() -> User-Agent（为空则回落到 全局UA 设置 yr2.K1()）
+ * 然后才与 JS 返回的 headers 合并（vq7.n = base 副本 + putAll(ours)，**JS 的赢**）。
+ * 也就是说：只要 APP 里配过「全局 Referer」（很多人为了让四川/宁夏能播会去配），
+ * 安徽就会带着这个 Referer 请求 → 必 403 → 三个内核一起黑屏。
+ * JS 没法「删除」base 里的键，但可以**覆盖**它。
+ * 所以本版显式回 `Referer: -`（非空、且实测 200，不会被 APP 的 trim 逻辑丢掉）。
  *
- *   ② 绝对不能带 Referer
- *      ijkplayer + Referer: https://xxx  →  403
- *      ijkplayer 无 Referer              →  200
- *      所以返回的 headers 里只能有 User-Agent 一项。
+ * 探测顺序（谁先返回 #EXTM3U 用谁）：
+ *     1) http://live.ahsx.ahtv.cn      首选：ijkplayer / ExoPlayerLib 全放行
+ *     2) https://live.ahsx.ahtv.cn     同域名，证书正规（严格 TLS 校验 PASS）
+ *     3) http://seclive.ahsx.ahtv.cn   兜底：仅 ijkplayer，live 单 IP 跨网不通时用
  *
- * 为什么 v5 播不了：v5 把 seclive 当首选（因为它有 4 条 CDN 线路），
- * 而 seclive 只认 ijkplayer 一个 UA。只要播放器没有老老实实带上我们给的 UA
- * （Media3/ExoPlayer 内核默认 UA 是 ExoPlayerLib/…、IJK 原生默认是 Lavf/…），
- * seclive 就 403，黑屏。而 live 对 ExoPlayerLib 也放行，容错面直接翻倍。
- * 这也解释了为什么「原始版本能播安徽」——原始版本用的就是 live。
- *
- * 结论（按优先级探测，谁先返回 #EXTM3U 就用谁）：
- *     1) http://live.ahsx.ahtv.cn      ← 首选，原始可播版本同款，兼容面最大
- *     2) https://live.ahsx.ahtv.cn     ← 同域名，证书正规（严格 TLS 校验 PASS）
- *     3) http://seclive.ahsx.ahtv.cn   ← 兜底：live 单 IP 跨网不通时用（只认 ijkplayer）
- *
- * 签名：txTime=70db6800 = 2030-01-01 00:00:00，APP 内写死的静态签名，
- *       txSecret 每台固定，不会过期，无需网络换签。
+ * 签名：txTime=70db6800 = 2030-01-01，APP 内写死的静态签名，不会过期，无需换签。
  */
 
 /* 宿主探测：全部用「取值即真」判断，绝不直接写 ku9.xxx / mytv.xxx
- * （部分版本的引擎会把未启用的桥接对象注入成 null，写 ku9.request 会直接抛异常，
+ * （部分版本引擎会把未启用的桥接对象注入成 null，写 ku9.request 会直接抛异常，
  *   main 一抛异常 = 解析失败 = 黑屏。这是 v5 在某些包上整体播不了的隐患之一。）*/
 function ahHas(o) {
   var t = typeof o;
@@ -46,7 +46,7 @@ function ahCanReq(o) {
 }
 
 // 真酷9：只有 ku9、没有 mytv；带 ku9 桥接的改版 mytv 两者都在 → 走 mytv 分支
-// ★ 注意：直接写 ku9 当参数会在「未声明」时抛 ReferenceError，所以先用 typeof 挡一层
+// ★ 直接写 ku9 当参数会在「未声明」时抛 ReferenceError，所以先用 typeof 挡一层
 var AH_IS_KU9 = ahHas(typeof ku9 === 'undefined' ? null : ku9) &&
                 !ahHas(typeof mytv === 'undefined' ? null : mytv);
 
@@ -98,17 +98,25 @@ function main(item) {
 
   // 酷9：对象 + 两套 UA 通道（userAgent 字段 + headers 对象）
   if (AH_IS_KU9) {
-    return { url: url, userAgent: 'ijkplayer', headers: { 'User-Agent': 'ijkplayer' } };
+    return {
+      url: url,
+      userAgent: 'ijkplayer',
+      referer: '-',
+      headers: { 'User-Agent': 'ijkplayer', 'Referer': '-' }
+    };
   }
 
   // mytv（含带 ku9 桥接的改版）：JSON 字符串 + 多行 headers 字符串
-  // ★ headers 只给 User-Agent，加 Referer 必定 403
-  return JSON.stringify({ url: url, headers: 'User-Agent: ijkplayer' });
+  // ★ 两行缺一不可：
+  //   User-Agent: ijkplayer  → 进 CDN 白名单
+  //   Referer: -             → 覆盖 APP 里可能配置过的「全局 Referer」（非空必 403）
+  return JSON.stringify({ url: url, headers: 'User-Agent: ijkplayer\nReferer: -' });
 }
 
 /* ---------------- 探测：选第一个真正返回 m3u8 的地址 ----------------
- * 宿主没有 mytv.request / ku9.request 时直接返回首选，交给播放器自己试，
- * 不额外增加失败面。探测只为避开「live 在你那条宽带不通」这种情况。
+ * 宿主没有 mytv.request / ku9.request 时直接返回首选，交给播放器自己试。
+ * 探测按同样的「UA + Referer: -」发，保证探测结果和真实播放条件一致，
+ * 不会出现「探测 200 但播放 403」的假通过。
  */
 function ahPickBody(r) {
   if (r === null || r === undefined) return '';
@@ -128,13 +136,13 @@ function ahFetch(u) {
   var body = '';
   try {
     if (ahCanReq(typeof mytv === 'undefined' ? null : mytv)) {
-      body = ahPickBody(mytv.request(u, 'GET', ['User-Agent: ijkplayer'], ''));
+      body = ahPickBody(mytv.request(u, 'GET', ['User-Agent: ijkplayer', 'Referer: -'], ''));
     }
   } catch (e) {}
   if (!body) {
     try {
       if (ahCanReq(typeof ku9 === 'undefined' ? null : ku9)) {
-        body = ahPickBody(ku9.request(u, 'GET', { 'User-Agent': 'ijkplayer' }, null));
+        body = ahPickBody(ku9.request(u, 'GET', { 'User-Agent': 'ijkplayer', 'Referer': '-' }, null));
       }
     } catch (e2) {}
   }
@@ -152,6 +160,6 @@ function ahPick(list) {
     var b = ahFetch(list[i]);
     if (b && b.indexOf('#EXTM3U') >= 0) return list[i];
   }
-  // 探测全失败：仍然返回首选（http 版 live），别把「探测不通」变成「不返回地址」
+  // 探测全失败：仍然返回首选地址，别把「探测不通」变成「不返回地址」
   return list[0];
 }
