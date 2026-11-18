@@ -133,7 +133,7 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 延边卫视,https://srs.iyb983.cn/video/CYS/index.m3u8
 延边卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227536/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-安多卫视,http://220.167.170.123:4000/rtp/239.120.1.40:8214
+安多卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/adws.js?id=anduo
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 农林卫视,http://1.82.70.201:8009/rtp/239.112.205.26:5140
 农林卫视,webview://http://live.snrtv.com/nl
@@ -715,13 +715,13 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 
 
-深圳都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7868&debug=1
-深圳电视剧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7880
-深圳少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7881
-深圳移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7869
-深圳国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7944
-深圳卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=7867
-深圳卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sztv.js?id=24725
+
+深圳卫视4K,webview://https://www.sztv.com.cn/dianshi.shtml?id=24725
+深圳都市,webview://https://www.sztv.com.cn/dianshi.shtml?id=7868
+深圳电视剧,webview://https://www.sztv.com.cn/dianshi.shtml?id=7880
+深圳财经,webview://https://www.sztv.com.cn/dianshi.shtml?id=7871
+深圳移动,webview://https://www.sztv.com.cn/dianshi.shtml?id=7869
+深圳国际,webview://https://www.sztv.com.cn/dianshi.shtml?id=7944
 
 
 佛山顺德,webview://http://xiubo.net/tv/gd/fssd.html
