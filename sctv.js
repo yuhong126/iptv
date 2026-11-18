@@ -1,20 +1,18 @@
 /*
- * 四川网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v5 电视端通用版
+ * 四川网络广播电视台 JS 直播源（mytv / 酷9 原生）—— v6
  * 逆向自 四川观察 APP com.sctv.scfocus v10.2.0（2026-11-17 雷电模拟器 logcat / DEX）
  *
- * ★★★ v5 关键突破（2026-11-18）：解决电视端 IJK 内核播不了四川 ★★★
- *   根因：四川 CDN(Tengine) 双重校验——
+ * ★★★ v6 修正（2026-11-18 晚）：v5 的 URL 内嵌 Header 写法是错的 ★★★
+ *   v5 曾把 Header 内嵌进 URL（<url>|Referer=...|User-Agent=...），以为 mytv 会拆。
+ *   反编译确认：|Header 正则解析只在 a5f$X() 的 WebView 视频提取路径里，
+ *   而 JS 源走 a5f$n → 直接 new URI(url)，带空格/竖线的 URL 会构造失败 → 播放不了。
+ *   v6 改回 mytv 标准 headers 字段（'Referer: ...\nUser-Agent: ...'）。
+ *
+ *   根因（CDN 校验，未变）：四川 CDN(Tengine) 双重校验——
  *     ① 必须带 Referer: https://scgc.video.play/（否则 denied by Referer ACL）
  *     ② UA 不能是 Mozilla 浏览器系（否则 denied by UA ACL = blacklist）
- *   而 IJK/LJK 内核拉 .ts 分片时不转发 JS headers（只有 Media3 会转发），
- *   所以手机切 Media3 能播、电视端 IJK 403。
- *
- *   v5 正解：利用 mytv 内置「在链接中提取 Header」机制（默认开启，开关
- *   videoPlayerExtractHeaderFromLink=true，设置项 ui_player_view_extract_header_from_link），
- *   把 Header 直接内嵌进 URL：  <视频URL>|Referer=...|User-Agent=...
- *   mytv 的统一解析入口 a5f$X() 会把 | 后面按正则 ([^=]+)=... 拆成请求头，
- *   ★ 该 header map 在 m3u8 与每个 .ts 分片请求上都会带上，且与播放器内核无关
- *   （IJK su5 / Media3 x0f / VLC 都走 a5f$X）→ 电视端不用切内核、不用装组件即可播。
+ *   headers 字段的分片转发依赖内核：Media3 会把 headers 带到 .ts；
+ *   若电视端 IJK 不转发 → 分片 403 → 需在「设置 → 视频播放器内核」切到 Media3。
  *
  *   ★ 实测校验矩阵（2026-11-18，带 auth_key）：
  *      m3u8/分片  AliPlayer + Referer -> 200
@@ -26,7 +24,7 @@
  * 用法: javascript://.../sctv.js?id=1016553
  *       ?id 为频道 id（见 CH 表），可选 &token=xxx 覆盖内置 token
  *
- * 兼容：mytv 返回 JSON 字符串（url 内嵌 header）；酷9 返回对象 {url,referer,userAgent}。
+ * 兼容：mytv 返回 JSON 字符串（url + headers）；酷9 返回对象 {url,referer,userAgent}。
  */
 
 // ---------- 环境兼容层 ----------
@@ -77,10 +75,11 @@ function sctvUnix() {
   return 0;
 }
 
-// 把 Header 内嵌进 URL（mytv「在链接中提取 Header」机制，| 分隔）
-// 值里若含 | 或 " 用引号包裹；本源的值都不含，保持简单。
-function sctvEmbed(url, referer, ua) {
-  return url + '|Referer=' + referer + '|User-Agent=' + ua;
+// 组装 mytv 标准 headers 字段文本（K:V 用 \n 分隔）
+// ★ 不要用 url|Key=Value 内嵌：反编译确认 a5f$n 解析 JS 返回的 url 时不做 | 拆分，
+//   直接 new URI(url)，带空格/竖线会构造失败 → 播放不了。|Header 提取只在 WebView 源生效。
+function sctvHeaders(referer, ua) {
+  return 'Referer: ' + referer + '\nUser-Agent: ' + ua;
 }
 
 function main(item) {
@@ -122,7 +121,7 @@ function main(item) {
   if (ch.radio) {
     var rurl = 'https://bdshowf.scgczm.com/scapp/' + ch.r + '.m3u8';
     if (SCTV_IS_KU9) return { url: rurl, referer: SCTV_REFERER, userAgent: SCTV_UA };
-    return JSON.stringify({ url: sctvEmbed(rurl, SCTV_REFERER, SCTV_UA) });
+    return JSON.stringify({ url: rurl, headers: sctvHeaders(SCTV_REFERER, SCTV_UA) });
   }
 
   var stream = '/live/' + ch.s + '.m3u8';
@@ -151,13 +150,11 @@ function main(item) {
     ? (playUrl + (playUrl.indexOf('?') >= 0 ? '&' : '?') + secret)
     : playUrl;
 
-  // ★ v5 核心：Header 内嵌进 URL，绕开内核对 headers 字段的转发差异。
-  //   mytv 统一解析 a5f$X() 默认开启「在链接中提取 Header」，把 | 后按 key=value
-  //   拆成请求头，m3u8 与每个分片都会带上；IJK/Media3/VLC 全部适用。
+  // ★ 用 mytv 标准 headers 字段带 Referer/UA（K:V\n 格式）。
+  //   注意：分片转发依赖内核——Media3 会把 headers 带到 .ts；若电视端 IJK 不转发，
+  //   需在「设置 → 视频播放器内核」切到 Media3（手机端已实测 Media3 可播四川）。
   if (SCTV_IS_KU9) {
-    // 酷9 用独立字段，不走 mytv 的 | 解析
     return { url: keyedUrl, referer: SCTV_REFERER, userAgent: SCTV_UA };
   }
-  var finalUrl = sctvEmbed(keyedUrl, SCTV_REFERER, SCTV_UA);
-  return JSON.stringify({ url: finalUrl });
+  return JSON.stringify({ url: keyedUrl, headers: sctvHeaders(SCTV_REFERER, SCTV_UA) });
 }
