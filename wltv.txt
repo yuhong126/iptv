@@ -914,6 +914,8 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 青海,#genre#
+青海经视,webview://https://h5.qhbtv.com.cn/front-cloudlive-manage-h5/index.html?id=786227316454875136&company_id=1075
+青海都市,webview://https://h5.qhbtv.com.cn/front-cloudlive-manage-h5/index.html?id=786227009616371712&company_id=1075
 西宁新闻综合,webview://https://www.xntv.tv/xnxwpd
 西宁生活服务,webview://https://www.xntv.tv/xnshpd
 
