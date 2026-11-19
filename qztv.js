@@ -1,56 +1,49 @@
-/**
- * 泉州广播电视台 JS 直播源
- * 用法：
- * 泉州新闻综合,javascript://你的raw地址/qztv.js?id=qzxwzh
- * 泉州闽南语,javascript://你的raw地址/qztv.js?id=qzmny
- */
-
-var REFERER = 'https://www.qztv.cn/';
-var UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
-
 function main(item) {
-    var id = item.id || 'qzxwzh';
-    if (item.url) {
-        var m = /[?&]id=([^&#]+)/.exec(item.url);
-        if (m) id = m[1];
-    }
+    // 1. 兼容 MYTV 的参数获取方式
+    let url = (item && item.url) ? item.url : (typeof item === 'string' ? item : '');
+    let idMatch = /[?&]id=([^&#]+)/.exec(url);
+    let id = idMatch ? idMatch[1] : 'qzzh'; 
 
-    // 频道参数配置
-    var CH = {
-        'qzxwzh': { mediaId: 'wq95wqbDnMKyd8KiwqzChnt0w5nChcKowoHCoQ', streamName: 'news' },
-        'qzmny':  { mediaId: 'wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh', streamName: 'mny' }
+    // 2. 频道映射表
+    const n = {
+        'qzzh': 'wq95wqbDnMKyd8KiwqzChnt0w5nChcKowoHCoQ/stream_name/news.html',
+        'qzmny': 'wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html'
     };
 
-    var ch = CH[id];
-    if (!ch) {
-        return JSON.stringify({ error: '未知频道ID: ' + id });
-    }
-
-    // 核心思路：直接去请求播放器的底层 JS 文件，里面包含真实的流地址
-    var jsUrl = 'https://www.qztv.cn/index/Medias/js/player.js?media_id=' + ch.mediaId + '&stream_name=' + ch.streamName;
-    var headers = ['Referer: ' + REFERER, 'User-Agent: ' + UA];
-    var finalUrl = '';
+    const mediaId = n[id] || n['qzzh'];
+    // 注意：你原代码用 control-center，这是对的，它负责下发真实地址
+    const apiUrl = 'https://control-center.qztv.cn/index/Medias/index/media_id/' + mediaId;
+    
+    // 请求网页用的头
+    const headersArr = [
+        'Referer: https://control-center.qztv.cn/',
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'
+    ];
 
     try {
-        var jsContent = mytv.get(jsUrl, headers);
+        // 3. 改用 mytv.get 请求
+        const response = mytv.get(apiUrl, headersArr);
         
-        // 在返回的 JS 代码中寻找 m3u8 地址
-        // 常见的格式是 urls = "http://xxx.m3u8" 或者 stream_url: "http://xxx.m3u8"
-        var match = /(https?:\/\/[^"'\s\\]+\.m3u8[^"'\s\\]*)/.exec(jsContent);
+        // 4. 正则提取 m3u8 地址
+        const pattern = /urls\s*=\s*"([^"]+)"/;
+        const match = response.match(pattern);
         
-        if (match && match[1]) {
-            finalUrl = match[1].replace(/\\\//g, '/');
+        if (!match || !match[1]) {
+            return JSON.stringify({ error: "未找到直播地址，请检查接口是否变化" });
         }
-    } catch (e) {}
 
-    // 如果没抓到，使用官网标准的 HLS 请求兜底尝试
-    if (!finalUrl) {
-        finalUrl = 'https://lmt.qztv.cn/live/' + ch.streamName + '/index.m3u8';
+        let liveStreamUrl = match[1];
+        
+        // 5. 关键修复：返回给播放器的 Header 必须是字符串，且绝对不能带 Host
+        // 分片请求时必须带 Referer，UA 也要伪装成手机端
+        let finalHeaders = 'Referer: ' + apiUrl + '\nUser-Agent: Mozilla/5.0 (Linux; Android 10; HMA-AL00 Build/HUAWEIHMA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.93 Mobile Safari/537.36';
+
+        return JSON.stringify({ 
+            url: liveStreamUrl,
+            headers: finalHeaders
+        });
+        
+    } catch (e) {
+        return JSON.stringify({ error: "请求失败：" + e.message });
     }
-
-    // 返回带 Headers 的对象
-    return JSON.stringify({
-        url: finalUrl,
-        headers: 'Referer: ' + REFERER + '\nUser-Agent: ' + UA
-    });
 }
