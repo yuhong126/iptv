@@ -856,7 +856,7 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 贵州移动,webview://https://www.gzstv.com/tv/ch13
 
 云南,#genre#
-云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
+云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds&debug=1
 云南康旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=klpd
 澜湄国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=lmgj
 
