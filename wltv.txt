@@ -870,9 +870,8 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 云南,#genre#
 云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
-云南康旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynyl
-云南影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynys
-澜湄国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynlm
+云南康旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynkl
+澜湄国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=lmgi
 
 
 云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
