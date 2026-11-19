@@ -1,23 +1,30 @@
 function main(item) {
-    // 1. 极其粗暴且稳定的 ID 解析方式
-    // 不管 MYTV 传进来的是什么，直接转成字符串进行正则匹配
-    let urlStr = '';
+    // 彻底解决参数获取问题：不管你传的是对象还是长字符串，我全转成字符串来找！
+    let rawStr = '';
     if (typeof item === 'string') {
-        urlStr = item;
-    } else if (item && item.url) {
-        urlStr = item.url;
+        rawStr = item;
     } else if (item) {
-        urlStr = JSON.stringify(item); // 兜底，防止把对象传进来
+        // 如果 item 是个对象，把所有属性拼起来找
+        try {
+            rawStr = JSON.stringify(item);
+        } catch(e) {
+            rawStr = String(item);
+        }
     }
 
-    // 全局搜索 id=
-    let id = 'qzzh'; // 默认
-    let idMatch = /[?&]id=([a-zA-Z0-9_]+)/.exec(urlStr);
-    if (idMatch && idMatch[1]) {
-        id = idMatch[1];
+    // 暴力全局正则：只要字符串里有 id=qzmny 或者 id=qzzh，就能抓出来
+    let id = 'qzzh'; // 默认新闻综合
+    let matchId = /id=([a-zA-Z0-9_]+)/.exec(rawStr);
+    if (matchId && matchId[1]) {
+        id = matchId[1];
     }
 
-    // 2. 频道映射表
+    // 如果发现没匹配到，但是字符串里直接包含了 qzmny 这个词，也强行纠正
+    if (rawStr.indexOf('qzmny') > -1 && rawStr.indexOf('id=qzmny') === -1) {
+        id = 'qzmny';
+    }
+
+    // 频道映射表（新闻综合 & 闽南语）
     const n = {
         'qzzh': 'wq95wqbDnMKyd8KiwqzChnt0w5nChcKowoHCoQ/stream_name/news.html',
         'qzmny': 'wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html'
@@ -25,7 +32,7 @@ function main(item) {
 
     const mediaId = n[id];
     if (!mediaId) {
-        return JSON.stringify({ error: "未知的频道ID: " + id });
+        return JSON.stringify({ error: "未知频道ID: " + id });
     }
 
     const apiUrl = 'https://control-center.qztv.cn/index/Medias/index/media_id/' + mediaId;
@@ -37,25 +44,22 @@ function main(item) {
 
     try {
         const response = mytv.get(apiUrl, headersArr);
-
+        
         // 提取 m3u8 地址
         const pattern = /urls\s*=\s*"([^"]+)"/;
         const match = response.match(pattern);
 
         if (!match || !match[1]) {
-            return JSON.stringify({ error: "接口未返回直播地址，请检查接口" });
+            return JSON.stringify({ error: "接口未返回直播地址" });
         }
 
         let liveStreamUrl = match[1];
-
-        // 播放器的请求头
         let finalHeaders = 'Referer: ' + apiUrl + '\nUser-Agent: Mozilla/5.0 (Linux; Android 10; HMA-AL00 Build/HUAWEIHMA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.93 Mobile Safari/537.36';
 
         return JSON.stringify({ 
             url: liveStreamUrl,
             headers: finalHeaders
         });
-
     } catch (e) {
         return JSON.stringify({ error: "请求失败：" + e.message });
     }
