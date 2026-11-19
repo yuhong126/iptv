@@ -551,9 +551,14 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 平潭综合,rtsp://183.252.176.54/PLTV/88888888/224/3221226735/45469664.smil
 
+
+莆田一套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=pttv1
+莆田二套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=pttv2
+莆田仙游,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=ptxy
+
 莆田一套,webview://https://www.ptbtv.com/live/pt1t/
 莆田二套,webview://https://www.ptbtv.com/live/pt2t/
-仙游,webview://https://www.ptbtv.com/live/xyds/
+莆田仙游,webview://https://www.ptbtv.com/live/xyds/
 
 
 泉州新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzzh
