@@ -139,10 +139,13 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 农林卫视,http://1.82.70.201:8009/rtp/239.112.205.26:5140
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
-香港卫视,https://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 
 
 港澳台,#genre#
+凤凰资讯台,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=zx
+凤凰中文台,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=zw
+凤凰香港台,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=hw
+
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
 TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
 环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
@@ -541,7 +544,7 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 福州新闻,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-厦视一套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm1&debug=1
+厦视一套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm1
 厦视二套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm2
 厦门卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
 厦门移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmyd
