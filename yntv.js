@@ -1,68 +1,134 @@
 /*
- * 云南电视台 JS 直播源 (yntv.js) - 最终修正版
- * 兼容 MYTV 可能传入的 lmgi / ynlm 等别名
+ * 云南电视台 纯 JS 完美重写版 (yntv.js)
+ * 用法：
+ * 云南卫视,javascript://.../yntv.js?id=ynws
+ * 云南都市,javascript://.../yntv.js?id=ynds
+ * 康旅频道,javascript://.../yntv.js?id=ynkl
+ * 澜湄国际,javascript://.../yntv.js?id=lmgi
  */
+
+var YNTV_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36';
+var YNTV_REFERER = 'https://www.yntv.cn/';
+var YNTV_API = 'https://yntv-api.yntv.cn/index/jmd/getPb';
+var YNTV_HOST = 'tvlive.yntv.cn';
+
 function main(item) {
-    let rawStr = '';
-    if (typeof item === 'string') { rawStr = item; }
-    else if (item) { try { rawStr = JSON.stringify(item); } catch(e) { rawStr = String(item); } }
-
-    // 暴力匹配 id
-    let id = 'ynws';
-    let matchId = /id=([a-zA-Z0-9_]+)/.exec(rawStr);
-    if (matchId && matchId[1]) { id = matchId[1].toLowerCase(); }
-
-    // ★ 修正后的频道映射表
-    const chMap = {
-        // 卫视频道
-        'ynws': 'yntv1',
-        // 都市频道
-        'ynds': 'yntv2',
-        // 娱乐频道 (YNTV-3)
-        'ynyl': 'yntv3', 
-        // 影视频道 (YNTV-4)
-        'ynys': 'yntv4',
-        // ★ 康旅频道实际是 YNTV-6，不是娱乐的 yntv3
-        'ynkl': 'yntv6', 
-        'yngg': 'yntv6', // 兼容旧名“公共频道”
-        // ★ 澜湄国际：同时接受 lmgi 和 ynlm 两种输入
-        'lmgi': 'yntv8', 
-        'ynlm': 'yntv8'
+    // 1. 解析 ID
+    var raw = (item && item.url) ? item.url : (typeof item === 'string' ? item : '');
+    var m = /[?&]id=([a-zA-Z0-9_]+)/.exec(raw);
+    var id = m ? m[1].toLowerCase() : 'ynws';
+    
+    var chMap = {
+        'ynws': 'yunnanweishi', // 卫视
+        'ynds': 'yunnandushi',  // 都市
+        'ynkl': 'yunnangonggong',// 康旅
+        'lmgi': 'yunnanguoji',  // 澜湄 (兼容官方APP现在的叫法)
+        'ynlm': 'yunnanguoji'   
     };
+    var channel = chMap[id] || 'yunnanweishi';
 
-    let chCode = chMap[id];
-    if (!chCode) {
-        return JSON.stringify({ error: "未知的频道ID: " + id });
-    }
-
-    let apiUrl = 'https://app.yntv.cn/index.php/api/live/live_url?channel=' + chCode;
-
-    const headersArr = [
-        'User-Agent: Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-        'Referer: https://app.yntv.cn/'
+    // 2. 请求鉴权接口
+    var apiUrl = YNTV_API + '?name=' + encodeURIComponent(channel) + '&_=' + new Date().getTime();
+    var reqHeaders = [
+        'Host: yntv-api.yntv.cn',
+        'Accept: application/json, text/javascript, */*; q=0.01',
+        'User-Agent: ' + YNTV_UA,
+        'Origin: https://www.yntv.cn',
+        'Referer: ' + YNTV_REFERER
     ];
 
+    var bodyText = '';
+    var cookieStr = '';
+
     try {
-        const response = mytv.get(apiUrl, headersArr);
-        let liveStreamUrl = '';
-        try {
-            let json = JSON.parse(response);
-            if (json && json.data && json.data.url) { liveStreamUrl = json.data.url; }
-            else if (json && json.url) { liveStreamUrl = json.url; }
-        } catch (e) {
-            let match = /(https?:\/\/[^"'\s\\]+\.m3u8[^"'\s\\]*)/.exec(response);
-            if (match) { liveStreamUrl = match[1].replace(/\\\//g, '/'); }
+        // 使用 mytv.request 以获取可能存在的 Cookie
+        if (typeof mytv.request === 'function') {
+            var res = mytv.request(apiUrl, 'GET', reqHeaders, '');
+            if (res) {
+                bodyText = (res.body || res) + '';
+                if (res.headers) {
+                    var hStr = typeof res.headers === 'string' ? res.headers : JSON.stringify(res.headers);
+                    var matchCk = /set-cookie:\s*([^;\r\n]+)/i.exec(hStr);
+                    if (matchCk) cookieStr = matchCk[1];
+                }
+            }
+        } else {
+            bodyText = mytv.get(apiUrl, reqHeaders) + '';
         }
-
-        if (!liveStreamUrl) {
-            return JSON.stringify({ error: "API未返回有效地址 (" + chCode + ")", raw: response.substring(0, 100) });
-        }
-
-        let finalHeaders = 'Referer: https://app.yntv.cn/\nUser-Agent: Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36';
-
-        return JSON.stringify({ url: liveStreamUrl, headers: finalHeaders });
-
     } catch (e) {
-        return JSON.stringify({ error: "请求异常: " + e.message });
+        return JSON.stringify({ error: '请求 API 失败: ' + e.message });
     }
+
+    // 3. 解析 wsSecret 和 wsTime
+    var json = null;
+    try {
+        json = JSON.parse(bodyText);
+    } catch (e) {
+        var mStr = /"string"\s*:\s*"([^"]+)"/.exec(bodyText);
+        var mTime = /"time"\s*:\s*"([^"]+)"/.exec(bodyText);
+        if (mStr && mTime) { json = { string: mStr[1], time: mTime[1] }; }
+    }
+
+    if (!json || !json.string || !json.time) {
+        return JSON.stringify({ error: '获取鉴权失败', raw: bodyText.substring(0, 100) });
+    }
+
+    var wsSecret = json.string;
+    var wsTime = json.time;
+    
+    // 4. 拼接原版 M3U8 地址
+    var originM3u8 = 'https://' + YNTV_HOST + '/live/' + channel + '/chunks.m3u8?wsSecret=' + encodeURIComponent(wsSecret) + '&wsTime=' + encodeURIComponent(wsTime);
+
+    // 5. 准备请求 M3U8 的头
+    var m3u8Headers = [
+        'Host: ' + YNTV_HOST,
+        'User-Agent: ' + YNTV_UA,
+        'Referer: ' + YNTV_REFERER
+    ];
+    if (cookieStr) m3u8Headers.push('Cookie: ' + cookieStr);
+
+    // 6. 纯 JS 模拟 PHP 代理：去拉取 m3u8 文本，重写 TS 路径
+    try {
+        var m3u8Text = mytv.get(originM3u8, m3u8Headers);
+        
+        if (m3u8Text && m3u8Text.indexOf('#EXTM3U') !== -1) {
+            var lines = m3u8Text.split('\n');
+            var newLines = [];
+            var baseUrl = 'https://' + YNTV_HOST + '/live/' + channel + '/';
+
+            for (var i = 0; i < lines.length; i++) {
+                var line = lines[i].trim();
+                // 如果不是空行也不是标签，说明是 ts 分片
+                if (line && line.indexOf('#') !== 0) {
+                    var tsUrl = line;
+                    // 相对路径转绝对
+                    if (tsUrl.indexOf('http') !== 0) {
+                        tsUrl = baseUrl + tsUrl.replace(/^\//, '');
+                    }
+                    // 强行拼上签名（对应 PHP 里的 $fullTsUrl）
+                    if (tsUrl.indexOf('wsSecret=') === -1) {
+                        tsUrl += (tsUrl.indexOf('?') === -1 ? '?' : '&') + 'wsSecret=' + encodeURIComponent(wsSecret) + '&wsTime=' + encodeURIComponent(wsTime);
+                    }
+                    newLines.push(tsUrl);
+                } else {
+                    newLines.push(lines[i]);
+                }
+            }
+            var finalM3u8Text = newLines.join('\n');
+
+            // 7. 将重写后的 M3U8 文本打包成 Data URI 交给播放器（兼容最强，无需分片代理）
+            var base64M3u8 = btoa(unescape(encodeURIComponent(finalM3u8Text)));
+            var dataUri = 'data:application/vnd.apple.mpegurl;base64,' + base64M3u8;
+            
+            return JSON.stringify({ url: dataUri });
+        }
+    } catch (e) {
+        // 如果拉取失败，则退回原地址，由播放器自己尝试
+    }
+
+    // 兜底返回
+    return JSON.stringify({
+        url: originM3u8,
+        headers: m3u8Headers.join('\n')
+    });
 }
