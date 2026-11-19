@@ -1,29 +1,33 @@
 /*
- * 云南电视台 JS 直播源 (yntv.js) - 修正版
- * 用法：
- * 云南卫视,javascript://你的raw地址/yntv.js?id=ynws
- * 云南都市,javascript://你的raw地址/yntv.js?id=ynds
- * 云南娱乐,javascript://你的raw地址/yntv.js?id=ynyl
- * 云南影视,javascript://你的raw地址/yntv.js?id=ynys
- * 澜湄国际,javascript://你的raw地址/yntv.js?id=ynlm
+ * 云南电视台 JS 直播源 (yntv.js) - 最终修正版
+ * 兼容 MYTV 可能传入的 lmgi / ynlm 等别名
  */
-
 function main(item) {
     let rawStr = '';
     if (typeof item === 'string') { rawStr = item; }
     else if (item) { try { rawStr = JSON.stringify(item); } catch(e) { rawStr = String(item); } }
 
+    // 暴力匹配 id
     let id = 'ynws';
     let matchId = /id=([a-zA-Z0-9_]+)/.exec(rawStr);
-    if (matchId && matchId[1]) { id = matchId[1]; }
+    if (matchId && matchId[1]) { id = matchId[1].toLowerCase(); }
 
-    // ★ 修正：澜湄国际的内部代号是 'yntv8'
+    // ★ 修正后的频道映射表
     const chMap = {
-        'ynws': 'yntv1', // 卫视
-        'ynds': 'yntv2', // 都市
-        'ynyl': 'yntv3', // 娱乐
-        'ynys': 'yntv4', // 影视
-        'ynlm': 'yntv8'  // 澜湄国际
+        // 卫视频道
+        'ynws': 'yntv1',
+        // 都市频道
+        'ynds': 'yntv2',
+        // 娱乐频道 (YNTV-3)
+        'ynyl': 'yntv3', 
+        // 影视频道 (YNTV-4)
+        'ynys': 'yntv4',
+        // ★ 康旅频道实际是 YNTV-6，不是娱乐的 yntv3
+        'ynkl': 'yntv6', 
+        'yngg': 'yntv6', // 兼容旧名“公共频道”
+        // ★ 澜湄国际：同时接受 lmgi 和 ynlm 两种输入
+        'lmgi': 'yntv8', 
+        'ynlm': 'yntv8'
     };
 
     let chCode = chMap[id];
