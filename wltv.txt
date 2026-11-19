@@ -554,8 +554,16 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 莆田一套,webview://https://www.ptbtv.com/live/pt1t/
 莆田二套,webview://https://www.ptbtv.com/live/pt2t/
 仙游,webview://https://www.ptbtv.com/live/xyds/
+
+
+泉州新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzxwzh
+泉州闽南语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzmny
+
 泉州新闻,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKowoHCoQ/stream_name/news.html
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
+
+
+
 
 江西,#genre#
 江西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=0
