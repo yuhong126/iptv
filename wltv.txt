@@ -160,16 +160,6 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 北京,#genre#
 
-北京卫视4K,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjws4k
-北京卫视,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjws
-北京文艺,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjwy
-北京纪实科教,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjjs
-北京影视,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjys
-北京财经,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjcj
-北京体育,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjty
-北京生活,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjsh
-北京新闻,avascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/bjtime.js?id=bjxw
-
 北京卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=573ib1kp5nk92irinpumbo9krlb
 北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
 北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
@@ -727,22 +717,14 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 
 
-深圳卫视4K,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szws4k
-深圳卫视,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szws
-深圳国际,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szgj
-深圳都市,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szds
-深圳电视剧,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szdsj
-深圳财经,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szcjsh
-深圳少儿,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szse
-深圳移动,javascript://https://gitee.com/mytv-android/mytvJS/raw/main/js/sz.js?id=szyd
-
-
-深圳卫视4K,webview://https://www.sztv.com.cn/dianshi.shtml?id=24725
-深圳都市,webview://https://www.sztv.com.cn/dianshi.shtml?id=7868
-深圳电视剧,webview://https://www.sztv.com.cn/dianshi.shtml?id=7880
-深圳财经,webview://https://www.sztv.com.cn/dianshi.shtml?id=7871
-深圳移动,webview://https://www.sztv.com.cn/dianshi.shtml?id=7869
-深圳国际,webview://https://www.sztv.com.cn/dianshi.shtml?id=7944
+深圳卫视4K,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szws4k
+深圳卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szws
+深圳国际,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szgj
+深圳都市,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szds
+深圳电视剧,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szdsj
+深圳财经,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szcjsh
+深圳少儿,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szse
+深圳移动,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szyd
 
 
 佛山顺德,webview://http://xiubo.net/tv/gd/fssd.html
