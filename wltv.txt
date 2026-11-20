@@ -652,12 +652,12 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 湖北,#genre#
-湖北卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=431
-湖北经视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=432
-湖北综合,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=433
-湖北影视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=435
-湖北教育,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=437
-湖北垄上,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=438
+湖北卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbws
+湖北经视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbjs
+湖北综合,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbzh
+湖北影视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbys
+湖北教育,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbjy
+湖北垄上,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbls
 
 湖北卫视,http://183.94.146.79:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北经视,http://183.94.146.79:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
