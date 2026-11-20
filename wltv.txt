@@ -27,6 +27,21 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
+
+CCTV卫生健康,http://117.35.240.44:8001/rtp/239.111.205.109:5140
+CCTV女性时尚,http://117.35.240.44:8001/rtp/239.111.205.110:5140
+CCTV世界地理,http://117.35.240.44:8001/rtp/239.111.205.111:5140
+CCTV怀旧剧场,http://117.35.240.44:8001/rtp/239.111.205.112:5140
+CCTV风云剧场,http://117.35.240.44:8001/rtp/239.111.205.113:5140
+CCTV兵器科技,http://117.35.240.44:8001/rtp/239.111.205.114:5140
+CCTV风云音乐,http://117.35.240.44:8001/rtp/239.111.205.115:5140
+CCTV央视台球,http://117.35.240.44:8001/rtp/239.111.205.116:5140
+CCTV高尔夫网球,http://117.35.240.44:8001/rtp/239.111.205.117:5140
+CCTV第一剧场,http://117.35.240.44:8001/rtp/239.111.205.118:5140
+CCTV央视文化精品,http://117.35.240.44:8001/rtp/239.111.205.119:5140
+CCTV风云足球,http://117.35.240.44:8001/rtp/239.111.205.120:5140
+CCTV电视指南,http://117.35.240.44:8001/rtp/239.111.205.121:5140
+
 CCTV电视指南,http://hsza.f3322.net:4000/rtp/238.1.79.53:4560
 CCTV兵器科技,http://hsza.f3322.net:4000/rtp/238.1.79.56:4584
 CCTV第一剧场,http://hsza.f3322.net:4000/rtp/238.1.79.63:4640
@@ -72,6 +87,7 @@ CETV-1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227067/in
 CETV-4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+CETV早期教育,http://117.35.240.44:8001/rtp/239.111.205.108:5140
 
 重温经典,http://8.138.7.223/tv/cwjd.php
 
@@ -136,12 +152,36 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 延边卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227536/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 安多卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/adws.js?id=anduo
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-农林卫视,http://1.82.70.201:8009/rtp/239.112.205.26:5140
+农林卫视,http://117.35.240.44:8001/rtp/239.110.205.88:7924
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
 
 
 港澳台,#genre#
+
+凤凰中文,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰资讯,http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰电影,http://221.7.175.154:8445/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰中文,http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
+凤凰资讯,http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
+凤凰香港,http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
+
+凤凰香港,http://120.234.44.98:18180/TV00000000000000000024@HHZT
+翡翠台,http://120.234.44.98:18180/TV00000000000000000032@HHZT
+明珠台,http://120.234.44.98:18180/TV00000000000000000035@HHZT
+无线新闻台,http://120.234.44.98:18180/TV00000000000000000034@HHZT
+有线新闻台,http://120.234.44.98:18180/TV00000000000000000088@HHZT
+viutv,http://120.234.44.98:18180/TV00000000000000000037@HHZT
+viutv6,http://120.234.44.98:18180/TV00000000000000000084@HHZT
+HOY77,http://120.234.44.98:18180/TV00000000000000000036@HHZT
+Viutv,http://120.234.44.98:18180/TV00000000000000000037@HHZT
+RHK31,http://120.234.44.98:18180/TV00000000000000000019@HHZT
+RHK32,http://120.234.44.98:18180/TV00000000000000000017@HHZT
+RHK35,http://120.234.44.98:18180/TV00000000000000000045@HHZT
+面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+
+
+
 凤凰中文,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=cn
 凤凰资讯,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=info
 凤凰香港,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=hk
@@ -190,6 +230,15 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 天津,#genre#
+天津新闻,http://60.26.63.238:8000/udp/225.1.1.130:5002
+天津文艺,http://60.26.63.238:8000/udp/225.1.1.131:5002
+天津影视,http://60.26.63.238:8000/udp/225.1.1.149:5002
+天津都市,http://60.26.63.238:8000/udp/225.1.1.128:5002
+天津体育,http://60.26.63.238:8000/udp/225.1.1.122:5002
+天津科教,http://60.26.63.238:8000/udp/225.1.1.129:5002
+
+
+
 天津新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjxw
 天津文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjwy
 天津科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjkj
@@ -207,6 +256,10 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 广西,#genre#
+广西旅游,http://221.7.175.154:8445/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
+广西新闻,http://221.7.175.154:8445/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+广西影视,http://221.7.175.154:8445/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+
 广西旅游,webview://https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
 广西都市,webview://https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html
 广西影视,webview://https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html
@@ -877,6 +930,24 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
 
 陕西,#genre#
+陕西银龄,http://222.90.21.30:9901/hls/22/index.m3u8
+陕西都市,http://222.90.21.30:9901/hls/21/index.m3u8
+陕西新闻资讯,http://222.90.21.30:9901/hls/20/index.m3u8
+
+陕西新闻资讯,http://117.35.240.44:8001/rtp/239.110.205.83:7944
+陕西都市,http://117.35.240.44:8001/rtp/239.110.205.84:7940
+陕西秦腔,http://117.35.240.44:8001/rtp/239.111.205.100:5140
+陕西西部电影,http://117.35.240.44:8001/rtp/239.111.205.102:5140
+陕西银龄,http://117.35.240.44:8001/rtp/239.111.205.98:5140
+陕西体育休闲,http://117.35.240.44:8001/rtp/239.110.205.85:7936
+西安综合,http://117.35.240.44:8001/rtp/239.110.205.31:9788
+西安都市,http://117.35.240.44:8001/rtp/239.109.205.131:8984
+西安戏剧影视,http://117.35.240.44:8001/rtp/239.110.205.39:9862
+西安丝路,http://117.35.240.44:8001/rtp/239.110.205.40:9866
+西安商务资讯,http://117.35.240.44:8001/rtp/239.110.205.38:9858
+西安教育,http://117.35.240.44:8001/rtp/239.110.205.24:9842
+西安乐购购物,http://117.35.240.44:8001/rtp/239.111.205.30:5140
+
 陕西新闻资讯,http://gxlive.snrtv.com:80/sx1-SD.m3u8
 陕西都市青春,http://gxlive.snrtv.com:80/sx2-SD.m3u8
 陕西银龄,http://gxlive.snrtv.com:80/sx3-SD.m3u8
@@ -962,6 +1033,13 @@ xjtv8,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=23
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC家庭影院,http://222.90.21.30:9901/hls/69/index.m3u8
+CHC动作电影,http://222.90.21.30:9901/hls/71/index.m3u8
+
+CHC动作电影,http://117.35.240.44:8001/rtp/239.112.205.21:5140
+CHC家庭影院,http://117.35.240.44:8001/rtp/239.112.205.25:5140
+CHC影迷电影,http://117.35.240.44:8001/rtp/239.112.205.23:5140
+
 CHC影迷电影,http://42.227.90.3:9003/hls/59/index.m3u8
 CHC动作电影,http://42.227.90.3:9003/hls/60/index.m3u8
 CHC家庭影院,http://42.227.90.3:9003/hls/61/index.m3u8
