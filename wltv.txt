@@ -230,20 +230,22 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 天津,#genre#
+
+天津新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=12
+天津文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=13
+天津影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=14
+天津都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=15
+天津体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=16
+天津科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=17
+
+
+
 天津新闻,http://60.26.63.238:8000/udp/225.1.1.130:5002
 天津文艺,http://60.26.63.238:8000/udp/225.1.1.131:5002
 天津影视,http://60.26.63.238:8000/udp/225.1.1.149:5002
 天津都市,http://60.26.63.238:8000/udp/225.1.1.128:5002
 天津体育,http://60.26.63.238:8000/udp/225.1.1.122:5002
 天津科教,http://60.26.63.238:8000/udp/225.1.1.129:5002
-
-
-
-天津新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjxw
-天津文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjwy
-天津科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjkj
-天津体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjty
-天津都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/tjtv.js?id=tjds
 
 
 山西,#genre#
