@@ -965,8 +965,8 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 新疆,#genre#
 
-新疆卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjws
-新疆维语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyzh
+新疆卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyzh
+新疆维语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjws
 新疆哈语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjhyzh
 新疆汉语综艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjzy
 新疆维语影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyys
