@@ -818,13 +818,11 @@ GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 
 海南,#genre#
 
-
-三沙卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=7
-海南新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=5
-海南经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=4
-海南公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=6
-海南文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=8
-海南少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=9
+海南自贸,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=1
+海南新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=3
+海南社会与法,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=4
+海南文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=6
+海南少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=7
 
 海南自贸,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=1&qq_aio_chat_type=2
 海南新闻,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=3&qq_aio_chat_type=2
