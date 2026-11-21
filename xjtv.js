@@ -1,6 +1,205 @@
-// ===================== 你给的签名JS，补全依赖、修复全局缺失 =====================
-const _0xb92106=_0x8217;(function(_0x29bba5,_0x41ebc6){const _0x1e442e=_0x8217,_0x1d4711=_0x29bba5();while(!![]){try{const _0x6cc485=-parseInt(_0x1e442e(0xf2,'(gpk'))/0x1*(parseInt(_0x1e442e(0xc8,'%@B@')))/0x2+-parseInt(_0x1e442e(0x70,'qjOj'))/0x3+-parseInt(_0x1e442e(0xdc,'3EOo'))/0x4+parseInt(_0x1e442e(0x91,'2g^H'))/0x5*(-parseInt(_0x1e442e(0x10a,'zSRd'))/0x6)+parseInt(_0x1e442e(0xf4,'l4M0'))/0x7+parseInt(_0x1e442e(0xdf,'BD(P'))/0x8*(-parseInt(_0x1e442e(0xf7,'VXkK'))/0x9)+parseInt(_0x1e442e(0x94,'3EOo'))/0xa;if(_0x6cc485===_0x41ebc6)break;else _0x1d4711['push'](_0x1d4711['shift']());}catch(_0x4afa63){_0x1d4711['push'](_0x1d4711['shift']());}}}}(_0xc8e3,0x68899));function parseItem(_0x5ab0fa){const _0x1c4981=_0x8217,_0x4a0166={};if(!_0x5ab0fa)return _0x4a0166;return _0x5ab0fa[_0x1c4981(0x79,'F3y8')]('&')[_0x1c4981(0xec,'Bx89')](_0x2176c8=>{const _0x512ecd=_0x1c4981,[_0x82bd27,_0x22aa54]=_0x2176c8[_0x512ecd(0xa4,']eg#')]('=');if(_0x82bd27)_0x4a0166[_0x82bd27]=_0x22aa54;},_0x4a0166);}
-const SALT_TABLE=[[_0xb92106(0x99,'WpG$'),_0xb92106(0xee,'E%KM'),0xb],[_0xb92106(0x7b,'JDK*'),_0xb92106(0xd3,'CNVU'),0xa],[_0xb92106(0xcf,'q0GU'),_0xb92106(0x109,'E%KM'),0x9],[_0xb92106(0xa1,'l1%K'),_0xb92106(0x8c,'E%KM'),0x12],[_0xb92106(0xb7,'9D7P'),_0xb92106(0x9b,'3EOo'),0x7],[_0xb92106(0x127,'nXSK'),_0xb92106(0x122,'qjOj'),0x10],[_0xb92106(0xfc,'@$JB'),_0xb92106(0xdd,'h4VX'),0xf],[_0xb92106(0xf1,'2g^H'),_0xb92106(0x114,'0r^#'),0xf],[_0xb92106(0x116,'VXkK'),_0xb92106(0xd7,'bWZN'),0x15],[_0xb92106(0x105,'SiHk'),_0xb92106(0xa8,'AM)%'),0x5],[_0xb92106(0x11f,'zSRd'),_0xb92106(0x6a,'Iv$Z'),0xa],[_0xb92106(0x71,'qjOj'),_0xb92106(0xc9,'l1%K'),0x9],[_0xb92106(0xfd,'@$JB'),_0xb92106(0x87,'nXSK'),0x13],[_0xb92106(0x11e,'0r^#'),_0xb92106(0xfb,'CNVU'),0xe],[_0xb92106(0x10c,'%8ZC'),_0xb92106(0x100,'o8I)'),0x16],[_0xb92106(0xe9,'l1%K'),_0xb92106(0x8d,'VXkK'),0xb],[_0xb92106(0xe2,'kp$@'),_0xb92106(0xde,'sd3t'),0x16],[_0xb92106(0x90,'1hry'),_0xb92106(0xd2,'CNVU'),0x9],[_0xb92106(0xb9,'l4M0'),_0xb92106(0xa6,'kp$@'),0x1b],[_0xb92106(0xf8,'Z0ea'),_0xb92106(0xb8,'CNVU'),0xf],[_0xb92106(0x81,']eg#'),_0xb92106(0x73,'HQGO'),0x8],[_0xb92106(0x97,'E%KM'),_0xb92106(0xed,'%@B@'),0x9],[_0xb92106(0xbd,'GnOi'),_0xb92106(0x93,'sd3t'),0x6],[_0xb92106(0x103,'nXSK'),_0xb92106(0x123,'AM)%'),0x10],[_0xb92106(0xcc,'9D7P'),_0xb92106(0x95,'E%KM'),0x1],[_0xb92106(0xcb,'Nyt0'),_0xb92106(0xff,'ARdb'),0xb],[_0xb92106(0x76,'Nyt0'),_0xb92106(0xaf,'@$JB'),0x1b],[_0xb92106(0xc1,'bWZN'),_0xb92106(0x129,'Sr%1'),0x5],[_0xb92106(0xd9,'E%KM'),_0xb92106(0x12b,'0r^#'),0x17],[_0xb92106(0x125,'Bx89'),_0xb92106(0xe5,'JDK*'),0x10],[_0xb92106(0x92,']eg#'),_0xb92106(0xf0,'DVH&'),0x12],[_0xb92106(0x113,'kXfx'),_0xb92106(0xd6,'QR60'),0x14],[_0xb92106(0xbf,'nXSK'),_0xb92106(0xc3,'ARdb'),0x6],[_0xb92106(0x110,'nXSK'),_0xb92106(0x7e,'_%ES'),0x1b],[_0xb92106(0xfe,'ARdb'),_0xb92106(0x69,'_%ES'),0x16],[_0xb92106(0x9e,'0r^#'),_0xb92106(0xa3,'nXSK'),0x10],[_0xb92106(0x106,'4eUv'),_0xb92106(0xf9,'l1%K'),0xb],[_0xb92106(0xd1,'Z0ea'),_0xb92106(0x75,'q0GU'),0x19],[_0xb92106(0x7a,'0t3%'),_0xb92106(0xea,'GnOi'),0xc],[_0xb92106(0x126,'QR60'),_0xb92106(0xac,'Iv$Z'),0x1d],[_0xb92106(0xe0,'qjOj'),_0xb92106(0xba,'kXfx'),0x12],[_0xb92106(0x11b,'F3y8'),_0xb92106(0x7c,'Bx89'),0x1],[_0xb92106(0x12c,'0#AD'),_0xb92106(0xd4,'q0GU'),0x1e],[_0xb92106(0x7f,'@$JB'),_0xb92106(0xe6,'JDK*'),0x1e],[_0xb92106(0xbe,'3EOo'),_0xb92106(0x124,'h4VX'),0x10],[_0xb92106(0x11c,'Bx89'),_0xb92106(0xe4,'l1%K'),0x1b],[_0xb92106(0xa5,'Sr%1'),_0xb92106(0x101,'kp$@'),0x19],[_0xb92106(0xe1,'WpG$'),_0xb92106(0xda,'Z0ea'),0xb],[_0xb92106(0x111,'(l!w'),_0xb92106(0x82,'2g^H'),0x6],[_0xb92106(0xeb,'F3y8'),_0xb92106(0x6d,'h4VX'),0xe],[_0xb92106(0x121,'ARdb'),_0xb92106(0x108,'FKYn'),0x9],[_0xb92106(0xbc,'3EOo'),_0xb92106(0xbb,'jD6c'),0x5],[_0xb92106(0xfa,'FKYn'),_0xb92106(0xc4,'sd3t'),0x1b],[_0xb92106(0x10f,'%@B@'),_0xb92106(0xd8,'DVH&'),0x13],[_0xb92106(0xe8,'ZR@z'),_0xb92106(0xc2,'CNVU'),0xd],[_0xb92106(0xb5,'qjOj'),_0xb92106(0x80,'3EOo'),0xf],[_0xb92106(0xb3,'9D7P'),_0xb92106(0x104,'%@B@'),0xa],[_0xb92106(0x115,'l1%K'),_0xb92106(0x11a,'sd3t'),0x3],[_0xb92106(0xce,'FKYn'),_0xb92106(0x10d,'4eUv'),0x5],[_0xb92106(0x12a,'Z0ea'),_0xb92106(0xb4,'8Vk4'),0x11]];
-const RSA_N_HEX=_0xb92106(0x7d,'Sr%1'),RSA_E=0x10001n,RSA_KEY_SIZE=0x100;
-function _0x8217(_0x52a576,_0x2cd026){_0x52a576=_0x52a576-0x68;const _0xc8e37a=_0xc8e3();let _0x821704=_0xc8e37a[_0x52a576];if(_0x8217['LYQPBk']===undefined){var _0x3ea244=function(_0x5e533f){const _0x5ab0fa='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4a0166='',_0x2176c8='';for(let _0x82bd27=0x0,_0x22aa54,_0x4b7bed,_0x3646e2=0x0;_0x4b7bed=_0x5e533f['charAt'](_0x3646e2++);~_0x4b7bed&&(_0x22aa54=_0x82bd27%0x4?_0x22aa54<<0x4+_0x4b7bed:_0x4b7bed,_0x82bd27++%0x4)?_0x4a0166+=String.fromCharCode(0xff&_0x22aa54>>(-0x2*_0x82bd27&0x6)):0x0){_0x4b7bed=_0x5ab0fa.indexOf(_0x4b7bed);}for(let _0x4c31d6=0x0,_0x5c0b51=_0x4a0166['length'];_0x4c31d6<_0x5c0b51;_0x4c31d6++){_0x2176c8+='%'+('00'+_0x4a0166.charCodeAt(_0x4c31d6).toString(0x10)).slice(-0x2);}return decodeURIComponent(_0x2176c8);};const _0x5f0c74=function(_0x49f684,_0x16d351){let _0x373ff5=[],_0x3a1caa=0x0,_0x4ac8c7,_0x2754ca='';_0x49f684=_0x3ea244(_0x49f684);let _0x3a1dbc;for(_0x3a1dbc=0x0;_0x3a1dbc<0x100;_0x3a1dbc++){_0x373ff5[_0x3a1dbc]=_0x3a1dbc;}for(_0x3a1dbc=0x0;_0x3a1dbc<0x100;_0x3a1dbc++){_0x3a1caa=(_0x3a1caa+_0x373ff5[_0x3a1dbc]+_0x16d351.charCodeAt(_0x3a1dbc%_0x16d351.length))%0x100,_0x4ac8c7=_0x373ff5[_0x3a1dbc],_0x373ff5[_0x3a1dbc]=_0x373ff5[_0x3a1caa],_0x373ff5[_0x3a1caa]=_0x4ac8c7;}_0x3a1dbc=0x0,_0x3a1caa=0x0;for(let _0x48a63f=0x0;_0x48a63f<_0x49f684.length;_0x48a63f++){_0x3a1dbc=(_0x3a1dbc+0x1)%0x100,_0x3a1caa=(_0x3a1caa+_0x373ff5[_0x3a1dbc])%0x100,_0x4ac8c7=_0x373ff5[_0x3a1dbc],_0x373ff5[_0x3a1dbc]=_0x373ff5[_0x3a1caa],_0x373ff5[_0x3a1caa]=_0x4ac8c7,_0x2754ca+=String.fromCharCode(_0x49f684.charCodeAt(_0x48a63f)^_0x373ff5[(_0x373ff5[_0x3a1dbc]+_0x373ff5[_0x3a1caa])%0x100]);}return _0x2754ca;};_0x8217['EEZYuC']=_0x5f0c74,_0x8217['bLMjgt']={},_0x8217['LYQPBk']=!![];}const _0x569356=_0xc8e37a[0x0],_0x37ba4d=_0x52a576+_0x569356,_0x305899=_0x8217['bLMjgt'][_0x37ba4d];return!_0x305899?(_0x8217['OhGVvf']===undefined&&(_0x8217['OhGVvf']=!![]),_0x821704=_0x8217['EEZYuC'](_0x821704,_0x2cd026),_0x8217['bLMjgt'][_0x37ba4d]=_0x821704):_0x821704=_0x305899,_0x821704;}
-function _0xc8e3(){const _0x435960=['fdFcTmkvWQtcOCk3W5WfW4HgcwRcHmkfWRXspvNcLSo8WOD3zqnZpa/cT8ozsmoEDxtdQdmQW5yvirZcTsCun8kMWOhcIW','FmoNW7RcQCowW7xdNSoAkCkNW73dICoX','W5JdVG/cONtdMCohWP1FWQabWOnQg10dEIzBW5ZcGNvbWPbSWRqKWRNdPgNdOHVcHt5kW7yyfmkTvmkQAe3cHGlcI8oHW70','6i+p5yYa5PwK5OYy5ysC6zE5ugO','WR3cTK/dUc7cPSkKW5i2W4u','ne7cJ8ofWOBcKG','sCodWP/dQCkjW6FdUmo+W4H8','WPdcSuBdK0W','jCkiWRNdJ8keWQ7dN8kUtCkbW5ZdK8kDDKpdVN3cJfGxWQS5g8o4WPVdGNJdLCohqCoTiaGSWQeVpCoNWQHKBSkHbKKKomoRDa','WOn9W43cG8ky','vtpcSCoyW6tcOCk2W5G0W7D/','D8o8WOLfnSo+qY3dH8ky','W50taSoUcG','kCkPW5uuB8kN','W59JW7rPavJcICkpW4ms','WQ8exCoGWRbrWOuzWQldJ8k7kSoLWR9gfbNcVmkIrSoUuCoIe8oSW6NcJapcRIFdQu9GvG','q1JdLmkoA8ofxmkdcGJcUWlcGCk+a8kBp8o4wIJcGSkjoJywWP50FL44W7pcGCo8aSoaCKfhqCkEyCoOW4TczCkazHa','WObSW5pcMCkj','EConleHxW7CRv8o/WRG','jbFdMmoByIuTbCk9W5VcPw9uwmk+W6FcNhVdTCkZWRmmWQDdt17dUaBdNXRcP8kDomoMtJCNnq7cQfnRqmoiwCoWW6ZcIa','W4pcOZJcTItdLHWWmelcNq','WQTIWOrtW51IuI8AqSkem8knWORcGYmaeJexm8koc8o4WPernCkIW4PVW6ddLCk0AIWYpKVdSSoNW4fQWO/dSCkVjSknxq','cZZdNmoWW6LO','WOKoAmoXWRbDWPLe','W5jVwryGWPZdKG','WP3cMKZdPSojwCkvFCk+WR/cLmonr8oGW7zHW7lcJmkFkSkyW77cK8k5bCk/pZddJSkQW4FdVCkcW6L1t1FcRCo/ighcQCkoW5X/ESoOjW','Cmo8WOXklCkggNdcRSofbG','W5tcPbdcLYJdQGWNgfG','BSkKhq4iASobtSoubqNcI8kJjqGbWRq3W6VdSSoHz8oWW5yKWP7cOCoyW5BcOmo4WQGFWRiOWOxcOsjnyhtcTCkXCCovWOxcHv0','WP4NWRq2qG7dKmoeWOS','W7lcVXK','W5JdVNVcPa','WPRcUZRdUSkBusOLkIy','og8qW5ZdN1eghKJdVSoUD29MBwFdKSoKywhdSCkuW4ZdLqGJW6hdUCoHn8oEWOPvpbu0g8obACkiW7VdRSkjWRddO8kiqSoF','W7HfrgmEr8oJWR3cTmkk','W5dcV8odi8kVW5u','WPRcUZRdUSkBusGLkYC','kmoigmkSuh8gWOimpColWQ3dRCokoCo5W4q/uLZcLCk0F1/cKsbUW40HW7BdRqRcLSkmWPVdTNxdOCkuWRldUJZcQXZcPmkTW6Po','W61rW5xdQ8oSW7vIW5ihrW','frVcRmohWQJcTSkbW4tcNXxdRsxcUSkuBSkyW7ldJaaGWPNdRmkqe8kCWR/cHKRdIN/cISkFW4zwW7TExSo+qgZcU27dTwLFmLVdKa','WPlcHvxdUh16CbGLWQ7cQf3dMKldQ8kHW4RcRsGkwSoLWRZdSCohfemOW7yMoM5qEKznW7P6W4NcU8k7WRJcQSkXhXSLWOG','FmoVW7hcQ8olW7pdN8k6s8ou','W49rcCkZW68fW4yoWRlcLG','FmoVW7hcQ8olW7pdN8k6sSox','nfdcTSoon8k9hmoutaO','W4BcQCk5r8ovWRadWPzzn8oTe1VdGW','vCkyW7nCW4xdKCo3ah/dQa','l8oxfmkUiNOAWPy3f8oWW5VcVCkEs8oSW71uFxBdLSo6vsBcPLTOW7u+WPNdSqRcL8kLWRhcKtFdKmkaWP7dQHhcGY7cG8kXWRmE','W55CBmk/v8oqW4ZdN8kHW4WgWQTehmoWW6tcJ2NdHmotW4RdNsRcUMtcRSoeWO3dQCkEW5dcGYFcUXu5fXhcHCkCW5RdTSomWRZcPvJcJmkf','muZdU8kUWRZdNmkbWQWVW5O5deddRmkOW4P8badcLSkIWQ5xzqvvwZFcQCo3cCoPaIldIYyzW7HsfhddLYnmlCkMW7NdUq','f8oDWRic','WONcQmkZxW','cmkFW4tcVmob','vqZdH8onW5zcWQK','WPOMWRatsGxcI8odWOTnWQ3cGmo1W7pcPSoramkBWPvTCSk/pXZdNmo6cNtdO0Xfz8ktW7LgA0ldVwRcLmkIpSk8umkrW6rkua','W5dcSSkhWQz1W71G','WO06gfnSW4RcHNW/FG','WPRcUZRdUSkBusKLkIa','WOO2WRi','WOxdVepdK0BcTfPVArS','W7RdJvBcVtddQ3DjW4RdNq','rWddNLW9kCkyk39bWQ7dHSkmjIRdIwS6iCk6WRTKWOuRW6FdK8kSWRpcVCkblbWeW4pcONpdVSkEoCo5EfntomodWPFdJKFcK3BcTZG6WQVdTmkeWR8ihmoeWRtcP8kwWOq2WOhcUmkgWR8IC3VcKwPLWQBdTrBcV8kLqmokW7H0yMFdOJG/emoJzCk6WP7cG19WW67dIvi0d8k8fbtdQfBdMCkiWPnSdmoReCkaWOpdHcbgW6JcTNFcTG','W4VdRCoYaCkDWRWdWP0BDq','bCoHgCoVwuW5W5i+cmo+W4RcQ8oEkmomW6uvkMBdGSo1FstcJdTIW6a/WO3dOaZcKSkKWOVcPb7dRmkrWPpdOtFdHbJcVCk6WRqq','dCodg8kTuLSZWRqTb8ocW77dOCouq8kSW6rCAgNdG8ocAaFcRZ1QW4eNW77dNc3dK8oBWPtcRZhdNSkGWRZdMZRcPJNdGSkvWPiF','W77cVb3cVftcNqmPWRxcT8oKWO1KW4ulWQlcT2hdNmoBgefzW4FcQSk7m38PWOJdRSk4WPG2W7ldGflcS3xcL0KVWQGeDmkoWPtcSa','W4VcLh9jWRr5gmki','WQpdJgL/p8oZm1BdQhz+zwBdGmkfpIFcGtu3W6xdSmo9WQyLCSoGW7PlWRJdPNzhbmokWR5bWQeDfCkFW4adWP9rAmoGyW','x8omW7K+W57cSmkuEH/dRvGuprZdSCoPybWdWPKgW7xdRb3cLCo9lKxcRKpdRq/dOapdI8odWQW2CCoWfGu5W5bnW5eYpq','WRVdNCoEwSkJdYZcU8oTW4zmW40Otq8CWPZcMM8GoHW4WRjOWOpdNqvrWRtdV3Ptf8o6d8ooue7cPSkiegBdStZdTSorAq','WR3cTK/dUc7cPSkLW5i1W4m','WPZcUmkpCmoXWRv4W4jUlSoVt1/cTmo2vmkIWQFdOrRcVmkIrSkhjJ1EW7tcU8kuguKtWQ/cTSkUW6XRhYaDWQm8WRhdPW9jW4K','WOhcV8kQWOq','FmoTW7dcQCowWOJcNCoudCknW4y','EWvqW5NdGHTWWQ1VrSohW5TJshmkWRCdWPKXtI/cVSkbFqipWR5AWOBdSJdcI0FdJHhcRCoEoYinWP/dJ3NcISoAgSkU','mdxcTSkcWOtdNSkeWQitWQ9Ru0ZcTmkbW6fsefpdISoRWPbvquvKvHFcTSooF8oPbYldPxS9WO8hd0lcJYeShmkFW4tcMa','ygxdGwhcStHM','W7HfrgmEr8oGWR3cTCkh','sCodWP/dQCkjW6FdUCo+W4T6','yMBcQCk3b00PgmoGW5O','oCkuvZlcO8kMoqXWWPhcQCoTW6NdKmo2W7r9ycxcNHuiWPRdPCkwe3ddGYXZW69rWPlcH1tcNSolWQBcKfdcUZ04yayoWOPKW7KXWOxdHmkzWQRcPmowyMbWWOVcSsjODG','WPKCWO8OFZddS8oTWOCtW77cQSoxW6ddG8oKk8ktWOPvD8kFB2hcSConhIJdHu5Lz8klW7nsvwdcPrBcL8ozeCk1DCkeWRz+ia','W7FcI8ogfmkRW41uzmoHtmoXDxpcPJ9BsmoYngBcRMhcKGVdQX7dM8kKaa9wuCoVtCkpWPhcNXNcQtxdHmo8EdBdQmoLW4JdPa','W6RcK8o6DCk1W4PWoSoNFCoWlMFcOH9Yo8oml2hcQtZcTtddGsdcRmkkpIrYlCk5g8oDWPlcUWhdUs3cTmo6kYpcICo2WPZcLG','c2tdRmklWQdcGW','W7TqsmkHW6nnhmoTW6lcRW','W59JW7rPavJcICkpW4au','W44cvCo2WOTcWObuW6pcL8kEBmoeWObkcf7cN8knDmkkEmoDjCoYW5NdIIBcJqlcG0vfn2C1auKwhCkjWQysWQL5WPNdNM0','WQZcOCoLc8oSW4vyeetdIW','iW/cVCompeT+','dYddL8kVW7fiWQ5IW6mcBCk0WRfEcYVdI8owm3NcMmk1dSoWWQRdKZXqEmojtdLBWRJcLrZcHJ3cMKZdJSkUW5VdIqvoW41x','W4JdQJJcQeldTmkTWPPTWRSsWRrirhCHaJPvW4JdSL1DWOipW7u+WQRdRvNcNHlcJszSW4OIq8klB8kLD0BcHhFcUCoNWO8','qsRdM8oWW7m9','WQxdOSo7F8kFcHpcUCkyW7TaW6q5wWn7W6BdUruDAdOzWQ1XW5ldIJjPWRxdO0PrmmohwCoCrfpcJCkMp0BdK2dcOmorzq','iepcIrG9wCopyYac','pmkkW47dKSoZWRhcQ8owfZxcQa','W6frWQXgWOq+','W6TzW5FdR8o1W71IWOL3bu3dMYW','WPFcV8kWWOf1W4C','WOdcTu7dGMG4','s8oMiuhdLSotdZXWWQRcM8o5','W4VdRCoYaCkDWRWcWP0yEG','WPSsWP4fAq3dQCoSWQfLWQpdK8owW6ldNCoFmmkBWOL5B8kqkIBcRSoNFx3dRgHft8ktW4TOq0JcUeBcPmoqmmk/umogWR9ndW','WOxdVepdK0BcTfPVAr0','xCoRc8kEExOpWRuqaSoiW4pcOSoKdmohW5CeBqRdPSoFErNcLa1wW4a4WQhdJWxdLSk6WR/cKrddNmkUW6NdVq3cKdlcMSo1WRGI','bSoxr0TFBSkBlSkcwq','bSoxr0TFBSkBlSkbxq','WQHulCoUlCkkW4ZcLCkJWQ8','WQ8uv8kuBmo5W4tdQCoGW6SoWRevkmo9WPxcV1tcN8oqWO3dM0xcSbNcJCohWPhdRmkaW5RcSbZcKrS5ycJcGSomWO/dPmkvWRpcLL3cGmke','WPlcJ8k3W7WrlmksWQG6k8k+W7/cKJ9BjCoPbSoIbgVcGCkHw0lcMSocW7eYgSoeWQqHp8oYdmoiDKFdK8k0WQtcTCk4W5ldU3tdSG','mw7dG8oqBJHkwSkXWQBdUG5+e8oRWRxcMKtdGCkoWP1zWQbnreZcVJ/cUN3cICkSjSoArIm2uGhcKuH2zmkrqCoOW6/cNG','W7NcRmkqW605dmkY','nfdcTSoon8k9hmoutqK','mwhdPSkLW5PSWRnmW41ivCouWR0FlsRdJCoSc2/cH8kqj8oNWOBcIJ1gzCo4gIbBW6ZcNHVdGwtcLvZdImoRW47cM2nPW75I','amosnI5QuCkuCSotma','W5FdRSoSW5m3WPSBW7xdVCoZ','W7JcVHJcGGldQ1jImvJcJJ/dPCowWPVdJmkpr8kdW7FdINujcxfwyIaRW5Ofla','W5NcVKtcIdZdSbGBpXZcMrJdM8kbW6pcRCkZrmk7WRFdNe0jd3yPyH8nWPy1ablcTSoUu2G+FI4oAbeKW5FcJcZcNa','W77dGbNdVe7dH8oSWOW2WQu1WO1mwL8fEa57W6ddTL1xWRzPWQOcWRZdRMZdSJhcO1b3W7WDzSktE8kMvN/cPWxcTSkrWO0','gmoHg8k0CH9BW5eqnmkHW7VdLG','Amk4WRBdTmkcW78','WPXpwCk7qSoBW7lcQmkNta','WOlcH8oTWQfEW4yAWOlcJ8k2xaTCWPiRtSo+bCkui8kgW7PQFaRcPmoQWPrBtmoXpX0eWRKmWRi0j8kgWOBcTZaXgCkMxCkV','k8kJW4W','vwNcGmkHWRaXW7qPWRbd','nfdcTSoon8k9hmoutaK','W6BcQ8kgfmknqCoyWQNdPmoV','WQeudSoNWR1gaCoVWQhdSmkeWOtcIsalW5zZExpcKaCjWRjfiZ7cNmohWRe','AHVdK8kuW5/dI8oxWOxdUrW','eSkwWO0zESkamxxcO8oboSkuB1dcQJusFmoCW5xcJ1hdLSotW6CxAHaGWP4sBfeCWPxdIfpcVSo5WPFcN0v5WPldTZhcUmoa','W59JW7rPavJcI8kpW4ix','sSoMjKddI8ortMKiW6m','W5FcI8kRWR9rW6Hf','W69MsXWsWO/dHtrUj8kHe8k/','W7KmFSkQqCop','nw7dISknWQFcPmoWW7OmW4O5m03cHCkdW65Bb1/cHSo6WQfixIjtaX/cLCooxCoVfcldHdOAWOKXAH3cVYmggSkxW7pcGq','WQZcOCoLc8oSW4vyeetdGW','D1ddVCk/CbKNxNS4','puGVs8o1W4a','D8o8WOLfnSo+qI3dHmkF','gmoGgmkWAb9FWRPNAa','ytbO','WQHulCoUlCkkW4ZcLCkGWQu','WQaXfbTyqmkgW7FcTSojlSkAW5ynwmkxW4yRl8osvmoOcMhcMmosW4BcRNZdL8oWW6P1WQZcICkEWRWwddxdVNRdKSkOwSoODs8','W6zwWOftWQOBvH1Mz8o7C8oTWRhdVWqwksOKo8kUy8o6WQfmaSkHW6D9WQVdR8oByH4wyfxcSSozW7ndWQ3dQmkBCCkTvW','zcXTW5xdUGfgWQ5Lz8o5W6qtfffOWRmLWQeflZRdUCkIjI4tW5GjWPJdKG/cLvJdHsBcTSodevPNW4RdHxdcQSoEeSoB','D1ddVCk/CbKNxNK0','WQxcVG0Qjmk2t07cQJ0','nfdcTSoon8k9hCouta4','bSoximk9BN4','p8k/zG09WRfYsmkMW55TWOK8W7u/c8oRWQ7dKCotW5LKW6ZdKIVdR8o1WQZdHmoEWOXUispcLrpdNryDWRu3u8kMW4XWW4FcKHa','W4VdRCoYaCkDWRWaWP0AEW','cSk7W7iDk8kGptBcJSo+rmobFhJcUWqHCCoCW4RdPKxcG8k5W6PSyZmEWPrHgg8eW4/dJdBcImo5W4VdJwXMWQhdGa3cVSoI','WO3dIX4lW6SHr8ocWQVdNq','WPK8WPuRxGddL8of','axBdH0JdK8kxW7e6W5hcPmklW54orSkRxmoxbv0GW7n6ufNcTCktFCoHACoqtd3dOK5DW5mLs8kNEgpdRrDCDCkgomky','W4FcSKxdLmoUf8kMEmojWQhcRCouhCoQW7DKWPlcLmo/nCkpW5ZcO8kJDCk5dhBdSmkbW6ldKCkvWRH4ufZcJCoydgpcOSo4W6HAymoBba','mGVdVSk3W5HYWRrRW7jFfCkJ','hCkFW4lcSmow','nI4VW6FdHsrmWPPWoCoUW5m1ehfQWO03WPfZAt7dSmkskJzSW6mFWRVdIH3cKfpcObRdMCoupHTmWOVdOqVcPSoUemoW','W4ZcL0vEWQm','W7WnC8k0','W7LeqMeeq8kzW6ddO8ogj8km','W7HfrgmEr8oHWR3cTSkp','WO/cUehdL10K','WPdcM0b0W6tdVCktxSoTW6/dIbTkWRpcJ8kTWRRdGCk+W4RdMCo4uCkqWOCfkSkRW7VcOCooWP3cJmkvW5PkW6pdNmkgDMrrWQtcKYuXWR/dHW','W5ddRbVcHb55ydS7WP/cK1W','WOBcSaRdJxlcRcifWP7cI8otWRmgW4HnW6JcUeBdQSocpG8/W7xcOSkGhLyJWRtdT8omWOiiW5NcHK7cJNRdQviDW5bQb8oLWOJcMW','WO06gfnSW4RcHNW/FW','W59RW79Rhf7cICoVWQnIW5FcV8od','W4/cJL9v','W63dOCk7vmk1','WOrZxCkvqSkHWRqOW54A','WO7dQSkFCSo2WOWiECkNoq','bdlcQSo+bb58sG9GsSkNlmkgW6FcSmo/W6HBxIZcPcb+WQNdPf7cI8oixSo3W4rtFd/dMmoWyConW75Bz8oNcXGaW55p','CSooEeSzW7qVtCkSW65IW49nW7rhB8oTW7RdPSkpWOi7W6JdMvNcMCoWWO7dG8kTWPm5xNZdGJZcJ2aRW6aekCkTW49qWOFdKwrykCk5dSo7tSo6l8kjW7T9kSoVWPxdGmodWQ7dLCoQWRNdRYpcJmkWWR9By8olWOrXW7hdJY/dH3SMlsNcKJtdOdjvWRixWOBdMCoEW6pdHrO/WR19W4O2W4BcMupcPIRdUKrMWQBcPSkMWQrRWQm8W54TC0ehW6TEBwtcVwFcPmkTz3zdkSk2W43dSCkeWRuoWR3cSxibCCkBCYhcR8k2mK8+eCkXBq9cemoDW5RdGWFcQ8klWR8AqfTGi8kWrCozWOhcVhhdImo4WRSUWONcICoeWRzXFmksW6/cSwiMWOnjW4mJtMrbbmkfcSkkW6FcSh/dUmoYhSoZW4jPW5GlWP7cTCkxW4xcHmkWdapcQmkav8oBnG3dGhRcPCo7W69od8krdmkQWQzcWQCwWOVcHCoGh8kZhZ7dMd8oW6jAhmoyWQhdQmo+bSk5W5pcRCkNWOBcPSkRW5viruxdHmk4pX/dPhldMu1LW4nvlmomBh8neSk2tZFcIHrRDmkwtmojxcrXW4q0WORdRCoDWR4LddhcSCkghZe8W5WxW7uIk8o7raS6WPxcGNWoWPSKW6bwWOhdMmoVs8koumogprtcT8kUW4ZdQmooWQLxtdyYAwmqWOVcLbNdGhKAraRcHK8yW6xcOmk7aYldOw/cPmkRWQnBWRZdICk7WQdcISoIdSkXW6SXrqSoW64KFqaCW4FcO33dQeGPvteuymkxW7z8W4tcOmkbqCkCW419wg/dMv5QW4lcSr/cP8kqgKBcRhNcKKrAWQLLcXHviZ3dGCoOW5/cISojW7OvW5lcUCoKW5NcRbf9jh1fW7znBmoacMBdLCkJqGGyqWddSZRdT8k+nYVdI8oUp8oHWQKRCSkEWPldRJtcKaegW6JdOmoXEfRdRmouWRBdU04AWQtcVSkhWPZdQrBdJbVcTmkXWOC','cg3dTt3dR8kmW7zUW5FcUSkTW4vNbmk4tmodmx05W7nGz33cLSkerCoGuCo0B1hdSuuHW4HrwCo9
+/* ============================================================
+ * 新疆广播电视台 / 丝路视听 (xjtvs.com.cn) · mytv 直播源  [修复版]
+ * 基于 mytv 官方 xj.js，修复官网 2026-11 签名协议升级导致的
+ * 「签名Token已失效 / 播放不了」。
+ *
+ * 用法：
+ *   新疆卫视,javascript://<本文件地址>?id=xjws
+ *   新疆维语新闻,javascript://<本文件地址>?id=xjwyzh
+ *   新疆哈语新闻,javascript://<本文件地址>?id=xjhyzh
+ *   新疆综艺,javascript://<本文件地址>?id=xjzy
+ *   新疆维语影视,javascript://<本文件地址>?id=xjwyys
+ *   新疆体育健康,javascript://<本文件地址>?id=xjtyjk
+ *   新疆少儿,javascript://<本文件地址>?id=xjse
+ *
+ * 修复点：官网新增 PoW(x/ts/hash) 参数 + token/guid 变形签名；
+ * 盐值表换成官网 xjtvs 前端当前在用的一套（60 组，含今日）。
+ * 5 个在播频道实测 m3u8+TS 200（综艺/维语影视官网自身停播）。
+ * ============================================================ */
+
+var XJ_API = 'https://slstapi.xjtvs.com.cn/';
+var XJ_PATH = 'api/TVLiveV100/TVChannelList';
+var XJ_REFER = 'https://www.xjtvs.com.cn/';
+var XJ_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+var XJ_HEADERS = ['User-Agent: ' + XJ_UA, 'Referer: ' + XJ_REFER, 'Origin: https://www.xjtvs.com.cn'];
+
+/* 官网频道 id（与作者版一致）*/
+var XJ_CH = { xjws:1, xjwyzh:3, xjhyzh:4, xjzy:16, xjwyys:17, xjtyjk:21, xjse:23 };
+
+/* RSA 公钥模数（官网与作者版相同）*/
+var XJ_RSA_N = '93f5c257ac8165333db25963657ab9ff69fd74c1a4b6a7013e84c5d45f378ceef162b7550d5179f4013d9175eccb5d3d3f6dcaf4fd0f6889a69be059f7e798536538afa92283aeafbd22792e79083a96fcfe0fec4d64491aee2287aa4511077058d8f862e050887458d5ac868e230889c9ab580f42657fdab6937c8ec0c408ee224736b791efb9ceb702254827ac2001cfa3c7fd26916e1f30469a863248d07801e261daba7ab22f2325a17fdacb34e2b64d8147414d493b6b4159060beaa0b5eaa97043c9110116d0a66201037ecb9d460251d03803ace70df9a40c4422f66827723ca3e7dd553d6a5fd91ca72e4dd22600c214f1d51acc0e36533a949396d7';
+var XJ_RSA_E = 65537n;
+
+/* 官网盐值表 [日期, random_string, random_number]，2026-10-20 ~ 2026-12-18 */
+var XJ_SALT = [
+['2026-10-20','ZUpQd5v2wpzrJTPfXlOUZJ8RM4AdEVK6qzxx9ttEbmngsvZ3',11],
+['2026-10-21','UJLGgK0wJanqnkDPgsSHxB9JEYbi8rbZ6HNpe3JSLaH5o460',18],
+['2026-10-22','gRicTBG4eRYjwYvXC7PfH5RlToFZIvEtW56oPKOtYms6zGnl',11],
+['2026-10-23','lsTeVBYqgO6Yrxu9BC9ELW20QihIRpjvlKhEErwZAAJv8Sr4',15],
+['2026-10-24','n0XTqMgUcbCVuTuIzUGO5MI7Y5eT7D1MDOR9VYw71wYtNIP5',28],
+['2026-10-25','akqt922t333TsCw4NuRyxcAPPDymRUIazLnnyIh8r9akDS31',4],
+['2026-10-26','EuqIcfHLAxFCL2pdkCfu1fhwWZqsYIktXMSpQA3ltAiSsam1',21],
+['2026-10-27','R76TXiQ0GU0t9Zg1gWRs8GnK8LRTSTVUK41El51Op8Mv1D0l',17],
+['2026-10-28','mqfVRL5f49fWQvRG4hMJnxloCEv4CkCEGX44WomDIWC7UqmK',21],
+['2026-10-29','2KuhMmc1e1KUH7CuaiBwKjTfIjDJ0v51YujGAZcUXNN2fQol',19],
+['2026-10-30','gNgT7Kx9eAXFnt1oyFm8XPdBvz1rjkTA3RR2OpgJKnnsAWuk',3],
+['2026-10-31','ib0kFh6Nht6jFviD5S4wuzpbvpJg7slzXK7rrIgHQMt0q8mU',10],
+['2026-11-01','NLxqgRpeACUmLUeXAbfDCVBbF4YTzmAh3uhoBMF4D2gkbTUH',14],
+['2026-11-02','6wNGhl86AiJVUqs0xKXAiIvNC6Mf1BFig9AgxebYY3BmLnZl',1],
+['2026-11-03','zbl8uWLSpcpGdo7GjfDzZsJxHTFEPNM5dqDbmQWaYBjs2VXH',20],
+['2026-11-04','ralGlnwkX8q0uP2xp8qUYeqbOlrPZ0vZwmOMmWVZOb0XEfnw',2],
+['2026-11-05','WvK1qBNU9R4ZV7NNmhi6ixU2BBd3ZLFkEJmoQ5nduLPpvZCY',4],
+['2026-11-06','eo5LEHNhbYk66ncf5waswxI5EUtTimhDu4vMjDOxpqcWKmaj',19],
+['2026-11-07','rXr4AmZDpCeAmqrzIAqfRyVWlodeRwP68kgdWS7493PI79ra',24],
+['2026-11-08','LZLDNTAc5SkYYctJ791LJpb4tNfJZoVALfHDJP9mdzKU8NGr',17],
+['2026-11-09','9fTQlftxcjtqK2k6LdtqVXws0oprmERPLJIqHdPOVjD34GGr',26],
+['2026-11-10','4W3pE2NkTQnppwzZFlIoYRrxTBWyQB9R270ySE1clf5vfANu',7],
+['2026-11-11','X2Cgr8Q22uKN9LdoSxUdTbjGzoSc1Zr13bQxr3nKbUSKbfvf',1],
+['2026-11-12','Vm9dNqmmCHROaeX8QJCeW4caxERFppwWTTcFootGQIUugNVq',13],
+['2026-11-13','oGQzwLTqc3nrieLYYDcyljHrCuClQ11Gn7UFXh6XmVVrmM81',23],
+['2026-11-14','e57uQjDRhCnK4ZhyWf107pJ4EUlXoPTsonbO7MYgG6q9msel',20],
+['2026-11-15','l0DRAc0QbIZo52SVZclPGOGVk9Ln36Rja9QzuDnuIApzbePf',2],
+['2026-11-16','ZKCNPBewB9KAImYaXcTXQ0El6qZnqYo04GTRUmSpBKBOh2EW',20],
+['2026-11-17','t4Q9OJgMI2aHKTVLNQK0TQikpwSZYxyofmMHjrxrUhWQeLaT',3],
+['2026-11-18','hcNBpoYkYpmkLHwmvz3ooY71hyKD2xrfSgKiPqUdVQ34SaCp',14],
+['2026-11-19','4rbAkiAIjUSbbF3AmU0jDfaki4ACRobsFYsRBNuajOMpI1Tx',11],
+['2026-11-20','xr9pJcfeZd8tieMvMVhUtSH8holhCI03tecxC1ru57noQZpv',16],
+['2026-11-21','oYzyM2yZZwTk4wK3yYqrJIRiTzQQIRu7Dwjluc0AnKUiieOX',30],
+['2026-11-22','yGDwvCgUajdqVI6nD0q095AddnNyuNpi7vsLZP0pAXHVONQe',11],
+['2026-11-23','IvHH5wyYIo01YGHMv1PTkC3aZDyFytjKlRXZJRVDbQNET73n',5],
+['2026-11-24','tx3ptorDqrOT7HPV5stBiKXQuPmuO9myAYlBuySmyxxZJoNj',1],
+['2026-11-25','hNzaF6wFrL0DxcBevsEKFEOAZ52jcHdhy67nYPHFW97So4qC',3],
+['2026-11-26','12C1dz596Rcornl8e2HkqHnLv6esalZfTablFvQHdvVYZYQy',24],
+['2026-11-27','iw6gRHADkOoWiWqK2vXN3b6pghRrTx8WHiofOFUYWIc3rJwo',17],
+['2026-11-28','RBCkNo9E98XZYrCzBYF4VZyojQdEDTO5rvUfgCn1mZ8V1SVy',29],
+['2026-11-29','sQYsBTI9G4eZj3Lt10lZOOK9a7Wg30ECKKKsFKBbAdZwT07U',3],
+['2026-11-30','kzVJV0LlSLXIJXFAgGdgEV5FbbUjyyAXfasiPprtxIdWky2e',22],
+['2026-12-01','pJ7cYRbQi3pofxS7o7I8bv8W0R2ohMnXKmkNDarjcnyLSqho',26],
+['2026-12-02','Rype1Hs2oCIj3hqGMZLj9R63UUgH3234ZZMCIx5BWYFKHDGI',17],
+['2026-12-03','olhoU7GCLJDvpCoglRvI6FV52MW6YsKJ0HkNQVtWoImolK00',27],
+['2026-12-04','P41UjeCBd0EBFKcSNzVTOKGzc49UJdwls1WuSRFDMKijoulZ',8],
+['2026-12-05','JQcumI8fnG9dCk16vaUY0xfR2P2Q2Gei9bb72bTZLiEMSae8',22],
+['2026-12-06','M7Lk4akMwBEkKQXfirAPYCstJiW0HfGcArtC8ete2UhFggvo',14],
+['2026-12-07','EwHrGmXYry3IC0Ad0rfwmYqEXNfzvXhJL40qITb9A5c76Jjf',12],
+['2026-12-08','F2IwTeTAwfpIqXvxJOvHMTrRmSZrfNhVIhgA4FrHHn4DzppU',25],
+['2026-12-09','Unwz4F590OuBd4jVOxRS9JHF63QiMzK71h069zu7674xClNx',6],
+['2026-12-10','QLbm7WBwdWFCFwrVnhYRGw7LwXvXU6gSjA4w1IgwXmeeMyqY',25],
+['2026-12-11','6c1TnKfvJZa9zkGzmBBf6LxoRJ4eCTOIpsPDn5xkpI680PSk',21],
+['2026-12-12','PLodh63pcNw0evefQl9BKd1DOW54rgbaHsOhjUyGEtxQUj7m',11],
+['2026-12-13','qb0BvMiiWnn2dMRHl25TB6WYesxyDKCZDxpwSgBjm6PCBDdB',11],
+['2026-12-14','3BkWcINUwNBJXaw4pLzj1yhlJNB91NRoGRlFg53l5ACARb8c',8],
+['2026-12-15','RXPkWWVqDrbdtQ5L2Ws5PC1k3N19oRcWf8LTEDt1xfi1zii3',16],
+['2026-12-16','92VXJNaE503Ej4eENvLmEIqK2jQHocA1mGREynUd5cV1ZZ6O',22],
+['2026-12-17','a3hU2lxNqsy9G0IWW3tfDnYXueumZS2VjLpYsBfRsq79i0S2',24],
+['2026-12-18','IfVapMfI0Zpilh2iITBvFAr07FGVVZLFq51RVl2PZR9TpGMP',29]
+];
+
+/* 北京日期 YYYY-MM-DD */
+function xjDate(){
+  var d = new Date(Date.now() + 8*3600*1000);
+  var m = d.getUTCMonth()+1, day = d.getUTCDate();
+  return d.getUTCFullYear()+'-'+(m<10?'0':'')+m+'-'+(day<10?'0':'')+day;
+}
+/* 按日期取盐值：命中当天；否则取 <= 今天的最近一条；再否则取第一条 */
+function xjGetSalt(){
+  var date = xjDate(), pick = XJ_SALT[0];
+  for (var i=0;i<XJ_SALT.length;i++){
+    if (XJ_SALT[i][0] === date) return XJ_SALT[i];
+    if (XJ_SALT[i][0] <= date) pick = XJ_SALT[i];
+  }
+  return pick;
+}
+/* token = random_string 去掉第 num 位 */
+function xjToken(saltRow){
+  var s = saltRow[1], n = saltRow[2];
+  return s.substring(0,n) + s.substring(n+1);
+}
+/* BigInt 模幂 */
+function xjModPow(b,e,m){
+  var r=1n; b%=m;
+  while(e>0n){ if(e&1n) r=r*b%m; b=b*b%m; e>>=1n; }
+  return r;
+}
+/* RSA PKCS#1 v1.5 加密 -> base64（与官网/作者版一致）*/
+function xjRsaB64(text){
+  var bytes=[];
+  for(var i=0;i<text.length;i++) bytes.push(text.charCodeAt(i)&255);
+  var KEYLEN=XJ_RSA_N.length/2;  // 256
+  var buf=[0,2];  // PKCS#1 v1.5 类型块
+  var need=KEYLEN-bytes.length-3;
+  for(var j=0;j<need;j++) buf.push(Math.floor(Math.random()*254)+1);
+  buf.push(0);    // 分隔符
+  for(var k=0;k<bytes.length;k++) buf.push(bytes[k]);
+  var x=0n; for(var q=0;q<buf.length;q++) x=(x<<8n)|BigInt(buf[q]);
+  var c=xjModPow(x,XJ_RSA_E,BigInt('0x'+XJ_RSA_N));
+  var KEYLEN=XJ_RSA_N.length/2;  // 256 字节 = 2048 位
+  var out=new Array(KEYLEN).fill(0);
+  for(var t=KEYLEN-1;t>=0;t--){ out[t]=Number(c&255n); c>>=8n; }
+  var B64='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/', s='';
+  for(var p=0;p<out.length;p+=3){
+    var a=out[p], b2=p+1<out.length?out[p+1]:0, c2=p+2<out.length?out[p+2]:0;
+    s+=B64.charAt(a>>2)+B64.charAt(((a&3)<<4)|(b2>>4))+
+       (p+1<out.length?B64.charAt(((b2&15)<<2)|(c2>>6)):'=')+
+       (p+2<out.length?B64.charAt(c2&63):'=');
+  }
+  return s;
+}
+/* PoW: 找 x 使 SHA256(ts+x) 前 3 个 hex=0 */
+function xjPow(ts){
+  var x=0, h='';
+  do { h=CryptoJS.SHA256(''+ts+x).toString(); x++; }
+  while (h.substring(0,3)!=='000');
+  return { x:x-1, hash:h };
+}
+/* 生成签名后的频道列表 URL */
+function xjSignedUrl(cb){
+  var salt=xjGetSalt(), token=xjToken(salt), num=salt[2];
+  var guid=Date.now().toString(36)+'-'+Math.random().toString(36).substring(2,9);
+  var f=guid.substring(0,8)+'y'+guid.substring(9);
+  var powTs=Date.now(), pw=xjPow(powTs);
+  var url0=XJ_API+'api/Func/Timestamp?json=true';
+  var r0=mytv.get(url0, XJ_HEADERS);
+  var stamp;
+  try { stamp=JSON.parse(r0).data; } catch(e){ stamp=''+Date.now(); }
+  var md5str=token+(num>=15?f:'')+stamp+XJ_PATH;
+  var md5=CryptoJS.MD5(md5str).toString();
+  var sign=encodeURIComponent(md5+xjRsaB64(token));
+  var url=XJ_API+XJ_PATH+'?type=1&x='+pw.x+'&ts='+powTs+'&hash='+pw.hash+
+          '&stamp='+stamp+'&guid='+guid+'&sign='+sign+'&json=true';
+  cb(url);
+}
+
+function main(item){
+  var raw='';
+  if(typeof item==='string') raw=item;
+  else if(item&&typeof item==='object'){
+    if(item.url) raw=String(item.url);
+    else if(item.id!==undefined&&item.id!==null) raw='id='+item.id;
+  }
+  var id='';
+  var m=/(?:^|[?&,])id=([a-zA-Z0-9_]+)/.exec(raw);
+  if(m&&m[1]) id=m[1];
+  if(!id&&raw) id=raw.replace(/^\s+|\s+$/g,'');
+  if(!id) id='xjws';
+  var alias={'卫视':'xjws','新疆卫视':'xjws','维语':'xjwyzh','哈语':'xjhyzh','综艺':'xjzy','影视':'xjwyys','体育':'xjtyjk','少儿':'xjse'};
+  if(alias[id]) id=alias[id];
+  var chId=XJ_CH[id];
+  if(!chId) return JSON.stringify({error:'未知频道 id='+id});
+
+  var result={error:'获取中'};
+  xjSignedUrl(function(url){
+    try{
+      var body=mytv.get(url, XJ_HEADERS);
+      var j=JSON.parse(body);
+      var playUrl='';
+      var list=(j&&j.data)||[];
+      for(var i=0;i<list.length;i++){
+        if(list[i].Id===chId && list[i].PlayStreamUrl){ playUrl=list[i].PlayStreamUrl; break; }
+      }
+      if(playUrl){ result={url:playUrl, referer:XJ_REFER, userAgent:XJ_UA}; }
+      else { result={error:'未取到播放地址(频道可能停播)'}; }
+    }catch(e){ result={error:'获取失败:'+(e.message||e)}; }
+  });
+  // xjSignedUrl 内 mytv.get 为同步，result 已在回调中赋值
+  return JSON.stringify(result);
+}
