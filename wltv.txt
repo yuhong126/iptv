@@ -27,21 +27,6 @@ CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/in
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 
-
-CCTV卫生健康,http://117.35.240.44:8001/rtp/239.111.205.109:5140
-CCTV女性时尚,http://117.35.240.44:8001/rtp/239.111.205.110:5140
-CCTV世界地理,http://117.35.240.44:8001/rtp/239.111.205.111:5140
-CCTV怀旧剧场,http://117.35.240.44:8001/rtp/239.111.205.112:5140
-CCTV风云剧场,http://117.35.240.44:8001/rtp/239.111.205.113:5140
-CCTV兵器科技,http://117.35.240.44:8001/rtp/239.111.205.114:5140
-CCTV风云音乐,http://117.35.240.44:8001/rtp/239.111.205.115:5140
-CCTV央视台球,http://117.35.240.44:8001/rtp/239.111.205.116:5140
-CCTV高尔夫网球,http://117.35.240.44:8001/rtp/239.111.205.117:5140
-CCTV第一剧场,http://117.35.240.44:8001/rtp/239.111.205.118:5140
-CCTV央视文化精品,http://117.35.240.44:8001/rtp/239.111.205.119:5140
-CCTV风云足球,http://117.35.240.44:8001/rtp/239.111.205.120:5140
-CCTV电视指南,http://117.35.240.44:8001/rtp/239.111.205.121:5140
-
 CCTV电视指南,http://hsza.f3322.net:4000/rtp/238.1.79.53:4560
 CCTV兵器科技,http://hsza.f3322.net:4000/rtp/238.1.79.56:4584
 CCTV第一剧场,http://hsza.f3322.net:4000/rtp/238.1.79.63:4640
@@ -298,26 +283,6 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 辽宁北方,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnbf
 
 
-辽宁都市,http://fuxin.yunjifei.top:999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁影视剧,http://fuxin.yunjifei.top:999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁体育休闲,https://bdrmlivezb.lnyun.com.cn/bdrm57/xczb57.m3u8
-辽宁生活,http://fuxin.yunjifei.top:999/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁教育,http://fuxin.yunjifei.top:999/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁北方,http://fuxin.yunjifei.top:999/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁公共,http://fuxin.yunjifei.top:999/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁经济,http://fuxin.yunjifei.top:999/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁移动,http://fuxin.yunjifei.top:999/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-
-
-辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
-辽宁北方,http://120.76.248.139/live/bfgd/4200000071.m3u8
-辽宁教育,http://120.76.248.139/live/bfgd/4200000075.m3u8
-辽宁生活,http://120.76.248.139/live/bfgd/4200000073.m3u8
-辽宁经济,http://120.76.248.139/live/bfgd/4200000076.m3u8
-辽宁经济,http://120.76.248.139/live/bfgd/4200000480.m3u8
-辽宁都市,http://120.76.248.139/live/bfgd/4200000068.m3u8
-
-
 吉林,#genre#
 吉林卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1531
 吉林都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1532
@@ -464,6 +429,10 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 安徽公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ggtv
 安徽农业科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=nykjtv
 安徽国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=gjtv
+
+安庆新闻,https://aq-live.media.xinhuamm.net:443/r/252b77197b104e1aa2456481204fb656.m3u8?auth_key=2341308330-0-0-4e8ffbdb0c0dcfab23e1b8962730f59d
+安庆经济,https://aq-live.media.xinhuamm.net:443/r/ed093a3514bd4174b1dbd5af8a8e0a9c.m3u8?auth_key=2341308528-0-0-1d8df1d541b495f33875e247c9300fc1
+
 安庆新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=aqpd
 蚌埠新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=bbtv
 淮北新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=hbxw
@@ -555,10 +524,6 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 蒙城新闻,http://hsza.f3322.net:4000/rtp/238.1.79.19:4264
 
 
-安庆新闻,https://aq-live.media.xinhuamm.net:443/r/252b77197b104e1aa2456481204fb656.m3u8?auth_key=2341308330-0-0-4e8ffbdb0c0dcfab23e1b8962730f59d
-安庆经济,https://aq-live.media.xinhuamm.net:443/r/ed093a3514bd4174b1dbd5af8a8e0a9c.m3u8?auth_key=2341308528-0-0-1d8df1d541b495f33875e247c9300fc1
-安庆新闻,http://202.102.201.244:40022/rtp/238.1.78.117:6808
-安庆经济,http://202.102.201.244:40022/rtp/238.1.78.118:6816
 
 
 安庆潜山,https://qsxw.gov.cn/rtmp_export/video22.m3u8
@@ -847,19 +812,6 @@ CQTV社会与法,http://home.scanflove.com:7788/rtp/235.254.196.210:1112$重庆c
 CQTV红叶,http://home.scanflove.com:7788/rtp/235.254.196.215:1132$重庆cmc3+
 CQTV汽摩,http://home.scanflove.com:7788/rtp/235.254.196.221:1156$重庆cmc3+
 
-CQTV新闻,http://106.83.119.152:8188/rtp/235.254.196.199:7980
-CQTV影视剧,http://106.83.119.152:8188/rtp/235.254.198.180:7980
-CQTV社会与法,http://106.83.119.152:8188/rtp/235.254.198.181:7980
-CQTV红岩文化,http://106.83.119.152:8188/rtp/235.254.198.182:7980
-CQTV文体娱乐,http://106.83.119.152:8188/rtp/235.254.198.187:7980
-CQTV新农村,http://106.83.119.152:8188/rtp/235.254.198.186:7980
-CQTV融媒,http://106.83.119.152:8188/rtp/235.254.196.218:1146
-CQTV少儿,http://106.83.119.152:8188/rtp/235.254.196.214:1128
-CQTV红叶,http://106.83.119.152:8188/rtp/235.254.196.215:1132
-CQTV汽摩,http://106.83.119.152:8188/rtp/235.254.196.221:1156
-CQTV移动,http://106.83.119.152:8188/rtp/235.254.196.217:1140
-
-
 CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD5173881C62BD4ACAD0
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 垫江综合,http://125.62.24.185:80/1.m3u8
@@ -912,8 +864,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 贵州科教,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH05_hi.m3u8
 贵州移动,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH13_hi.m3u8
 
-
-
 贵州公共,webview://https://www.gzstv.com/tv/ch02
 贵州影视,webview://https://www.gzstv.com/tv/ch03
 贵州生活,webview://https://www.gzstv.com/tv/ch04
@@ -923,6 +873,10 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 云南,#genre#
 
+云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
+云南康旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynkl
+澜湄国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=lmgi
+
 云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynds
 云南娱乐,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynyl
 云南影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynys
@@ -930,15 +884,13 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 云南少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynse
 云南生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynsh
 
-云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
-云南康旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynkl
-澜湄国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=lmgi
 
-
+云南公共,https://hwapi.yntv.net/62hdvf/227q43.m3u8
 云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
-云南康旅,https://hwapi.yntv.net/62hdvf/227q43.m3u8
 云南娱乐,https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
 云南影视,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
+
+
 
 西双版纳新闻综合,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112526/playlist.m3u8
 西双版纳文化旅游,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112694/playlist.m3u8
@@ -1013,13 +965,21 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 新疆,#genre#
 
-新疆卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyzh
-新疆维语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjws
+新疆卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjws
+新疆维语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyzh
 新疆哈语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjhyzh
 新疆汉语综艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjzy
 新疆维语影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyys
 新疆体育健康,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjtyjk
 新疆少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjse
+
+
+
+新疆卫视,https://slstplay.xjtvs.com.cn/xjtv1/xjtv1stream.m3u8?auth_key=1795257477-2-2-82590ee42244e1526a19451e71fa4ca8&aliyun_uuid=381fb6cf-cb45-487c-86f2-2384f3e3debc
+新疆维语新闻,https://slstplay.xjtvs.com.cn/xjtv2/xjtv2stream.m3u8?auth_key=1795257478-8-8-e19557e51d62c1ffb7db160cda457067&aliyun_uuid=f2d8acbb-89f5-45f2-9308-58013ccb0dd4
+新疆哈语新闻,https://slstplay.xjtvs.com.cn/xjtv3/xjtv3stream.m3u8?auth_key=1795257479-6-6-3eb0031b2bac935f82078e99998abdfb&aliyun_uuid=9b518a15-5426-4f16-8592-e7ea54853e61
+新疆体育健康,https://slstplay.xjtvs.com.cn/xjtv10/xjtv10stream.m3u8?auth_key=1795257479-3-3-c80418e58b793c31ef601834cf362b94&aliyun_uuid=89408aa3-a2a7-4603-85c1-8662789e7b77
+新疆少儿,https://slstplay.xjtvs.com.cn/xjtv12/xjtv12stream.m3u8?auth_key=1795257480-5-5-7dc8d111cb9afe217917bdeb19a968e8&aliyun_uuid=9c88af9e-71fd-41bc-96d1-e99a54f04798
 
 
 新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=1
