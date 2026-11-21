@@ -277,15 +277,6 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 内蒙古,#genre#
 
-内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/3845522general.m3u8?txSecret=31a6a2e68eb60456ec22bef8d40f183d&txTime=70B28980&token=6f13dcdba4f5425a9c0fb74b458079b4
-内蒙古蒙语,https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880&token=b2b142cb90af47a8a0f6f7d826761f58
-内蒙古新闻,https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=b4373417a82ed64e52b0982a66da8df2&txTime=771E8800&token=eaa99c5c580846a19bd8ef2a94d736c6
-内蒙古经济,https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=112b2c4c872de52b0f37aff6ead63ef0&txTime=771E8800&token=8b2a0d0e2c0345fc8d7d6bf0dd9b2a4b
-内蒙古少儿,https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=a2c948908728a0733cecbe1fadea23dc&txTime=771E8800&token=ba8596c7a77645e396ae7da97d888d9f
-内蒙古文体,https://livestream-bt.nmtv.cn/nmtv/2319general.m3u8?txSecret=c7b5c515d2bb6df442492d54955329a3&txTime=771E8800&token=b2232d7b73fc454b8710cd443d76483b
-内蒙古农牧,https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=4d368a175afa19737a9f5be10af24fe2&txTime=771E8800&token=732aa92813c049cabc17ad6bc8b628e7
-内蒙古蒙古语,https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=d9d0fd7a252ef56b515c46a2e21830f4&txTime=771E8800&token=0c762a19e9474e0b8caa11183de4c946
-
 内蒙古卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgws
 内蒙古蒙语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmyws
 内蒙古新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgxwzh
