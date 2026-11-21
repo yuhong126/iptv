@@ -276,13 +276,15 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 内蒙古,#genre#
+
 内蒙古卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgws
-内蒙古蒙语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmy
-内蒙古新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgxw
-内蒙古经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgjj
+内蒙古蒙语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmyws
+内蒙古新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgxwzh
+内蒙古经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgjjsh
 内蒙古少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgse
-内蒙古文体,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgwt
-内蒙古农牧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgNM
+内蒙古文体,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgwtyl
+内蒙古农牧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgnm
+内蒙古蒙古语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmgwh
 
 
 
