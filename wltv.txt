@@ -10,6 +10,11 @@ CCTV4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227225/ind
 CCTV4欧洲,webview://https://tv.cctv.com/live/cctveurope/index.shtml
 CCTV4美洲,webview://https://tv.cctv.com/live/cctvamerica/
 
+
+CCTV4欧洲,http://lysj.aylzline.top:8899/rtp/225.1.2.182:11818
+CCTV4美洲,http://lysj.aylzline.top:8899/rtp/225.1.2.183:11824
+
+
 CCTV5,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227229/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV5+,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225939/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV6,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227260/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -72,8 +77,6 @@ CETV-1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227067/in
 CETV-4,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-1,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227067/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-CETV早期教育,http://117.35.240.44:8001/rtp/239.111.205.108:5140
-
 重温经典,http://8.138.7.223/tv/cwjd.php
 
 
@@ -99,7 +102,6 @@ CETV早期教育,http://117.35.240.44:8001/rtp/239.111.205.108:5140
 广东卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 广东卫视4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227391/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 黑龙江卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225862/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-河南卫视4K,http://lysj.aylzline.top:8899/rtp/225.1.2.237:11530
 河南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 山西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227258/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 河北卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -664,12 +666,26 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 河南法治,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=147
 河南电视剧,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=148
 河南新闻,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=149
-河南购物,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=150
 河南公共,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=151
 河南乡村,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=152
 河南梨园,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=154
 河南文物宝库,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=155
-河南武术,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=156
+河南武术世界,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=156
+
+河南都市,http://lysj.aylzline.top:8899/rtp/225.1.2.56:10330
+河南民生,http://lysj.aylzline.top:8899/rtp/225.1.2.57:10336
+河南法治,http://lysj.aylzline.top:8899/rtp/225.1.2.58:10342
+河南电视剧,http://lysj.aylzline.top:8899/rtp/225.1.2.59:10348
+河南新闻,http://lysj.aylzline.top:8899/rtp/225.1.2.60:10354
+河南公共,http://lysj.aylzline.top:8899/rtp/225.1.2.62:10366
+河南乡村,http://lysj.aylzline.top:8899/rtp/225.1.2.104:10618
+河南文物宝库,http://lysj.aylzline.top:8899/rtp/225.1.2.101:10600
+河南梨园,http://lysj.aylzline.top:8899/rtp/225.1.2.100:10594
+河南武术世界,http://lysj.aylzline.top:8899/rtp/225.1.2.102:10606
+河南移动电视,http://lysj.aylzline.top:8899/rtp/225.1.2.190:11866
+
+
+
 
 
 湖北,#genre#
@@ -1012,6 +1028,10 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC家庭影院,http://lysj.aylzline.top:8899/rtp/225.1.2.214:11422
+CHC动作电影,http://lysj.aylzline.top:8899/rtp/225.1.2.215:11428
+CHC高清电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
+
 CHC家庭影院,http://222.90.21.30:9901/hls/69/index.m3u8
 CHC动作电影,http://222.90.21.30:9901/hls/71/index.m3u8
 
