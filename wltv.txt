@@ -859,9 +859,9 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 贵州公共,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH02_hi.m3u8
 贵州影视,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH03_hi.m3u8
-贵州生活,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH04_hi.m3u8
-贵州乡村,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH04_hi.m3u8
-贵州科教,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH05_hi.m3u8
+
+贵州乡村,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH05_hi.m3u8
+贵州科教,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH06_hi.m3u8
 贵州移动,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH13_hi.m3u8
 
 贵州公共,webview://https://www.gzstv.com/tv/ch02
