@@ -152,7 +152,6 @@ CETV早期教育,http://117.35.240.44:8001/rtp/239.111.205.108:5140
 延边卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227536/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 安多卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/adws.js?id=anduo
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-农林卫视,http://117.35.240.44:8001/rtp/239.110.205.88:7924
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
 
@@ -903,6 +902,16 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 泸州新闻,rtmp://tvdrs.luzhoubs.com/channellive/lztv1
 
 贵州,#genre#
+
+贵州公共,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH02_hi.m3u8
+贵州影视,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH03_hi.m3u8
+贵州生活,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH04_hi.m3u8
+贵州乡村,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH04_hi.m3u8
+贵州科教,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH05_hi.m3u8
+贵州移动,https://qnhi-hls.gzstv.com:443/livegztv-hi/CH13_hi.m3u8
+
+
+
 贵州公共,webview://https://www.gzstv.com/tv/ch02
 贵州影视,webview://https://www.gzstv.com/tv/ch03
 贵州生活,webview://https://www.gzstv.com/tv/ch04
@@ -937,19 +946,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 陕西都市,http://222.90.21.30:9901/hls/21/index.m3u8
 陕西新闻资讯,http://222.90.21.30:9901/hls/20/index.m3u8
 
-陕西新闻资讯,http://117.35.240.44:8001/rtp/239.110.205.83:7944
-陕西都市,http://117.35.240.44:8001/rtp/239.110.205.84:7940
-陕西秦腔,http://117.35.240.44:8001/rtp/239.111.205.100:5140
-陕西西部电影,http://117.35.240.44:8001/rtp/239.111.205.102:5140
-陕西银龄,http://117.35.240.44:8001/rtp/239.111.205.98:5140
-陕西体育休闲,http://117.35.240.44:8001/rtp/239.110.205.85:7936
-西安综合,http://117.35.240.44:8001/rtp/239.110.205.31:9788
-西安都市,http://117.35.240.44:8001/rtp/239.109.205.131:8984
-西安戏剧影视,http://117.35.240.44:8001/rtp/239.110.205.39:9862
-西安丝路,http://117.35.240.44:8001/rtp/239.110.205.40:9866
-西安商务资讯,http://117.35.240.44:8001/rtp/239.110.205.38:9858
-西安教育,http://117.35.240.44:8001/rtp/239.110.205.24:9842
-西安乐购购物,http://117.35.240.44:8001/rtp/239.111.205.30:5140
 
 陕西新闻资讯,http://gxlive.snrtv.com:80/sx1-SD.m3u8
 陕西都市青春,http://gxlive.snrtv.com:80/sx2-SD.m3u8
