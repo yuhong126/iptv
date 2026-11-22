@@ -129,15 +129,15 @@ CETV-4,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227192/in
 海南卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 兵团卫视,rtsp://183.252.176.54/PLTV/88888888/224/3221226804/48628997.smil
 兵团卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221227168/index.m3u8?servicetype=1
-厦门卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
+厦门卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
 厦门卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 海峡卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 三沙卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-康巴卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
+康巴卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
 康巴卫视,http://39.135.55.105:6610/PLTV/88888888/224/3221225856/index.m3u8?servicetype=1
 延边卫视,https://srs.iyb983.cn/video/CYS/index.m3u8
 延边卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227536/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-安多卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/adws.js?id=anduo
+安多卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/adws.js?id=anduo
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 农林卫视,webview://http://live.snrtv.com/nl
 大湾区卫视,webview://https://www.gdtv.cn/tvChannelDetail/51
@@ -168,9 +168,9 @@ RHK35,http://120.234.44.98:18180/TV00000000000000000045@HHZT
 
 
 
-凤凰中文,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=cn
-凤凰资讯,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=info
-凤凰香港,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=hk
+凤凰中文,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=cn
+凤凰资讯,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=info
+凤凰香港,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/fhtv.js?id=hk
 
 翡翠台,http://183.237.95.108:9901/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
 TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -186,16 +186,16 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 北京,#genre#
 
-北京卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=573ib1kp5nk92irinpumbo9krlb
-北京卫视4K,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
-北京文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
-北京纪实科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53bn9rlalq08lmb8nf8iadoph0b
-北京影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50mqo8t4n4e8gtarqr3orj9l93v
-北京财经,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50e335k9dq488lb7jo44olp71f5
-北京体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54hv0f3pq079d4oiil2k12dkvsc
-北京生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50j015rjrei9vmp3h8upblr41jf
-北京新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53gpt1ephlp86eor6ahtkg5b2hf
-卡酷少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=55skfjq618b9kcq9tfjr5qllb7r
+北京卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=573ib1kp5nk92irinpumbo9krlb
+北京卫视4K,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=5755n511tbk8flo40l4c71l0sdf
+北京文艺,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54db6gi5vfj8r8q1e6r89imd64s
+北京纪实科教,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53bn9rlalq08lmb8nf8iadoph0b
+北京影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50mqo8t4n4e8gtarqr3orj9l93v
+北京财经,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50e335k9dq488lb7jo44olp71f5
+北京体育休闲,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=54hv0f3pq079d4oiil2k12dkvsc
+北京生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=50j015rjrei9vmp3h8upblr41jf
+北京新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=53gpt1ephlp86eor6ahtkg5b2hf
+卡酷少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/btime.js?id=55skfjq618b9kcq9tfjr5qllb7r
 
 
 北京文艺,http://103.72.172.253:8041/hls/346478234/index.m3u8
@@ -236,12 +236,12 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 山西,#genre#
-山西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=0
-黄河电视台,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=1
-山西经济与科技,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=2
-山西影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=3
-山西社会与法治,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=4
-山西文体生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=5
+山西卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=0
+黄河电视台,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=1
+山西经济与科技,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=2
+山西影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=3
+山西社会与法治,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=4
+山西文体生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sxtv.js?id=5
 
 
 广西,#genre#
@@ -264,43 +264,43 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 内蒙古,#genre#
 
-内蒙古卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgws
-内蒙古蒙语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmyws
-内蒙古新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgxwzh
-内蒙古经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgjjsh
-内蒙古少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgse
-内蒙古文体,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgwtyl
-内蒙古农牧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgnm
-内蒙古蒙古语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmgwh
+内蒙古卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgws
+内蒙古蒙语,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmyws
+内蒙古新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgxwzh
+内蒙古经济,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgjjsh
+内蒙古少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgse
+内蒙古文体,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgwtyl
+内蒙古农牧,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgnm
+内蒙古蒙古语,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nmtv.js?id=nmgmgwh
 
 
 
 辽宁,#genre#
-辽宁卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnws
-辽宁都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnds
-辽宁影视剧,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnys
-辽宁教育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnjy
-辽宁生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnsh
-辽宁体育休闲,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnty
-辽宁北方,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnbf
+辽宁卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnws
+辽宁都市,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnds
+辽宁影视剧,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnys
+辽宁教育,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnjy
+辽宁生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnsh
+辽宁体育休闲,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnty
+辽宁北方,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/lntv.js?id=lnbf
 
 
 吉林,#genre#
-吉林卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1531
-吉林都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1532
-吉林生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1534
-吉林影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1535
-吉林乡村,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1536
-吉林综艺文化,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1538
-长春综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812402
-吉林新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812373
-四平新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812374
-辽源新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812376
-通化新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812379
-白山新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812383
-白城新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812380
-松原新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812382
-延边卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812244
+吉林卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1531
+吉林都市,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1532
+吉林生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1534
+吉林影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1535
+吉林乡村,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1536
+吉林综艺文化,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=1538
+长春综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812402
+吉林新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812373
+四平新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812374
+辽源新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812376
+通化新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812379
+白山新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812383
+白城新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812380
+松原新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812382
+延边卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jltv.js?id=812244
 
 延边朝鲜语综,https://srs.iyb983.cn/video/ybtv1/index.m3u8
 延边汉语综合,https://srs.iyb983.cn/video/ybtv2/index.m3u8
@@ -425,21 +425,21 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 安徽,#genre#
-安徽经济生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=jjshtv
-安徽影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ystv
-安徽综艺体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=zytytv
-安徽公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ggtv
-安徽农业科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=nykjtv
-安徽国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=gjtv
+安徽经济生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=jjshtv
+安徽影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ystv
+安徽综艺体育,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=zytytv
+安徽公共,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=ggtv
+安徽农业科教,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=nykjtv
+安徽国际,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=gjtv
 
 安庆新闻,https://aq-live.media.xinhuamm.net:443/r/252b77197b104e1aa2456481204fb656.m3u8?auth_key=2341308330-0-0-4e8ffbdb0c0dcfab23e1b8962730f59d
 安庆经济,https://aq-live.media.xinhuamm.net:443/r/ed093a3514bd4174b1dbd5af8a8e0a9c.m3u8?auth_key=2341308528-0-0-1d8df1d541b495f33875e247c9300fc1
 
-安庆新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=aqpd
-蚌埠新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=bbtv
-淮北新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=hbxw
-六安综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=latv
-芜湖新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=whxw
+安庆新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=aqpd
+蚌埠新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=bbtv
+淮北新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=hbxw
+六安综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=latv
+芜湖新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/ahsx.js?id=whxw
 
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.79.43:4456
 安徽公共,http://hsza.f3322.net:4000/rtp/238.1.78.57:6328
@@ -564,25 +564,25 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 福州新闻,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-厦视一套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm1
-厦视二套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm2
-厦门卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
-厦门移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmyd
+厦视一套,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm1
+厦视二套,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xm2
+厦门卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmws
+厦门移动,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xmtv.js?id=xmyd
 
 平潭综合,rtsp://183.252.176.54/PLTV/88888888/224/3221226735/45469664.smil
 
 
-莆田一套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=pttv1
-莆田二套,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=pttv2
-莆田仙游,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=ptxy
+莆田一套,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=pttv1
+莆田二套,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=pttv2
+莆田仙游,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/pttv.js?id=ptxy
 
 莆田一套,webview://https://www.ptbtv.com/live/pt1t/
 莆田二套,webview://https://www.ptbtv.com/live/pt2t/
 莆田仙游,webview://https://www.ptbtv.com/live/xyds/
 
 
-泉州新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzzh
-泉州闽南语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzmny
+泉州新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzzh
+泉州闽南语,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qztv.js?id=qzmny
 
 泉州新闻,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKowoHCoQ/stream_name/news.html
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
@@ -591,14 +591,14 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 江西,#genre#
-江西卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=0
-江西都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=1
-江西经济生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=2
-江西公共农业,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=3
-江西少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=4
-江西新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=5
-江西移动电视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=6
-江西陶瓷,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=7
+江西卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=0
+江西都市,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=1
+江西经济生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=2
+江西公共农业,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=3
+江西少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=4
+江西新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=5
+江西移动电视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=6
+江西陶瓷,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=7
 
 
 九江一套,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/jjtv.js?id=0
@@ -799,11 +799,11 @@ GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 
 海南,#genre#
 
-海南自贸,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=1
-海南新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=3
-海南社会与法,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=4
-海南文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=6
-海南少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=7
+海南自贸,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=1
+海南新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=3
+海南社会与法,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=4
+海南文旅,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=6
+海南少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/hnntv.js?id=7
 
 海南自贸,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=1&qq_aio_chat_type=2
 海南新闻,webview://https://service-app.hnntv.cn/AppEngine/appinfo/STHaiNan/share.html?userId=1&appId=STHaiNan&userId=1&channelId=3&qq_aio_chat_type=2
@@ -835,14 +835,14 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 四川,#genre#
-四川卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016553
-四川新闻,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1844567123037646849
-四川经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016554
-四川文旅体育,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016555
-四川影视文艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016557
-四川妇女儿童,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016558
-四川乡村,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016560
-康巴卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
+四川卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016553
+四川新闻,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1844567123037646849
+四川经济,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016554
+四川文旅体育,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016555
+四川影视文艺,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016557
+四川妇女儿童,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016558
+四川乡村,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016560
+康巴卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/sctv.js?id=1016561
 
 
 峨眉电影,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8
@@ -889,16 +889,16 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 云南,#genre#
 
-云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
-云南康旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynkl
-澜湄国际,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=lmgi
+云南都市,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
+云南康旅,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynkl
+澜湄国际,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=lmgi
 
-云南都市,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynds
-云南娱乐,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynyl
-云南影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynys
-云南公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=yngg
-云南少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynse
-云南生活,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynsh
+云南都市,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynds
+云南娱乐,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynyl
+云南影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynys
+云南公共,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=yngg
+云南少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynse
+云南生活,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynsh
 
 
 云南公共,https://hwapi.yntv.net/62hdvf/227q43.m3u8
@@ -912,9 +912,9 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西双版纳文化旅游,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112694/playlist.m3u8
 
 西藏,#genre#
-西藏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=0
-西藏藏语,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=1
-西藏影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=2
+西藏卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=0
+西藏藏语,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=1
+西藏影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xztv.js?id=2
 拉萨综合,rtmp://tv.lasatv.cn/channellive/lszhpd
 拉萨藏语,rtmp://tv.lasatv.cn/channellive/lszypd
 拉萨文旅,rtmp://tv.lasatv.cn/channellive/lswlpd
@@ -952,12 +952,12 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 甘肃,#genre#
-甘肃卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv1
-甘肃影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv2
-甘肃移动,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv3
-甘肃少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv4
-甘肃科教,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv5
-甘肃公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv6
+甘肃卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv1
+甘肃影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv2
+甘肃移动,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv3
+甘肃少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv4
+甘肃科教,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv5
+甘肃公共,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/gstv.js?id=gstv6
 
 
 
@@ -968,11 +968,11 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 西宁生活服务,webview://https://www.xntv.tv/xnshpd
 
 宁夏,#genre#
-宁夏卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxws1M
-宁夏公共,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxgg1M
-宁夏经济,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxjj1M
-宁夏文旅,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxwl1M
-宁夏少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxse1M
+宁夏卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxws1M
+宁夏公共,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxgg1M
+宁夏经济,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxjj1M
+宁夏文旅,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxwl1M
+宁夏少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/nxtv.js?id=nxse1M
 银川公共,webview://https://www.ycen.com.cn/zzgn/zhibo/
 银川公共,webview://https://www.qukanvideo.com/cloud/h5/1731639141671136
 银川生活,webview://https://www.qukanvideo.com/cloud/h5/1731638744888001
@@ -981,13 +981,13 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 新疆,#genre#
 
-新疆卫视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyzh
-新疆维语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjws
-新疆哈语新闻综合,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjhyzh
-新疆汉语综艺,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjzy
-新疆维语影视,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyys
-新疆体育健康,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjtyjk
-新疆少儿,javascript://https://gh-proxy.com/https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjse
+新疆卫视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyzh
+新疆维语新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjws
+新疆哈语新闻综合,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjhyzh
+新疆汉语综艺,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjzy
+新疆维语影视,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjwyys
+新疆体育健康,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjtyjk
+新疆少儿,javascript://https://ghproxy.net//https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/xjtv.js?id=xjse
 
 
 
