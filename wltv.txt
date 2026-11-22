@@ -660,17 +660,17 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 河南,#genre#
-河南卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=145
-河南都市,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=141
-河南民生,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=146
-河南法治,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=147
-河南电视剧,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=148
-河南新闻,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=149
-河南公共,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=151
-河南乡村,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=152
-河南梨园,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=154
-河南文物宝库,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=155
-河南武术世界,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=156
+河南卫视,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=145
+河南都市,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=141
+河南民生,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=146
+河南法治,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=147
+河南电视剧,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=148
+河南新闻,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=149
+河南公共,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=151
+河南乡村,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=152
+河南梨园,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=154
+河南文物宝库,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=155
+河南武术世界,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hntv.js?id=156
 
 河南都市,http://lysj.aylzline.top:8899/rtp/225.1.2.56:10330
 河南民生,http://lysj.aylzline.top:8899/rtp/225.1.2.57:10336
@@ -689,12 +689,12 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 
 
 湖北,#genre#
-湖北卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbws
-湖北经视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbjs
-湖北综合,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbzh
-湖北影视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbys
-湖北教育,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbjy
-湖北垄上,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbls
+湖北卫视,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbws
+湖北经视,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbjs
+湖北综合,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbzh
+湖北影视,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbys
+湖北教育,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbjy
+湖北垄上,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/hbtv.js?id=hbls
 
 湖北卫视,http://183.94.146.79:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北经视,http://183.94.146.79:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -756,14 +756,14 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 GRTN生活,webview://https://www.gdtv.cn/tvChannelDetail/102
 
 
-深圳卫视4K,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szws4k
-深圳卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szws
-深圳国际,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szgj
-深圳都市,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szds
-深圳电视剧,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szdsj
-深圳财经,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szcjsh
-深圳少儿,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szse
-深圳移动,javascript://https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szyd
+深圳卫视4K,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szws4k
+深圳卫视,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szws
+深圳国际,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szgj
+深圳都市,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szds
+深圳电视剧,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szdsj
+深圳财经,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szcjsh
+深圳少儿,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szse
+深圳移动,javascript://https://ghproxy.net/https://raw.githubusercontent.com/yuhong126/iptv/main/sztv.js?id=szyd
 
 
 佛山顺德,webview://http://xiubo.net/tv/gd/fssd.html
