@@ -1,6 +1,9 @@
 央视,#genre#
 CCTV4K超高清,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 纯享4K,http://39.135.230.70/000000000000/1000000004000011651/1.m3u8?HlsProfileId=1
+
+CCTV1,rtsp://118.212.169.134/PLTV/88888888/224/3221227034/10000100000000060000000000570885_0.smil&socks5://123.60.5.43:20002$江西联通
+
 CCTV1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225829/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225800/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -921,7 +924,7 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 陕西,#genre#
 陕西银龄,http://222.90.21.30:9901/hls/22/index.m3u8
-陕西都市,http://222.90.21.30:9901/hls/21/index.m3u8
+陕西都市青春,http://222.90.21.30:9901/hls/21/index.m3u8
 陕西新闻资讯,http://222.90.21.30:9901/hls/20/index.m3u8
 
 
@@ -991,13 +994,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 
 
 
-新疆卫视,https://slstplay.xjtvs.com.cn/xjtv1/xjtv1stream.m3u8?auth_key=1795257477-2-2-82590ee42244e1526a19451e71fa4ca8&aliyun_uuid=381fb6cf-cb45-487c-86f2-2384f3e3debc
-新疆维语新闻,https://slstplay.xjtvs.com.cn/xjtv2/xjtv2stream.m3u8?auth_key=1795257478-8-8-e19557e51d62c1ffb7db160cda457067&aliyun_uuid=f2d8acbb-89f5-45f2-9308-58013ccb0dd4
-新疆哈语新闻,https://slstplay.xjtvs.com.cn/xjtv3/xjtv3stream.m3u8?auth_key=1795257479-6-6-3eb0031b2bac935f82078e99998abdfb&aliyun_uuid=9b518a15-5426-4f16-8592-e7ea54853e61
-新疆体育健康,https://slstplay.xjtvs.com.cn/xjtv10/xjtv10stream.m3u8?auth_key=1795257479-3-3-c80418e58b793c31ef601834cf362b94&aliyun_uuid=89408aa3-a2a7-4603-85c1-8662789e7b77
-新疆少儿,https://slstplay.xjtvs.com.cn/xjtv12/xjtv12stream.m3u8?auth_key=1795257480-5-5-7dc8d111cb9afe217917bdeb19a968e8&aliyun_uuid=9c88af9e-71fd-41bc-96d1-e99a54f04798
-
-
 新疆卫视,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=1
 新疆维语新闻综合,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=3
 新疆哈语新闻综合,webview://https://www.xjtvs.com.cn/column/tv/434?channelId=4
@@ -1030,9 +1026,10 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 电影,#genre#
 CHC家庭影院,http://lysj.aylzline.top:8899/rtp/225.1.2.214:11422
 CHC动作电影,http://lysj.aylzline.top:8899/rtp/225.1.2.215:11428
-CHC高清电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
+CHC影迷电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
 
 CHC家庭影院,http://222.90.21.30:9901/hls/69/index.m3u8
+CHC影迷电影,http://222.90.21.30:9901/hls/70/index.m3u8
 CHC动作电影,http://222.90.21.30:9901/hls/71/index.m3u8
 
 CHC动作电影,http://117.35.240.44:8001/rtp/239.112.205.21:5140
