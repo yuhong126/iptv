@@ -1,6 +1,5 @@
 央视,#genre#
 CCTV4K超高清,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-纯享4K,http://39.135.230.70/000000000000/1000000004000011651/1.m3u8?HlsProfileId=1
 
 CCTV1,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225829/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV2,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
@@ -35,6 +34,21 @@ CCTV15,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225818/in
 CCTV16,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227125/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV16 4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 CCTV17,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+
+CCTV第一剧场,rtsp://118.212.169.134/PLTV/88888888/224/3221227225/10000100000000060000000000680077_0.smil&socks5://123.60.5.43:20002
+CCTV风云音乐,rtsp://118.212.169.134/PLTV/88888888/224/3221227226/10000100000000060000000000680078_0.smil&socks5://123.60.5.43:20002
+CCTV风云剧场,rtsp://118.212.169.134/PLTV/88888888/224/3221227223/10000100000000060000000000680087_0.smil&socks5://123.60.5.43:20002
+CCTV怀旧剧场,rtsp://118.212.169.134/PLTV/88888888/224/3221227224/10000100000000060000000000680135_0.smil&socks5://123.60.5.43:20002
+CCTV世界地理,rtsp://118.212.169.134/PLTV/88888888/224/3221227222/10000100000000060000000000680136_0.smil&socks5://123.60.5.43:20002
+CCTV央视台球,rtsp://118.212.169.134/PLTV/88888888/224/3221227221/10000100000000060000000000680137_0.smil&socks5://123.60.5.43:20002
+CCTV女性时尚,rtsp://118.212.169.134/PLTV/88888888/224/3221227219/10000100000000060000000000680138_0.smil&socks5://123.60.5.43:20002
+CCTV央视文化精品,rtsp://118.212.169.134/PLTV/88888888/224/3221227220/10000100000000060000000000680139_0.smil&socks5://123.60.5.43:20002
+CCTV高尔夫网球,rtsp://118.212.169.134/PLTV/88888888/224/3221227217/10000100000000060000000000680140_0.smil&socks5://123.60.5.43:20002
+CCTV风云足球,rtsp://118.212.169.134/PLTV/88888888/224/3221227218/10000100000000060000000000680161_0.smil&socks5://123.60.5.43:20002
+CCTV兵器科技,rtsp://118.212.169.134/PLTV/88888888/224/3221227216/10000100000000060000000000680162_0.smil&socks5://123.60.5.43:20002
+
+
+
 
 CCTV电视指南,http://hsza.f3322.net:4000/rtp/238.1.79.53:4560
 CCTV兵器科技,http://hsza.f3322.net:4000/rtp/238.1.79.56:4584
@@ -624,15 +638,14 @@ TVB明珠,http://183.237.95.108:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive
 泉州闽南语,webview://https://www.qztv.cn/index/Medias/index/media_id/wq95wqbDnMKyd8KiwqzChnt0w5nChcKofcKh/stream_name/mny.html
 
 
-
-
 江西,#genre#
 江西都市,rtsp://118.212.169.134/PLTV/88888888/224/3221227290/10000100000000060000000001722654_0.smil&socks5://123.60.5.43:20002
-江西经济,rtsp://118.212.169.134/PLTV/88888888/224/3221227092/10000100000000060000000000610996_0.smil&socks5://123.60.5.43:20002
-江西公共,rtsp://118.212.169.134/PLTV/88888888/224/3221226948/10000100000000060000000000527279_0.smil&socks5://123.60.5.43:20002
+江西经济生活,rtsp://118.212.169.134/PLTV/88888888/224/3221227092/10000100000000060000000000610996_0.smil&socks5://123.60.5.43:20002
+江西公共农业,rtsp://118.212.169.134/PLTV/88888888/224/3221226948/10000100000000060000000000527279_0.smil&socks5://123.60.5.43:20002
 江西少儿,rtsp://118.212.169.134/PLTV/88888888/224/3221227089/10000100000000060000000000582672_0.smil&socks5://123.60.5.43:20002
 江西新闻,rtsp://118.212.169.134/PLTV/88888888/224/3221227051/10000100000000060000000000571126_0.smil&socks5://123.60.5.43:20002
-江西移动,rtsp://118.212.169.134/PLTV/88888888/224/3221227285/10000100000000060000000001842697_0.smil&socks5://123.60.5.43:20002
+江西移动电视,rtsp://118.212.169.134/PLTV/88888888/224/3221227285/10000100000000060000000001842697_0.smil&socks5://123.60.5.43:20002
+江西陶瓷,rtsp://118.212.169.134/PLTV/88888888/224/3221227357/424881167.smil&socks5://123.60.5.43:20002
 
 江西卫视,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=0
 江西都市,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/jxtv.js?id=1
@@ -931,6 +944,11 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 贵州移动,webview://https://www.gzstv.com/tv/ch13
 
 云南,#genre#
+云南公共,http://hwapi.yntv.net/62hdvf/227q43.m3u8
+云南都市,http://hwapi.yntv.net/62hdvf/rjwt14.m3u8
+云南娱乐,http://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
+云南影视,http://hwapi.yntv.net/62hdvf/utrat7.m3u8
+
 
 云南都市,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynds
 云南康旅,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/yntv.js?id=ynkl
@@ -942,13 +960,6 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 云南公共,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=yngg
 云南少儿,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynse
 云南生活,javascript://https://raw.githubusercontent.com/yuhong126/iptv/refs/heads/main/qcy.js?id=ynsh
-
-
-云南公共,https://hwapi.yntv.net/62hdvf/227q43.m3u8
-云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
-云南娱乐,https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
-云南影视,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
-
 
 
 西双版纳新闻综合,https://channellive.xsbnw.cn/default/nmip-media/channellive/channel112526/playlist.m3u8
@@ -1064,6 +1075,10 @@ CQTV新闻,webview://https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD51738
 塔城3,http://218.84.35.38:3000/m3u8/live/tctv-3/index.m3u8
 
 电影,#genre#
+CHC影迷电影,rtsp://118.212.169.134/PLTV/88888888/224/3221227215/10000100000000060000000000680163_0.smil&socks5://123.60.5.43:20002
+CHC家庭影院,rtsp://118.212.169.134/PLTV/88888888/224/3221227213/10000100000000060000000000680164_0.smil&socks5://123.60.5.43:20002
+CHC动作电影,rtsp://118.212.169.134/PLTV/88888888/224/3221227214/10000100000000060000000000680177_0.smil&socks5://123.60.5.43:20002
+
 CHC家庭影院,http://lysj.aylzline.top:8899/rtp/225.1.2.214:11422
 CHC动作电影,http://lysj.aylzline.top:8899/rtp/225.1.2.215:11428
 CHC影迷电影,http://lysj.aylzline.top:8899/rtp/225.1.2.210:11398
